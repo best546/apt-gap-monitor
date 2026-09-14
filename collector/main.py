@@ -20,16 +20,17 @@ API_URL = "https://apis.data.go.kr/1613000/RTMSDataSvcAptTrade/getRTMSDataSvcApt
 def load_config(path):
     repo = (os.environ.get("GITHUB_REPOSITORY") or "best546/apt-gap-monitor").strip()
     branch = (os.environ.get("GITHUB_BRANCH") or "main").strip()
-    if os.environ.get("GITHUB_DATA_TOKEN"):
-        url = f"https://raw.githubusercontent.com/{repo}/{branch}/config/{path.name}"
-        try:
-            response = requests.get(url, timeout=20)
-            response.raise_for_status()
-            print(f"Loaded latest config from GitHub: {path.name}")
-            return response.json()
-        except Exception as exc:
-            print(f"Remote config unavailable; using local {path.name}: {type(exc).__name__}", file=sys.stderr)
-    return json.loads(path.read_text(encoding="utf-8"))
+    url = f"https://raw.githubusercontent.com/{repo}/{branch}/config/{path.name}"
+    try:
+        response = requests.get(url, timeout=20)
+        response.raise_for_status()
+        print(f"Loaded latest config from GitHub: {path.name}")
+        return response.json()
+    except Exception as exc:
+        if (os.environ.get("ALLOW_LOCAL_CONFIG_FALLBACK") or "").lower() in ("1", "true", "yes"):
+            print(f"Remote config unavailable; explicitly allowed local fallback for {path.name}: {type(exc).__name__}", file=sys.stderr)
+            return json.loads(path.read_text(encoding="utf-8"))
+        raise RuntimeError(f"Latest GitHub config is required: {path.name} ({type(exc).__name__})") from exc
 
 def norm(s):
     return re.sub(r"[\s·\-()._]", "", str(s or "").lower()).replace("아파트", "")
