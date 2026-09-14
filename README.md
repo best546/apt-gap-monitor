@@ -2,7 +2,33 @@
 
 국토교통부 아파트 매매 실거래 API를 매주 수집해 현재 집과 목표 단지의 가격 차이를 GitHub Pages에서 보여줍니다.
 
-## 설치
+## Synology DS920+ 설치 (권장)
+
+1. 저장소의 ZIP을 내려받아 NAS의 `/volume1/docker/apt-gap-monitor`에 압축 해제합니다.
+2. `.env.example`을 `.env`로 복사하고 아래 두 값을 입력합니다.
+   - `MOLIT_API_KEY`: 공공데이터포털 Decoding 인증키
+   - `GITHUB_DATA_TOKEN`: 이 저장소에 Contents 읽기/쓰기만 허용한 Fine-grained PAT
+3. DSM `Container Manager → 프로젝트 → 생성`에서 폴더의 `compose.yaml`을 선택해 빌드합니다.
+4. DSM `제어판 → 작업 스케줄러 → 생성 → 예약된 작업 → 사용자 정의 스크립트`에서 매주 월요일 07:15로 설정합니다.
+5. 실행 명령에 아래를 입력합니다.
+
+```sh
+sh /volume1/docker/apt-gap-monitor/scripts/nas-run.sh
+```
+
+Container Manager 프로젝트는 Compose 파일을 이용해 빌드·실행할 수 있습니다. 실행될 때 국토부 API를 조회하고 `latest.json`, `history.json`만 GitHub에 업로드합니다.
+
+### GitHub Fine-grained PAT
+
+GitHub `Settings → Developer settings → Personal access tokens → Fine-grained tokens`에서 생성합니다.
+
+- Repository access: `Only select repositories → apt-gap-monitor`
+- Repository permissions: `Contents → Read and write`
+- 나머지 권한: No access
+
+토큰과 국토부 키는 `.env`에만 저장되며 `.gitignore`로 GitHub 업로드에서 제외됩니다.
+
+## GitHub-hosted Actions 설치 (대체 방식)
 
 1. 이 폴더를 새 GitHub 저장소에 올립니다.
 2. 공공데이터포털에서 `국토교통부_아파트 매매 실거래가 자료` 활용신청 후 일반 인증키(Decoding)를 받습니다.
