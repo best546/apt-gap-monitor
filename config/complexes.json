@@ -2,9 +2,10 @@
   "api_version": "RTMSDataSvcAptTrade",
   "months": 6,
   "area_tolerance": 1.2,
+  "min_floor": 4,
   "reference_id": "home",
   "complexes": [
-    {"id":"home","region":"현재 집","name":"동탄예당마을 우미린제일풍경채","aliases":["우미린제일풍경채","예당마을우미린제일풍경채","예당마을 우미린제일풍경채"],"lawd_cd":"41597","area":75.9},
+    {"id":"home","region":"현재 집","name":"동탄예당마을 우미린제일풍경채","aliases":["우미린제일풍경채","예당마을우미린제일풍경채","예당마을 우미린제일풍경채"],"lawd_cd":"41597","area":80.3931,"area_tolerance":0.1},
     {"id":"pangyo5","region":"서판교","name":"판교원마을5단지 푸르지오","aliases":["판교원마을5단지","판교원마을 5단지"],"lawd_cd":"41135","area":84.9},
     {"id":"pangyo3","region":"서판교","name":"판교원마을3단지 푸르지오","aliases":["판교원마을3단지","판교원마을 3단지"],"lawd_cd":"41135","area":84.9},
     {"id":"pangyo9","region":"서판교","name":"판교원마을9단지 한림풀에버","aliases":["판교원마을9단지","판교원마을 9단지","한림풀에버"],"lawd_cd":"41135","area":84.9},
