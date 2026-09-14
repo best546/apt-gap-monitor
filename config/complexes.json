@@ -1273,11 +1273,103 @@
       "match_mode": "exact",
       "watch_note": "분당 생활권 상위 비교·단지별 거래 분리",
       "source_url": "https://github.com/best546/apt-gap-monitor/blob/main/docs/data/latest.json"
+    },
+    {
+      "id": "seongnam-haneul1",
+      "region": "뉴성남 · 신흥역",
+      "name": "신흥역하늘채랜더스원1단지",
+      "aliases": [
+        "신흥역하늘채랜더스원1단지",
+        "신흥역 하늘채 랜더스원 1단지"
+      ],
+      "lawd_cd": "41133",
+      "dong": "중앙동",
+      "area": 84.99,
+      "area_tolerance": 0.15,
+      "area_min": 80,
+      "area_max": 85,
+      "match_mode": "exact",
+      "source_url": "https://hogangnono.com/apt/dF092",
+      "watch_note": "신흥역 초역세권·초품아·대단지 신축 핵심 후보"
+    },
+    {
+      "id": "seongnam-haneul3",
+      "region": "뉴성남 · 신흥역",
+      "name": "신흥역하늘채랜더스원3단지",
+      "aliases": [
+        "신흥역하늘채랜더스원3단지",
+        "신흥역 하늘채 랜더스원 3단지"
+      ],
+      "lawd_cd": "41133",
+      "dong": "중앙동",
+      "area": 84.99,
+      "area_tolerance": 0.15,
+      "area_min": 80,
+      "area_max": 85,
+      "match_mode": "exact",
+      "source_url": "https://hogangnono.com/apt/dF092",
+      "watch_note": "신흥역 생활권·신축·숲조망 비교 후보"
+    },
+    {
+      "id": "seongnam-forestia",
+      "region": "뉴성남 · 산성역",
+      "name": "산성역포레스티아",
+      "aliases": [
+        "산성역포레스티아",
+        "산성역 포레스티아"
+      ],
+      "lawd_cd": "41131",
+      "dong": "신흥동",
+      "area": 84.99,
+      "area_tolerance": 0.2,
+      "area_min": 80,
+      "area_max": 85,
+      "match_mode": "exact",
+      "source_url": "https://hogangnono.com/apt/cudcd",
+      "watch_note": "산성역 역세권·대단지·구성남 상급지 비교"
+    },
+    {
+      "id": "seongnam-xi-prugio",
+      "region": "뉴성남 · 산성역",
+      "name": "산성역자이푸르지오",
+      "aliases": [
+        "산성역자이푸르지오",
+        "산성역 자이푸르지오"
+      ],
+      "lawd_cd": "41131",
+      "dong": "신흥동",
+      "area": 84.98,
+      "area_tolerance": 0.2,
+      "area_min": 80,
+      "area_max": 85,
+      "match_mode": "exact",
+      "source_url": "https://hogangnono.com/apt/dEKc0",
+      "watch_note": "산성역 생활권·대형 브랜드 신축 비교"
+    },
+    {
+      "id": "seongnam-geumbit1",
+      "region": "뉴성남 · 단대오거리",
+      "name": "e편한세상금빛그랑메종1단지",
+      "aliases": [
+        "e편한세상금빛그랑메종1단지",
+        "이편한세상금빛그랑메종1단지",
+        "e편한세상 금빛그랑메종 1단지"
+      ],
+      "lawd_cd": "41133",
+      "dong": "금광동",
+      "area": 84.98,
+      "area_tolerance": 0.5,
+      "area_min": 80,
+      "area_max": 85,
+      "match_mode": "exact",
+      "source_url": "https://hogangnono.com/apt/dt22b",
+      "watch_note": "단대오거리역 생활권·초대형 신축·가격 접근성 비교"
     }
   ],
   "history_months": 60,
   "min_floor": 4,
   "months": 6,
   "reference_id": "home",
-  "watchlist_updated_at": "2026-09-14"
+  "watchlist_updated_at": "2026-09-14",
+  "updated_at": "2026-09-14"
 }
