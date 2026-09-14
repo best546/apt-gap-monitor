@@ -31,10 +31,19 @@ jobs:
         env:
           MOLIT_API_KEY: ${{ secrets.MOLIT_API_KEY }}
       - name: Collect apartment trades
-        run: python -m collector.main
+        shell: bash
+        run: |
+          set +e
+          python -m collector.main 2> >(tee docs/data/last-error.txt >&2)
+          status=$?
+          if [ "$status" -eq 0 ]; then
+            rm -f docs/data/last-error.txt
+          fi
+          exit "$status"
         env:
           MOLIT_API_KEY: ${{ secrets.MOLIT_API_KEY }}
       - name: Commit data
+        if: always()
         run: |
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
