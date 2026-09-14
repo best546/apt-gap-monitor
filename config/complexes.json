@@ -1,4 +1,5 @@
 {
+  "api_version": "RTMSDataSvcAptTrade",
   "months": 6,
   "area_tolerance": 1.2,
   "reference_id": "home",
