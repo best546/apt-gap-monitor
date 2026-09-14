@@ -81,20 +81,27 @@ def tx_from(row):
         "cancelled": bool(pick(row, "cdealDay", "해제사유발생일"))
     }
 
-def summarize(c, rows, tol):
+def summarize(c, rows, tol, default_min_floor=4):
     aliases = [norm(x) for x in c.get("aliases", []) + [c["name"]]]
+    area_tolerance = c.get("area_tolerance", tol)
+    min_floor = c.get("min_floor", default_min_floor)
     matches = []
     for row in rows:
         try: tx = tx_from(row)
         except (ValueError, TypeError): continue
-        if any(a in norm(tx["apt"]) or norm(tx["apt"]) in a for a in aliases) and abs(tx["area"] - c["area"]) <= tol and not tx["cancelled"]:
+        if any(a in norm(tx["apt"]) or norm(tx["apt"]) in a for a in aliases) and abs(tx["area"] - c["area"]) <= area_tolerance and not tx["cancelled"]:
             matches.append(tx)
     matches.sort(key=lambda x: x["date"], reverse=True)
-    normal = [x for x in matches if x["floor"] > 1 and not x["direct"]]
+    normal = [x for x in matches if x["floor"] >= min_floor and not x["direct"]]
     basis = normal or matches
     prices = [x["price_manwon"] for x in basis]
-    return {**c, "count": len(matches), "representative_manwon": round(statistics.median(prices)) if prices else None,
-            "latest": matches[0] if matches else None, "transactions": matches[:20]}
+    monthly = []
+    for month in sorted({x["date"][:7] for x in normal}):
+        month_prices = [x["price_manwon"] for x in normal if x["date"].startswith(month)]
+        monthly.append({"month": month, "price_manwon": round(statistics.median(month_prices)), "count": len(month_prices)})
+    return {**c, "area_tolerance": area_tolerance, "min_floor": min_floor, "count": len(matches),
+            "representative_manwon": round(statistics.median(prices)) if prices else None,
+            "latest": matches[0] if matches else None, "monthly_prices": monthly, "transactions": matches[:20]}
 
 def main():
     key = (os.environ.get("MOLIT_API_KEY") or "").strip().strip('"').strip("'")
@@ -105,12 +112,18 @@ def main():
         cache[lawd] = []
         for ym in month_keys(cfg["months"]):
             cache[lawd].extend(fetch_month(key, lawd, ym)); time.sleep(.12)
-    items = [summarize(c, cache[c["lawd_cd"]], cfg["area_tolerance"]) for c in cfg["complexes"]]
+    items = [summarize(c, cache[c["lawd_cd"]], cfg["area_tolerance"], cfg.get("min_floor", 4)) for c in cfg["complexes"]]
     home = next(x for x in items if x["id"] == cfg["reference_id"])
     base = home["representative_manwon"]
+    home_monthly = {x["month"]: x["price_manwon"] for x in home["monthly_prices"]}
     for x in items:
         x["gap_manwon"] = x["representative_manwon"] - base if base is not None and x["representative_manwon"] is not None else None
         x["asking_manwon"] = asking.get("prices", {}).get(x["id"])
+        x["monthly_gaps"] = [
+            {"month": p["month"], "gap_manwon": p["price_manwon"] - home_monthly[p["month"]],
+             "target_price_manwon": p["price_manwon"], "home_price_manwon": home_monthly[p["month"]]}
+            for p in x["monthly_prices"] if p["month"] in home_monthly
+        ] if x["id"] != cfg["reference_id"] else []
     stamp = datetime.now().astimezone().isoformat(timespec="seconds")
     payload = {"generated_at": stamp, "months": cfg["months"], "reference_id": cfg["reference_id"], "items": items}
     OUTPUT.parent.mkdir(parents=True, exist_ok=True); OUTPUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
