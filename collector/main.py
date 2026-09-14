@@ -44,7 +44,8 @@ def fetch_month(key, lawd, ym):
     params = {"serviceKey": unquote(key), "LAWD_CD": lawd, "DEAL_YMD": ym,
               "pageNo": 1, "numOfRows": 9999}
     r = requests.get(API_URL, params=params, timeout=40)
-    r.raise_for_status()
+    if not r.ok:
+        raise RuntimeError(f"MOLIT API HTTP {r.status_code}: {r.text[:300]}")
     rows = parse_items(r.text)
     if not rows and "NORMAL SERVICE" not in r.text and "00" not in r.text:
         raise RuntimeError(r.text[:500])
@@ -98,4 +99,9 @@ def main():
     history.append({"generated_at": stamp, "values": {x["id"]: {"price":x["representative_manwon"], "gap":x["gap_manwon"]} for x in items}})
     HISTORY.write_text(json.dumps(history[-104:], ensure_ascii=False, indent=2), encoding="utf-8")
 
-if __name__ == "__main__": main()
+if __name__ == "__main__":
+    try:
+        main()
+    except Exception as exc:
+        print(f"COLLECTOR_ERROR: {type(exc).__name__}: {exc}", file=sys.stderr)
+        raise
