@@ -28,6 +28,8 @@ GitHub `Settings → Developer settings → Personal access tokens → Fine-grai
 
 토큰과 국토부 키는 `.env`에만 저장되며 `.gitignore`로 GitHub 업로드에서 제외됩니다.
 
+NAS 수집기는 실행할 때마다 GitHub의 최신 `config/complexes.json`과 `config/asking-prices.json`을 먼저 읽습니다. 따라서 이 버전으로 이미지를 한 번 빌드한 뒤에는 GitHub에서 관심단지만 수정하면 NAS에도 자동 반영됩니다.
+
 ## GitHub-hosted Actions 설치 (대체 방식)
 
 1. 이 폴더를 새 GitHub 저장소에 올립니다.
