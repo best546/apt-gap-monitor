@@ -1,15 +1,7 @@
 name: Update apartment prices
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - 'collector/**'
-      - 'config/**'
-      - 'requirements.txt'
-      - '.github/workflows/update.yml'
-  schedule:
-    - cron: '15 22 * * 0'
+# NAS가 정기 수집을 담당한다. 이 워크플로는 수동 진단용으로만 유지한다.
 permissions:
   contents: write
 jobs:
