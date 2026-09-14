@@ -9,21 +9,27 @@
     :root{font-family:Inter,Pretendard,system-ui;color:#18212f;background:#f3f6fa}body{margin:0}.wrap{max-width:1280px;margin:auto;padding:28px}.hero{background:linear-gradient(120deg,#14213d,#2161d1);color:white;padding:28px;border-radius:22px}.hero h1{margin:0 0 8px}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:18px 0}.card{background:white;border-radius:16px;padding:18px;box-shadow:0 5px 20px #17345c12}.big{font-size:26px;font-weight:800}.toolbar{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0}select,input{padding:10px;border:1px solid #d8e0eb;border-radius:10px;background:white}.chart-head{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:12px}.chart-wrap{height:300px;position:relative}.chart-wrap svg{width:100%;height:100%;overflow:visible}.axis{stroke:#d8e0eb;stroke-width:1}.line{fill:none;stroke:#2161d1;stroke-width:3}.dot{fill:#2161d1;stroke:white;stroke-width:2}.chart-label{fill:#667085;font-size:12px}.chart-value{fill:#18212f;font-size:12px;font-weight:700}.empty{display:grid;place-items:center;height:100%;color:#667085;text-align:center}table{width:100%;border-collapse:collapse;background:white;border-radius:16px;overflow:hidden}th,td{padding:12px;text-align:left;border-bottom:1px solid #edf0f4}th{background:#f9fbfd}.good{color:#079455}.bad{color:#d92d20}.muted{color:#667085;font-size:13px}@media(max-width:760px){.stats{grid-template-columns:1fr}table{font-size:13px}.wrap{padding:14px}.hide-sm{display:none}.chart-wrap{height:260px}}
   
 :root{color:#193945;background:#f0f5f4}*{box-sizing:border-box}.wrap{max-width:1320px;padding:32px}.hero{position:relative;overflow:hidden;background:radial-gradient(ellipse at 85% 20%,#28636c,transparent 65%),#102d3b;padding:40px 40px 64px;border-radius:26px}.hero:after{content:"";position:absolute;right:30px;top:-90px;width:260px;height:260px;border:1px solid #ffffff20;border-radius:50%;box-shadow:0 0 0 40px #ffffff04,0 0 0 80px #ffffff03;pointer-events:none}.hero h1{font-size:34px;letter-spacing:-1.3px;margin:14px 0}.hero p{color:#b7d0d5;font-size:14px}.eyebrow{font-size:11px;letter-spacing:2px;color:#80cfbb;font-weight:700}.stats{position:relative;margin:-32px 24px 28px;gap:16px;grid-template-columns:1fr 1.3fr .7fr}.card{padding:26px;border:1px solid #e0eae7;border-radius:20px;box-shadow:0 8px 24px #16392e05}.big{font-size:29px;letter-spacing:-1px;margin:10px 0}.stats .card:nth-child(2) .big{font-size:21px}.muted{color:#75888e;line-height:1.7}.chart-head b{font-size:22px;letter-spacing:-.5px}.chart-wrap{height:340px;margin-top:20px}.axis{stroke:#e3ece9;stroke-dasharray:4 5}.line{stroke:#109b81;stroke-width:3}.dot{fill:#109b81}.dot:hover,.dot:focus{stroke:#7ddbc6;stroke-width:5;outline:none}.chart-label{fill:#7a8f95}.toolbar{margin:28px 0 16px}input,select,button{font:inherit}input,select{padding:12px;border-color:#dbe6e2;color:#24434e}input:focus-visible,select:focus-visible,button:focus-visible{outline:3px solid #42bca5;outline-offset:2px}td,th{padding:18px;border-bottom:1px solid #eaf1ee}th{font-size:12px;font-weight:500;color:#7c8d93;background:#f7faf8}td b{color:#274a54}tbody tr:hover{background:#f1f8f5}.table-scroll{overflow-x:auto;border:1px solid #e1ebe6;border-radius:18px}table{border-radius:0}.controls{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.segments{display:flex;gap:3px;background:#eef4f1;border-radius:10px;padding:4px}.segments button{background:none;border:0;padding:9px 12px;border-radius:7px;color:#687e80;font-size:12px;cursor:pointer}.segments button[aria-pressed=true]{background:#173d49;color:white}.chart-summary{display:flex;gap:35px;margin-top:22px}.chart-summary strong{display:block;font-size:26px;margin-top:5px;color:#168d77}.detail{background:#f1f8f5;border-radius:10px;padding:12px 16px;color:#52796f;font-size:13px;min-height:42px}.status{color:#aecacb;font-size:12px}.good{color:#0e967c}@media(max-width:760px){.wrap{padding:14px}.hero{padding:28px 24px 50px}.hero h1{font-size:27px}.stats{margin:-24px 10px 20px;grid-template-columns:1fr 1fr;gap:10px}.stats .card{padding:17px}.stats .card:last-child{grid-column:1/-1;display:flex;align-items:center;justify-content:space-between}.big{font-size:25px}.stats .card:nth-child(2) .big{font-size:17px}.card{padding:20px 14px}.controls{width:100%}.controls select{width:100%}.chart-wrap{height:280px}.chart-summary{gap:20px}.chart-summary strong{font-size:21px}td,th{padding:14px 10px}.chart-head b{font-size:20px}}
+
+.wrap{max-width:1560px}.hero{padding:26px 32px 48px}.hero h1{font-size:29px}.stats{margin-bottom:24px}.workspace{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:22px;align-items:start}.list-panel{min-width:0}.chart-panel{position:sticky;top:18px;min-width:0;scroll-margin-top:12px}.list-heading,.nav{display:flex;align-items:center;justify-content:space-between;gap:10px}.list-heading h2{font-size:21px;margin:0}.toolbar{margin:16px 0;display:grid;grid-template-columns:1fr 1fr;gap:8px}.toolbar input{grid-column:1/-1;width:100%}.toolbar select{min-width:0;width:100%}.toolbar #sortOrder{grid-column:1/-1}.subtle{border:1px solid #dbe6e2;background:white;color:#31545b;padding:10px 12px;border-radius:10px;cursor:pointer}.subtle:disabled{opacity:.4;cursor:default}.candidate{display:block;width:100%;text-align:left;border:1px solid #dfe9e5;border-radius:14px;padding:16px;background:white;color:inherit;cursor:pointer;margin-bottom:9px;transition:background .15s,border-color .15s}.candidate:hover{background:#f5fbf8;border-color:#90cbbd}.candidate[aria-pressed=true]{background:#e8f6f0;border:2px solid #168d77;padding:15px;box-shadow:0 3px 12px #173d4910}.candidate-top,.candidate-bottom{display:flex;justify-content:space-between;gap:12px;align-items:center}.candidate-top b{font-size:16px}.candidate-bottom{margin-top:12px;font-size:13px}.candidate-bottom strong{font-size:17px}.score-badge{white-space:nowrap;border-radius:8px;padding:6px 9px;background:#edf3f8;color:#355b75;font-size:12px;font-weight:700}.candidate-note{margin-top:7px;font-size:12px;color:#71858a;line-height:1.5}.selected-label{font-size:11px;color:#14816b;margin-bottom:8px;font-weight:700;letter-spacing:1px}.chart-head{display:block}.chart-head h2{margin:6px 0;font-size:24px;letter-spacing:-.7px;overflow-wrap:anywhere}.controls{margin-top:18px}.segments{width:100%;justify-content:space-between}.segments button{flex:1;min-height:40px}.chart-summary{gap:20px}.chart-summary strong{font-size:23px}.chart-wrap{height:290px;margin-top:10px;cursor:crosshair}.selection-prices{display:flex;gap:22px;margin:16px 0;padding:14px 0;border-top:1px solid #e4ece8;border-bottom:1px solid #e4ece8}.selection-prices strong{display:block;font-size:20px;color:#234d56}.score-detail{margin-top:16px;font-size:13px;line-height:1.8;background:#f5f8fb;border-radius:12px;padding:12px 14px}.score-detail summary{cursor:pointer;font-weight:700;color:#355b75}.score-detail p{margin:8px 0}.score-bars{display:grid;gap:6px}.score-bars label{display:grid;grid-template-columns:95px 1fr 44px;gap:8px;align-items:center}.score-bars meter{width:100%;accent-color:#168d77}.nav{margin-bottom:16px}.nav button{min-height:42px}.mobile-back{display:none}.footnote{margin:24px 0}.result-meta{font-size:12px;color:#687f86}.empty-list{padding:40px 18px;text-align:center;border:1px dashed #bacfc6;border-radius:14px}.chart-panel:focus{outline:none}#chartComplex{display:none}button{touch-action:manipulation}.chart-label{font-size:11px}.muted{color:#617a82}
+@media(max-width:1000px){.workspace{grid-template-columns:1fr}.chart-panel{position:static}.mobile-back{display:inline-block}.wrap{max-width:760px}.chart-wrap{height:280px}}
+@media(max-width:760px){.wrap{padding:12px}.hero{padding:24px 20px 46px}.hero h1{font-size:24px}.stats{margin-left:6px;margin-right:6px}.stats .card{padding:14px}.workspace{gap:16px}.chart-panel{padding:18px 14px}.candidate{padding:14px}.candidate[aria-pressed=true]{padding:13px}.chart-summary strong{font-size:19px}.chart-head h2{font-size:22px}.nav{flex-wrap:wrap}.chart-wrap{height:260px}.score-bars label{grid-template-columns:88px 1fr 42px}.selection-prices{gap:20px}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
 </style>
 </head>
 <body>
 <main class="wrap">
   <section class="hero"><div class="eyebrow">HOME PORTFOLIO / THE NEXT HOME</div><h1>다음 집까지, 얼마나 가까워졌을까?</h1><p>우리 집과 관심 단지의 가격 차이를 한눈에 살펴보세요.</p><div id="updated" class="status">불러오는 중…</div></section>
   <section class="stats" id="stats"></section>
-  <section class="card">
+<div class="workspace"><section class="list-panel" id="listPanel"><div class="list-heading"><h2>관심 아파트</h2><button id="resetFilters" class="subtle">필터 초기화</button></div><p class="muted">카드를 누르면 가격차 그래프와 점수 근거가 열립니다.</p>  <div class="toolbar"><select id="region" aria-label="지역"><option value="">모든 지역</option></select><input id="search" type="search" aria-label="단지 및 검토 메모 검색" placeholder="단지·검토 메모 검색"><select id="gapFilter" aria-label="가격차 구간"><option value="">모든 가격차</option><option value="near">0~3억</option><option value="mid">3~6억</option><option value="upper">6~9억</option><option value="far">9억 초과</option><option value="lower">우리 집보다 저렴</option><option value="pending">자료 대기</option></select><select id="sortOrder" aria-label="정렬"><option value="score">검토 점수 높은 순</option><option value="gap">가격차 작은 순</option><option value="price">대표가 낮은 순</option><option value="name">단지명 순</option></select></div>
+<p class="result-meta" id="resultCount" aria-live="polite"></p><div id="rows"></div></section>  <section class="card chart-panel" id="chartPanel" tabindex="-1" aria-label="선택한 아파트 상세">
+<div class="nav"><button class="subtle mobile-back" id="backToList">← 목록으로 돌아가기</button><span id="selectionPosition" class="result-meta"></span><div><button class="subtle" id="prevCandidate" aria-label="이전 아파트">← 이전</button> <button class="subtle" id="nextCandidate" aria-label="다음 아파트">다음 →</button></div></div>
     <div class="chart-head">
-      <div><b>현재 집과의 가격차 추이</b><div class="muted">월별 동일면적 일반거래 중앙값 기준</div></div>
+      <div class="selected-label">SELECTED APARTMENT</div><h2 id="selectedName">아파트를 선택하세요</h2><div class="muted" id="selectedMeta"></div><div id="selectionPrices" class="selection-prices"></div><div id="scoreDetail"></div><div style="margin-top:18px;font-weight:700">우리 집과의 가격차 추이</div>
       <div class="controls"><select id="chartComplex" aria-label="그래프로 볼 단지"></select><div class="segments" aria-label="표시 기간"><button data-months="6" aria-pressed="false">6개월</button><button data-months="12" aria-pressed="false">1년</button><button data-months="36" aria-pressed="false">3년</button><button data-months="60" aria-pressed="true">5년</button></div></div>
     </div>
     <div id="chartSummary" class="chart-summary"></div><div class="chart-wrap" id="gapChart"></div><div class="detail" id="chartDetail" aria-live="polite">그래프의 점을 누르면 해당 월의 가격을 볼 수 있습니다.</div><p class="muted" id="coverage"></p>
   </section>
-  <div class="toolbar"><select id="region"><option value="">모든 지역</option></select><input id="search" placeholder="단지·검토 메모 검색"><select id="gapFilter" aria-label="가격차 구간"><option value="">모든 가격차</option><option value="near">0~3억</option><option value="mid">3~6억</option><option value="upper">6~9억</option><option value="far">9억 초과</option><option value="lower">우리 집보다 저렴</option><option value="pending">자료 대기</option></select><select id="sortOrder" aria-label="정렬"><option value="gap">가격차 작은 순</option><option value="price">대표가 낮은 순</option><option value="name">단지명 순</option></select></div>
-  <div class="table-scroll"><table><thead><tr><th>지역 / 단지</th><th>대표가</th><th>현재 집과 차이</th><th class="hide-sm">최근 거래</th><th>거래수</th></tr></thead><tbody id="rows"></tbody></table></div>
+</div>
   <p class="muted">가격차는 매매가 차이이며 취득·매도 비용과 대출 상환액은 포함하지 않습니다. 후보 메모는 비교 관점이며 우열 순위가 아닙니다. 대표가는 최근 6개월 동일면적 거래의 중앙값입니다. 1~3층과 직거래는 대표가 및 그래프에서 제외합니다. 최근 거래 칸에는 필터 여부와 관계없이 가장 최근 신고 건을 표시합니다. 그래프는 양쪽 거래가 있는 월만 표시하며 선은 관측값 사이를 연결합니다.</p>
 </main>
 <script>
@@ -34,9 +40,38 @@ const mt=n=>Math.floor(n/12)+'-'+String(n%12+1).padStart(2,'0');
 const gapFilter=document.getElementById('gapFilter'),sortOrder=document.getElementById('sortOrder');
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const gapBucket=x=>x.gap_manwon==null?'pending':x.gap_manwon<0?'lower':x.gap_manwon<=30000?'near':x.gap_manwon<=60000?'mid':x.gap_manwon<=90000?'upper':'far';
-let data,period=60;
+let data,period=60,visibleItems=[],returnId=null;
+const $=id=>document.getElementById(id);
+// Explicit comparison heuristic, not a location or investment-return rating.
+function scoreItem(x){
+  if(x.pending||!Number.isFinite(x.gap_manwon)||!Number.isFinite(x.representative_manwon)||!(x.count>0))return null;
+  const access=Math.round(60*Math.max(0,1-Math.max(0,x.gap_manwon)/120000));
+  const sample=Math.round(25*Math.min(1,x.count/10));
+  const months=(x.monthly_gaps||[]).filter(p=>Number.isFinite(p.gap_manwon)&&mi(p.month)<=mi(data.generated_at.slice(0,7))).map(p=>p.month).sort();
+  const month=months.at(-1),age=month?mi(data.generated_at.slice(0,7))-mi(month):null;
+  const fresh=age==null?0:Math.max(0,15-3*age);
+  return {total:access+sample+fresh,access,sample,fresh,month};
+}
+function updateNavigation(){
+  const i=visibleItems.findIndex(x=>x.id===chartComplex.value);
+  $('prevCandidate').disabled=i<=0;$('nextCandidate').disabled=i<0||i>=visibleItems.length-1;
+  $('selectionPosition').textContent=i<0?'현재 선택은 필터 밖에 있습니다':(i+1)+' / '+visibleItems.length+' 후보';
+}
+function selectCandidate(id,move=false){
+  chartComplex.value=id;returnId=id;render();renderChart();
+  if(move&&matchMedia('(max-width:1000px)').matches){$('chartPanel').focus({preventScroll:true});$('chartPanel').scrollIntoView({behavior:'auto',block:'start'});}
+}
+function renderSelection(item){
+  $('selectedName').textContent=item?.name||'아파트를 선택하세요';
+  $('selectedMeta').textContent=item?item.region+' · 전용 '+item.area+'㎡ · 대표가 표본 '+item.count+'건':'';
+  $('selectionPrices').innerHTML='<div class="muted">단지 대표가<strong>'+won(item?.representative_manwon)+'</strong></div><div class="muted">우리 집 대비<strong>'+won(item?.gap_manwon)+'</strong></div>';
+  const score=item?scoreItem(item):null;
+  $('scoreDetail').innerHTML='<details class="score-detail"><summary>검토 우선순위 · '+(score?score.total+' / 100점':'평가 대기')+' ⓘ</summary><p>가격 접근성 60점 + 거래 표본 25점 + 비교자료 최근성 15점. 입지·학군·단지 품질·수익률은 평가하지 않습니다. 상위 주거지라도 가격차가 크면 낮아지는 비교용 점수입니다.</p>'+(score?'<div class="score-bars">'+[['가격 접근성',score.access,60],['거래 표본',score.sample,25],['자료 최근성',score.fresh,15]].map(([label,v,max])=>'<label>'+label+'<meter min="0" max="'+max+'" value="'+v+'">'+v+'</meter><span>'+v+'/'+max+'</span></label>').join('')+'</div><p>최근 비교월: '+(score.month||'없음')+' · 대표가 표본: '+item.count+'건</p>':'<p>대표가·가격차·거래 표본이 확보되면 점수가 표시됩니다.</p>')+'<p>계산식: 추가 가격차 0억 이하는 60점, 12억 이상은 0점으로 선형 환산합니다. 표본 10건 이상은 25점, 그 미만은 비례 배점합니다. 수집 기준월의 비교자료는 15점, 1개월 오래될 때마다 3점 차감하며 비교월이 없으면 0점입니다. 기준일은 데이터 갱신일이며, 가중치는 제가 정한 기본 비교 기준입니다.</p></details>';
+  updateNavigation();
+}
+
 async function init(){
-  data=await fetch('./data/latest.json?'+Date.now()).then(r=>r.json());
+  data=await fetch('./data/latest.json?'+Date.now()).then(r=>{if(!r.ok)throw new Error('데이터 로드 실패');return r.json()});
   try {
     const response=await fetch('./data/watchlist.json?'+Date.now());
     if(response.ok){
@@ -52,36 +87,39 @@ async function init(){
   const home=data.items.find(x=>x.id===data.reference_id);
   const valid=data.items.filter(x=>x.id!==data.reference_id&&x.gap_manwon!=null).sort((a,b)=>Math.abs(a.gap_manwon)-Math.abs(b.gap_manwon));
   stats.innerHTML=`<div class="card"><div class="muted">현재 집 대표가</div><div class="big">${won(home.representative_manwon)}</div><div class="muted">전용 ${home.area}㎡ · ${home.min_floor||4}층 이상</div></div><div class="card"><div class="muted">가장 가까운 후보</div><div class="big">${esc(valid[0]?.name||'-')}</div></div><div class="card"><div class="muted">확장 관심 목록</div><div class="big">${data.items.length-1}개 후보</div></div>`;
-  [...new Set(data.items.map(x=>x.region))].forEach(x=>region.insertAdjacentHTML('beforeend',`<option>${x}</option>`));
-  data.items.filter(x=>x.id!==data.reference_id).forEach(x=>chartComplex.insertAdjacentHTML('beforeend',`<option value="${x.id}">${x.region} · ${x.name}</option>`));
+  [...new Set(data.items.map(x=>x.region))].forEach(x=>region.insertAdjacentHTML('beforeend',`<option>${esc(x)}</option>`));
+  data.items.filter(x=>x.id!==data.reference_id).forEach(x=>chartComplex.insertAdjacentHTML('beforeend',`<option value="${esc(x.id)}">${esc(x.region)} · ${esc(x.name)}</option>`));
   const first=valid.find(x=>x.monthly_gaps?.length);if(first)chartComplex.value=first.id;
-  chartComplex.onchange=renderChart;
+  chartComplex.onchange=()=>selectCandidate(chartComplex.value);
   render(); renderChart();
 }
 function render(){
   if(!data)return;
-  const q=search.value.trim(),r=region.value;
-  const items=data.items.filter(x=>(!r||x.region===r)&&(!q||(x.name+' '+(x.watch_note||'')).includes(q))&&(!gapFilter.value||x.id===data.reference_id||gapBucket(x)===gapFilter.value));
-  items.sort((a,b)=>{
-    if(a.id===data.reference_id)return -1;if(b.id===data.reference_id)return 1;
+  const q=search.value.trim().toLowerCase(),r=region.value;
+  visibleItems=data.items.filter(x=>x.id!==data.reference_id&&(!r||x.region===r)&&(!q||(x.name+' '+x.region+' '+(x.watch_note||'')).toLowerCase().includes(q))&&(!gapFilter.value||gapBucket(x)===gapFilter.value));
+  visibleItems.sort((a,b)=>{
     if(sortOrder.value==='name')return a.name.localeCompare(b.name,'ko');
-    const value=x=>sortOrder.value==='price'?(x.representative_manwon??Infinity):(x.gap_manwon==null?Infinity:Math.abs(x.gap_manwon));
-    return value(a)-value(b);
+    const value=x=>sortOrder.value==='score'?-(scoreItem(x)?.total??-1):sortOrder.value==='price'?(x.representative_manwon??Infinity):(x.gap_manwon==null?Infinity:Math.abs(x.gap_manwon));
+    return value(a)-value(b)||a.name.localeCompare(b.name,'ko');
   });
-  rows.innerHTML=items.map(x=>`<tr><td><b>${esc(x.name)}</b><div class="muted">${esc(x.region)} · ${x.area}㎡${x.asking_manwon?' · 호가 '+won(x.asking_manwon):''}</div><div class="muted">${esc(x.watch_note||'')}${x.pending?' · 새 수집 대기':''}</div></td><td>${won(x.representative_manwon)}</td><td class="${x.gap_manwon<0?'good':''}">${x.id===data.reference_id?'기준':won(x.gap_manwon)}</td><td class="hide-sm">${x.latest?won(x.latest.price_manwon)+' · '+x.latest.date+' · '+x.latest.floor+'층':'-'}</td><td>${x.count}</td></tr>`).join('')||'<tr><td colspan="5">조건에 맞는 후보가 없습니다.</td></tr>';
+  $('resultCount').textContent=visibleItems.length+'개 표시 / 전체 '+data.items.filter(x=>x.id!==data.reference_id).length+'개 · 선택한 카드는 초록색으로 표시됩니다';
+  rows.innerHTML=visibleItems.map(x=>{const score=scoreItem(x);return `<button type="button" class="candidate" data-id="${esc(x.id)}" aria-pressed="${x.id===chartComplex.value}" aria-controls="chartPanel"><div class="candidate-top"><b>${esc(x.name)}</b><span class="score-badge">${score?score.total+'점':'평가 대기'}</span></div><div class="muted">${esc(x.region)} · 전용 ${esc(x.area)}㎡</div><div class="candidate-bottom"><span>대표가 <strong>${won(x.representative_manwon)}</strong></span><span>가격차 <strong>${won(x.gap_manwon)}</strong></span></div><div class="candidate-note">${esc(x.watch_note||'')}${x.pending?' · 새 수집 대기':''}</div></button>`}).join('')||'<div class="empty-list">조건에 맞는 후보가 없습니다.<p class="muted">검색어나 필터를 바꾸거나 초기화해 주세요.</p></div>';
+  rows.querySelectorAll('[data-id]').forEach(b=>b.onclick=e=>{const showScore=!!e.target.closest('.score-badge');selectCandidate(b.dataset.id,true);if(showScore)$('scoreDetail').querySelector('details').open=true});
+  updateNavigation();
 }
 function renderChart(){
   if(!data)return;
   const item=data.items.find(x=>x.id===chartComplex.value);
+  renderSelection(item);
   const end=mi(data.generated_at.slice(0,7)),start=end-period+1;
   const points=(item?.monthly_gaps||[]).filter(p=>Number.isFinite(p.gap_manwon)&&mi(p.month)>=start&&mi(p.month)<=end).sort((a,b)=>a.month.localeCompare(b.month));
   chartDetail.textContent='그래프의 점을 누르면 해당 월의 가격을 볼 수 있습니다.';
   const available=data.history_months??data.months??6;
   coverage.textContent=mt(start)+' ~ '+mt(end)+' · 비교 가능한 '+points.length+'개 월 · 수집 범위 '+available+'개월'+(available<period?' / 과거 데이터는 확장된 수집기 실행 후 표시됩니다.':'');
-  if(!points.length){chartSummary.innerHTML='';gapChart.innerHTML='<div class="empty">이 기간에 비교할 월별 거래가 없습니다.<br>다른 단지나 기간을 선택해 주세요.</div>';if(!item?.monthly_gaps)chartDetail.textContent='월별 데이터가 없습니다. 최신 수집기를 실행해 주세요.';return;}
+  if(!points.length){chartSummary.innerHTML='';gapChart.innerHTML='<div class="empty">이 기간에 비교할 월별 거래가 없습니다.<br>다른 단지나 기간을 선택해 주세요.</div>';if(item?.pending)chartDetail.textContent='새 후보의 거래자료를 수집 중입니다. 수집 후 그래프와 점수가 표시됩니다.';else if(!item?.monthly_gaps)chartDetail.textContent='월별 데이터가 없습니다. 최신 수집기를 실행해 주세요.';return;}
   const first=points[0],last=points.at(-1),change=last.gap_manwon-first.gap_manwon;
   chartSummary.innerHTML='<div class="muted">최근 비교월 가격차 · '+last.month+'<strong>'+won(last.gap_manwon)+'</strong></div><div class="muted">'+first.month+' 대비<strong>'+(points.length<2?'비교 자료 부족':change===0?'변동 없음':won(Math.abs(change))+(change<0?' 축소 ↓':' 확대 ↑'))+'</strong></div>';
-  const W=Math.max(340,gapChart.clientWidth),H=gapChart.clientHeight,L=55,R=28,T=25,B=35,innerW=W-L-R,innerH=H-T-B;
+  const W=Math.max(280,gapChart.clientWidth),H=gapChart.clientHeight,L=55,R=28,T=25,B=35,innerW=W-L-R,innerH=H-T-B;
   let min=Math.min(...points.map(p=>p.gap_manwon)),max=Math.max(...points.map(p=>p.gap_manwon));
   const pad=Math.max((max-min)*.2,1000);min-=pad;max+=pad;
   const x=m=>L+(mi(m)-start)*innerW/(period-1),y=v=>T+(max-v)*innerH/(max-min);
@@ -90,14 +128,18 @@ function renderChart(){
   const labels=Array.from({length:count},(_,i)=>{const m=mt(Math.round(start+(period-1)*i/(count-1)));return '<text class="chart-label" x="'+x(m)+'" y="'+(H-8)+'" text-anchor="middle">'+m.replace('-','.')+'</text>'}).join('');
   const path=points.map((p,i)=>(i?'L':'M')+x(p.month)+' '+y(p.gap_manwon)).join(' ');
   const marks=points.map((p,i)=>'<circle class="dot" tabindex="0" role="button" aria-label="'+p.month+' 가격차 '+won(p.gap_manwon)+'" data-point="'+i+'" cx="'+x(p.month)+'" cy="'+y(p.gap_manwon)+'" r="'+(points.length>30?3.5:5)+'"><title>'+p.month+': '+won(p.gap_manwon)+'</title></circle>').join('');
-  gapChart.innerHTML='<svg viewBox="0 0 '+W+' '+H+'" role="img" aria-label="현재 집과의 월별 가격차"><defs><linearGradient id="shade" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#23b195" stop-opacity=".22"/><stop offset="1" stop-color="#23b195" stop-opacity="0"/></linearGradient></defs>'+grid+'<path d="'+path+' L'+x(last.month)+' '+(H-B)+' L'+x(first.month)+' '+(H-B)+' Z" fill="url(#shade)"/><path class="line" d="'+path+'"/>'+marks+labels+'</svg>';
-  gapChart.querySelectorAll('[data-point]').forEach(el=>{const show=()=>{const p=points[+el.dataset.point];chartDetail.textContent=p.month+' · 목표 '+won(p.target_price_manwon)+' − 우리 집 '+won(p.home_price_manwon)+' = 가격차 '+won(p.gap_manwon)};el.onmouseenter=show;el.onfocus=show;el.onclick=show;el.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();show()}}});
+  gapChart.innerHTML='<svg viewBox="0 0 '+W+' '+H+'" role="group" aria-label="현재 집과의 월별 가격차"><defs><linearGradient id="shade" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#23b195" stop-opacity=".22"/><stop offset="1" stop-color="#23b195" stop-opacity="0"/></linearGradient></defs>'+grid+'<path d="'+path+' L'+x(last.month)+' '+(H-B)+' L'+x(first.month)+' '+(H-B)+' Z" fill="url(#shade)"/><path class="line" d="'+path+'"/>'+marks+labels+'</svg>';
+  gapChart.querySelector('svg').onclick=e=>{const rect=e.currentTarget.getBoundingClientRect(),px=(e.clientX-rect.left)*W/rect.width;const p=points.reduce((a,b)=>Math.abs(x(a.month)-px)<Math.abs(x(b.month)-px)?a:b);chartDetail.textContent=p.month+' · 목표 '+won(p.target_price_manwon)+' − 우리 집 '+won(p.home_price_manwon)+' = 가격차 '+won(p.gap_manwon)};
+  gapChart.querySelectorAll('[data-point]').forEach(el=>{const show=()=>{const p=points[+el.dataset.point];chartDetail.textContent=p.month+' · 목표 '+won(p.target_price_manwon)+' − 우리 집 '+won(p.home_price_manwon)+' = 가격차 '+won(p.gap_manwon)};el.onmouseenter=show;el.onfocus=show;el.onclick=e=>{e.stopPropagation();show()};el.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();show()}}});
 }
 document.querySelectorAll('[data-months]').forEach(b=>b.onclick=()=>{period=+b.dataset.months;document.querySelectorAll('[data-months]').forEach(a=>a.setAttribute('aria-pressed',a===b?'true':'false'));renderChart()});
 let resizeTimer;window.addEventListener('resize',()=>{clearTimeout(resizeTimer);resizeTimer=setTimeout(renderChart,100)});
 region.onchange=render;search.oninput=render;gapFilter.onchange=render;sortOrder.onchange=render;
+$('prevCandidate').onclick=()=>{const i=visibleItems.findIndex(x=>x.id===chartComplex.value);if(i>0)selectCandidate(visibleItems[i-1].id)};
+$('nextCandidate').onclick=()=>{const i=visibleItems.findIndex(x=>x.id===chartComplex.value);if(i>=0&&i<visibleItems.length-1)selectCandidate(visibleItems[i+1].id)};
+$('backToList').onclick=()=>{const b=[...rows.querySelectorAll('[data-id]')].find(b=>b.dataset.id===returnId);(b||$('listPanel')).scrollIntoView({block:'center',behavior:'auto'});if(b)b.focus({preventScroll:true})};
+$('resetFilters').onclick=()=>{search.value='';region.value='';gapFilter.value='';sortOrder.value='score';render()};
 init().catch(e=>updated.textContent='데이터가 아직 없습니다. 수집기를 먼저 실행하세요.');
 </script>
 </body>
 </html>
-
