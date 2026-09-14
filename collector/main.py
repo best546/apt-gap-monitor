@@ -1,12 +1,14 @@
 from __future__ import annotations
 
-import json, os, statistics, sys, time
+import json, os, re, statistics, sys, time
 import xml.etree.ElementTree as ET
 from datetime import date, datetime
 from pathlib import Path
 from urllib.parse import unquote
 
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG = ROOT / "config" / "complexes.json"
@@ -43,7 +45,10 @@ def parse_items(xml_text):
 def fetch_month(key, lawd, ym):
     params = {"serviceKey": unquote(key), "LAWD_CD": lawd, "DEAL_YMD": ym,
               "pageNo": 1, "numOfRows": 9999}
-    r = requests.get(API_URL, params=params, timeout=40)
+    session = requests.Session()
+    session.mount("https://", HTTPAdapter(max_retries=Retry(total=4, connect=4, read=4, backoff_factor=2,
+        status_forcelist=(429, 500, 502, 503, 504), allowed_methods=("GET",))))
+    r = session.get(API_URL, params=params, timeout=(30, 90))
     if not r.ok:
         raise RuntimeError(f"MOLIT API HTTP {r.status_code}: {r.text[:300]}")
     rows = parse_items(r.text)
@@ -103,5 +108,6 @@ if __name__ == "__main__":
     try:
         main()
     except Exception as exc:
-        print(f"COLLECTOR_ERROR: {type(exc).__name__}: {exc}", file=sys.stderr)
-        raise
+        safe = re.sub(r"serviceKey=[^&\s]+", "serviceKey=***", str(exc), flags=re.IGNORECASE)
+        print(f"COLLECTOR_ERROR: {type(exc).__name__}: {safe}", file=sys.stderr)
+        sys.exit(1)
