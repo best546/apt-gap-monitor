@@ -4,7 +4,7 @@
   "area_tolerance": 1.2,
   "reference_id": "home",
   "complexes": [
-    {"id":"home","region":"현재 집","name":"동탄예당마을 우미린제일풍경채","aliases":["예당마을우미린제일풍경채","예당마을 우미린제일풍경채"],"lawd_cd":"41590","area":80.0},
+    {"id":"home","region":"현재 집","name":"동탄예당마을 우미린제일풍경채","aliases":["우미린제일풍경채","예당마을우미린제일풍경채","예당마을 우미린제일풍경채"],"lawd_cd":"41597","area":75.9},
     {"id":"pangyo5","region":"서판교","name":"판교원마을5단지 푸르지오","aliases":["판교원마을5단지","판교원마을 5단지"],"lawd_cd":"41135","area":84.9},
     {"id":"pangyo3","region":"서판교","name":"판교원마을3단지 푸르지오","aliases":["판교원마을3단지","판교원마을 3단지"],"lawd_cd":"41135","area":84.9},
     {"id":"pangyo9","region":"서판교","name":"판교원마을9단지 한림풀에버","aliases":["판교원마을9단지","판교원마을 9단지","한림풀에버"],"lawd_cd":"41135","area":84.9},
@@ -18,7 +18,7 @@
     {"id":"bundang-yangji","region":"분당","name":"수내동 양지마을","aliases":["양지마을","양지마을(5단지)"],"lawd_cd":"41135","area":84.9},
     {"id":"imae-beautiful","region":"분당","name":"이매촌 아름마을","aliases":["아름마을","이매촌"],"lawd_cd":"41135","area":84.9},
     {"id":"gwacheon-raemian","region":"과천","name":"과천 래미안슈르","aliases":["래미안슈르"],"lawd_cd":"41290","area":84.9},
-    {"id":"dongtan2-ban-do","region":"동탄2","name":"동탄역 시범반도유보라 아이비파크","aliases":["시범반도유보라아이비파크","동탄역시범반도유보라아이비파크"],"lawd_cd":"41590","area":84.9},
-    {"id":"dongtan2-geo","region":"동탄2","name":"동탄2 시범호반베르디움","aliases":["시범호반베르디움","동탄2시범호반베르디움"],"lawd_cd":"41590","area":84.9}
+    {"id":"dongtan2-ban-do","region":"동탄2","name":"동탄역 시범반도유보라 아이비파크","aliases":["시범반도유보라아이비파크","동탄역시범반도유보라아이비파크"],"lawd_cd":"41597","area":84.9},
+    {"id":"dongtan2-geo","region":"동탄2","name":"동탄2 시범호반베르디움","aliases":["시범호반베르디움","동탄2시범호반베르디움"],"lawd_cd":"41597","area":84.9}
   ]
 }
