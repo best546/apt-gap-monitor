@@ -81,7 +81,7 @@ def tx_from(row):
         "cancelled": bool(pick(row, "cdealDay", "해제사유발생일"))
     }
 
-def summarize(c, rows, tol, default_min_floor=4):
+def summarize(c, rows, tol, default_min_floor=4, representative_months=6):
     aliases = [norm(x) for x in c.get("aliases", []) + [c["name"]]]
     area_tolerance = c.get("area_tolerance", tol)
     min_floor = c.get("min_floor", default_min_floor)
@@ -93,13 +93,14 @@ def summarize(c, rows, tol, default_min_floor=4):
             matches.append(tx)
     matches.sort(key=lambda x: x["date"], reverse=True)
     normal = [x for x in matches if x["floor"] >= min_floor and not x["direct"]]
-    basis = normal or matches
+    recent_months = {m[:4] + "-" + m[4:] for m in month_keys(representative_months)}
+    basis = [x for x in normal if x["date"][:7] in recent_months]
     prices = [x["price_manwon"] for x in basis]
     monthly = []
     for month in sorted({x["date"][:7] for x in normal}):
         month_prices = [x["price_manwon"] for x in normal if x["date"].startswith(month)]
         monthly.append({"month": month, "price_manwon": round(statistics.median(month_prices)), "count": len(month_prices)})
-    return {**c, "area_tolerance": area_tolerance, "min_floor": min_floor, "count": len(matches),
+    return {**c, "area_tolerance": area_tolerance, "min_floor": min_floor, "count": sum(x["date"][:7] in recent_months for x in matches), "history_count": len(matches),
             "representative_manwon": round(statistics.median(prices)) if prices else None,
             "latest": matches[0] if matches else None, "monthly_prices": monthly, "transactions": matches[:20]}
 
@@ -110,9 +111,9 @@ def main():
     cache = {}
     for lawd in sorted({c["lawd_cd"] for c in cfg["complexes"]}):
         cache[lawd] = []
-        for ym in month_keys(cfg["months"]):
+        for ym in month_keys(cfg.get("history_months", cfg["months"])):
             cache[lawd].extend(fetch_month(key, lawd, ym)); time.sleep(.12)
-    items = [summarize(c, cache[c["lawd_cd"]], cfg["area_tolerance"], cfg.get("min_floor", 4)) for c in cfg["complexes"]]
+    items = [summarize(c, cache[c["lawd_cd"]], cfg["area_tolerance"], cfg.get("min_floor", 4), cfg["months"]) for c in cfg["complexes"]]
     home = next(x for x in items if x["id"] == cfg["reference_id"])
     base = home["representative_manwon"]
     home_monthly = {x["month"]: x["price_manwon"] for x in home["monthly_prices"]}
@@ -125,7 +126,7 @@ def main():
             for p in x["monthly_prices"] if p["month"] in home_monthly
         ] if x["id"] != cfg["reference_id"] else []
     stamp = datetime.now().astimezone().isoformat(timespec="seconds")
-    payload = {"generated_at": stamp, "months": cfg["months"], "reference_id": cfg["reference_id"], "items": items}
+    payload = {"generated_at": stamp, "months": cfg["months"], "history_months": cfg.get("history_months", cfg["months"]), "reference_id": cfg["reference_id"], "items": items}
     OUTPUT.parent.mkdir(parents=True, exist_ok=True); OUTPUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     history = json.loads(HISTORY.read_text(encoding="utf-8")) if HISTORY.exists() else []
     history.append({"generated_at": stamp, "values": {x["id"]: {"price":x["representative_manwon"], "gap":x["gap_manwon"]} for x in items}})
@@ -138,3 +139,4 @@ if __name__ == "__main__":
         safe = re.sub(r"serviceKey=[^&\s]+", "serviceKey=***", str(exc), flags=re.IGNORECASE)
         print(f"COLLECTOR_ERROR: {type(exc).__name__}: {safe}", file=sys.stderr)
         sys.exit(1)
+

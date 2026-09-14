@@ -1,6 +1,7 @@
 {
   "api_version": "RTMSDataSvcAptTrade",
   "months": 6,
+  "history_months": 60,
   "area_tolerance": 1.2,
   "min_floor": 4,
   "reference_id": "home",
@@ -23,3 +24,4 @@
     {"id":"dongtan2-geo","region":"동탄2","name":"동탄2 시범호반베르디움","aliases":["시범호반베르디움","동탄2시범호반베르디움"],"lawd_cd":"41597","area":84.9}
   ]
 }
+
