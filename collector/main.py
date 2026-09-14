@@ -13,7 +13,7 @@ CONFIG = ROOT / "config" / "complexes.json"
 ASKING = ROOT / "config" / "asking-prices.json"
 OUTPUT = ROOT / "docs" / "data" / "latest.json"
 HISTORY = ROOT / "docs" / "data" / "history.json"
-API_URL = "https://apis.data.go.kr/1613000/RTMSDataSvcAptTradeDev/getRTMSDataSvcAptTradeDev"
+API_URL = "https://apis.data.go.kr/1613000/RTMSDataSvcAptTrade/getRTMSDataSvcAptTrade"
 
 def norm(s):
     return "".join(str(s or "").lower().split()).replace("·", "").replace("-", "")
