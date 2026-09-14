@@ -1274,5 +1274,9 @@
       "watch_note": "분당 생활권 상위 비교·단지별 거래 분리",
       "source_url": "https://github.com/best546/apt-gap-monitor/blob/main/docs/data/latest.json"
     }
-  ]
+  ],
+  "area_tolerance": 1.2,
+  "min_floor": 4,
+  "months": 6,
+  "history_months": 60
 }
