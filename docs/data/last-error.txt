@@ -1,9 +1,1 @@
-COLLECTOR_ERROR: RuntimeError: MOLIT API HTTP 403: <?xml version="1.0" encoding="UTF-8"?>
-<OpenAPI_ServiceResponse>
-<cmmMsgHeader>
-  <errMsg>SERVICE_KEY_IS_NOT_REGISTERED_ERROR</errMsg>
-  <returnAuthMsg>등록되지 않은 서비스키</returnAuthMsg>
-  <returnReasonCode>30</returnReasonCode>
-</cmmMsgHeader>
-</OpenAPI_ServiceResponse>
-
+COLLECTOR_ERROR: ConnectTimeout: HTTPSConnectionPool(host='apis.data.go.kr', port=443): Max retries exceeded with url: /1613000/RTMSDataSvcAptTrade/getRTMSDataSvcAptTrade?serviceKey=***&LAWD_CD=41117&DEAL_YMD=202609&pageNo=1&numOfRows=9999 (Caused by ConnectTimeoutError(<HTTPSConnection(host='apis.data.go.kr', port=443) at 0x7f28e25de8a0>, 'Connection to apis.data.go.kr timed out. (connect timeout=30)'))
