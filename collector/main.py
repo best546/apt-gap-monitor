@@ -83,7 +83,7 @@ def summarize(c, rows, tol):
             "latest": matches[0] if matches else None, "transactions": matches[:20]}
 
 def main():
-    key = os.environ.get("MOLIT_API_KEY")
+    key = (os.environ.get("MOLIT_API_KEY") or "").strip().strip('"').strip("'")
     if not key: sys.exit("MOLIT_API_KEY is required")
     cfg = json.loads(CONFIG.read_text(encoding="utf-8")); asking = json.loads(ASKING.read_text(encoding="utf-8"))
     cache = {}
