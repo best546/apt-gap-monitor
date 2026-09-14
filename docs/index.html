@@ -14,13 +14,13 @@
 @media(max-width:1000px){.workspace{grid-template-columns:1fr}.chart-panel{position:static}.mobile-back{display:inline-block}.wrap{max-width:760px}.chart-wrap{height:280px}}
 @media(max-width:760px){.wrap{padding:12px}.hero{padding:24px 20px 46px}.hero h1{font-size:24px}.stats{margin-left:6px;margin-right:6px}.stats .card{padding:14px}.workspace{gap:16px}.chart-panel{padding:18px 14px}.candidate{padding:14px}.candidate[aria-pressed=true]{padding:13px}.chart-summary strong{font-size:19px}.chart-head h2{font-size:22px}.nav{flex-wrap:wrap}.chart-wrap{height:260px}.score-bars label{grid-template-columns:88px 1fr 42px}.selection-prices{gap:20px}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
-.external-links{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}.external-links a{display:inline-block;padding:10px 12px;border-radius:10px;background:#edf4ff;color:#315aa2;text-decoration:none;font-size:13px;font-weight:700}.external-links a:last-child{background:#e8f7ed;color:#168145}.external-links a:focus-visible{outline:3px solid #42bca5}.initial-star{display:inline-block;font-size:11px;color:#946000;background:#fff1c9;padding:3px 6px;border-radius:5px;vertical-align:middle}#recommendedOnly[aria-pressed=true]{background:#fff1c9;border-color:#cd9e3a;color:#855600}</style>
+.external-links{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}.external-links a{display:inline-block;padding:10px 12px;border-radius:10px;background:#edf4ff;color:#315aa2;text-decoration:none;font-size:13px;font-weight:700}.external-links a:last-child{background:#e8f7ed;color:#168145}.external-links a:focus-visible{outline:3px solid #42bca5}.initial-star{display:inline-block;font-size:11px;color:#946000;background:#fff1c9;padding:3px 6px;border-radius:5px;vertical-align:middle}#recommendedOnly[aria-pressed=true]{background:#fff1c9;border-color:#cd9e3a;color:#855600}.access{font-size:17px!important}.access.easy{color:#07865f}.access.challenge{color:#9a6700}.access.long{color:#b54708}.access.jump{color:#b42318}.access.pending{color:#75888e}@media(max-width:760px){.selection-prices{flex-wrap:wrap}.selection-prices>div{min-width:28%}}</style>
 </head>
 <body>
 <main class="wrap">
   <section class="hero"><div class="eyebrow">HOME PORTFOLIO / THE NEXT HOME</div><h1>다음 집까지, 얼마나 가까워졌을까?</h1><p>우리 집과 관심 단지의 가격 차이를 한눈에 살펴보세요.</p><div id="updated" class="status">불러오는 중…</div></section>
   <section class="stats" id="stats"></section>
-<div class="workspace"><section class="list-panel" id="listPanel"><div class="list-heading"><h2>관심 아파트</h2><button id="resetFilters" class="subtle">필터 초기화</button></div><p class="muted">카드를 누르면 가격차 그래프와 점수 근거가 열립니다.</p>  <div class="toolbar"><select id="region" aria-label="지역"><option value="">모든 지역</option></select><input id="search" type="search" aria-label="단지 및 검토 메모 검색" placeholder="단지·검토 메모 검색"><select id="gapFilter" aria-label="가격차 구간"><option value="">모든 가격차</option><option value="near">0~3억</option><option value="mid">3~6억</option><option value="upper">6~9억</option><option value="far">9억 초과</option><option value="lower">우리 집보다 저렴</option><option value="pending">자료 대기</option></select><select id="sortOrder" aria-label="정렬"><option value="score">검토 점수 높은 순</option><option value="gap">가격차 작은 순</option><option value="price">대표가 낮은 순</option><option value="name">단지명 순</option></select></div>
+<div class="workspace"><section class="list-panel" id="listPanel"><div class="list-heading"><h2>관심 아파트</h2><button id="resetFilters" class="subtle">필터 초기화</button></div><p class="muted">카드를 누르면 가격차 그래프와 점수 근거가 열립니다.</p>  <div class="toolbar"><select id="region" aria-label="지역"><option value="">모든 지역</option></select><input id="search" type="search" aria-label="단지 및 검토 메모 검색" placeholder="단지·검토 메모 검색"><select id="gapFilter" aria-label="가격차 구간"><option value="">모든 가격차</option><option value="near">0~3억</option><option value="mid">3~6억</option><option value="upper">6~9억</option><option value="far">9억 초과</option><option value="lower">우리 집보다 저렴</option><option value="pending">자료 대기</option></select><select id="sortOrder" aria-label="정렬"><option value="score">목표 적합도 높은 순</option><option value="gap">가격차 작은 순</option><option value="price">대표가 낮은 순</option><option value="name">단지명 순</option></select></div>
 <button id="recommendedOnly" class="subtle" aria-pressed="false">★ 초기 추천만 보기</button><p class="muted">★는 최초 추천 목록 15개 후보입니다. 현재 점수·순위와는 별개입니다.</p><p class="result-meta" id="resultCount" aria-live="polite"></p><div id="rows"></div></section>  <section class="card chart-panel" id="chartPanel" tabindex="-1" aria-label="선택한 아파트 상세">
 <div class="nav"><button class="subtle mobile-back" id="backToList">← 목록으로 돌아가기</button><span id="selectionPosition" class="result-meta"></span><div><button class="subtle" id="prevCandidate" aria-label="이전 아파트">← 이전</button> <button class="subtle" id="nextCandidate" aria-label="다음 아파트">다음 →</button></div></div>
     <div class="chart-head">
@@ -44,14 +44,37 @@ const initialRecommendations=new Set(['pangyo5','pangyo3','pangyo9','gwanggyo-ce
 let data,period=60,visibleItems=[],returnId=null,recoveryNotice='',recommendedOnly=false;
 const $=id=>document.getElementById(id);
 // Explicit comparison heuristic, not a location or investment-return rating.
+const strategicProfiles={
+  '과천':{invest:49,school:29,commute:10},'분당':{invest:47,school:30,commute:10},
+  '광교':{invest:46,school:27,commute:15},'서판교':{invest:48,school:27,commute:9},
+  '평촌':{invest:44,school:29,commute:9},'수지':{invest:42,school:27,commute:12},
+  '죽전':{invest:39,school:25,commute:13},'죽전·보정':{invest:40,school:25,commute:12},
+  '의왕':{invest:40,school:24,commute:11},'동탄2':{invest:39,school:21,commute:20},
+  '동탄2·호수':{invest:35,school:20,commute:20},'영통·망포':{invest:35,school:23,commute:20},
+  '뉴성남 · 신흥역':{invest:46,school:20,commute:8},'뉴성남 · 산성역':{invest:47,school:21,commute:7},
+  '뉴성남 · 단대오거리':{invest:42,school:21,commute:8},'기흥역':{invest:35,school:19,commute:17},
+  '구성':{invest:35,school:21,commute:15},'동백':{invest:28,school:18,commute:15},
+  '동탄1':{invest:30,school:18,commute:20}
+};
+const strategicAdjustments={
+  'gwacheon-raemian':{invest:1},'gwanggyo-jai-class':{invest:2,school:1},'gwanggyo-nature':{school:1},
+  'pangyo5':{school:1},'bundang-yangji':{school:1},'sujie편한':{invest:1,school:1},
+  'seongbok-lotte':{invest:1},'dongtan2-the-sharp':{invest:2},'dongtan2-lin':{invest:2},
+  'seongnam-haneul1':{invest:1,school:1},'seongnam-forestia':{invest:1}
+};
 function scoreItem(x){
-  if(x.pending||!Number.isFinite(x.gap_manwon)||!Number.isFinite(x.representative_manwon)||!(x.count>0))return null;
-  const access=Math.round(60*Math.max(0,1-Math.max(0,x.gap_manwon)/120000));
-  const sample=Math.round(25*Math.min(1,x.count/10));
-  const months=(x.monthly_gaps||[]).filter(p=>Number.isFinite(p.gap_manwon)&&mi(p.month)<=mi(data.generated_at.slice(0,7))).map(p=>p.month).sort();
-  const month=months.at(-1),age=month?mi(data.generated_at.slice(0,7))-mi(month):null;
-  const fresh=age==null?0:Math.max(0,15-3*age);
-  return {total:access+sample+fresh,access,sample,fresh,month};
+  const base=strategicProfiles[x.region]||{invest:25,school:15,commute:10},adj=strategicAdjustments[x.id]||{};
+  const invest=Math.min(50,base.invest+(adj.invest||0)),school=Math.min(30,base.school+(adj.school||0)),commute=Math.min(20,base.commute+(adj.commute||0));
+  return {total:invest+school+commute,invest,school,commute};
+}
+function accessInfo(x){
+  const gap=x?.gap_manwon;
+  if(!Number.isFinite(gap))return {label:'가격 자료 대기',className:'pending'};
+  if(gap<=0)return {label:'여유권',className:'easy'};
+  if(gap<=30000)return {label:'현실권',className:'easy'};
+  if(gap<=60000)return {label:'도전권',className:'challenge'};
+  if(gap<=90000)return {label:'장기권',className:'long'};
+  return {label:'점프권',className:'jump'};
 }
 function updateNavigation(){
   const i=visibleItems.findIndex(x=>x.id===chartComplex.value);
@@ -70,9 +93,10 @@ function renderSelection(item){
 
   $('selectedName').textContent=item?(initialRecommendations.has(item.id)?'★ ':'')+item.name:'아파트를 선택하세요';
   $('selectedMeta').textContent=item?item.region+' · 전용 '+item.area+'㎡ · 대표가 표본 '+item.count+'건':'';
-  $('selectionPrices').innerHTML='<div class="muted">단지 대표가<strong>'+won(item?.representative_manwon)+'</strong></div><div class="muted">우리 집 대비<strong>'+won(item?.gap_manwon)+'</strong></div>';
+  const access=accessInfo(item);
+  $('selectionPrices').innerHTML='<div class="muted">단지 대표가<strong>'+won(item?.representative_manwon)+'</strong></div><div class="muted">우리 집 대비<strong>'+won(item?.gap_manwon)+'</strong></div><div class="muted">접근 가능성<strong class="access '+access.className+'">'+access.label+'</strong></div>';
   const score=item?scoreItem(item):null;
-  $('scoreDetail').innerHTML='<details class="score-detail"><summary>검토 우선순위 · '+(score?score.total+' / 100점':'평가 대기')+' ⓘ</summary><p>가격 접근성 60점 + 거래 표본 25점 + 비교자료 최근성 15점. 입지·학군·단지 품질·수익률은 평가하지 않습니다. 상위 주거지라도 가격차가 크면 낮아지는 비교용 점수입니다.</p>'+(score?'<div class="score-bars">'+[['가격 접근성',score.access,60],['거래 표본',score.sample,25],['자료 최근성',score.fresh,15]].map(([label,v,max])=>'<label>'+label+'<meter min="0" max="'+max+'" value="'+v+'">'+v+'</meter><span>'+v+'/'+max+'</span></label>').join('')+'</div><p>최근 비교월: '+(score.month||'없음')+' · 대표가 표본: '+item.count+'건</p>':'<p>대표가·가격차·거래 표본이 확보되면 점수가 표시됩니다.</p>')+'<p>계산식: 추가 가격차 0억 이하는 60점, 12억 이상은 0점으로 선형 환산합니다. 표본 10건 이상은 25점, 그 미만은 비례 배점합니다. 수집 기준월의 비교자료는 15점, 1개월 오래될 때마다 3점 차감하며 비교월이 없으면 0점입니다. 기준일은 데이터 갱신일이며, 가중치는 제가 정한 기본 비교 기준입니다.</p></details>';
+  $('scoreDetail').innerHTML='<details class="score-detail"><summary>내 목표 적합도 · '+(score?score.total+' / 100점':'-')+' ⓘ</summary><p>자산 증식 50점 + 학군 이동 30점 + 화성 출퇴근 20점 기준입니다. 가격은 점수에 넣지 않고 접근 가능성으로 따로 표시합니다.</p>'+(score?'<div class="score-bars">'+[['자산 증식',score.invest,50],['학군 이동',score.school,30],['화성 출퇴근',score.commute,20]].map(([label,v,max])=>'<label>'+label+'<meter min="0" max="'+max+'" value="'+v+'">'+v+'</meter><span>'+v+'/'+max+'</span></label>').join('')+'</div>':'')+'<p>지역 수요·상급지 이동 가능성·정비 및 교통 호재·학군과 학원가 접근·화성사업장 이동을 종합한 비교용 평가입니다. 단지별 동·학군 배정과 실제 출근시간은 최종 매수 전에 다시 확인해야 합니다.</p></details>';
   updateNavigation();
 }
 
@@ -124,7 +148,7 @@ function render(){
     return value(a)-value(b)||a.name.localeCompare(b.name,'ko');
   });
   $('resultCount').textContent=visibleItems.length+'개 표시 / 전체 '+data.items.filter(x=>x.id!==data.reference_id).length+'개 · 선택한 카드는 초록색으로 표시됩니다';
-  rows.innerHTML=visibleItems.map(x=>{const score=scoreItem(x);return `<button type="button" class="candidate" data-id="${esc(x.id)}" aria-pressed="${x.id===chartComplex.value}" aria-controls="chartPanel"><div class="candidate-top"><b>${esc(x.name)}${initialRecommendations.has(x.id)?' <span class="initial-star" title="초기 추천 단지">★ 초기 추천</span>':''}</b><span class="score-badge">${score?score.total+'점':'평가 대기'}</span></div><div class="muted">${esc(x.region)} · 전용 ${esc(x.area)}㎡</div><div class="candidate-bottom"><span>대표가 <strong>${won(x.representative_manwon)}</strong></span><span>가격차 <strong>${won(x.gap_manwon)}</strong></span></div><div class="candidate-note">${esc(x.watch_note||'')}${x.pending?' · 새 수집 대기':''}</div></button>`}).join('')||'<div class="empty-list">조건에 맞는 후보가 없습니다.<p class="muted">검색어나 필터를 바꾸거나 초기화해 주세요.</p></div>';
+  rows.innerHTML=visibleItems.map(x=>{const score=scoreItem(x);return `<button type="button" class="candidate" data-id="${esc(x.id)}" aria-pressed="${x.id===chartComplex.value}" aria-controls="chartPanel"><div class="candidate-top"><b>${esc(x.name)}${initialRecommendations.has(x.id)?' <span class="initial-star" title="초기 추천 단지">★ 초기 추천</span>':''}</b><span class="score-badge" title="자산증식 50 · 학군 30 · 출퇴근 20">${score.total+'점'}</span></div><div class="muted">${esc(x.region)} · 전용 ${esc(x.area)}㎡</div><div class="candidate-bottom"><span>대표가 <strong>${won(x.representative_manwon)}</strong></span><span>가격차 <strong>${won(x.gap_manwon)}</strong></span></div><div class="candidate-note">${esc(x.watch_note||'')}${x.pending?' · 새 수집 대기':''}</div></button>`}).join('')||'<div class="empty-list">조건에 맞는 후보가 없습니다.<p class="muted">검색어나 필터를 바꾸거나 초기화해 주세요.</p></div>';
   rows.querySelectorAll('[data-id]').forEach(b=>b.onclick=e=>{const showScore=!!e.target.closest('.score-badge');selectCandidate(b.dataset.id,true);if(showScore)$('scoreDetail').querySelector('details').open=true});
   updateNavigation();
 }
