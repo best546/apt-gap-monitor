@@ -274,5 +274,74 @@
         "gap": null
       }
     }
+  },
+  {
+    "generated_at": "2026-09-14T06:25:52+00:00",
+    "values": {
+      "home": {
+        "price": null,
+        "gap": null
+      },
+      "pangyo5": {
+        "price": 189250,
+        "gap": null
+      },
+      "pangyo3": {
+        "price": 177000,
+        "gap": null
+      },
+      "pangyo9": {
+        "price": 181750,
+        "gap": null
+      },
+      "gwanggyo-central": {
+        "price": 166000,
+        "gap": null
+      },
+      "gwanggyo-nature": {
+        "price": 188000,
+        "gap": null
+      },
+      "sujie편한": {
+        "price": 163900,
+        "gap": null
+      },
+      "seongbok-lotte": {
+        "price": 169000,
+        "gap": null
+      },
+      "jinsan5": {
+        "price": 127000,
+        "gap": null
+      },
+      "seongbok-hyundai": {
+        "price": 117750,
+        "gap": null
+      },
+      "bundang-sangrok": {
+        "price": 193000,
+        "gap": null
+      },
+      "bundang-yangji": {
+        "price": 226500,
+        "gap": null
+      },
+      "imae-beautiful": {
+        "price": 187500,
+        "gap": null
+      },
+      "gwacheon-raemian": {
+        "price": 208000,
+        "gap": null
+      },
+      "dongtan2-ban-do": {
+        "price": null,
+        "gap": null
+      },
+      "dongtan2-geo": {
+        "price": null,
+        "gap": null
+      }
+    }
   }
 ]
