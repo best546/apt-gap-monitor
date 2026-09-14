@@ -31,7 +31,7 @@ async function init(){
   updated.textContent='갱신 '+new Date(data.generated_at).toLocaleString('ko-KR');
   const home=data.items.find(x=>x.id===data.reference_id);
   const valid=data.items.filter(x=>x.id!==data.reference_id&&x.gap_manwon!=null).sort((a,b)=>a.gap_manwon-b.gap_manwon);
-  stats.innerHTML=`<div class="card"><div class="muted">현재 집 대표가</div><div class="big">${won(home.representative_manwon)}</div><div class="muted">전용 ${home.area}㎡ · ${home.min_floor}층 이상</div></div><div class="card"><div class="muted">가장 가까운 후보</div><div class="big">${valid[0]?.name||'-'}</div></div><div class="card"><div class="muted">수집 대상</div><div class="big">${data.items.length}개 단지</div></div>`;
+  stats.innerHTML=`<div class="card"><div class="muted">현재 집 대표가</div><div class="big">${won(home.representative_manwon)}</div><div class="muted">전용 ${home.area}㎡ · ${home.min_floor||4}층 이상</div></div><div class="card"><div class="muted">가장 가까운 후보</div><div class="big">${valid[0]?.name||'-'}</div></div><div class="card"><div class="muted">수집 대상</div><div class="big">${data.items.length}개 단지</div></div>`;
   [...new Set(data.items.map(x=>x.region))].forEach(x=>region.insertAdjacentHTML('beforeend',`<option>${x}</option>`));
   data.items.filter(x=>x.id!==data.reference_id).forEach(x=>chartComplex.insertAdjacentHTML('beforeend',`<option value="${x.id}">${x.region} · ${x.name}</option>`));
   chartComplex.onchange=renderChart;
