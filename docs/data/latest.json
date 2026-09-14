@@ -1,1 +1,2061 @@
-{"generated_at":null,"months":6,"reference_id":"home","items":[]}
+{
+  "generated_at": "2026-09-14T06:18:17+00:00",
+  "months": 6,
+  "reference_id": "home",
+  "items": [
+    {
+      "id": "home",
+      "region": "현재 집",
+      "name": "동탄예당마을 우미린제일풍경채",
+      "aliases": [
+        "예당마을우미린제일풍경채",
+        "예당마을 우미린제일풍경채"
+      ],
+      "lawd_cd": "41590",
+      "area": 80.0,
+      "count": 0,
+      "representative_manwon": null,
+      "latest": null,
+      "transactions": [],
+      "gap_manwon": null,
+      "asking_manwon": null
+    },
+    {
+      "id": "pangyo5",
+      "region": "서판교",
+      "name": "판교원마을5단지 푸르지오",
+      "aliases": [
+        "판교원마을5단지",
+        "판교원마을 5단지"
+      ],
+      "lawd_cd": "41135",
+      "area": 84.9,
+      "count": 4,
+      "representative_manwon": 189250,
+      "latest": {
+        "apt": "판교원마을5단지(푸르지오)",
+        "price_manwon": 193000,
+        "area": 84.51,
+        "date": "2026-07-15",
+        "floor": 28,
+        "direct": false,
+        "cancelled": false
+      },
+      "transactions": [
+        {
+          "apt": "판교원마을5단지(푸르지오)",
+          "price_manwon": 193000,
+          "area": 84.51,
+          "date": "2026-07-15",
+          "floor": 28,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "판교원마을5단지(푸르지오)",
+          "price_manwon": 189500,
+          "area": 84.51,
+          "date": "2026-07-09",
+          "floor": 8,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "판교원마을5단지(푸르지오)",
+          "price_manwon": 182000,
+          "area": 84.71,
+          "date": "2026-05-27",
+          "floor": 18,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "판교원마을5단지(푸르지오)",
+          "price_manwon": 189000,
+          "area": 84.51,
+          "date": "2026-05-21",
+          "floor": 20,
+          "direct": false,
+          "cancelled": false
+        }
+      ],
+      "gap_manwon": null,
+      "asking_manwon": null
+    },
+    {
+      "id": "pangyo3",
+      "region": "서판교",
+      "name": "판교원마을3단지 푸르지오",
+      "aliases": [
+        "판교원마을3단지",
+        "판교원마을 3단지"
+      ],
+      "lawd_cd": "41135",
+      "area": 84.9,
+      "count": 3,
+      "representative_manwon": 177000,
+      "latest": {
+        "apt": "판교원마을3단지(푸르지오)",
+        "price_manwon": 176000,
+        "area": 84.51,
+        "date": "2026-07-11",
+        "floor": 30,
+        "direct": false,
+        "cancelled": false
+      },
+      "transactions": [
+        {
+          "apt": "판교원마을3단지(푸르지오)",
+          "price_manwon": 176000,
+          "area": 84.51,
+          "date": "2026-07-11",
+          "floor": 30,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "판교원마을3단지(푸르지오)",
+          "price_manwon": 177000,
+          "area": 84.51,
+          "date": "2026-06-19",
+          "floor": 16,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "판교원마을3단지(푸르지오)",
+          "price_manwon": 182000,
+          "area": 84.71,
+          "date": "2026-04-18",
+          "floor": 21,
+          "direct": false,
+          "cancelled": false
+        }
+      ],
+      "gap_manwon": null,
+      "asking_manwon": null
+    },
+    {
+      "id": "pangyo9",
+      "region": "서판교",
+      "name": "판교원마을9단지 한림풀에버",
+      "aliases": [
+        "판교원마을9단지",
+        "판교원마을 9단지",
+        "한림풀에버"
+      ],
+      "lawd_cd": "41135",
+      "area": 84.9,
+      "count": 7,
+      "representative_manwon": 181750,
+      "latest": {
+        "apt": "판교원마을9단지(한림풀에버)",
+        "price_manwon": 185000,
+        "area": 84.9958,
+        "date": "2026-07-04",
+        "floor": 9,
+        "direct": false,
+        "cancelled": false
+      },
+      "transactions": [
+        {
+          "apt": "판교원마을9단지(한림풀에버)",
+          "price_manwon": 185000,
+          "area": 84.9958,
+          "date": "2026-07-04",
+          "floor": 9,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "판교원마을9단지(한림풀에버)",
+          "price_manwon": 179000,
+          "area": 84.9505,
+          "date": "2026-05-28",
+          "floor": 7,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "판교원마을9단지(한림풀에버)",
+          "price_manwon": 174500,
+          "area": 84.9958,
+          "date": "2026-05-21",
+          "floor": 4,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "판교원마을9단지(한림풀에버)",
+          "price_manwon": 185000,
+          "area": 84.9907,
+          "date": "2026-05-09",
+          "floor": 3,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "판교원마을9단지(한림풀에버)",
+          "price_manwon": 178000,
+          "area": 84.9907,
+          "date": "2026-05-07",
+          "floor": 12,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "판교원마을9단지(한림풀에버)",
+          "price_manwon": 184500,
+          "area": 84.9562,
+          "date": "2026-05-04",
+          "floor": 5,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "판교원마을9단지(한림풀에버)",
+          "price_manwon": 163000,
+          "area": 84.9505,
+          "date": "2026-04-07",
+          "floor": 1,
+          "direct": false,
+          "cancelled": false
+        }
+      ],
+      "gap_manwon": null,
+      "asking_manwon": null
+    },
+    {
+      "id": "gwanggyo-central",
+      "region": "광교",
+      "name": "광교센트럴뷰",
+      "aliases": [
+        "광교센트럴뷰"
+      ],
+      "lawd_cd": "41117",
+      "area": 84.9,
+      "count": 16,
+      "representative_manwon": 166000,
+      "latest": {
+        "apt": "광교센트럴뷰",
+        "price_manwon": 169000,
+        "area": 84.81,
+        "date": "2026-08-21",
+        "floor": 3,
+        "direct": false,
+        "cancelled": false
+      },
+      "transactions": [
+        {
+          "apt": "광교센트럴뷰",
+          "price_manwon": 169000,
+          "area": 84.81,
+          "date": "2026-08-21",
+          "floor": 3,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "광교센트럴뷰",
+          "price_manwon": 190000,
+          "area": 84.81,
+          "date": "2026-08-08",
+          "floor": 13,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "광교센트럴뷰",
+          "price_manwon": 171000,
+          "area": 84.81,
+          "date": "2026-07-17",
+          "floor": 9,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "광교센트럴뷰",
+          "price_manwon": 178000,
+          "area": 84.81,
+          "date": "2026-07-11",
+          "floor": 23,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "광교센트럴뷰",
+          "price_manwon": 172000,
+          "area": 84.81,
+          "date": "2026-07-07",
+          "floor": 22,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "광교센트럴뷰",
+          "price_manwon": 167000,
+          "area": 84.81,
+          "date": "2026-06-30",
+          "floor": 14,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "광교센트럴뷰",
+          "price_manwon": 161000,
+          "area": 84.92,
+          "date": "2026-06-25",
+          "floor": 5,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "광교센트럴뷰",
+          "price_manwon": 160000,
+          "area": 84.81,
+          "date": "2026-06-23",
+          "floor": 6,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "광교센트럴뷰",
+          "price_manwon": 164500,
+          "area": 84.76,
+          "date": "2026-06-19",
+          "floor": 7,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "광교센트럴뷰",
+          "price_manwon": 169000,
+          "area": 84.81,
+          "date": "2026-06-17",
+          "floor": 12,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "광교센트럴뷰",
+          "price_manwon": 152000,
+          "area": 84.81,
+          "date": "2026-06-13",
+          "floor": 1,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "광교센트럴뷰",
+          "price_manwon": 160000,
+          "area": 84.76,
+          "date": "2026-06-06",
+          "floor": 7,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "광교센트럴뷰",
+          "price_manwon": 166000,
+          "area": 84.81,
+          "date": "2026-05-11",
+          "floor": 21,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "광교센트럴뷰",
+          "price_manwon": 159500,
+          "area": 84.81,
+          "date": "2026-05-07",
+          "floor": 18,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "광교센트럴뷰",
+          "price_manwon": 154000,
+          "area": 84.81,
+          "date": "2026-05-02",
+          "floor": 16,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "광교센트럴뷰",
+          "price_manwon": 158000,
+          "area": 84.81,
+          "date": "2026-04-04",
+          "floor": 20,
+          "direct": false,
+          "cancelled": false
+        }
+      ],
+      "gap_manwon": null,
+      "asking_manwon": null
+    },
+    {
+      "id": "gwanggyo-nature",
+      "region": "광교",
+      "name": "광교 자연앤힐스테이트",
+      "aliases": [
+        "자연앤힐스테이트",
+        "자연&힐스테이트"
+      ],
+      "lawd_cd": "41117",
+      "area": 84.9,
+      "count": 27,
+      "representative_manwon": 188000,
+      "latest": {
+        "apt": "자연앤힐스테이트",
+        "price_manwon": 212000,
+        "area": 84.55,
+        "date": "2026-08-29",
+        "floor": 14,
+        "direct": false,
+        "cancelled": false
+      },
+      "transactions": [
+        {
+          "apt": "자연앤힐스테이트",
+          "price_manwon": 212000,
+          "area": 84.55,
+          "date": "2026-08-29",
+          "floor": 14,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "자연앤힐스테이트",
+          "price_manwon": 205000,
+          "area": 84.28,
+          "date": "2026-08-11",
+          "floor": 9,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "자연앤힐스테이트",
+          "price_manwon": 188000,
+          "area": 84.28,
+          "date": "2026-07-31",
+          "floor": 12,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "자연앤힐스테이트",
+          "price_manwon": 208000,
+          "area": 84.55,
+          "date": "2026-07-24",
+          "floor": 13,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "자연앤힐스테이트",
+          "price_manwon": 205000,
+          "area": 84.49,
+          "date": "2026-07-16",
+          "floor": 29,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "자연앤힐스테이트",
+          "price_manwon": 210000,
+          "area": 84.39,
+          "date": "2026-07-11",
+          "floor": 23,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "자연앤힐스테이트",
+          "price_manwon": 188000,
+          "area": 84.41,
+          "date": "2026-07-04",
+          "floor": 4,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "자연앤힐스테이트",
+          "price_manwon": 201000,
+          "area": 84.46,
+          "date": "2026-06-27",
+          "floor": 14,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "자연앤힐스테이트",
+          "price_manwon": 187000,
+          "area": 84.37,
+          "date": "2026-06-23",
+          "floor": 10,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "자연앤힐스테이트",
+          "price_manwon": 197000,
+          "area": 84.55,
+          "date": "2026-06-13",
+          "floor": 24,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "자연앤힐스테이트",
+          "price_manwon": 175000,
+          "area": 84.5,
+          "date": "2026-06-12",
+          "floor": 26,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "자연앤힐스테이트",
+          "price_manwon": 188500,
+          "area": 84.39,
+          "date": "2026-06-09",
+          "floor": 28,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "자연앤힐스테이트",
+          "price_manwon": 185000,
+          "area": 84.5,
+          "date": "2026-06-06",
+          "floor": 20,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "자연앤힐스테이트",
+          "price_manwon": 193000,
+          "area": 84.74,
+          "date": "2026-06-05",
+          "floor": 35,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "자연앤힐스테이트",
+          "price_manwon": 181500,
+          "area": 84.39,
+          "date": "2026-05-30",
+          "floor": 16,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "자연앤힐스테이트",
+          "price_manwon": 193500,
+          "area": 84.53,
+          "date": "2026-05-09",
+          "floor": 5,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "자연앤힐스테이트",
+          "price_manwon": 186000,
+          "area": 84.53,
+          "date": "2026-05-09",
+          "floor": 14,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "자연앤힐스테이트",
+          "price_manwon": 173000,
+          "area": 84.41,
+          "date": "2026-05-09",
+          "floor": 3,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "자연앤힐스테이트",
+          "price_manwon": 182000,
+          "area": 84.63,
+          "date": "2026-05-07",
+          "floor": 35,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "자연앤힐스테이트",
+          "price_manwon": 186500,
+          "area": 84.28,
+          "date": "2026-05-05",
+          "floor": 5,
+          "direct": false,
+          "cancelled": false
+        }
+      ],
+      "gap_manwon": null,
+      "asking_manwon": null
+    },
+    {
+      "id": "sujie편한",
+      "region": "수지",
+      "name": "e편한세상수지",
+      "aliases": [
+        "e편한세상수지",
+        "이편한세상수지"
+      ],
+      "lawd_cd": "41465",
+      "area": 84.9,
+      "count": 24,
+      "representative_manwon": 163900,
+      "latest": {
+        "apt": "e편한세상수지",
+        "price_manwon": 168000,
+        "area": 84.921,
+        "date": "2026-08-24",
+        "floor": 8,
+        "direct": false,
+        "cancelled": false
+      },
+      "transactions": [
+        {
+          "apt": "e편한세상수지",
+          "price_manwon": 168000,
+          "area": 84.921,
+          "date": "2026-08-24",
+          "floor": 8,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "e편한세상수지",
+          "price_manwon": 169000,
+          "area": 84.964,
+          "date": "2026-08-21",
+          "floor": 7,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "e편한세상수지",
+          "price_manwon": 167500,
+          "area": 84.943,
+          "date": "2026-08-08",
+          "floor": 10,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "e편한세상수지",
+          "price_manwon": 172000,
+          "area": 84.921,
+          "date": "2026-07-29",
+          "floor": 14,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "e편한세상수지",
+          "price_manwon": 168000,
+          "area": 84.929,
+          "date": "2026-07-25",
+          "floor": 24,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "e편한세상수지",
+          "price_manwon": 170000,
+          "area": 84.921,
+          "date": "2026-07-24",
+          "floor": 26,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "e편한세상수지",
+          "price_manwon": 165000,
+          "area": 84.921,
+          "date": "2026-07-09",
+          "floor": 24,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "e편한세상수지",
+          "price_manwon": 165000,
+          "area": 84.921,
+          "date": "2026-07-08",
+          "floor": 4,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "e편한세상수지",
+          "price_manwon": 171000,
+          "area": 84.921,
+          "date": "2026-07-07",
+          "floor": 27,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "e편한세상수지",
+          "price_manwon": 163000,
+          "area": 84.964,
+          "date": "2026-07-04",
+          "floor": 8,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "e편한세상수지",
+          "price_manwon": 163800,
+          "area": 84.964,
+          "date": "2026-07-03",
+          "floor": 23,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "e편한세상수지",
+          "price_manwon": 167000,
+          "area": 84.943,
+          "date": "2026-06-27",
+          "floor": 27,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "e편한세상수지",
+          "price_manwon": 166000,
+          "area": 84.921,
+          "date": "2026-06-27",
+          "floor": 26,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "e편한세상수지",
+          "price_manwon": 162000,
+          "area": 84.929,
+          "date": "2026-06-16",
+          "floor": 28,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "e편한세상수지",
+          "price_manwon": 163000,
+          "area": 84.932,
+          "date": "2026-06-15",
+          "floor": 20,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "e편한세상수지",
+          "price_manwon": 164000,
+          "area": 84.921,
+          "date": "2026-06-06",
+          "floor": 24,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "e편한세상수지",
+          "price_manwon": 147000,
+          "area": 84.964,
+          "date": "2026-06-02",
+          "floor": 10,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "e편한세상수지",
+          "price_manwon": 163000,
+          "area": 84.921,
+          "date": "2026-05-26",
+          "floor": 13,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "e편한세상수지",
+          "price_manwon": 159800,
+          "area": 84.964,
+          "date": "2026-05-23",
+          "floor": 24,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "e편한세상수지",
+          "price_manwon": 159000,
+          "area": 84.929,
+          "date": "2026-05-21",
+          "floor": 15,
+          "direct": false,
+          "cancelled": false
+        }
+      ],
+      "gap_manwon": null,
+      "asking_manwon": null
+    },
+    {
+      "id": "seongbok-lotte",
+      "region": "수지",
+      "name": "성복역 롯데캐슬 골드타운",
+      "aliases": [
+        "성복역롯데캐슬골드타운",
+        "성복역 롯데캐슬 골드타운"
+      ],
+      "lawd_cd": "41465",
+      "area": 84.9,
+      "count": 38,
+      "representative_manwon": 169000,
+      "latest": {
+        "apt": "성복역롯데캐슬골드타운",
+        "price_manwon": 190000,
+        "area": 84.9126,
+        "date": "2026-08-22",
+        "floor": 26,
+        "direct": false,
+        "cancelled": false
+      },
+      "transactions": [
+        {
+          "apt": "성복역롯데캐슬골드타운",
+          "price_manwon": 190000,
+          "area": 84.9126,
+          "date": "2026-08-22",
+          "floor": 26,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "성복역롯데캐슬골드타운",
+          "price_manwon": 182000,
+          "area": 84.9126,
+          "date": "2026-08-20",
+          "floor": 20,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "성복역롯데캐슬골드타운",
+          "price_manwon": 190000,
+          "area": 84.9126,
+          "date": "2026-08-19",
+          "floor": 13,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "성복역롯데캐슬골드타운",
+          "price_manwon": 170000,
+          "area": 84.9126,
+          "date": "2026-08-06",
+          "floor": 2,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "성복역롯데캐슬골드타운",
+          "price_manwon": 179800,
+          "area": 84.9126,
+          "date": "2026-08-05",
+          "floor": 32,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "성복역롯데캐슬골드타운",
+          "price_manwon": 165000,
+          "area": 84.9126,
+          "date": "2026-07-31",
+          "floor": 27,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "성복역롯데캐슬골드타운",
+          "price_manwon": 186000,
+          "area": 84.9126,
+          "date": "2026-07-29",
+          "floor": 29,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "성복역롯데캐슬골드타운",
+          "price_manwon": 165000,
+          "area": 84.9126,
+          "date": "2026-07-27",
+          "floor": 10,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "성복역롯데캐슬골드타운",
+          "price_manwon": 187000,
+          "area": 84.9126,
+          "date": "2026-07-26",
+          "floor": 12,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "성복역롯데캐슬골드타운",
+          "price_manwon": 178000,
+          "area": 84.9979,
+          "date": "2026-07-16",
+          "floor": 27,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "성복역롯데캐슬골드타운",
+          "price_manwon": 180500,
+          "area": 84.9126,
+          "date": "2026-07-15",
+          "floor": 5,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "성복역롯데캐슬골드타운",
+          "price_manwon": 128000,
+          "area": 84.9126,
+          "date": "2026-07-11",
+          "floor": 3,
+          "direct": true,
+          "cancelled": false
+        },
+        {
+          "apt": "성복역롯데캐슬골드타운",
+          "price_manwon": 166000,
+          "area": 84.9979,
+          "date": "2026-06-27",
+          "floor": 21,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "성복역롯데캐슬골드타운",
+          "price_manwon": 174500,
+          "area": 84.9979,
+          "date": "2026-06-26",
+          "floor": 13,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "성복역롯데캐슬골드타운",
+          "price_manwon": 170000,
+          "area": 84.9126,
+          "date": "2026-06-26",
+          "floor": 19,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "성복역롯데캐슬골드타운",
+          "price_manwon": 169000,
+          "area": 84.9126,
+          "date": "2026-06-23",
+          "floor": 14,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "성복역롯데캐슬골드타운",
+          "price_manwon": 178000,
+          "area": 84.9126,
+          "date": "2026-06-18",
+          "floor": 16,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "성복역롯데캐슬골드타운",
+          "price_manwon": 178000,
+          "area": 84.9126,
+          "date": "2026-06-11",
+          "floor": 30,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "성복역롯데캐슬골드타운",
+          "price_manwon": 170000,
+          "area": 84.9979,
+          "date": "2026-06-09",
+          "floor": 14,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "성복역롯데캐슬골드타운",
+          "price_manwon": 158000,
+          "area": 84.9979,
+          "date": "2026-06-09",
+          "floor": 16,
+          "direct": false,
+          "cancelled": false
+        }
+      ],
+      "gap_manwon": null,
+      "asking_manwon": null
+    },
+    {
+      "id": "jinsan5",
+      "region": "수지",
+      "name": "진산마을 삼성5차",
+      "aliases": [
+        "진산마을삼성5차",
+        "진산마을 삼성5차"
+      ],
+      "lawd_cd": "41465",
+      "area": 84.9,
+      "count": 13,
+      "representative_manwon": 127000,
+      "latest": {
+        "apt": "진산마을삼성5차",
+        "price_manwon": 143000,
+        "area": 84.2102,
+        "date": "2026-08-13",
+        "floor": 15,
+        "direct": false,
+        "cancelled": false
+      },
+      "transactions": [
+        {
+          "apt": "진산마을삼성5차",
+          "price_manwon": 143000,
+          "area": 84.2102,
+          "date": "2026-08-13",
+          "floor": 15,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "진산마을삼성5차",
+          "price_manwon": 125000,
+          "area": 84.2102,
+          "date": "2026-07-11",
+          "floor": 11,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "진산마을삼성5차",
+          "price_manwon": 66000,
+          "area": 83.8821,
+          "date": "2026-06-30",
+          "floor": 2,
+          "direct": true,
+          "cancelled": false
+        },
+        {
+          "apt": "진산마을삼성5차",
+          "price_manwon": 124000,
+          "area": 83.8821,
+          "date": "2026-06-27",
+          "floor": 2,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "진산마을삼성5차",
+          "price_manwon": 129000,
+          "area": 83.8821,
+          "date": "2026-06-24",
+          "floor": 5,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "진산마을삼성5차",
+          "price_manwon": 127500,
+          "area": 83.8821,
+          "date": "2026-06-23",
+          "floor": 2,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "진산마을삼성5차",
+          "price_manwon": 125500,
+          "area": 84.2102,
+          "date": "2026-06-13",
+          "floor": 2,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "진산마을삼성5차",
+          "price_manwon": 129000,
+          "area": 83.8821,
+          "date": "2026-06-12",
+          "floor": 11,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "진산마을삼성5차",
+          "price_manwon": 126500,
+          "area": 83.8821,
+          "date": "2026-05-29",
+          "floor": 7,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "진산마을삼성5차",
+          "price_manwon": 128500,
+          "area": 84.2102,
+          "date": "2026-05-16",
+          "floor": 17,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "진산마을삼성5차",
+          "price_manwon": 120000,
+          "area": 84.2102,
+          "date": "2026-05-08",
+          "floor": 14,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "진산마을삼성5차",
+          "price_manwon": 123000,
+          "area": 84.2102,
+          "date": "2026-04-25",
+          "floor": 3,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "진산마을삼성5차",
+          "price_manwon": 128000,
+          "area": 83.8821,
+          "date": "2026-04-04",
+          "floor": 12,
+          "direct": false,
+          "cancelled": false
+        }
+      ],
+      "gap_manwon": null,
+      "asking_manwon": null
+    },
+    {
+      "id": "seongbok-hyundai",
+      "region": "수지",
+      "name": "성복역 현대홈타운",
+      "aliases": [
+        "성복역현대홈타운",
+        "성복역 현대홈타운",
+        "성동마을수지자이"
+      ],
+      "lawd_cd": "41465",
+      "area": 84.9,
+      "count": 30,
+      "representative_manwon": 117750,
+      "latest": {
+        "apt": "현대",
+        "price_manwon": 130000,
+        "area": 84.51,
+        "date": "2026-08-21",
+        "floor": 11,
+        "direct": false,
+        "cancelled": false
+      },
+      "transactions": [
+        {
+          "apt": "현대",
+          "price_manwon": 130000,
+          "area": 84.51,
+          "date": "2026-08-21",
+          "floor": 11,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "현대",
+          "price_manwon": 125000,
+          "area": 84.51,
+          "date": "2026-08-15",
+          "floor": 11,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "현대",
+          "price_manwon": 112000,
+          "area": 84.51,
+          "date": "2026-08-15",
+          "floor": 1,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "현대",
+          "price_manwon": 119500,
+          "area": 84.51,
+          "date": "2026-08-05",
+          "floor": 7,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "현대",
+          "price_manwon": 125000,
+          "area": 84.51,
+          "date": "2026-07-17",
+          "floor": 6,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "현대",
+          "price_manwon": 111000,
+          "area": 84.51,
+          "date": "2026-07-09",
+          "floor": 3,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "현대",
+          "price_manwon": 127000,
+          "area": 84.51,
+          "date": "2026-07-05",
+          "floor": 6,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "현대",
+          "price_manwon": 120000,
+          "area": 84.51,
+          "date": "2026-06-28",
+          "floor": 4,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "현대",
+          "price_manwon": 106000,
+          "area": 84.51,
+          "date": "2026-06-20",
+          "floor": 1,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "현대",
+          "price_manwon": 117000,
+          "area": 84.51,
+          "date": "2026-06-17",
+          "floor": 6,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "현대",
+          "price_manwon": 122000,
+          "area": 84.51,
+          "date": "2026-06-13",
+          "floor": 11,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "현대",
+          "price_manwon": 120000,
+          "area": 84.51,
+          "date": "2026-06-13",
+          "floor": 4,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "현대",
+          "price_manwon": 119000,
+          "area": 84.51,
+          "date": "2026-06-06",
+          "floor": 12,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "현대",
+          "price_manwon": 113800,
+          "area": 84.51,
+          "date": "2026-06-06",
+          "floor": 3,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "현대",
+          "price_manwon": 121000,
+          "area": 84.51,
+          "date": "2026-06-02",
+          "floor": 7,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "현대",
+          "price_manwon": 118500,
+          "area": 84.51,
+          "date": "2026-05-30",
+          "floor": 13,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "현대",
+          "price_manwon": 120000,
+          "area": 84.51,
+          "date": "2026-05-27",
+          "floor": 8,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "현대",
+          "price_manwon": 119000,
+          "area": 84.51,
+          "date": "2026-05-23",
+          "floor": 15,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "현대",
+          "price_manwon": 114500,
+          "area": 84.51,
+          "date": "2026-05-22",
+          "floor": 3,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "현대",
+          "price_manwon": 115000,
+          "area": 84.51,
+          "date": "2026-05-16",
+          "floor": 13,
+          "direct": false,
+          "cancelled": false
+        }
+      ],
+      "gap_manwon": null,
+      "asking_manwon": null
+    },
+    {
+      "id": "bundang-sangrok",
+      "region": "분당",
+      "name": "정자동 상록마을",
+      "aliases": [
+        "상록마을",
+        "상록마을(우성)"
+      ],
+      "lawd_cd": "41135",
+      "area": 84.9,
+      "count": 11,
+      "representative_manwon": 193000,
+      "latest": {
+        "apt": "상록마을(우성)1",
+        "price_manwon": 238000,
+        "area": 84.97,
+        "date": "2026-07-28",
+        "floor": 13,
+        "direct": false,
+        "cancelled": false
+      },
+      "transactions": [
+        {
+          "apt": "상록마을(우성)1",
+          "price_manwon": 238000,
+          "area": 84.97,
+          "date": "2026-07-28",
+          "floor": 13,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "상록마을(우성)1",
+          "price_manwon": 241000,
+          "area": 84.97,
+          "date": "2026-07-24",
+          "floor": 5,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "상록마을(라이프2차)",
+          "price_manwon": 207000,
+          "area": 84.78,
+          "date": "2026-07-24",
+          "floor": 16,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "상록마을(임광)",
+          "price_manwon": 192000,
+          "area": 84.97,
+          "date": "2026-06-10",
+          "floor": 8,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "상록마을(라이프2차)",
+          "price_manwon": 196000,
+          "area": 84.78,
+          "date": "2026-06-03",
+          "floor": 7,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "상록마을(우성)1",
+          "price_manwon": 228000,
+          "area": 84.97,
+          "date": "2026-05-22",
+          "floor": 15,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "상록마을(라이프2차)",
+          "price_manwon": 193000,
+          "area": 84.78,
+          "date": "2026-05-12",
+          "floor": 13,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "상록마을(임광)",
+          "price_manwon": 185000,
+          "area": 84.97,
+          "date": "2026-05-08",
+          "floor": 13,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "상록마을(보성)",
+          "price_manwon": 182000,
+          "area": 84.97,
+          "date": "2026-05-07",
+          "floor": 2,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "상록마을(보성)",
+          "price_manwon": 185000,
+          "area": 84.97,
+          "date": "2026-04-29",
+          "floor": 6,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "상록마을(임광)",
+          "price_manwon": 188000,
+          "area": 84.97,
+          "date": "2026-04-18",
+          "floor": 4,
+          "direct": false,
+          "cancelled": false
+        }
+      ],
+      "gap_manwon": null,
+      "asking_manwon": null
+    },
+    {
+      "id": "bundang-yangji",
+      "region": "분당",
+      "name": "수내동 양지마을",
+      "aliases": [
+        "양지마을",
+        "양지마을(5단지)"
+      ],
+      "lawd_cd": "41135",
+      "area": 84.9,
+      "count": 15,
+      "representative_manwon": 226500,
+      "latest": {
+        "apt": "양지마을(금호1)",
+        "price_manwon": 240000,
+        "area": 84.9,
+        "date": "2026-08-03",
+        "floor": 2,
+        "direct": false,
+        "cancelled": false
+      },
+      "transactions": [
+        {
+          "apt": "양지마을(금호1)",
+          "price_manwon": 240000,
+          "area": 84.9,
+          "date": "2026-08-03",
+          "floor": 2,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "양지마을(금호1)",
+          "price_manwon": 230000,
+          "area": 84.9,
+          "date": "2026-07-31",
+          "floor": 8,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "양지마을(금호1)",
+          "price_manwon": 239000,
+          "area": 84.9,
+          "date": "2026-07-18",
+          "floor": 10,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "양지마을(2단지)(청구)",
+          "price_manwon": 226500,
+          "area": 84.6,
+          "date": "2026-07-15",
+          "floor": 8,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "양지마을(금호1)",
+          "price_manwon": 220000,
+          "area": 84.9,
+          "date": "2026-07-15",
+          "floor": 9,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "양지마을(2단지)(청구)",
+          "price_manwon": 235000,
+          "area": 84.99,
+          "date": "2026-07-07",
+          "floor": 10,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "양지마을(5단지)(한양515-529)",
+          "price_manwon": 230000,
+          "area": 84.9,
+          "date": "2026-06-20",
+          "floor": 16,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "양지마을(금호1)",
+          "price_manwon": 243000,
+          "area": 84.9,
+          "date": "2026-06-08",
+          "floor": 11,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "양지마을(5단지)(한양515-529)",
+          "price_manwon": 216000,
+          "area": 84.9,
+          "date": "2026-05-14",
+          "floor": 16,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "양지마을(금호1)",
+          "price_manwon": 229000,
+          "area": 84.9,
+          "date": "2026-05-12",
+          "floor": 9,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "양지마을(2단지)(청구)",
+          "price_manwon": 222000,
+          "area": 84.99,
+          "date": "2026-04-28",
+          "floor": 16,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "양지마을(금호1)",
+          "price_manwon": 213000,
+          "area": 84.9,
+          "date": "2026-04-20",
+          "floor": 11,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "양지마을(금호1)",
+          "price_manwon": 225000,
+          "area": 84.9,
+          "date": "2026-04-17",
+          "floor": 11,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "양지마을(2단지)(청구)",
+          "price_manwon": 208000,
+          "area": 84.6,
+          "date": "2026-04-15",
+          "floor": 12,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "양지마을(2단지)(청구)",
+          "price_manwon": 222000,
+          "area": 84.6,
+          "date": "2026-04-06",
+          "floor": 7,
+          "direct": false,
+          "cancelled": false
+        }
+      ],
+      "gap_manwon": null,
+      "asking_manwon": null
+    },
+    {
+      "id": "imae-beautiful",
+      "region": "분당",
+      "name": "이매촌 아름마을",
+      "aliases": [
+        "아름마을",
+        "이매촌"
+      ],
+      "lawd_cd": "41135",
+      "area": 84.9,
+      "count": 35,
+      "representative_manwon": 187500,
+      "latest": {
+        "apt": "이매촌(삼성)",
+        "price_manwon": 177000,
+        "area": 84.94,
+        "date": "2026-08-17",
+        "floor": 1,
+        "direct": false,
+        "cancelled": false
+      },
+      "transactions": [
+        {
+          "apt": "이매촌(삼성)",
+          "price_manwon": 177000,
+          "area": 84.94,
+          "date": "2026-08-17",
+          "floor": 1,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "이매촌(금강)",
+          "price_manwon": 190000,
+          "area": 84.42,
+          "date": "2026-07-24",
+          "floor": 14,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "이매촌(한신)",
+          "price_manwon": 195700,
+          "area": 84.9,
+          "date": "2026-07-24",
+          "floor": 16,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "이매촌(성지)",
+          "price_manwon": 198800,
+          "area": 84.9,
+          "date": "2026-07-15",
+          "floor": 3,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "이매촌(청구)",
+          "price_manwon": 221000,
+          "area": 84.99,
+          "date": "2026-07-14",
+          "floor": 14,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "아름마을(삼호)",
+          "price_manwon": 179000,
+          "area": 84.84,
+          "date": "2026-07-01",
+          "floor": 9,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "이매촌(삼환)",
+          "price_manwon": 188000,
+          "area": 84.93,
+          "date": "2026-06-27",
+          "floor": 14,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "이매촌(금강)",
+          "price_manwon": 189500,
+          "area": 84.42,
+          "date": "2026-06-25",
+          "floor": 10,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "이매촌(금강)",
+          "price_manwon": 188000,
+          "area": 84.42,
+          "date": "2026-06-20",
+          "floor": 4,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "이매촌(삼환)",
+          "price_manwon": 169000,
+          "area": 84.93,
+          "date": "2026-06-19",
+          "floor": 14,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "이매촌(진흥)",
+          "price_manwon": 190000,
+          "area": 84.63,
+          "date": "2026-06-19",
+          "floor": 17,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "이매촌(동신3)",
+          "price_manwon": 193000,
+          "area": 84.6,
+          "date": "2026-06-15",
+          "floor": 15,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "이매촌(진흥)",
+          "price_manwon": 201500,
+          "area": 84.63,
+          "date": "2026-06-10",
+          "floor": 15,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "이매촌(동신3)",
+          "price_manwon": 197700,
+          "area": 84.6,
+          "date": "2026-06-06",
+          "floor": 13,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "이매촌(성지)",
+          "price_manwon": 181000,
+          "area": 84.9,
+          "date": "2026-06-01",
+          "floor": 1,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "이매촌(금강)",
+          "price_manwon": 177900,
+          "area": 84.42,
+          "date": "2026-05-30",
+          "floor": 3,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "이매촌(삼성)",
+          "price_manwon": 184900,
+          "area": 84.94,
+          "date": "2026-05-16",
+          "floor": 11,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "이매촌(금강)",
+          "price_manwon": 180000,
+          "area": 84.42,
+          "date": "2026-05-16",
+          "floor": 5,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "이매촌(청구)",
+          "price_manwon": 169000,
+          "area": 84.99,
+          "date": "2026-05-15",
+          "floor": 7,
+          "direct": true,
+          "cancelled": false
+        },
+        {
+          "apt": "이매촌(금강)",
+          "price_manwon": 190000,
+          "area": 84.42,
+          "date": "2026-05-14",
+          "floor": 19,
+          "direct": false,
+          "cancelled": false
+        }
+      ],
+      "gap_manwon": null,
+      "asking_manwon": null
+    },
+    {
+      "id": "gwacheon-raemian",
+      "region": "과천",
+      "name": "과천 래미안슈르",
+      "aliases": [
+        "래미안슈르"
+      ],
+      "lawd_cd": "41290",
+      "area": 84.9,
+      "count": 16,
+      "representative_manwon": 208000,
+      "latest": {
+        "apt": "래미안슈르",
+        "price_manwon": 220000,
+        "area": 84.946,
+        "date": "2026-08-06",
+        "floor": 3,
+        "direct": false,
+        "cancelled": false
+      },
+      "transactions": [
+        {
+          "apt": "래미안슈르",
+          "price_manwon": 220000,
+          "area": 84.946,
+          "date": "2026-08-06",
+          "floor": 3,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "래미안슈르",
+          "price_manwon": 175000,
+          "area": 84.961,
+          "date": "2026-07-11",
+          "floor": 22,
+          "direct": true,
+          "cancelled": false
+        },
+        {
+          "apt": "래미안슈르",
+          "price_manwon": 227500,
+          "area": 84.964,
+          "date": "2026-07-04",
+          "floor": 11,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "래미안슈르",
+          "price_manwon": 218800,
+          "area": 84.946,
+          "date": "2026-06-24",
+          "floor": 10,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "래미안슈르",
+          "price_manwon": 220000,
+          "area": 84.946,
+          "date": "2026-06-23",
+          "floor": 7,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "래미안슈르",
+          "price_manwon": 217000,
+          "area": 84.964,
+          "date": "2026-05-28",
+          "floor": 6,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "래미안슈르",
+          "price_manwon": 207000,
+          "area": 84.946,
+          "date": "2026-05-28",
+          "floor": 6,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "래미안슈르",
+          "price_manwon": 202000,
+          "area": 84.946,
+          "date": "2026-05-15",
+          "floor": 5,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "래미안슈르",
+          "price_manwon": 196000,
+          "area": 84.946,
+          "date": "2026-05-13",
+          "floor": 7,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "래미안슈르",
+          "price_manwon": 205500,
+          "area": 84.946,
+          "date": "2026-05-13",
+          "floor": 12,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "래미안슈르",
+          "price_manwon": 203000,
+          "area": 84.961,
+          "date": "2026-05-06",
+          "floor": 22,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "래미안슈르",
+          "price_manwon": 209000,
+          "area": 84.961,
+          "date": "2026-04-30",
+          "floor": 11,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "래미안슈르",
+          "price_manwon": 208000,
+          "area": 84.946,
+          "date": "2026-04-11",
+          "floor": 7,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "래미안슈르",
+          "price_manwon": 205000,
+          "area": 84.961,
+          "date": "2026-04-10",
+          "floor": 19,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "래미안슈르",
+          "price_manwon": 192000,
+          "area": 84.946,
+          "date": "2026-04-04",
+          "floor": 15,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "래미안슈르",
+          "price_manwon": 210000,
+          "area": 84.961,
+          "date": "2026-04-01",
+          "floor": 21,
+          "direct": false,
+          "cancelled": false
+        }
+      ],
+      "gap_manwon": null,
+      "asking_manwon": null
+    },
+    {
+      "id": "dongtan2-ban-do",
+      "region": "동탄2",
+      "name": "동탄역 시범반도유보라 아이비파크",
+      "aliases": [
+        "시범반도유보라아이비파크",
+        "동탄역시범반도유보라아이비파크"
+      ],
+      "lawd_cd": "41590",
+      "area": 84.9,
+      "count": 0,
+      "representative_manwon": null,
+      "latest": null,
+      "transactions": [],
+      "gap_manwon": null,
+      "asking_manwon": null
+    },
+    {
+      "id": "dongtan2-geo",
+      "region": "동탄2",
+      "name": "동탄2 시범호반베르디움",
+      "aliases": [
+        "시범호반베르디움",
+        "동탄2시범호반베르디움"
+      ],
+      "lawd_cd": "41590",
+      "area": 84.9,
+      "count": 0,
+      "representative_manwon": null,
+      "latest": null,
+      "transactions": [],
+      "gap_manwon": null,
+      "asking_manwon": null
+    }
+  ]
+}
