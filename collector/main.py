@@ -32,7 +32,7 @@ def load_config(path):
     return json.loads(path.read_text(encoding="utf-8"))
 
 def norm(s):
-    return "".join(str(s or "").lower().split()).replace("·", "").replace("-", "")
+    return re.sub(r"[\s·\-()._]", "", str(s or "").lower()).replace("아파트", "")
 
 def pick(d, *keys, default=""):
     for k in keys:
@@ -89,7 +89,11 @@ def summarize(c, rows, tol, default_min_floor=4, representative_months=6):
     for row in rows:
         try: tx = tx_from(row)
         except (ValueError, TypeError): continue
-        if any(a in norm(tx["apt"]) or norm(tx["apt"]) in a for a in aliases) and abs(tx["area"] - c["area"]) <= area_tolerance and not tx["cancelled"]:
+        apt_name = norm(tx["apt"])
+        name_ok = bool(apt_name) and (apt_name in aliases if c.get("match_mode") == "exact" else any(a in apt_name or apt_name in a for a in aliases if a))
+        dong_ok = not c.get("dong") or norm(pick(row, "umdNm", "법정동")) == norm(c["dong"])
+        area_ok = c.get("area_min", 0) <= tx["area"] <= c.get("area_max", 85) and abs(tx["area"] - c["area"]) <= area_tolerance
+        if name_ok and dong_ok and area_ok and not tx["cancelled"]:
             matches.append(tx)
     matches.sort(key=lambda x: x["date"], reverse=True)
     normal = [x for x in matches if x["floor"] >= min_floor and not x["direct"]]
