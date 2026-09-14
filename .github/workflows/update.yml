@@ -20,7 +20,18 @@ jobs:
       - uses: actions/setup-python@v5
         with: {python-version: '3.12', cache: pip}
       - run: pip install -r requirements.txt
-      - run: python -m collector.main
+      - name: Verify MOLIT_API_KEY secret
+        shell: bash
+        run: |
+          if [ -z "$MOLIT_API_KEY" ]; then
+            echo "MOLIT_API_KEY is missing. Add it under repository Settings > Secrets and variables > Actions."
+            exit 1
+          fi
+          echo "MOLIT_API_KEY is configured (${#MOLIT_API_KEY} characters)."
+        env:
+          MOLIT_API_KEY: ${{ secrets.MOLIT_API_KEY }}
+      - name: Collect apartment trades
+        run: python -m collector.main
         env:
           MOLIT_API_KEY: ${{ secrets.MOLIT_API_KEY }}
       - name: Commit data
