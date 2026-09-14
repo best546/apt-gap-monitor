@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T06:25:52+00:00",
+  "generated_at": "2026-09-14T06:38:05+00:00",
   "months": 6,
   "reference_id": "home",
   "items": [
@@ -8,16 +8,116 @@
       "region": "현재 집",
       "name": "동탄예당마을 우미린제일풍경채",
       "aliases": [
+        "우미린제일풍경채",
         "예당마을우미린제일풍경채",
         "예당마을 우미린제일풍경채"
       ],
-      "lawd_cd": "41590",
-      "area": 80.0,
-      "count": 0,
-      "representative_manwon": null,
-      "latest": null,
-      "transactions": [],
-      "gap_manwon": null,
+      "lawd_cd": "41597",
+      "area": 75.9,
+      "count": 10,
+      "representative_manwon": 71000,
+      "latest": {
+        "apt": "우미린제일풍경채",
+        "price_manwon": 76500,
+        "area": 75.87,
+        "date": "2026-09-10",
+        "floor": 2,
+        "direct": false,
+        "cancelled": false
+      },
+      "transactions": [
+        {
+          "apt": "우미린제일풍경채",
+          "price_manwon": 76500,
+          "area": 75.87,
+          "date": "2026-09-10",
+          "floor": 2,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "우미린제일풍경채",
+          "price_manwon": 79000,
+          "area": 76.4593,
+          "date": "2026-07-24",
+          "floor": 6,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "우미린제일풍경채",
+          "price_manwon": 71000,
+          "area": 75.87,
+          "date": "2026-06-30",
+          "floor": 3,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "우미린제일풍경채",
+          "price_manwon": 75000,
+          "area": 76.4593,
+          "date": "2026-06-30",
+          "floor": 22,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "우미린제일풍경채",
+          "price_manwon": 83500,
+          "area": 75.8689,
+          "date": "2026-06-22",
+          "floor": 18,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "우미린제일풍경채",
+          "price_manwon": 67000,
+          "area": 75.87,
+          "date": "2026-06-19",
+          "floor": 3,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "우미린제일풍경채",
+          "price_manwon": 71000,
+          "area": 76.4593,
+          "date": "2026-06-06",
+          "floor": 20,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "우미린제일풍경채",
+          "price_manwon": 64900,
+          "area": 75.87,
+          "date": "2026-04-21",
+          "floor": 3,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "우미린제일풍경채",
+          "price_manwon": 70000,
+          "area": 76.4593,
+          "date": "2026-04-18",
+          "floor": 20,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "우미린제일풍경채",
+          "price_manwon": 68000,
+          "area": 75.8689,
+          "date": "2026-04-15",
+          "floor": 5,
+          "direct": false,
+          "cancelled": false
+        }
+      ],
+      "gap_manwon": 0,
       "asking_manwon": null
     },
     {
@@ -79,7 +179,7 @@
           "cancelled": false
         }
       ],
-      "gap_manwon": null,
+      "gap_manwon": 118250,
       "asking_manwon": null
     },
     {
@@ -132,7 +232,7 @@
           "cancelled": false
         }
       ],
-      "gap_manwon": null,
+      "gap_manwon": 106000,
       "asking_manwon": null
     },
     {
@@ -222,7 +322,7 @@
           "cancelled": false
         }
       ],
-      "gap_manwon": null,
+      "gap_manwon": 110750,
       "asking_manwon": null
     },
     {
@@ -391,7 +491,7 @@
           "cancelled": false
         }
       ],
-      "gap_manwon": null,
+      "gap_manwon": 95000,
       "asking_manwon": null
     },
     {
@@ -597,7 +697,7 @@
           "cancelled": false
         }
       ],
-      "gap_manwon": null,
+      "gap_manwon": 117000,
       "asking_manwon": null
     },
     {
@@ -803,7 +903,7 @@
           "cancelled": false
         }
       ],
-      "gap_manwon": null,
+      "gap_manwon": 92900,
       "asking_manwon": null
     },
     {
@@ -1009,7 +1109,7 @@
           "cancelled": false
         }
       ],
-      "gap_manwon": null,
+      "gap_manwon": 98000,
       "asking_manwon": null
     },
     {
@@ -1152,7 +1252,7 @@
           "cancelled": false
         }
       ],
-      "gap_manwon": null,
+      "gap_manwon": 56000,
       "asking_manwon": null
     },
     {
@@ -1359,7 +1459,7 @@
           "cancelled": false
         }
       ],
-      "gap_manwon": null,
+      "gap_manwon": 46750,
       "asking_manwon": null
     },
     {
@@ -1484,7 +1584,7 @@
           "cancelled": false
         }
       ],
-      "gap_manwon": null,
+      "gap_manwon": 122000,
       "asking_manwon": null
     },
     {
@@ -1645,7 +1745,7 @@
           "cancelled": false
         }
       ],
-      "gap_manwon": null,
+      "gap_manwon": 155500,
       "asking_manwon": null
     },
     {
@@ -1851,7 +1951,7 @@
           "cancelled": false
         }
       ],
-      "gap_manwon": null,
+      "gap_manwon": 116500,
       "asking_manwon": null
     },
     {
@@ -2020,7 +2120,7 @@
           "cancelled": false
         }
       ],
-      "gap_manwon": null,
+      "gap_manwon": 137000,
       "asking_manwon": null
     },
     {
@@ -2031,13 +2131,202 @@
         "시범반도유보라아이비파크",
         "동탄역시범반도유보라아이비파크"
       ],
-      "lawd_cd": "41590",
+      "lawd_cd": "41597",
       "area": 84.9,
-      "count": 0,
-      "representative_manwon": null,
-      "latest": null,
-      "transactions": [],
-      "gap_manwon": null,
+      "count": 47,
+      "representative_manwon": 120000,
+      "latest": {
+        "apt": "시범반도유보라아이비파크4.0",
+        "price_manwon": 152000,
+        "area": 84.9705,
+        "date": "2026-08-07",
+        "floor": 4,
+        "direct": false,
+        "cancelled": false
+      },
+      "transactions": [
+        {
+          "apt": "시범반도유보라아이비파크4.0",
+          "price_manwon": 152000,
+          "area": 84.9705,
+          "date": "2026-08-07",
+          "floor": 4,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역시범반도유보라아이비파크1.0",
+          "price_manwon": 132000,
+          "area": 84.9885,
+          "date": "2026-07-31",
+          "floor": 24,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "시범반도유보라아이비파크4.0",
+          "price_manwon": 138500,
+          "area": 84.9705,
+          "date": "2026-07-01",
+          "floor": 11,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역시범반도유보라아이비파크1.0",
+          "price_manwon": 136500,
+          "area": 84.9885,
+          "date": "2026-06-29",
+          "floor": 9,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "시범반도유보라아이비파크4.0",
+          "price_manwon": 149700,
+          "area": 84.9705,
+          "date": "2026-06-26",
+          "floor": 21,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역시범반도유보라아이비파크1.0",
+          "price_manwon": 135000,
+          "area": 84.9885,
+          "date": "2026-06-26",
+          "floor": 24,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "시범반도유보라아이비파크4.0",
+          "price_manwon": 159000,
+          "area": 84.8302,
+          "date": "2026-06-25",
+          "floor": 24,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역시범반도유보라아이비파크1.0",
+          "price_manwon": 118000,
+          "area": 84.9643,
+          "date": "2026-06-23",
+          "floor": 2,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역시범반도유보라아이비파크1.0",
+          "price_manwon": 130000,
+          "area": 84.9885,
+          "date": "2026-06-20",
+          "floor": 19,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "시범반도유보라아이비파크4.0",
+          "price_manwon": 148000,
+          "area": 84.9705,
+          "date": "2026-06-19",
+          "floor": 26,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "시범반도유보라아이비파크4.0",
+          "price_manwon": 140500,
+          "area": 84.9705,
+          "date": "2026-06-17",
+          "floor": 29,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "시범반도유보라아이비파크4.0",
+          "price_manwon": 149000,
+          "area": 84.8302,
+          "date": "2026-06-15",
+          "floor": 34,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "시범반도유보라아이비파크4.0",
+          "price_manwon": 151000,
+          "area": 84.8302,
+          "date": "2026-06-12",
+          "floor": 15,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "시범반도유보라아이비파크4.0",
+          "price_manwon": 135000,
+          "area": 84.8302,
+          "date": "2026-06-10",
+          "floor": 4,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역시범반도유보라아이비파크1.0",
+          "price_manwon": 137500,
+          "area": 84.9885,
+          "date": "2026-06-10",
+          "floor": 6,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역시범반도유보라아이비파크1.0",
+          "price_manwon": 135000,
+          "area": 84.9643,
+          "date": "2026-06-09",
+          "floor": 21,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역시범반도유보라아이비파크1.0",
+          "price_manwon": 130000,
+          "area": 84.9885,
+          "date": "2026-06-06",
+          "floor": 8,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "시범반도유보라아이비파크4.0",
+          "price_manwon": 135000,
+          "area": 84.9705,
+          "date": "2026-06-06",
+          "floor": 39,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "시범반도유보라아이비파크4.0",
+          "price_manwon": 140000,
+          "area": 84.569,
+          "date": "2026-06-06",
+          "floor": 15,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역시범반도유보라아이비파크1.0",
+          "price_manwon": 118000,
+          "area": 84.9885,
+          "date": "2026-06-06",
+          "floor": 2,
+          "direct": false,
+          "cancelled": false
+        }
+      ],
+      "gap_manwon": 49000,
       "asking_manwon": null
     },
     {
@@ -2048,7 +2337,7 @@
         "시범호반베르디움",
         "동탄2시범호반베르디움"
       ],
-      "lawd_cd": "41590",
+      "lawd_cd": "41597",
       "area": 84.9,
       "count": 0,
       "representative_manwon": null,
