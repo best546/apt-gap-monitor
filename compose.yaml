@@ -1,6 +1,7 @@
 services:
   collector:
-    build: .
+    image: ghcr.io/best546/apt-gap-monitor:latest
+    pull_policy: always
     env_file: .env
     volumes:
       - ./config:/app/config:ro
