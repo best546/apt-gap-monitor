@@ -16,6 +16,8 @@
 sh /volume1/docker/apt-gap-monitor/scripts/nas-run.sh
 ```
 
+예약 실행 시 GHCR에서 최신 Docker 이미지를 먼저 내려받으므로 이후 코드 변경 때 NAS 파일을 다시 덮어쓸 필요가 없습니다. 관심단지 설정도 GitHub에서 매번 최신본을 읽습니다.
+
 Container Manager 프로젝트는 Compose 파일을 이용해 빌드·실행할 수 있습니다. 실행될 때 국토부 API를 조회하고 `latest.json`, `history.json`만 GitHub에 업로드합니다.
 
 ### GitHub Fine-grained PAT
