@@ -1,0 +1,23 @@
+{
+  "months": 6,
+  "area_tolerance": 1.2,
+  "reference_id": "home",
+  "complexes": [
+    {"id":"home","region":"현재 집","name":"동탄예당마을 우미린제일풍경채","aliases":["예당마을우미린제일풍경채","예당마을 우미린제일풍경채"],"lawd_cd":"41590","area":80.0},
+    {"id":"pangyo5","region":"서판교","name":"판교원마을5단지 푸르지오","aliases":["판교원마을5단지","판교원마을 5단지"],"lawd_cd":"41135","area":84.9},
+    {"id":"pangyo3","region":"서판교","name":"판교원마을3단지 푸르지오","aliases":["판교원마을3단지","판교원마을 3단지"],"lawd_cd":"41135","area":84.9},
+    {"id":"pangyo9","region":"서판교","name":"판교원마을9단지 한림풀에버","aliases":["판교원마을9단지","판교원마을 9단지","한림풀에버"],"lawd_cd":"41135","area":84.9},
+    {"id":"gwanggyo-central","region":"광교","name":"광교센트럴뷰","aliases":["광교센트럴뷰"],"lawd_cd":"41117","area":84.9},
+    {"id":"gwanggyo-nature","region":"광교","name":"광교 자연앤힐스테이트","aliases":["자연앤힐스테이트","자연&힐스테이트"],"lawd_cd":"41117","area":84.9},
+    {"id":"sujie편한","region":"수지","name":"e편한세상수지","aliases":["e편한세상수지","이편한세상수지"],"lawd_cd":"41465","area":84.9},
+    {"id":"seongbok-lotte","region":"수지","name":"성복역 롯데캐슬 골드타운","aliases":["성복역롯데캐슬골드타운","성복역 롯데캐슬 골드타운"],"lawd_cd":"41465","area":84.9},
+    {"id":"jinsan5","region":"수지","name":"진산마을 삼성5차","aliases":["진산마을삼성5차","진산마을 삼성5차"],"lawd_cd":"41465","area":84.9},
+    {"id":"seongbok-hyundai","region":"수지","name":"성복역 현대홈타운","aliases":["성복역현대홈타운","성복역 현대홈타운","성동마을수지자이"],"lawd_cd":"41465","area":84.9},
+    {"id":"bundang-sangrok","region":"분당","name":"정자동 상록마을","aliases":["상록마을","상록마을(우성)"],"lawd_cd":"41135","area":84.9},
+    {"id":"bundang-yangji","region":"분당","name":"수내동 양지마을","aliases":["양지마을","양지마을(5단지)"],"lawd_cd":"41135","area":84.9},
+    {"id":"imae-beautiful","region":"분당","name":"이매촌 아름마을","aliases":["아름마을","이매촌"],"lawd_cd":"41135","area":84.9},
+    {"id":"gwacheon-raemian","region":"과천","name":"과천 래미안슈르","aliases":["래미안슈르"],"lawd_cd":"41290","area":84.9},
+    {"id":"dongtan2-ban-do","region":"동탄2","name":"동탄역 시범반도유보라 아이비파크","aliases":["시범반도유보라아이비파크","동탄역시범반도유보라아이비파크"],"lawd_cd":"41590","area":84.9},
+    {"id":"dongtan2-geo","region":"동탄2","name":"동탄2 시범호반베르디움","aliases":["시범호반베르디움","동탄2시범호반베르디움"],"lawd_cd":"41590","area":84.9}
+  ]
+}
