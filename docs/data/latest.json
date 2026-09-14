@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T07:12:25+00:00",
+  "generated_at": "2026-09-14T07:13:54+00:00",
   "months": 6,
   "reference_id": "home",
   "items": [
@@ -13,87 +13,112 @@
         "예당마을 우미린제일풍경채"
       ],
       "lawd_cd": "41597",
-      "area": 80.3931,
-      "area_tolerance": 0.1,
-      "min_floor": 4,
-      "count": 5,
-      "representative_manwon": 70500,
+      "area": 75.9,
+      "count": 10,
+      "representative_manwon": 71000,
       "latest": {
         "apt": "우미린제일풍경채",
-        "price_manwon": 88000,
-        "area": 80.3931,
-        "date": "2026-08-31",
-        "floor": 16,
+        "price_manwon": 76500,
+        "area": 75.87,
+        "date": "2026-09-10",
+        "floor": 2,
         "direct": false,
         "cancelled": false
       },
-      "monthly_prices": [
-        {
-          "month": "2026-04",
-          "price_manwon": 65000,
-          "count": 1
-        },
-        {
-          "month": "2026-05",
-          "price_manwon": 70500,
-          "count": 3
-        },
-        {
-          "month": "2026-08",
-          "price_manwon": 88000,
-          "count": 1
-        }
-      ],
       "transactions": [
         {
           "apt": "우미린제일풍경채",
-          "price_manwon": 88000,
-          "area": 80.3931,
-          "date": "2026-08-31",
-          "floor": 16,
+          "price_manwon": 76500,
+          "area": 75.87,
+          "date": "2026-09-10",
+          "floor": 2,
           "direct": false,
           "cancelled": false
         },
         {
           "apt": "우미린제일풍경채",
-          "price_manwon": 73000,
-          "area": 80.3931,
-          "date": "2026-05-30",
-          "floor": 26,
+          "price_manwon": 79000,
+          "area": 76.4593,
+          "date": "2026-07-24",
+          "floor": 6,
           "direct": false,
           "cancelled": false
         },
         {
           "apt": "우미린제일풍경채",
-          "price_manwon": 70500,
-          "area": 80.3931,
-          "date": "2026-05-15",
+          "price_manwon": 71000,
+          "area": 75.87,
+          "date": "2026-06-30",
+          "floor": 3,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "우미린제일풍경채",
+          "price_manwon": 75000,
+          "area": 76.4593,
+          "date": "2026-06-30",
+          "floor": 22,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "우미린제일풍경채",
+          "price_manwon": 83500,
+          "area": 75.8689,
+          "date": "2026-06-22",
+          "floor": 18,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "우미린제일풍경채",
+          "price_manwon": 67000,
+          "area": 75.87,
+          "date": "2026-06-19",
+          "floor": 3,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "우미린제일풍경채",
+          "price_manwon": 71000,
+          "area": 76.4593,
+          "date": "2026-06-06",
           "floor": 20,
           "direct": false,
           "cancelled": false
         },
         {
           "apt": "우미린제일풍경채",
-          "price_manwon": 69000,
-          "area": 80.3931,
-          "date": "2026-05-02",
+          "price_manwon": 64900,
+          "area": 75.87,
+          "date": "2026-04-21",
+          "floor": 3,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "우미린제일풍경채",
+          "price_manwon": 70000,
+          "area": 76.4593,
+          "date": "2026-04-18",
           "floor": 20,
           "direct": false,
           "cancelled": false
         },
         {
           "apt": "우미린제일풍경채",
-          "price_manwon": 65000,
-          "area": 80.3931,
-          "date": "2026-04-30",
-          "floor": 17,
+          "price_manwon": 68000,
+          "area": 75.8689,
+          "date": "2026-04-15",
+          "floor": 5,
           "direct": false,
           "cancelled": false
         }
       ],
       "gap_manwon": 0,
-      "asking_manwon": null,
-      "monthly_gaps": []
+      "asking_manwon": null
     },
     {
       "id": "pangyo5",
@@ -105,8 +130,6 @@
       ],
       "lawd_cd": "41135",
       "area": 84.9,
-      "area_tolerance": 1.2,
-      "min_floor": 4,
       "count": 4,
       "representative_manwon": 189250,
       "latest": {
@@ -118,18 +141,6 @@
         "direct": false,
         "cancelled": false
       },
-      "monthly_prices": [
-        {
-          "month": "2026-05",
-          "price_manwon": 185500,
-          "count": 2
-        },
-        {
-          "month": "2026-07",
-          "price_manwon": 191250,
-          "count": 2
-        }
-      ],
       "transactions": [
         {
           "apt": "판교원마을5단지(푸르지오)",
@@ -168,16 +179,8 @@
           "cancelled": false
         }
       ],
-      "gap_manwon": 118750,
-      "asking_manwon": null,
-      "monthly_gaps": [
-        {
-          "month": "2026-05",
-          "gap_manwon": 115000,
-          "target_price_manwon": 185500,
-          "home_price_manwon": 70500
-        }
-      ]
+      "gap_manwon": 118250,
+      "asking_manwon": null
     },
     {
       "id": "pangyo3",
@@ -189,8 +192,6 @@
       ],
       "lawd_cd": "41135",
       "area": 84.9,
-      "area_tolerance": 1.2,
-      "min_floor": 4,
       "count": 3,
       "representative_manwon": 177000,
       "latest": {
@@ -202,23 +203,6 @@
         "direct": false,
         "cancelled": false
       },
-      "monthly_prices": [
-        {
-          "month": "2026-04",
-          "price_manwon": 182000,
-          "count": 1
-        },
-        {
-          "month": "2026-06",
-          "price_manwon": 177000,
-          "count": 1
-        },
-        {
-          "month": "2026-07",
-          "price_manwon": 176000,
-          "count": 1
-        }
-      ],
       "transactions": [
         {
           "apt": "판교원마을3단지(푸르지오)",
@@ -248,16 +232,8 @@
           "cancelled": false
         }
       ],
-      "gap_manwon": 106500,
-      "asking_manwon": null,
-      "monthly_gaps": [
-        {
-          "month": "2026-04",
-          "gap_manwon": 117000,
-          "target_price_manwon": 182000,
-          "home_price_manwon": 65000
-        }
-      ]
+      "gap_manwon": 106000,
+      "asking_manwon": null
     },
     {
       "id": "pangyo9",
@@ -270,10 +246,8 @@
       ],
       "lawd_cd": "41135",
       "area": 84.9,
-      "area_tolerance": 1.2,
-      "min_floor": 4,
       "count": 7,
-      "representative_manwon": 179000,
+      "representative_manwon": 181750,
       "latest": {
         "apt": "판교원마을9단지(한림풀에버)",
         "price_manwon": 185000,
@@ -283,18 +257,6 @@
         "direct": false,
         "cancelled": false
       },
-      "monthly_prices": [
-        {
-          "month": "2026-05",
-          "price_manwon": 178500,
-          "count": 4
-        },
-        {
-          "month": "2026-07",
-          "price_manwon": 185000,
-          "count": 1
-        }
-      ],
       "transactions": [
         {
           "apt": "판교원마을9단지(한림풀에버)",
@@ -360,16 +322,8 @@
           "cancelled": false
         }
       ],
-      "gap_manwon": 108500,
-      "asking_manwon": null,
-      "monthly_gaps": [
-        {
-          "month": "2026-05",
-          "gap_manwon": 108000,
-          "target_price_manwon": 178500,
-          "home_price_manwon": 70500
-        }
-      ]
+      "gap_manwon": 110750,
+      "asking_manwon": null
     },
     {
       "id": "gwanggyo-central",
@@ -380,10 +334,8 @@
       ],
       "lawd_cd": "41117",
       "area": 84.9,
-      "area_tolerance": 1.2,
-      "min_floor": 4,
       "count": 16,
-      "representative_manwon": 165250,
+      "representative_manwon": 166000,
       "latest": {
         "apt": "광교센트럴뷰",
         "price_manwon": 169000,
@@ -393,33 +345,6 @@
         "direct": false,
         "cancelled": false
       },
-      "monthly_prices": [
-        {
-          "month": "2026-04",
-          "price_manwon": 158000,
-          "count": 1
-        },
-        {
-          "month": "2026-05",
-          "price_manwon": 159500,
-          "count": 3
-        },
-        {
-          "month": "2026-06",
-          "price_manwon": 162750,
-          "count": 6
-        },
-        {
-          "month": "2026-07",
-          "price_manwon": 172000,
-          "count": 3
-        },
-        {
-          "month": "2026-08",
-          "price_manwon": 190000,
-          "count": 1
-        }
-      ],
       "transactions": [
         {
           "apt": "광교센트럴뷰",
@@ -566,28 +491,8 @@
           "cancelled": false
         }
       ],
-      "gap_manwon": 94750,
-      "asking_manwon": null,
-      "monthly_gaps": [
-        {
-          "month": "2026-04",
-          "gap_manwon": 93000,
-          "target_price_manwon": 158000,
-          "home_price_manwon": 65000
-        },
-        {
-          "month": "2026-05",
-          "gap_manwon": 89000,
-          "target_price_manwon": 159500,
-          "home_price_manwon": 70500
-        },
-        {
-          "month": "2026-08",
-          "gap_manwon": 102000,
-          "target_price_manwon": 190000,
-          "home_price_manwon": 88000
-        }
-      ]
+      "gap_manwon": 95000,
+      "asking_manwon": null
     },
     {
       "id": "gwanggyo-nature",
@@ -599,8 +504,6 @@
       ],
       "lawd_cd": "41117",
       "area": 84.9,
-      "area_tolerance": 1.2,
-      "min_floor": 4,
       "count": 27,
       "representative_manwon": 188000,
       "latest": {
@@ -612,33 +515,6 @@
         "direct": false,
         "cancelled": false
       },
-      "monthly_prices": [
-        {
-          "month": "2026-04",
-          "price_manwon": 186500,
-          "count": 6
-        },
-        {
-          "month": "2026-05",
-          "price_manwon": 186000,
-          "count": 6
-        },
-        {
-          "month": "2026-06",
-          "price_manwon": 188500,
-          "count": 7
-        },
-        {
-          "month": "2026-07",
-          "price_manwon": 205000,
-          "count": 5
-        },
-        {
-          "month": "2026-08",
-          "price_manwon": 208500,
-          "count": 2
-        }
-      ],
       "transactions": [
         {
           "apt": "자연앤힐스테이트",
@@ -821,28 +697,8 @@
           "cancelled": false
         }
       ],
-      "gap_manwon": 117500,
-      "asking_manwon": null,
-      "monthly_gaps": [
-        {
-          "month": "2026-04",
-          "gap_manwon": 121500,
-          "target_price_manwon": 186500,
-          "home_price_manwon": 65000
-        },
-        {
-          "month": "2026-05",
-          "gap_manwon": 115500,
-          "target_price_manwon": 186000,
-          "home_price_manwon": 70500
-        },
-        {
-          "month": "2026-08",
-          "gap_manwon": 120500,
-          "target_price_manwon": 208500,
-          "home_price_manwon": 88000
-        }
-      ]
+      "gap_manwon": 117000,
+      "asking_manwon": null
     },
     {
       "id": "sujie편한",
@@ -854,8 +710,6 @@
       ],
       "lawd_cd": "41465",
       "area": 84.9,
-      "area_tolerance": 1.2,
-      "min_floor": 4,
       "count": 24,
       "representative_manwon": 163900,
       "latest": {
@@ -867,33 +721,6 @@
         "direct": false,
         "cancelled": false
       },
-      "monthly_prices": [
-        {
-          "month": "2026-04",
-          "price_manwon": 155000,
-          "count": 2
-        },
-        {
-          "month": "2026-05",
-          "price_manwon": 159000,
-          "count": 5
-        },
-        {
-          "month": "2026-06",
-          "price_manwon": 163500,
-          "count": 6
-        },
-        {
-          "month": "2026-07",
-          "price_manwon": 166500,
-          "count": 8
-        },
-        {
-          "month": "2026-08",
-          "price_manwon": 168000,
-          "count": 3
-        }
-      ],
       "transactions": [
         {
           "apt": "e편한세상수지",
@@ -1076,28 +903,8 @@
           "cancelled": false
         }
       ],
-      "gap_manwon": 93400,
-      "asking_manwon": null,
-      "monthly_gaps": [
-        {
-          "month": "2026-04",
-          "gap_manwon": 90000,
-          "target_price_manwon": 155000,
-          "home_price_manwon": 65000
-        },
-        {
-          "month": "2026-05",
-          "gap_manwon": 88500,
-          "target_price_manwon": 159000,
-          "home_price_manwon": 70500
-        },
-        {
-          "month": "2026-08",
-          "gap_manwon": 80000,
-          "target_price_manwon": 168000,
-          "home_price_manwon": 88000
-        }
-      ]
+      "gap_manwon": 92900,
+      "asking_manwon": null
     },
     {
       "id": "seongbok-lotte",
@@ -1109,8 +916,6 @@
       ],
       "lawd_cd": "41465",
       "area": 84.9,
-      "area_tolerance": 1.2,
-      "min_floor": 4,
       "count": 38,
       "representative_manwon": 169000,
       "latest": {
@@ -1122,33 +927,6 @@
         "direct": false,
         "cancelled": false
       },
-      "monthly_prices": [
-        {
-          "month": "2026-04",
-          "price_manwon": 156750,
-          "count": 6
-        },
-        {
-          "month": "2026-05",
-          "price_manwon": 166000,
-          "count": 7
-        },
-        {
-          "month": "2026-06",
-          "price_manwon": 169500,
-          "count": 12
-        },
-        {
-          "month": "2026-07",
-          "price_manwon": 179250,
-          "count": 6
-        },
-        {
-          "month": "2026-08",
-          "price_manwon": 186000,
-          "count": 4
-        }
-      ],
       "transactions": [
         {
           "apt": "성복역롯데캐슬골드타운",
@@ -1331,28 +1109,8 @@
           "cancelled": false
         }
       ],
-      "gap_manwon": 98500,
-      "asking_manwon": null,
-      "monthly_gaps": [
-        {
-          "month": "2026-04",
-          "gap_manwon": 91750,
-          "target_price_manwon": 156750,
-          "home_price_manwon": 65000
-        },
-        {
-          "month": "2026-05",
-          "gap_manwon": 95500,
-          "target_price_manwon": 166000,
-          "home_price_manwon": 70500
-        },
-        {
-          "month": "2026-08",
-          "gap_manwon": 98000,
-          "target_price_manwon": 186000,
-          "home_price_manwon": 88000
-        }
-      ]
+      "gap_manwon": 98000,
+      "asking_manwon": null
     },
     {
       "id": "jinsan5",
@@ -1364,10 +1122,8 @@
       ],
       "lawd_cd": "41465",
       "area": 84.9,
-      "area_tolerance": 1.2,
-      "min_floor": 4,
       "count": 13,
-      "representative_manwon": 128250,
+      "representative_manwon": 127000,
       "latest": {
         "apt": "진산마을삼성5차",
         "price_manwon": 143000,
@@ -1377,33 +1133,6 @@
         "direct": false,
         "cancelled": false
       },
-      "monthly_prices": [
-        {
-          "month": "2026-04",
-          "price_manwon": 128000,
-          "count": 1
-        },
-        {
-          "month": "2026-05",
-          "price_manwon": 126500,
-          "count": 3
-        },
-        {
-          "month": "2026-06",
-          "price_manwon": 129000,
-          "count": 2
-        },
-        {
-          "month": "2026-07",
-          "price_manwon": 125000,
-          "count": 1
-        },
-        {
-          "month": "2026-08",
-          "price_manwon": 143000,
-          "count": 1
-        }
-      ],
       "transactions": [
         {
           "apt": "진산마을삼성5차",
@@ -1523,28 +1252,8 @@
           "cancelled": false
         }
       ],
-      "gap_manwon": 57750,
-      "asking_manwon": null,
-      "monthly_gaps": [
-        {
-          "month": "2026-04",
-          "gap_manwon": 63000,
-          "target_price_manwon": 128000,
-          "home_price_manwon": 65000
-        },
-        {
-          "month": "2026-05",
-          "gap_manwon": 56000,
-          "target_price_manwon": 126500,
-          "home_price_manwon": 70500
-        },
-        {
-          "month": "2026-08",
-          "gap_manwon": 55000,
-          "target_price_manwon": 143000,
-          "home_price_manwon": 88000
-        }
-      ]
+      "gap_manwon": 56000,
+      "asking_manwon": null
     },
     {
       "id": "seongbok-hyundai",
@@ -1557,10 +1266,8 @@
       ],
       "lawd_cd": "41465",
       "area": 84.9,
-      "area_tolerance": 1.2,
-      "min_floor": 4,
       "count": 30,
-      "representative_manwon": 119000,
+      "representative_manwon": 117750,
       "latest": {
         "apt": "현대",
         "price_manwon": 130000,
@@ -1570,33 +1277,6 @@
         "direct": false,
         "cancelled": false
       },
-      "monthly_prices": [
-        {
-          "month": "2026-04",
-          "price_manwon": 115900,
-          "count": 6
-        },
-        {
-          "month": "2026-05",
-          "price_manwon": 117750,
-          "count": 6
-        },
-        {
-          "month": "2026-06",
-          "price_manwon": 120000,
-          "count": 6
-        },
-        {
-          "month": "2026-07",
-          "price_manwon": 126000,
-          "count": 2
-        },
-        {
-          "month": "2026-08",
-          "price_manwon": 125000,
-          "count": 3
-        }
-      ],
       "transactions": [
         {
           "apt": "현대",
@@ -1779,28 +1459,8 @@
           "cancelled": false
         }
       ],
-      "gap_manwon": 48500,
-      "asking_manwon": null,
-      "monthly_gaps": [
-        {
-          "month": "2026-04",
-          "gap_manwon": 50900,
-          "target_price_manwon": 115900,
-          "home_price_manwon": 65000
-        },
-        {
-          "month": "2026-05",
-          "gap_manwon": 47250,
-          "target_price_manwon": 117750,
-          "home_price_manwon": 70500
-        },
-        {
-          "month": "2026-08",
-          "gap_manwon": 37000,
-          "target_price_manwon": 125000,
-          "home_price_manwon": 88000
-        }
-      ]
+      "gap_manwon": 46750,
+      "asking_manwon": null
     },
     {
       "id": "bundang-sangrok",
@@ -1812,10 +1472,8 @@
       ],
       "lawd_cd": "41135",
       "area": 84.9,
-      "area_tolerance": 1.2,
-      "min_floor": 4,
       "count": 11,
-      "representative_manwon": 194500,
+      "representative_manwon": 193000,
       "latest": {
         "apt": "상록마을(우성)1",
         "price_manwon": 238000,
@@ -1825,28 +1483,6 @@
         "direct": false,
         "cancelled": false
       },
-      "monthly_prices": [
-        {
-          "month": "2026-04",
-          "price_manwon": 186500,
-          "count": 2
-        },
-        {
-          "month": "2026-05",
-          "price_manwon": 193000,
-          "count": 3
-        },
-        {
-          "month": "2026-06",
-          "price_manwon": 194000,
-          "count": 2
-        },
-        {
-          "month": "2026-07",
-          "price_manwon": 238000,
-          "count": 3
-        }
-      ],
       "transactions": [
         {
           "apt": "상록마을(우성)1",
@@ -1948,22 +1584,8 @@
           "cancelled": false
         }
       ],
-      "gap_manwon": 124000,
-      "asking_manwon": null,
-      "monthly_gaps": [
-        {
-          "month": "2026-04",
-          "gap_manwon": 121500,
-          "target_price_manwon": 186500,
-          "home_price_manwon": 65000
-        },
-        {
-          "month": "2026-05",
-          "gap_manwon": 122500,
-          "target_price_manwon": 193000,
-          "home_price_manwon": 70500
-        }
-      ]
+      "gap_manwon": 122000,
+      "asking_manwon": null
     },
     {
       "id": "bundang-yangji",
@@ -1975,10 +1597,8 @@
       ],
       "lawd_cd": "41135",
       "area": 84.9,
-      "area_tolerance": 1.2,
-      "min_floor": 4,
       "count": 15,
-      "representative_manwon": 225750,
+      "representative_manwon": 226500,
       "latest": {
         "apt": "양지마을(금호1)",
         "price_manwon": 240000,
@@ -1988,28 +1608,6 @@
         "direct": false,
         "cancelled": false
       },
-      "monthly_prices": [
-        {
-          "month": "2026-04",
-          "price_manwon": 222000,
-          "count": 5
-        },
-        {
-          "month": "2026-05",
-          "price_manwon": 222500,
-          "count": 2
-        },
-        {
-          "month": "2026-06",
-          "price_manwon": 236500,
-          "count": 2
-        },
-        {
-          "month": "2026-07",
-          "price_manwon": 230000,
-          "count": 5
-        }
-      ],
       "transactions": [
         {
           "apt": "양지마을(금호1)",
@@ -2147,22 +1745,8 @@
           "cancelled": false
         }
       ],
-      "gap_manwon": 155250,
-      "asking_manwon": null,
-      "monthly_gaps": [
-        {
-          "month": "2026-04",
-          "gap_manwon": 157000,
-          "target_price_manwon": 222000,
-          "home_price_manwon": 65000
-        },
-        {
-          "month": "2026-05",
-          "gap_manwon": 152000,
-          "target_price_manwon": 222500,
-          "home_price_manwon": 70500
-        }
-      ]
+      "gap_manwon": 155500,
+      "asking_manwon": null
     },
     {
       "id": "imae-beautiful",
@@ -2174,10 +1758,8 @@
       ],
       "lawd_cd": "41135",
       "area": 84.9,
-      "area_tolerance": 1.2,
-      "min_floor": 4,
       "count": 35,
-      "representative_manwon": 188000,
+      "representative_manwon": 187500,
       "latest": {
         "apt": "이매촌(삼성)",
         "price_manwon": 177000,
@@ -2187,28 +1769,6 @@
         "direct": false,
         "cancelled": false
       },
-      "monthly_prices": [
-        {
-          "month": "2026-04",
-          "price_manwon": 174000,
-          "count": 5
-        },
-        {
-          "month": "2026-05",
-          "price_manwon": 180000,
-          "count": 8
-        },
-        {
-          "month": "2026-06",
-          "price_manwon": 189750,
-          "count": 8
-        },
-        {
-          "month": "2026-07",
-          "price_manwon": 192850,
-          "count": 4
-        }
-      ],
       "transactions": [
         {
           "apt": "이매촌(삼성)",
@@ -2391,22 +1951,8 @@
           "cancelled": false
         }
       ],
-      "gap_manwon": 117500,
-      "asking_manwon": null,
-      "monthly_gaps": [
-        {
-          "month": "2026-04",
-          "gap_manwon": 109000,
-          "target_price_manwon": 174000,
-          "home_price_manwon": 65000
-        },
-        {
-          "month": "2026-05",
-          "gap_manwon": 109500,
-          "target_price_manwon": 180000,
-          "home_price_manwon": 70500
-        }
-      ]
+      "gap_manwon": 116500,
+      "asking_manwon": null
     },
     {
       "id": "gwacheon-raemian",
@@ -2417,10 +1963,8 @@
       ],
       "lawd_cd": "41290",
       "area": 84.9,
-      "area_tolerance": 1.2,
-      "min_floor": 4,
       "count": 16,
-      "representative_manwon": 207500,
+      "representative_manwon": 208000,
       "latest": {
         "apt": "래미안슈르",
         "price_manwon": 220000,
@@ -2430,28 +1974,6 @@
         "direct": false,
         "cancelled": false
       },
-      "monthly_prices": [
-        {
-          "month": "2026-04",
-          "price_manwon": 208000,
-          "count": 5
-        },
-        {
-          "month": "2026-05",
-          "price_manwon": 204250,
-          "count": 6
-        },
-        {
-          "month": "2026-06",
-          "price_manwon": 219400,
-          "count": 2
-        },
-        {
-          "month": "2026-07",
-          "price_manwon": 227500,
-          "count": 1
-        }
-      ],
       "transactions": [
         {
           "apt": "래미안슈르",
@@ -2599,21 +2121,7 @@
         }
       ],
       "gap_manwon": 137000,
-      "asking_manwon": null,
-      "monthly_gaps": [
-        {
-          "month": "2026-04",
-          "gap_manwon": 143000,
-          "target_price_manwon": 208000,
-          "home_price_manwon": 65000
-        },
-        {
-          "month": "2026-05",
-          "gap_manwon": 133750,
-          "target_price_manwon": 204250,
-          "home_price_manwon": 70500
-        }
-      ]
+      "asking_manwon": null
     },
     {
       "id": "dongtan2-ban-do",
@@ -2625,10 +2133,8 @@
       ],
       "lawd_cd": "41597",
       "area": 84.9,
-      "area_tolerance": 1.2,
-      "min_floor": 4,
       "count": 47,
-      "representative_manwon": 121000,
+      "representative_manwon": 120000,
       "latest": {
         "apt": "시범반도유보라아이비파크4.0",
         "price_manwon": 152000,
@@ -2638,33 +2144,6 @@
         "direct": false,
         "cancelled": false
       },
-      "monthly_prices": [
-        {
-          "month": "2026-04",
-          "price_manwon": 107000,
-          "count": 7
-        },
-        {
-          "month": "2026-05",
-          "price_manwon": 120000,
-          "count": 16
-        },
-        {
-          "month": "2026-06",
-          "price_manwon": 136500,
-          "count": 17
-        },
-        {
-          "month": "2026-07",
-          "price_manwon": 135250,
-          "count": 2
-        },
-        {
-          "month": "2026-08",
-          "price_manwon": 152000,
-          "count": 1
-        }
-      ],
       "transactions": [
         {
           "apt": "시범반도유보라아이비파크4.0",
@@ -2847,28 +2326,8 @@
           "cancelled": false
         }
       ],
-      "gap_manwon": 50500,
-      "asking_manwon": null,
-      "monthly_gaps": [
-        {
-          "month": "2026-04",
-          "gap_manwon": 42000,
-          "target_price_manwon": 107000,
-          "home_price_manwon": 65000
-        },
-        {
-          "month": "2026-05",
-          "gap_manwon": 49500,
-          "target_price_manwon": 120000,
-          "home_price_manwon": 70500
-        },
-        {
-          "month": "2026-08",
-          "gap_manwon": 64000,
-          "target_price_manwon": 152000,
-          "home_price_manwon": 88000
-        }
-      ]
+      "gap_manwon": 49000,
+      "asking_manwon": null
     },
     {
       "id": "dongtan2-geo",
@@ -2880,16 +2339,12 @@
       ],
       "lawd_cd": "41597",
       "area": 84.9,
-      "area_tolerance": 1.2,
-      "min_floor": 4,
       "count": 0,
       "representative_manwon": null,
       "latest": null,
-      "monthly_prices": [],
       "transactions": [],
       "gap_manwon": null,
-      "asking_manwon": null,
-      "monthly_gaps": []
+      "asking_manwon": null
     }
   ]
 }
