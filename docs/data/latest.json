@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T12:17:41+00:00",
+  "generated_at": "2026-09-15T13:07:25+00:00",
   "months": 6,
   "history_months": 60,
   "reference_id": "home",
@@ -4742,26 +4742,544 @@
     {
       "aliases": [
         "성복역현대홈타운",
-        "현대"
+        "서원마을현대홈타운"
       ],
       "area": 84.85,
+      "area_tolerance": 0.05,
+      "dong": "상현동",
       "id": "seongbok-hyundai",
       "lawd_cd": "41465",
       "match_mode": "exact",
       "name": "성복역 현대홈타운",
       "region": "수지",
-      "dong": "상현동",
-      "area_tolerance": 0.05,
       "min_floor": 4,
-      "count": 0,
-      "history_count": 0,
-      "representative_manwon": null,
-      "latest": null,
-      "monthly_prices": [],
-      "transactions": [],
-      "gap_manwon": null,
+      "count": 21,
+      "history_count": 126,
+      "representative_manwon": 104500,
+      "latest": {
+        "apt": "서원마을현대홈타운",
+        "price_manwon": 108000,
+        "area": 84.8518,
+        "date": "2026-08-28",
+        "floor": 11,
+        "direct": false,
+        "cancelled": false
+      },
+      "monthly_prices": [
+        {
+          "month": "2021-10",
+          "price_manwon": 87000,
+          "count": 1
+        },
+        {
+          "month": "2022-01",
+          "price_manwon": 84000,
+          "count": 1
+        },
+        {
+          "month": "2022-12",
+          "price_manwon": 61000,
+          "count": 1
+        },
+        {
+          "month": "2023-02",
+          "price_manwon": 63500,
+          "count": 3
+        },
+        {
+          "month": "2023-03",
+          "price_manwon": 68500,
+          "count": 2
+        },
+        {
+          "month": "2023-04",
+          "price_manwon": 66500,
+          "count": 1
+        },
+        {
+          "month": "2023-05",
+          "price_manwon": 67250,
+          "count": 4
+        },
+        {
+          "month": "2023-08",
+          "price_manwon": 68500,
+          "count": 3
+        },
+        {
+          "month": "2023-09",
+          "price_manwon": 70000,
+          "count": 4
+        },
+        {
+          "month": "2023-10",
+          "price_manwon": 68000,
+          "count": 1
+        },
+        {
+          "month": "2024-01",
+          "price_manwon": 67750,
+          "count": 4
+        },
+        {
+          "month": "2024-02",
+          "price_manwon": 68250,
+          "count": 3
+        },
+        {
+          "month": "2024-03",
+          "price_manwon": 70000,
+          "count": 3
+        },
+        {
+          "month": "2024-04",
+          "price_manwon": 67000,
+          "count": 1
+        },
+        {
+          "month": "2024-05",
+          "price_manwon": 69000,
+          "count": 5
+        },
+        {
+          "month": "2024-06",
+          "price_manwon": 70000,
+          "count": 5
+        },
+        {
+          "month": "2024-07",
+          "price_manwon": 70500,
+          "count": 4
+        },
+        {
+          "month": "2024-08",
+          "price_manwon": 70000,
+          "count": 3
+        },
+        {
+          "month": "2024-09",
+          "price_manwon": 71000,
+          "count": 1
+        },
+        {
+          "month": "2024-10",
+          "price_manwon": 72000,
+          "count": 3
+        },
+        {
+          "month": "2024-11",
+          "price_manwon": 74000,
+          "count": 1
+        },
+        {
+          "month": "2024-12",
+          "price_manwon": 73750,
+          "count": 2
+        },
+        {
+          "month": "2025-01",
+          "price_manwon": 73500,
+          "count": 4
+        },
+        {
+          "month": "2025-02",
+          "price_manwon": 73250,
+          "count": 2
+        },
+        {
+          "month": "2025-03",
+          "price_manwon": 75250,
+          "count": 6
+        },
+        {
+          "month": "2025-04",
+          "price_manwon": 77700,
+          "count": 1
+        },
+        {
+          "month": "2025-05",
+          "price_manwon": 75250,
+          "count": 4
+        },
+        {
+          "month": "2025-06",
+          "price_manwon": 79000,
+          "count": 4
+        },
+        {
+          "month": "2025-08",
+          "price_manwon": 82750,
+          "count": 4
+        },
+        {
+          "month": "2025-09",
+          "price_manwon": 86000,
+          "count": 1
+        },
+        {
+          "month": "2025-10",
+          "price_manwon": 85000,
+          "count": 1
+        },
+        {
+          "month": "2025-12",
+          "price_manwon": 86250,
+          "count": 2
+        },
+        {
+          "month": "2026-02",
+          "price_manwon": 102000,
+          "count": 1
+        },
+        {
+          "month": "2026-03",
+          "price_manwon": 102750,
+          "count": 4
+        },
+        {
+          "month": "2026-04",
+          "price_manwon": 104475,
+          "count": 4
+        },
+        {
+          "month": "2026-05",
+          "price_manwon": 102500,
+          "count": 7
+        },
+        {
+          "month": "2026-06",
+          "price_manwon": 102500,
+          "count": 4
+        },
+        {
+          "month": "2026-07",
+          "price_manwon": 105000,
+          "count": 5
+        },
+        {
+          "month": "2026-08",
+          "price_manwon": 108000,
+          "count": 1
+        }
+      ],
+      "transactions": [
+        {
+          "apt": "서원마을현대홈타운",
+          "price_manwon": 108000,
+          "area": 84.8518,
+          "date": "2026-08-28",
+          "floor": 11,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "서원마을현대홈타운",
+          "price_manwon": 107000,
+          "area": 84.8518,
+          "date": "2026-07-30",
+          "floor": 17,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "서원마을현대홈타운",
+          "price_manwon": 105000,
+          "area": 84.8518,
+          "date": "2026-07-25",
+          "floor": 14,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "서원마을현대홈타운",
+          "price_manwon": 104500,
+          "area": 84.8518,
+          "date": "2026-07-11",
+          "floor": 16,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "서원마을현대홈타운",
+          "price_manwon": 109000,
+          "area": 84.8518,
+          "date": "2026-07-09",
+          "floor": 10,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "서원마을현대홈타운",
+          "price_manwon": 105000,
+          "area": 84.8518,
+          "date": "2026-07-07",
+          "floor": 7,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "서원마을현대홈타운",
+          "price_manwon": 106700,
+          "area": 84.8518,
+          "date": "2026-06-19",
+          "floor": 18,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "서원마을현대홈타운",
+          "price_manwon": 102500,
+          "area": 84.8518,
+          "date": "2026-06-16",
+          "floor": 14,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "서원마을현대홈타운",
+          "price_manwon": 102500,
+          "area": 84.8518,
+          "date": "2026-06-13",
+          "floor": 8,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "서원마을현대홈타운",
+          "price_manwon": 102000,
+          "area": 84.8518,
+          "date": "2026-06-04",
+          "floor": 13,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "서원마을현대홈타운",
+          "price_manwon": 102500,
+          "area": 84.8518,
+          "date": "2026-05-26",
+          "floor": 18,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "서원마을현대홈타운",
+          "price_manwon": 105000,
+          "area": 84.8518,
+          "date": "2026-05-23",
+          "floor": 18,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "서원마을현대홈타운",
+          "price_manwon": 104000,
+          "area": 84.8518,
+          "date": "2026-05-22",
+          "floor": 5,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "서원마을현대홈타운",
+          "price_manwon": 102000,
+          "area": 84.8518,
+          "date": "2026-05-16",
+          "floor": 7,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "서원마을현대홈타운",
+          "price_manwon": 101000,
+          "area": 84.8518,
+          "date": "2026-05-13",
+          "floor": 5,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "서원마을현대홈타운",
+          "price_manwon": 105000,
+          "area": 84.8518,
+          "date": "2026-05-09",
+          "floor": 4,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "서원마을현대홈타운",
+          "price_manwon": 96250,
+          "area": 84.8518,
+          "date": "2026-05-09",
+          "floor": 9,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "서원마을현대홈타운",
+          "price_manwon": 106250,
+          "area": 84.8518,
+          "date": "2026-04-17",
+          "floor": 7,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "서원마을현대홈타운",
+          "price_manwon": 101000,
+          "area": 84.8518,
+          "date": "2026-04-10",
+          "floor": 5,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "서원마을현대홈타운",
+          "price_manwon": 109000,
+          "area": 84.8518,
+          "date": "2026-04-10",
+          "floor": 19,
+          "direct": false,
+          "cancelled": false
+        }
+      ],
+      "gap_manwon": 34000,
       "asking_manwon": null,
-      "monthly_gaps": []
+      "monthly_gaps": [
+        {
+          "month": "2022-12",
+          "gap_manwon": 13000,
+          "target_price_manwon": 61000,
+          "home_price_manwon": 48000
+        },
+        {
+          "month": "2023-02",
+          "gap_manwon": 11500,
+          "target_price_manwon": 63500,
+          "home_price_manwon": 52000
+        },
+        {
+          "month": "2023-08",
+          "gap_manwon": 10000,
+          "target_price_manwon": 68500,
+          "home_price_manwon": 58500
+        },
+        {
+          "month": "2024-04",
+          "gap_manwon": 7500,
+          "target_price_manwon": 67000,
+          "home_price_manwon": 59500
+        },
+        {
+          "month": "2024-05",
+          "gap_manwon": 11250,
+          "target_price_manwon": 69000,
+          "home_price_manwon": 57750
+        },
+        {
+          "month": "2024-06",
+          "gap_manwon": 11000,
+          "target_price_manwon": 70000,
+          "home_price_manwon": 59000
+        },
+        {
+          "month": "2024-07",
+          "gap_manwon": 9300,
+          "target_price_manwon": 70500,
+          "home_price_manwon": 61200
+        },
+        {
+          "month": "2024-08",
+          "gap_manwon": 5000,
+          "target_price_manwon": 70000,
+          "home_price_manwon": 65000
+        },
+        {
+          "month": "2024-10",
+          "gap_manwon": 11500,
+          "target_price_manwon": 72000,
+          "home_price_manwon": 60500
+        },
+        {
+          "month": "2025-01",
+          "gap_manwon": 13200,
+          "target_price_manwon": 73500,
+          "home_price_manwon": 60300
+        },
+        {
+          "month": "2025-02",
+          "gap_manwon": 11250,
+          "target_price_manwon": 73250,
+          "home_price_manwon": 62000
+        },
+        {
+          "month": "2025-03",
+          "gap_manwon": 11750,
+          "target_price_manwon": 75250,
+          "home_price_manwon": 63500
+        },
+        {
+          "month": "2025-04",
+          "gap_manwon": 11700,
+          "target_price_manwon": 77700,
+          "home_price_manwon": 66000
+        },
+        {
+          "month": "2025-05",
+          "gap_manwon": 15550,
+          "target_price_manwon": 75250,
+          "home_price_manwon": 59700
+        },
+        {
+          "month": "2025-06",
+          "gap_manwon": 14000,
+          "target_price_manwon": 79000,
+          "home_price_manwon": 65000
+        },
+        {
+          "month": "2025-09",
+          "gap_manwon": 21500,
+          "target_price_manwon": 86000,
+          "home_price_manwon": 64500
+        },
+        {
+          "month": "2025-12",
+          "gap_manwon": 22550,
+          "target_price_manwon": 86250,
+          "home_price_manwon": 63700
+        },
+        {
+          "month": "2026-02",
+          "gap_manwon": 36000,
+          "target_price_manwon": 102000,
+          "home_price_manwon": 66000
+        },
+        {
+          "month": "2026-03",
+          "gap_manwon": 32250,
+          "target_price_manwon": 102750,
+          "home_price_manwon": 70500
+        },
+        {
+          "month": "2026-04",
+          "gap_manwon": 39475,
+          "target_price_manwon": 104475,
+          "home_price_manwon": 65000
+        },
+        {
+          "month": "2026-05",
+          "gap_manwon": 32000,
+          "target_price_manwon": 102500,
+          "home_price_manwon": 70500
+        },
+        {
+          "month": "2026-08",
+          "gap_manwon": 20000,
+          "target_price_manwon": 108000,
+          "home_price_manwon": 88000
+        }
+      ]
     },
     {
       "aliases": [
@@ -4769,12 +5287,12 @@
         "상록마을(우성)"
       ],
       "area": 84.9,
+      "dong": "정자동",
       "id": "bundang-sangrok",
       "lawd_cd": "41135",
+      "match_mode": "exact",
       "name": "정자 상록마을 우성",
       "region": "분당",
-      "dong": "정자동",
-      "match_mode": "exact",
       "watch_note": "분당 생활권 상위 비교·개별 단지로 분리",
       "area_tolerance": 1.2,
       "min_floor": 4,
@@ -5178,12 +5696,12 @@
         "양지마을(금호1)"
       ],
       "area": 84.9,
+      "dong": "수내동",
       "id": "bundang-yangji",
       "lawd_cd": "41135",
+      "match_mode": "exact",
       "name": "수내 양지마을 금호1단지",
       "region": "분당",
-      "dong": "수내동",
-      "match_mode": "exact",
       "watch_note": "분당 생활권 상위 비교·개별 단지로 분리",
       "area_tolerance": 1.2,
       "min_floor": 4,
@@ -5646,12 +6164,12 @@
         "이매촌(삼성)"
       ],
       "area": 84.9,
+      "dong": "이매동",
       "id": "imae-beautiful",
       "lawd_cd": "41135",
+      "match_mode": "exact",
       "name": "이매촌 삼성",
       "region": "분당",
-      "dong": "이매동",
-      "match_mode": "exact",
       "watch_note": "분당 생활권 상위 비교·개별 단지로 분리",
       "area_tolerance": 1.2,
       "min_floor": 4,
@@ -7251,25 +7769,620 @@
     },
     {
       "aliases": [
+        "동탄역시범호반써밋",
         "시범호반베르디움",
         "동탄2시범호반베르디움"
       ],
       "area": 84.9,
       "id": "dongtan2-geo",
       "lawd_cd": "41597",
-      "name": "동탄2 시범호반베르디움",
+      "name": "동탄역 시범호반써밋",
       "region": "동탄2",
+      "dong": "청계동",
+      "match_mode": "exact",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 0,
-      "history_count": 0,
-      "representative_manwon": null,
-      "latest": null,
-      "monthly_prices": [],
-      "transactions": [],
-      "gap_manwon": null,
+      "count": 30,
+      "history_count": 255,
+      "representative_manwon": 118600,
+      "latest": {
+        "apt": "동탄역시범호반써밋",
+        "price_manwon": 133700,
+        "area": 84.9909,
+        "date": "2026-07-03",
+        "floor": 2,
+        "direct": false,
+        "cancelled": false
+      },
+      "monthly_prices": [
+        {
+          "month": "2021-10",
+          "price_manwon": 112500,
+          "count": 2
+        },
+        {
+          "month": "2021-12",
+          "price_manwon": 100500,
+          "count": 2
+        },
+        {
+          "month": "2022-01",
+          "price_manwon": 104000,
+          "count": 1
+        },
+        {
+          "month": "2022-02",
+          "price_manwon": 99500,
+          "count": 2
+        },
+        {
+          "month": "2022-03",
+          "price_manwon": 94900,
+          "count": 3
+        },
+        {
+          "month": "2022-04",
+          "price_manwon": 96000,
+          "count": 3
+        },
+        {
+          "month": "2022-05",
+          "price_manwon": 93000,
+          "count": 2
+        },
+        {
+          "month": "2022-06",
+          "price_manwon": 89800,
+          "count": 1
+        },
+        {
+          "month": "2022-07",
+          "price_manwon": 88000,
+          "count": 1
+        },
+        {
+          "month": "2022-10",
+          "price_manwon": 75000,
+          "count": 3
+        },
+        {
+          "month": "2022-11",
+          "price_manwon": 71500,
+          "count": 4
+        },
+        {
+          "month": "2023-01",
+          "price_manwon": 72000,
+          "count": 5
+        },
+        {
+          "month": "2023-02",
+          "price_manwon": 77700,
+          "count": 15
+        },
+        {
+          "month": "2023-03",
+          "price_manwon": 83000,
+          "count": 7
+        },
+        {
+          "month": "2023-04",
+          "price_manwon": 87000,
+          "count": 2
+        },
+        {
+          "month": "2023-05",
+          "price_manwon": 92300,
+          "count": 1
+        },
+        {
+          "month": "2023-07",
+          "price_manwon": 89800,
+          "count": 3
+        },
+        {
+          "month": "2023-08",
+          "price_manwon": 90000,
+          "count": 5
+        },
+        {
+          "month": "2023-09",
+          "price_manwon": 93500,
+          "count": 4
+        },
+        {
+          "month": "2023-12",
+          "price_manwon": 90500,
+          "count": 3
+        },
+        {
+          "month": "2024-01",
+          "price_manwon": 88000,
+          "count": 3
+        },
+        {
+          "month": "2024-02",
+          "price_manwon": 90250,
+          "count": 1
+        },
+        {
+          "month": "2024-03",
+          "price_manwon": 90000,
+          "count": 7
+        },
+        {
+          "month": "2024-04",
+          "price_manwon": 89500,
+          "count": 3
+        },
+        {
+          "month": "2024-05",
+          "price_manwon": 92800,
+          "count": 5
+        },
+        {
+          "month": "2024-06",
+          "price_manwon": 90800,
+          "count": 6
+        },
+        {
+          "month": "2024-07",
+          "price_manwon": 93250,
+          "count": 4
+        },
+        {
+          "month": "2024-08",
+          "price_manwon": 92500,
+          "count": 7
+        },
+        {
+          "month": "2024-09",
+          "price_manwon": 95500,
+          "count": 1
+        },
+        {
+          "month": "2024-10",
+          "price_manwon": 94000,
+          "count": 4
+        },
+        {
+          "month": "2024-11",
+          "price_manwon": 93500,
+          "count": 5
+        },
+        {
+          "month": "2025-01",
+          "price_manwon": 87500,
+          "count": 1
+        },
+        {
+          "month": "2025-02",
+          "price_manwon": 93000,
+          "count": 5
+        },
+        {
+          "month": "2025-03",
+          "price_manwon": 92000,
+          "count": 3
+        },
+        {
+          "month": "2025-04",
+          "price_manwon": 91100,
+          "count": 4
+        },
+        {
+          "month": "2025-05",
+          "price_manwon": 95000,
+          "count": 3
+        },
+        {
+          "month": "2025-06",
+          "price_manwon": 94000,
+          "count": 7
+        },
+        {
+          "month": "2025-07",
+          "price_manwon": 94750,
+          "count": 2
+        },
+        {
+          "month": "2025-08",
+          "price_manwon": 96300,
+          "count": 5
+        },
+        {
+          "month": "2025-09",
+          "price_manwon": 96000,
+          "count": 6
+        },
+        {
+          "month": "2025-10",
+          "price_manwon": 99500,
+          "count": 15
+        },
+        {
+          "month": "2025-11",
+          "price_manwon": 103750,
+          "count": 12
+        },
+        {
+          "month": "2025-12",
+          "price_manwon": 102300,
+          "count": 1
+        },
+        {
+          "month": "2026-01",
+          "price_manwon": 108000,
+          "count": 9
+        },
+        {
+          "month": "2026-02",
+          "price_manwon": 111850,
+          "count": 6
+        },
+        {
+          "month": "2026-03",
+          "price_manwon": 110250,
+          "count": 6
+        },
+        {
+          "month": "2026-04",
+          "price_manwon": 114500,
+          "count": 7
+        },
+        {
+          "month": "2026-05",
+          "price_manwon": 118600,
+          "count": 10
+        },
+        {
+          "month": "2026-06",
+          "price_manwon": 142500,
+          "count": 5
+        }
+      ],
+      "transactions": [
+        {
+          "apt": "동탄역시범호반써밋",
+          "price_manwon": 133700,
+          "area": 84.9909,
+          "date": "2026-07-03",
+          "floor": 2,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역시범호반써밋",
+          "price_manwon": 143000,
+          "area": 84.9909,
+          "date": "2026-06-27",
+          "floor": 17,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역시범호반써밋",
+          "price_manwon": 142500,
+          "area": 84.9698,
+          "date": "2026-06-25",
+          "floor": 24,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역시범호반써밋",
+          "price_manwon": 134000,
+          "area": 84.9537,
+          "date": "2026-06-15",
+          "floor": 8,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역시범호반써밋",
+          "price_manwon": 134500,
+          "area": 84.9909,
+          "date": "2026-06-13",
+          "floor": 3,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역시범호반써밋",
+          "price_manwon": 150000,
+          "area": 84.9537,
+          "date": "2026-06-12",
+          "floor": 9,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역시범호반써밋",
+          "price_manwon": 140000,
+          "area": 84.9698,
+          "date": "2026-06-06",
+          "floor": 23,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역시범호반써밋",
+          "price_manwon": 104000,
+          "area": 84.9909,
+          "date": "2026-06-04",
+          "floor": 1,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역시범호반써밋",
+          "price_manwon": 134000,
+          "area": 84.9537,
+          "date": "2026-06-04",
+          "floor": 3,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역시범호반써밋",
+          "price_manwon": 104000,
+          "area": 84.9537,
+          "date": "2026-05-30",
+          "floor": 1,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역시범호반써밋",
+          "price_manwon": 118000,
+          "area": 84.9909,
+          "date": "2026-05-26",
+          "floor": 14,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역시범호반써밋",
+          "price_manwon": 115000,
+          "area": 84.9909,
+          "date": "2026-05-25",
+          "floor": 22,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역시범호반써밋",
+          "price_manwon": 123500,
+          "area": 84.9537,
+          "date": "2026-05-23",
+          "floor": 24,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역시범호반써밋",
+          "price_manwon": 121000,
+          "area": 84.9537,
+          "date": "2026-05-21",
+          "floor": 4,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역시범호반써밋",
+          "price_manwon": 125000,
+          "area": 84.9537,
+          "date": "2026-05-18",
+          "floor": 17,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역시범호반써밋",
+          "price_manwon": 117000,
+          "area": 84.9537,
+          "date": "2026-05-16",
+          "floor": 11,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역시범호반써밋",
+          "price_manwon": 119400,
+          "area": 84.9537,
+          "date": "2026-05-07",
+          "floor": 7,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역시범호반써밋",
+          "price_manwon": 118200,
+          "area": 84.9537,
+          "date": "2026-05-07",
+          "floor": 8,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역시범호반써밋",
+          "price_manwon": 119000,
+          "area": 84.9537,
+          "date": "2026-05-02",
+          "floor": 9,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역시범호반써밋",
+          "price_manwon": 115000,
+          "area": 84.9698,
+          "date": "2026-05-01",
+          "floor": 16,
+          "direct": false,
+          "cancelled": false
+        }
+      ],
+      "gap_manwon": 48100,
       "asking_manwon": null,
-      "monthly_gaps": []
+      "monthly_gaps": [
+        {
+          "month": "2022-03",
+          "gap_manwon": 31900,
+          "target_price_manwon": 94900,
+          "home_price_manwon": 63000
+        },
+        {
+          "month": "2022-05",
+          "gap_manwon": 28000,
+          "target_price_manwon": 93000,
+          "home_price_manwon": 65000
+        },
+        {
+          "month": "2022-06",
+          "gap_manwon": 25800,
+          "target_price_manwon": 89800,
+          "home_price_manwon": 64000
+        },
+        {
+          "month": "2023-02",
+          "gap_manwon": 25700,
+          "target_price_manwon": 77700,
+          "home_price_manwon": 52000
+        },
+        {
+          "month": "2023-07",
+          "gap_manwon": 33050,
+          "target_price_manwon": 89800,
+          "home_price_manwon": 56750
+        },
+        {
+          "month": "2023-08",
+          "gap_manwon": 31500,
+          "target_price_manwon": 90000,
+          "home_price_manwon": 58500
+        },
+        {
+          "month": "2024-04",
+          "gap_manwon": 30000,
+          "target_price_manwon": 89500,
+          "home_price_manwon": 59500
+        },
+        {
+          "month": "2024-05",
+          "gap_manwon": 35050,
+          "target_price_manwon": 92800,
+          "home_price_manwon": 57750
+        },
+        {
+          "month": "2024-06",
+          "gap_manwon": 31800,
+          "target_price_manwon": 90800,
+          "home_price_manwon": 59000
+        },
+        {
+          "month": "2024-07",
+          "gap_manwon": 32050,
+          "target_price_manwon": 93250,
+          "home_price_manwon": 61200
+        },
+        {
+          "month": "2024-08",
+          "gap_manwon": 27500,
+          "target_price_manwon": 92500,
+          "home_price_manwon": 65000
+        },
+        {
+          "month": "2024-10",
+          "gap_manwon": 33500,
+          "target_price_manwon": 94000,
+          "home_price_manwon": 60500
+        },
+        {
+          "month": "2025-01",
+          "gap_manwon": 27200,
+          "target_price_manwon": 87500,
+          "home_price_manwon": 60300
+        },
+        {
+          "month": "2025-02",
+          "gap_manwon": 31000,
+          "target_price_manwon": 93000,
+          "home_price_manwon": 62000
+        },
+        {
+          "month": "2025-03",
+          "gap_manwon": 28500,
+          "target_price_manwon": 92000,
+          "home_price_manwon": 63500
+        },
+        {
+          "month": "2025-04",
+          "gap_manwon": 25100,
+          "target_price_manwon": 91100,
+          "home_price_manwon": 66000
+        },
+        {
+          "month": "2025-05",
+          "gap_manwon": 35300,
+          "target_price_manwon": 95000,
+          "home_price_manwon": 59700
+        },
+        {
+          "month": "2025-06",
+          "gap_manwon": 29000,
+          "target_price_manwon": 94000,
+          "home_price_manwon": 65000
+        },
+        {
+          "month": "2025-09",
+          "gap_manwon": 31500,
+          "target_price_manwon": 96000,
+          "home_price_manwon": 64500
+        },
+        {
+          "month": "2025-11",
+          "gap_manwon": 37900,
+          "target_price_manwon": 103750,
+          "home_price_manwon": 65850
+        },
+        {
+          "month": "2025-12",
+          "gap_manwon": 38600,
+          "target_price_manwon": 102300,
+          "home_price_manwon": 63700
+        },
+        {
+          "month": "2026-01",
+          "gap_manwon": 42000,
+          "target_price_manwon": 108000,
+          "home_price_manwon": 66000
+        },
+        {
+          "month": "2026-02",
+          "gap_manwon": 45850,
+          "target_price_manwon": 111850,
+          "home_price_manwon": 66000
+        },
+        {
+          "month": "2026-03",
+          "gap_manwon": 39750,
+          "target_price_manwon": 110250,
+          "home_price_manwon": 70500
+        },
+        {
+          "month": "2026-04",
+          "gap_manwon": 49500,
+          "target_price_manwon": 114500,
+          "home_price_manwon": 65000
+        },
+        {
+          "month": "2026-05",
+          "gap_manwon": 48100,
+          "target_price_manwon": 118600,
+          "home_price_manwon": 70500
+        }
+      ]
     },
     {
       "aliases": [
@@ -23941,34 +25054,6 @@
     },
     {
       "aliases": [
-        "센트럴하이츠",
-        "망포역센트럴하이츠"
-      ],
-      "area": 84.9,
-      "area_max": 85,
-      "area_min": 80,
-      "dong": "망포동",
-      "id": "mp-heights",
-      "lawd_cd": "41117",
-      "match_mode": "exact",
-      "name": "망포역 센트럴하이츠",
-      "region": "영통·망포",
-      "source_url": "https://hogangnono.com/apt/5a43c/0/0/review?aptHash=5a43c",
-      "watch_note": "망포역 생활권 가격차 대안",
-      "area_tolerance": 1.2,
-      "min_floor": 4,
-      "count": 0,
-      "history_count": 0,
-      "representative_manwon": null,
-      "latest": null,
-      "monthly_prices": [],
-      "transactions": [],
-      "gap_manwon": null,
-      "asking_manwon": null,
-      "monthly_gaps": []
-    },
-    {
-      "aliases": [
         "동수원자이1차"
       ],
       "area": 84.9,
@@ -23984,15 +25069,15 @@
       "watch_note": "망포 생활권 구축 대안",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 21,
-      "history_count": 244,
-      "representative_manwon": 62000,
+      "count": 22,
+      "history_count": 245,
+      "representative_manwon": 62250,
       "latest": {
         "apt": "동수원자이1차",
-        "price_manwon": 71500,
+        "price_manwon": 68000,
         "area": 84.9688,
-        "date": "2026-08-14",
-        "floor": 18,
+        "date": "2026-08-31",
+        "floor": 11,
         "direct": false,
         "cancelled": false
       },
@@ -24254,11 +25339,20 @@
         },
         {
           "month": "2026-08",
-          "price_manwon": 69750,
-          "count": 2
+          "price_manwon": 68000,
+          "count": 3
         }
       ],
       "transactions": [
+        {
+          "apt": "동수원자이1차",
+          "price_manwon": 68000,
+          "area": 84.9688,
+          "date": "2026-08-31",
+          "floor": 11,
+          "direct": false,
+          "cancelled": false
+        },
         {
           "apt": "동수원자이1차",
           "price_manwon": 71500,
@@ -24429,18 +25523,9 @@
           "floor": 14,
           "direct": false,
           "cancelled": false
-        },
-        {
-          "apt": "동수원자이1차",
-          "price_manwon": 60000,
-          "area": 84.9688,
-          "date": "2026-04-13",
-          "floor": 4,
-          "direct": false,
-          "cancelled": false
         }
       ],
-      "gap_manwon": -8500,
+      "gap_manwon": -8250,
       "asking_manwon": null,
       "monthly_gaps": [
         {
@@ -24601,8 +25686,8 @@
         },
         {
           "month": "2026-08",
-          "gap_manwon": -18250,
-          "target_price_manwon": 69750,
+          "gap_manwon": -20000,
+          "target_price_manwon": 68000,
           "home_price_manwon": 88000
         }
       ]
@@ -30956,7 +32041,7 @@
       "area": 84.9,
       "area_max": 85,
       "area_min": 80,
-      "dong": "중동",
+      "dong": "동백동",
       "id": "db-lotte",
       "lawd_cd": "41463",
       "match_mode": "exact",
@@ -30966,15 +32051,555 @@
       "watch_note": "동백 생활권·가격차 축소 대안",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 0,
-      "history_count": 0,
-      "representative_manwon": null,
-      "latest": null,
-      "monthly_prices": [],
-      "transactions": [],
-      "gap_manwon": null,
+      "count": 13,
+      "history_count": 91,
+      "representative_manwon": 59500,
+      "latest": {
+        "apt": "호수마을상록롯데캐슬",
+        "price_manwon": 59000,
+        "area": 84.899,
+        "date": "2026-08-20",
+        "floor": 17,
+        "direct": false,
+        "cancelled": false
+      },
+      "monthly_prices": [
+        {
+          "month": "2021-10",
+          "price_manwon": 64300,
+          "count": 1
+        },
+        {
+          "month": "2021-12",
+          "price_manwon": 66000,
+          "count": 1
+        },
+        {
+          "month": "2022-03",
+          "price_manwon": 64000,
+          "count": 1
+        },
+        {
+          "month": "2022-04",
+          "price_manwon": 63250,
+          "count": 2
+        },
+        {
+          "month": "2022-05",
+          "price_manwon": 63000,
+          "count": 1
+        },
+        {
+          "month": "2022-06",
+          "price_manwon": 61000,
+          "count": 1
+        },
+        {
+          "month": "2022-12",
+          "price_manwon": 63000,
+          "count": 1
+        },
+        {
+          "month": "2023-01",
+          "price_manwon": 50500,
+          "count": 2
+        },
+        {
+          "month": "2023-03",
+          "price_manwon": 54000,
+          "count": 2
+        },
+        {
+          "month": "2023-04",
+          "price_manwon": 53000,
+          "count": 1
+        },
+        {
+          "month": "2023-06",
+          "price_manwon": 51300,
+          "count": 1
+        },
+        {
+          "month": "2023-08",
+          "price_manwon": 53000,
+          "count": 1
+        },
+        {
+          "month": "2023-09",
+          "price_manwon": 53600,
+          "count": 4
+        },
+        {
+          "month": "2023-12",
+          "price_manwon": 54000,
+          "count": 1
+        },
+        {
+          "month": "2024-01",
+          "price_manwon": 51900,
+          "count": 3
+        },
+        {
+          "month": "2024-02",
+          "price_manwon": 50100,
+          "count": 4
+        },
+        {
+          "month": "2024-03",
+          "price_manwon": 52500,
+          "count": 2
+        },
+        {
+          "month": "2024-04",
+          "price_manwon": 54400,
+          "count": 2
+        },
+        {
+          "month": "2024-05",
+          "price_manwon": 54000,
+          "count": 1
+        },
+        {
+          "month": "2024-06",
+          "price_manwon": 54100,
+          "count": 2
+        },
+        {
+          "month": "2024-07",
+          "price_manwon": 53500,
+          "count": 1
+        },
+        {
+          "month": "2024-08",
+          "price_manwon": 54500,
+          "count": 6
+        },
+        {
+          "month": "2024-09",
+          "price_manwon": 53750,
+          "count": 2
+        },
+        {
+          "month": "2024-11",
+          "price_manwon": 53500,
+          "count": 2
+        },
+        {
+          "month": "2025-01",
+          "price_manwon": 53500,
+          "count": 3
+        },
+        {
+          "month": "2025-02",
+          "price_manwon": 52800,
+          "count": 3
+        },
+        {
+          "month": "2025-03",
+          "price_manwon": 54900,
+          "count": 2
+        },
+        {
+          "month": "2025-05",
+          "price_manwon": 54150,
+          "count": 2
+        },
+        {
+          "month": "2025-06",
+          "price_manwon": 60000,
+          "count": 3
+        },
+        {
+          "month": "2025-07",
+          "price_manwon": 55000,
+          "count": 1
+        },
+        {
+          "month": "2025-09",
+          "price_manwon": 57250,
+          "count": 1
+        },
+        {
+          "month": "2025-10",
+          "price_manwon": 57000,
+          "count": 1
+        },
+        {
+          "month": "2025-11",
+          "price_manwon": 57400,
+          "count": 4
+        },
+        {
+          "month": "2025-12",
+          "price_manwon": 60500,
+          "count": 3
+        },
+        {
+          "month": "2026-01",
+          "price_manwon": 54000,
+          "count": 1
+        },
+        {
+          "month": "2026-02",
+          "price_manwon": 57000,
+          "count": 2
+        },
+        {
+          "month": "2026-03",
+          "price_manwon": 59000,
+          "count": 1
+        },
+        {
+          "month": "2026-04",
+          "price_manwon": 59500,
+          "count": 4
+        },
+        {
+          "month": "2026-05",
+          "price_manwon": 58000,
+          "count": 3
+        },
+        {
+          "month": "2026-06",
+          "price_manwon": 60500,
+          "count": 3
+        },
+        {
+          "month": "2026-08",
+          "price_manwon": 59000,
+          "count": 1
+        }
+      ],
+      "transactions": [
+        {
+          "apt": "호수마을상록롯데캐슬",
+          "price_manwon": 59000,
+          "area": 84.899,
+          "date": "2026-08-20",
+          "floor": 17,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "호수마을상록롯데캐슬",
+          "price_manwon": 58000,
+          "area": 84.899,
+          "date": "2026-06-30",
+          "floor": 17,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "호수마을상록롯데캐슬",
+          "price_manwon": 55000,
+          "area": 84.899,
+          "date": "2026-06-30",
+          "floor": 3,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "호수마을상록롯데캐슬",
+          "price_manwon": 61000,
+          "area": 84.899,
+          "date": "2026-06-30",
+          "floor": 22,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "호수마을상록롯데캐슬",
+          "price_manwon": 60500,
+          "area": 84.899,
+          "date": "2026-06-13",
+          "floor": 15,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "호수마을상록롯데캐슬",
+          "price_manwon": 60000,
+          "area": 84.899,
+          "date": "2026-05-30",
+          "floor": 21,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "호수마을상록롯데캐슬",
+          "price_manwon": 58000,
+          "area": 84.899,
+          "date": "2026-05-16",
+          "floor": 22,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "호수마을상록롯데캐슬",
+          "price_manwon": 57000,
+          "area": 84.899,
+          "date": "2026-05-16",
+          "floor": 3,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "호수마을상록롯데캐슬",
+          "price_manwon": 57000,
+          "area": 84.899,
+          "date": "2026-05-11",
+          "floor": 5,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "호수마을상록롯데캐슬",
+          "price_manwon": 59500,
+          "area": 84.899,
+          "date": "2026-04-30",
+          "floor": 20,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "호수마을상록롯데캐슬",
+          "price_manwon": 58000,
+          "area": 84.899,
+          "date": "2026-04-14",
+          "floor": 14,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "호수마을상록롯데캐슬",
+          "price_manwon": 61000,
+          "area": 84.899,
+          "date": "2026-04-08",
+          "floor": 15,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "호수마을상록롯데캐슬",
+          "price_manwon": 59500,
+          "area": 84.899,
+          "date": "2026-04-04",
+          "floor": 13,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "호수마을상록롯데캐슬",
+          "price_manwon": 59000,
+          "area": 84.899,
+          "date": "2026-03-09",
+          "floor": 17,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "호수마을상록롯데캐슬",
+          "price_manwon": 57000,
+          "area": 84.899,
+          "date": "2026-02-06",
+          "floor": 18,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "호수마을상록롯데캐슬",
+          "price_manwon": 57000,
+          "area": 84.899,
+          "date": "2026-02-06",
+          "floor": 17,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "호수마을상록롯데캐슬",
+          "price_manwon": 54000,
+          "area": 84.899,
+          "date": "2026-01-19",
+          "floor": 13,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "호수마을상록롯데캐슬",
+          "price_manwon": 57000,
+          "area": 84.899,
+          "date": "2025-12-26",
+          "floor": 23,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "호수마을상록롯데캐슬",
+          "price_manwon": 60500,
+          "area": 84.899,
+          "date": "2025-12-17",
+          "floor": 22,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "호수마을상록롯데캐슬",
+          "price_manwon": 61000,
+          "area": 84.899,
+          "date": "2025-12-08",
+          "floor": 21,
+          "direct": false,
+          "cancelled": false
+        }
+      ],
+      "gap_manwon": -11000,
       "asking_manwon": null,
-      "monthly_gaps": []
+      "monthly_gaps": [
+        {
+          "month": "2022-03",
+          "gap_manwon": 1000,
+          "target_price_manwon": 64000,
+          "home_price_manwon": 63000
+        },
+        {
+          "month": "2022-05",
+          "gap_manwon": -2000,
+          "target_price_manwon": 63000,
+          "home_price_manwon": 65000
+        },
+        {
+          "month": "2022-06",
+          "gap_manwon": -3000,
+          "target_price_manwon": 61000,
+          "home_price_manwon": 64000
+        },
+        {
+          "month": "2022-12",
+          "gap_manwon": 15000,
+          "target_price_manwon": 63000,
+          "home_price_manwon": 48000
+        },
+        {
+          "month": "2023-08",
+          "gap_manwon": -5500,
+          "target_price_manwon": 53000,
+          "home_price_manwon": 58500
+        },
+        {
+          "month": "2024-04",
+          "gap_manwon": -5100,
+          "target_price_manwon": 54400,
+          "home_price_manwon": 59500
+        },
+        {
+          "month": "2024-05",
+          "gap_manwon": -3750,
+          "target_price_manwon": 54000,
+          "home_price_manwon": 57750
+        },
+        {
+          "month": "2024-06",
+          "gap_manwon": -4900,
+          "target_price_manwon": 54100,
+          "home_price_manwon": 59000
+        },
+        {
+          "month": "2024-07",
+          "gap_manwon": -7700,
+          "target_price_manwon": 53500,
+          "home_price_manwon": 61200
+        },
+        {
+          "month": "2024-08",
+          "gap_manwon": -10500,
+          "target_price_manwon": 54500,
+          "home_price_manwon": 65000
+        },
+        {
+          "month": "2025-01",
+          "gap_manwon": -6800,
+          "target_price_manwon": 53500,
+          "home_price_manwon": 60300
+        },
+        {
+          "month": "2025-02",
+          "gap_manwon": -9200,
+          "target_price_manwon": 52800,
+          "home_price_manwon": 62000
+        },
+        {
+          "month": "2025-03",
+          "gap_manwon": -8600,
+          "target_price_manwon": 54900,
+          "home_price_manwon": 63500
+        },
+        {
+          "month": "2025-05",
+          "gap_manwon": -5550,
+          "target_price_manwon": 54150,
+          "home_price_manwon": 59700
+        },
+        {
+          "month": "2025-06",
+          "gap_manwon": -5000,
+          "target_price_manwon": 60000,
+          "home_price_manwon": 65000
+        },
+        {
+          "month": "2025-09",
+          "gap_manwon": -7250,
+          "target_price_manwon": 57250,
+          "home_price_manwon": 64500
+        },
+        {
+          "month": "2025-11",
+          "gap_manwon": -8450,
+          "target_price_manwon": 57400,
+          "home_price_manwon": 65850
+        },
+        {
+          "month": "2025-12",
+          "gap_manwon": -3200,
+          "target_price_manwon": 60500,
+          "home_price_manwon": 63700
+        },
+        {
+          "month": "2026-01",
+          "gap_manwon": -12000,
+          "target_price_manwon": 54000,
+          "home_price_manwon": 66000
+        },
+        {
+          "month": "2026-02",
+          "gap_manwon": -9000,
+          "target_price_manwon": 57000,
+          "home_price_manwon": 66000
+        },
+        {
+          "month": "2026-03",
+          "gap_manwon": -11500,
+          "target_price_manwon": 59000,
+          "home_price_manwon": 70500
+        },
+        {
+          "month": "2026-04",
+          "gap_manwon": -5500,
+          "target_price_manwon": 59500,
+          "home_price_manwon": 65000
+        },
+        {
+          "month": "2026-05",
+          "gap_manwon": -12500,
+          "target_price_manwon": 58000,
+          "home_price_manwon": 70500
+        },
+        {
+          "month": "2026-08",
+          "gap_manwon": -29000,
+          "target_price_manwon": 59000,
+          "home_price_manwon": 88000
+        }
+      ]
     },
     {
       "aliases": [
@@ -33180,9 +34805,9 @@
       "watch_note": "평촌 생활권 상위 비교·화성 출퇴근 확인",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 18,
-      "history_count": 163,
-      "representative_manwon": 145500,
+      "count": 19,
+      "history_count": 164,
+      "representative_manwon": 146000,
       "latest": {
         "apt": "평촌더샵센트럴시티",
         "price_manwon": 149900,
@@ -33390,8 +35015,8 @@
         },
         {
           "month": "2026-07",
-          "price_manwon": 147750,
-          "count": 6
+          "price_manwon": 149000,
+          "count": 7
         },
         {
           "month": "2026-08",
@@ -33442,6 +35067,15 @@
           "area": 84.985,
           "date": "2026-07-30",
           "floor": 28,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "평촌더샵센트럴시티",
+          "price_manwon": 150000,
+          "area": 84.9897,
+          "date": "2026-07-29",
+          "floor": 25,
           "direct": false,
           "cancelled": false
         },
@@ -33570,18 +35204,9 @@
           "floor": 25,
           "direct": false,
           "cancelled": false
-        },
-        {
-          "apt": "평촌더샵센트럴시티",
-          "price_manwon": 145000,
-          "area": 84.9887,
-          "date": "2026-03-18",
-          "floor": 6,
-          "direct": false,
-          "cancelled": false
         }
       ],
-      "gap_manwon": 75000,
+      "gap_manwon": 75500,
       "asking_manwon": null,
       "monthly_gaps": [
         {
@@ -36351,7 +37976,7 @@
       "area": 84.9,
       "area_max": 85,
       "area_min": 80,
-      "dong": "오산동",
+      "dong": "여울동",
       "id": "dt-dongwon3",
       "lawd_cd": "41597",
       "match_mode": "exact",
@@ -36359,17 +37984,447 @@
       "region": "동탄2",
       "source_url": "https://youandicandoit.tistory.com/1110",
       "watch_note": "동탄역권 준신축 비교",
+      "dong_aliases": [
+        "오산동",
+        "여울동"
+      ],
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 0,
-      "history_count": 0,
-      "representative_manwon": null,
-      "latest": null,
-      "monthly_prices": [],
-      "transactions": [],
-      "gap_manwon": null,
+      "count": 7,
+      "history_count": 50,
+      "representative_manwon": 112500,
+      "latest": {
+        "apt": "동탄역동원로얄듀크비스타3차",
+        "price_manwon": 110000,
+        "area": 84.9963,
+        "date": "2026-06-10",
+        "floor": 1,
+        "direct": false,
+        "cancelled": false
+      },
+      "monthly_prices": [
+        {
+          "month": "2022-02",
+          "price_manwon": 96000,
+          "count": 1
+        },
+        {
+          "month": "2022-05",
+          "price_manwon": 97300,
+          "count": 1
+        },
+        {
+          "month": "2022-08",
+          "price_manwon": 84800,
+          "count": 1
+        },
+        {
+          "month": "2022-12",
+          "price_manwon": 73000,
+          "count": 1
+        },
+        {
+          "month": "2023-01",
+          "price_manwon": 68000,
+          "count": 1
+        },
+        {
+          "month": "2023-05",
+          "price_manwon": 84000,
+          "count": 1
+        },
+        {
+          "month": "2023-06",
+          "price_manwon": 88500,
+          "count": 3
+        },
+        {
+          "month": "2023-07",
+          "price_manwon": 88000,
+          "count": 2
+        },
+        {
+          "month": "2023-08",
+          "price_manwon": 85500,
+          "count": 2
+        },
+        {
+          "month": "2023-11",
+          "price_manwon": 89950,
+          "count": 1
+        },
+        {
+          "month": "2024-01",
+          "price_manwon": 87000,
+          "count": 1
+        },
+        {
+          "month": "2024-03",
+          "price_manwon": 88000,
+          "count": 1
+        },
+        {
+          "month": "2024-04",
+          "price_manwon": 91400,
+          "count": 2
+        },
+        {
+          "month": "2024-05",
+          "price_manwon": 88800,
+          "count": 1
+        },
+        {
+          "month": "2024-07",
+          "price_manwon": 90650,
+          "count": 2
+        },
+        {
+          "month": "2024-08",
+          "price_manwon": 97000,
+          "count": 1
+        },
+        {
+          "month": "2024-09",
+          "price_manwon": 95000,
+          "count": 1
+        },
+        {
+          "month": "2024-11",
+          "price_manwon": 105000,
+          "count": 1
+        },
+        {
+          "month": "2025-05",
+          "price_manwon": 98300,
+          "count": 1
+        },
+        {
+          "month": "2025-07",
+          "price_manwon": 102500,
+          "count": 1
+        },
+        {
+          "month": "2025-08",
+          "price_manwon": 101000,
+          "count": 1
+        },
+        {
+          "month": "2025-10",
+          "price_manwon": 97000,
+          "count": 4
+        },
+        {
+          "month": "2025-12",
+          "price_manwon": 102000,
+          "count": 1
+        },
+        {
+          "month": "2026-01",
+          "price_manwon": 95500,
+          "count": 2
+        },
+        {
+          "month": "2026-02",
+          "price_manwon": 102000,
+          "count": 2
+        },
+        {
+          "month": "2026-03",
+          "price_manwon": 104150,
+          "count": 4
+        },
+        {
+          "month": "2026-04",
+          "price_manwon": 103000,
+          "count": 1
+        },
+        {
+          "month": "2026-05",
+          "price_manwon": 106500,
+          "count": 2
+        },
+        {
+          "month": "2026-06",
+          "price_manwon": 114650,
+          "count": 2
+        }
+      ],
+      "transactions": [
+        {
+          "apt": "동탄역동원로얄듀크비스타3차",
+          "price_manwon": 110000,
+          "area": 84.9963,
+          "date": "2026-06-10",
+          "floor": 1,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역동원로얄듀크비스타3차",
+          "price_manwon": 116800,
+          "area": 84.9963,
+          "date": "2026-06-08",
+          "floor": 28,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역동원로얄듀크비스타3차",
+          "price_manwon": 112500,
+          "area": 84.9963,
+          "date": "2026-06-03",
+          "floor": 22,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역동원로얄듀크비스타3차",
+          "price_manwon": 113000,
+          "area": 84.9963,
+          "date": "2026-05-18",
+          "floor": 21,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역동원로얄듀크비스타3차",
+          "price_manwon": 100000,
+          "area": 84.9963,
+          "date": "2026-05-13",
+          "floor": 12,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역동원로얄듀크비스타3차",
+          "price_manwon": 103000,
+          "area": 84.9989,
+          "date": "2026-04-16",
+          "floor": 29,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역동원로얄듀크비스타3차",
+          "price_manwon": 97500,
+          "area": 84.9963,
+          "date": "2026-04-01",
+          "floor": 2,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역동원로얄듀크비스타3차",
+          "price_manwon": 105700,
+          "area": 84.9963,
+          "date": "2026-03-31",
+          "floor": 18,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역동원로얄듀크비스타3차",
+          "price_manwon": 105600,
+          "area": 84.9963,
+          "date": "2026-03-30",
+          "floor": 27,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역동원로얄듀크비스타3차",
+          "price_manwon": 102700,
+          "area": 84.9963,
+          "date": "2026-03-24",
+          "floor": 24,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역동원로얄듀크비스타3차",
+          "price_manwon": 93000,
+          "area": 84.9989,
+          "date": "2026-03-23",
+          "floor": 5,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역동원로얄듀크비스타3차",
+          "price_manwon": 103000,
+          "area": 84.9963,
+          "date": "2026-02-14",
+          "floor": 21,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역동원로얄듀크비스타3차",
+          "price_manwon": 101000,
+          "area": 84.9989,
+          "date": "2026-02-08",
+          "floor": 17,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역동원로얄듀크비스타3차",
+          "price_manwon": 100000,
+          "area": 84.9963,
+          "date": "2026-01-17",
+          "floor": 22,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역동원로얄듀크비스타3차",
+          "price_manwon": 91000,
+          "area": 84.9989,
+          "date": "2026-01-17",
+          "floor": 11,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역동원로얄듀크비스타3차",
+          "price_manwon": 102000,
+          "area": 84.9963,
+          "date": "2025-12-23",
+          "floor": 13,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역동원로얄듀크비스타3차",
+          "price_manwon": 96000,
+          "area": 84.9963,
+          "date": "2025-11-09",
+          "floor": 3,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역동원로얄듀크비스타3차",
+          "price_manwon": 98000,
+          "area": 84.9963,
+          "date": "2025-10-29",
+          "floor": 10,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역동원로얄듀크비스타3차",
+          "price_manwon": 94500,
+          "area": 84.9989,
+          "date": "2025-10-25",
+          "floor": 8,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역동원로얄듀크비스타3차",
+          "price_manwon": 105000,
+          "area": 84.9989,
+          "date": "2025-10-21",
+          "floor": 33,
+          "direct": false,
+          "cancelled": false
+        }
+      ],
+      "gap_manwon": 42000,
       "asking_manwon": null,
-      "monthly_gaps": []
+      "monthly_gaps": [
+        {
+          "month": "2022-05",
+          "gap_manwon": 32300,
+          "target_price_manwon": 97300,
+          "home_price_manwon": 65000
+        },
+        {
+          "month": "2022-12",
+          "gap_manwon": 25000,
+          "target_price_manwon": 73000,
+          "home_price_manwon": 48000
+        },
+        {
+          "month": "2023-07",
+          "gap_manwon": 31250,
+          "target_price_manwon": 88000,
+          "home_price_manwon": 56750
+        },
+        {
+          "month": "2023-08",
+          "gap_manwon": 27000,
+          "target_price_manwon": 85500,
+          "home_price_manwon": 58500
+        },
+        {
+          "month": "2024-04",
+          "gap_manwon": 31900,
+          "target_price_manwon": 91400,
+          "home_price_manwon": 59500
+        },
+        {
+          "month": "2024-05",
+          "gap_manwon": 31050,
+          "target_price_manwon": 88800,
+          "home_price_manwon": 57750
+        },
+        {
+          "month": "2024-07",
+          "gap_manwon": 29450,
+          "target_price_manwon": 90650,
+          "home_price_manwon": 61200
+        },
+        {
+          "month": "2024-08",
+          "gap_manwon": 32000,
+          "target_price_manwon": 97000,
+          "home_price_manwon": 65000
+        },
+        {
+          "month": "2025-05",
+          "gap_manwon": 38600,
+          "target_price_manwon": 98300,
+          "home_price_manwon": 59700
+        },
+        {
+          "month": "2025-12",
+          "gap_manwon": 38300,
+          "target_price_manwon": 102000,
+          "home_price_manwon": 63700
+        },
+        {
+          "month": "2026-01",
+          "gap_manwon": 29500,
+          "target_price_manwon": 95500,
+          "home_price_manwon": 66000
+        },
+        {
+          "month": "2026-02",
+          "gap_manwon": 36000,
+          "target_price_manwon": 102000,
+          "home_price_manwon": 66000
+        },
+        {
+          "month": "2026-03",
+          "gap_manwon": 33650,
+          "target_price_manwon": 104150,
+          "home_price_manwon": 70500
+        },
+        {
+          "month": "2026-04",
+          "gap_manwon": 38000,
+          "target_price_manwon": 103000,
+          "home_price_manwon": 65000
+        },
+        {
+          "month": "2026-05",
+          "gap_manwon": 36000,
+          "target_price_manwon": 106500,
+          "home_price_manwon": 70500
+        }
+      ]
     },
     {
       "aliases": [
@@ -36378,7 +38433,7 @@
       "area": 84.9,
       "area_max": 85,
       "area_min": 80,
-      "dong": "오산동",
+      "dong": "여울동",
       "id": "dt-lin",
       "lawd_cd": "41597",
       "match_mode": "exact",
@@ -36386,17 +38441,422 @@
       "region": "동탄2",
       "source_url": "https://youandicandoit.tistory.com/2172",
       "watch_note": "동탄역권·호수권 린스트라우스와 구분",
+      "dong_aliases": [
+        "오산동",
+        "여울동"
+      ],
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 0,
-      "history_count": 0,
-      "representative_manwon": null,
-      "latest": null,
-      "monthly_prices": [],
-      "transactions": [],
-      "gap_manwon": null,
+      "count": 5,
+      "history_count": 53,
+      "representative_manwon": 136000,
+      "latest": {
+        "apt": "동탄역린스트라우스",
+        "price_manwon": 135000,
+        "area": 84.8421,
+        "date": "2026-06-05",
+        "floor": 5,
+        "direct": false,
+        "cancelled": false
+      },
+      "monthly_prices": [
+        {
+          "month": "2021-10",
+          "price_manwon": 125000,
+          "count": 1
+        },
+        {
+          "month": "2022-01",
+          "price_manwon": 123150,
+          "count": 1
+        },
+        {
+          "month": "2023-06",
+          "price_manwon": 107500,
+          "count": 2
+        },
+        {
+          "month": "2023-07",
+          "price_manwon": 109800,
+          "count": 1
+        },
+        {
+          "month": "2023-09",
+          "price_manwon": 120000,
+          "count": 1
+        },
+        {
+          "month": "2024-03",
+          "price_manwon": 114000,
+          "count": 1
+        },
+        {
+          "month": "2024-07",
+          "price_manwon": 108500,
+          "count": 1
+        },
+        {
+          "month": "2024-10",
+          "price_manwon": 108000,
+          "count": 3
+        },
+        {
+          "month": "2024-11",
+          "price_manwon": 110000,
+          "count": 1
+        },
+        {
+          "month": "2024-12",
+          "price_manwon": 107700,
+          "count": 1
+        },
+        {
+          "month": "2025-01",
+          "price_manwon": 104500,
+          "count": 1
+        },
+        {
+          "month": "2025-03",
+          "price_manwon": 107500,
+          "count": 3
+        },
+        {
+          "month": "2025-04",
+          "price_manwon": 107250,
+          "count": 3
+        },
+        {
+          "month": "2025-05",
+          "price_manwon": 106800,
+          "count": 5
+        },
+        {
+          "month": "2025-06",
+          "price_manwon": 108000,
+          "count": 3
+        },
+        {
+          "month": "2025-09",
+          "price_manwon": 109250,
+          "count": 2
+        },
+        {
+          "month": "2025-10",
+          "price_manwon": 115000,
+          "count": 4
+        },
+        {
+          "month": "2025-11",
+          "price_manwon": 113500,
+          "count": 6
+        },
+        {
+          "month": "2025-12",
+          "price_manwon": 120000,
+          "count": 3
+        },
+        {
+          "month": "2026-01",
+          "price_manwon": 124800,
+          "count": 3
+        },
+        {
+          "month": "2026-02",
+          "price_manwon": 123500,
+          "count": 1
+        },
+        {
+          "month": "2026-04",
+          "price_manwon": 136000,
+          "count": 1
+        },
+        {
+          "month": "2026-05",
+          "price_manwon": 140000,
+          "count": 3
+        },
+        {
+          "month": "2026-06",
+          "price_manwon": 135000,
+          "count": 1
+        }
+      ],
+      "transactions": [
+        {
+          "apt": "동탄역린스트라우스",
+          "price_manwon": 135000,
+          "area": 84.8421,
+          "date": "2026-06-05",
+          "floor": 5,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역린스트라우스",
+          "price_manwon": 140000,
+          "area": 84.2656,
+          "date": "2026-05-26",
+          "floor": 20,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역린스트라우스",
+          "price_manwon": 150000,
+          "area": 84.2656,
+          "date": "2026-05-16",
+          "floor": 24,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역린스트라우스",
+          "price_manwon": 130000,
+          "area": 84.8421,
+          "date": "2026-05-02",
+          "floor": 10,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역린스트라우스",
+          "price_manwon": 136000,
+          "area": 84.8421,
+          "date": "2026-04-30",
+          "floor": 33,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역린스트라우스",
+          "price_manwon": 123500,
+          "area": 84.8421,
+          "date": "2026-02-02",
+          "floor": 17,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역린스트라우스",
+          "price_manwon": 132000,
+          "area": 84.2656,
+          "date": "2026-01-31",
+          "floor": 37,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역린스트라우스",
+          "price_manwon": 124800,
+          "area": 84.8421,
+          "date": "2026-01-29",
+          "floor": 24,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역린스트라우스",
+          "price_manwon": 122500,
+          "area": 84.2656,
+          "date": "2026-01-11",
+          "floor": 12,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역린스트라우스",
+          "price_manwon": 120000,
+          "area": 84.8421,
+          "date": "2025-12-27",
+          "floor": 22,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역린스트라우스",
+          "price_manwon": 120000,
+          "area": 84.8421,
+          "date": "2025-12-20",
+          "floor": 36,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역린스트라우스",
+          "price_manwon": 120000,
+          "area": 84.8421,
+          "date": "2025-12-05",
+          "floor": 25,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역린스트라우스",
+          "price_manwon": 120000,
+          "area": 84.8421,
+          "date": "2025-11-21",
+          "floor": 14,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역린스트라우스",
+          "price_manwon": 115000,
+          "area": 84.2656,
+          "date": "2025-11-09",
+          "floor": 16,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역린스트라우스",
+          "price_manwon": 107000,
+          "area": 84.8421,
+          "date": "2025-11-08",
+          "floor": 4,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역린스트라우스",
+          "price_manwon": 120000,
+          "area": 84.2656,
+          "date": "2025-11-03",
+          "floor": 18,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역린스트라우스",
+          "price_manwon": 112000,
+          "area": 84.2656,
+          "date": "2025-11-03",
+          "floor": 5,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역린스트라우스",
+          "price_manwon": 108000,
+          "area": 84.8421,
+          "date": "2025-11-01",
+          "floor": 5,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역린스트라우스",
+          "price_manwon": 115000,
+          "area": 84.2656,
+          "date": "2025-10-20",
+          "floor": 30,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역린스트라우스",
+          "price_manwon": 115000,
+          "area": 84.2656,
+          "date": "2025-10-17",
+          "floor": 36,
+          "direct": false,
+          "cancelled": false
+        }
+      ],
+      "gap_manwon": 65500,
       "asking_manwon": null,
-      "monthly_gaps": []
+      "monthly_gaps": [
+        {
+          "month": "2023-07",
+          "gap_manwon": 53050,
+          "target_price_manwon": 109800,
+          "home_price_manwon": 56750
+        },
+        {
+          "month": "2024-07",
+          "gap_manwon": 47300,
+          "target_price_manwon": 108500,
+          "home_price_manwon": 61200
+        },
+        {
+          "month": "2024-10",
+          "gap_manwon": 47500,
+          "target_price_manwon": 108000,
+          "home_price_manwon": 60500
+        },
+        {
+          "month": "2025-01",
+          "gap_manwon": 44200,
+          "target_price_manwon": 104500,
+          "home_price_manwon": 60300
+        },
+        {
+          "month": "2025-03",
+          "gap_manwon": 44000,
+          "target_price_manwon": 107500,
+          "home_price_manwon": 63500
+        },
+        {
+          "month": "2025-04",
+          "gap_manwon": 41250,
+          "target_price_manwon": 107250,
+          "home_price_manwon": 66000
+        },
+        {
+          "month": "2025-05",
+          "gap_manwon": 47100,
+          "target_price_manwon": 106800,
+          "home_price_manwon": 59700
+        },
+        {
+          "month": "2025-06",
+          "gap_manwon": 43000,
+          "target_price_manwon": 108000,
+          "home_price_manwon": 65000
+        },
+        {
+          "month": "2025-09",
+          "gap_manwon": 44750,
+          "target_price_manwon": 109250,
+          "home_price_manwon": 64500
+        },
+        {
+          "month": "2025-11",
+          "gap_manwon": 47650,
+          "target_price_manwon": 113500,
+          "home_price_manwon": 65850
+        },
+        {
+          "month": "2025-12",
+          "gap_manwon": 56300,
+          "target_price_manwon": 120000,
+          "home_price_manwon": 63700
+        },
+        {
+          "month": "2026-01",
+          "gap_manwon": 58800,
+          "target_price_manwon": 124800,
+          "home_price_manwon": 66000
+        },
+        {
+          "month": "2026-02",
+          "gap_manwon": 57500,
+          "target_price_manwon": 123500,
+          "home_price_manwon": 66000
+        },
+        {
+          "month": "2026-04",
+          "gap_manwon": 71000,
+          "target_price_manwon": 136000,
+          "home_price_manwon": 65000
+        },
+        {
+          "month": "2026-05",
+          "gap_manwon": 69500,
+          "target_price_manwon": 140000,
+          "home_price_manwon": 70500
+        }
+      ]
     },
     {
       "aliases": [
@@ -36979,20 +39439,20 @@
       ]
     },
     {
-      "id": "bd-sangrok-imkwang",
-      "region": "분당",
-      "name": "정자 상록마을 임광",
       "aliases": [
         "상록마을(임광)"
       ],
-      "dong": "정자동",
-      "lawd_cd": "41135",
       "area": 84.9,
-      "area_min": 80,
       "area_max": 85,
+      "area_min": 80,
+      "dong": "정자동",
+      "id": "bd-sangrok-imkwang",
+      "lawd_cd": "41135",
       "match_mode": "exact",
-      "watch_note": "분당 생활권 상위 비교·단지별 거래 분리",
+      "name": "정자 상록마을 임광",
+      "region": "분당",
       "source_url": "https://github.com/best546/apt-gap-monitor/blob/main/docs/data/latest.json",
+      "watch_note": "분당 생활권 상위 비교·단지별 거래 분리",
       "area_tolerance": 1.2,
       "min_floor": 4,
       "count": 3,
@@ -37287,20 +39747,20 @@
       ]
     },
     {
-      "id": "bd-yangji-cheonggu",
-      "region": "분당",
-      "name": "수내 양지마을 청구2단지",
       "aliases": [
         "양지마을(2단지)(청구)"
       ],
-      "dong": "수내동",
-      "lawd_cd": "41135",
       "area": 84.9,
-      "area_min": 80,
       "area_max": 85,
+      "area_min": 80,
+      "dong": "수내동",
+      "id": "bd-yangji-cheonggu",
+      "lawd_cd": "41135",
       "match_mode": "exact",
-      "watch_note": "분당 생활권 상위 비교·단지별 거래 분리",
+      "name": "수내 양지마을 청구2단지",
+      "region": "분당",
       "source_url": "https://github.com/best546/apt-gap-monitor/blob/main/docs/data/latest.json",
+      "watch_note": "분당 생활권 상위 비교·단지별 거래 분리",
       "area_tolerance": 1.2,
       "min_floor": 4,
       "count": 5,
@@ -37655,20 +40115,20 @@
       ]
     },
     {
-      "id": "bd-yangji-hanyang",
-      "region": "분당",
-      "name": "수내 양지마을 한양5단지",
       "aliases": [
         "양지마을(5단지)(한양515-529)"
       ],
-      "dong": "수내동",
-      "lawd_cd": "41135",
       "area": 84.9,
-      "area_min": 80,
       "area_max": 85,
+      "area_min": 80,
+      "dong": "수내동",
+      "id": "bd-yangji-hanyang",
+      "lawd_cd": "41135",
       "match_mode": "exact",
-      "watch_note": "분당 생활권 상위 비교·단지별 거래 분리",
+      "name": "수내 양지마을 한양5단지",
+      "region": "분당",
       "source_url": "https://github.com/best546/apt-gap-monitor/blob/main/docs/data/latest.json",
+      "watch_note": "분당 생활권 상위 비교·단지별 거래 분리",
       "area_tolerance": 1.2,
       "min_floor": 4,
       "count": 2,
@@ -37963,20 +40423,20 @@
       ]
     },
     {
-      "id": "bd-imae-hanshin",
-      "region": "분당",
-      "name": "이매촌 한신",
       "aliases": [
         "이매촌(한신)"
       ],
-      "dong": "이매동",
-      "lawd_cd": "41135",
       "area": 84.9,
-      "area_min": 80,
       "area_max": 85,
+      "area_min": 80,
+      "dong": "이매동",
+      "id": "bd-imae-hanshin",
+      "lawd_cd": "41135",
       "match_mode": "exact",
-      "watch_note": "분당 생활권 상위 비교·단지별 거래 분리",
+      "name": "이매촌 한신",
+      "region": "분당",
       "source_url": "https://github.com/best546/apt-gap-monitor/blob/main/docs/data/latest.json",
+      "watch_note": "분당 생활권 상위 비교·단지별 거래 분리",
       "area_tolerance": 1.2,
       "min_floor": 4,
       "count": 3,
@@ -38412,20 +40872,20 @@
       ]
     },
     {
-      "id": "bd-imae-cheonggu",
-      "region": "분당",
-      "name": "이매촌 청구",
       "aliases": [
         "이매촌(청구)"
       ],
-      "dong": "이매동",
-      "lawd_cd": "41135",
       "area": 84.9,
-      "area_min": 80,
       "area_max": 85,
+      "area_min": 80,
+      "dong": "이매동",
+      "id": "bd-imae-cheonggu",
+      "lawd_cd": "41135",
       "match_mode": "exact",
-      "watch_note": "분당 생활권 상위 비교·단지별 거래 분리",
+      "name": "이매촌 청구",
+      "region": "분당",
       "source_url": "https://github.com/best546/apt-gap-monitor/blob/main/docs/data/latest.json",
+      "watch_note": "분당 생활권 상위 비교·단지별 거래 분리",
       "area_tolerance": 1.2,
       "min_floor": 4,
       "count": 3,
@@ -38792,20 +41252,20 @@
       ]
     },
     {
-      "id": "bd-imae-jinheung",
-      "region": "분당",
-      "name": "이매촌 진흥",
       "aliases": [
         "이매촌(진흥)"
       ],
-      "dong": "이매동",
-      "lawd_cd": "41135",
       "area": 84.9,
-      "area_min": 80,
       "area_max": 85,
+      "area_min": 80,
+      "dong": "이매동",
+      "id": "bd-imae-jinheung",
+      "lawd_cd": "41135",
       "match_mode": "exact",
-      "watch_note": "분당 생활권 상위 비교·단지별 거래 분리",
+      "name": "이매촌 진흥",
+      "region": "분당",
       "source_url": "https://github.com/best546/apt-gap-monitor/blob/main/docs/data/latest.json",
+      "watch_note": "분당 생활권 상위 비교·단지별 거래 분리",
       "area_tolerance": 1.2,
       "min_floor": 4,
       "count": 4,
@@ -39188,20 +41648,20 @@
       ]
     },
     {
-      "id": "seongnam-haneul1",
-      "region": "뉴성남 · 신흥역",
-      "name": "신흥역하늘채랜더스원1단지",
       "aliases": [
         "신흥역하늘채랜더스원1단지",
         "신흥역 하늘채 랜더스원 1단지"
       ],
-      "lawd_cd": "41133",
-      "dong": "중앙동",
       "area": 84.99,
-      "area_tolerance": 0.15,
-      "area_min": 80,
       "area_max": 85,
+      "area_min": 80,
+      "area_tolerance": 0.15,
+      "dong": "중앙동",
+      "id": "seongnam-haneul1",
+      "lawd_cd": "41133",
       "match_mode": "exact",
+      "name": "신흥역하늘채랜더스원1단지",
+      "region": "뉴성남 · 신흥역",
       "source_url": "https://hogangnono.com/apt/dF092",
       "watch_note": "신흥역 초역세권·초품아·대단지 신축 핵심 후보",
       "min_floor": 4,
@@ -39601,20 +42061,20 @@
       ]
     },
     {
-      "id": "seongnam-haneul3",
-      "region": "뉴성남 · 신흥역",
-      "name": "신흥역하늘채랜더스원3단지",
       "aliases": [
         "신흥역하늘채랜더스원3단지",
         "신흥역 하늘채 랜더스원 3단지"
       ],
-      "lawd_cd": "41133",
-      "dong": "중앙동",
       "area": 84.99,
-      "area_tolerance": 0.15,
-      "area_min": 80,
       "area_max": 85,
+      "area_min": 80,
+      "area_tolerance": 0.15,
+      "dong": "중앙동",
+      "id": "seongnam-haneul3",
+      "lawd_cd": "41133",
       "match_mode": "exact",
+      "name": "신흥역하늘채랜더스원3단지",
+      "region": "뉴성남 · 신흥역",
       "source_url": "https://hogangnono.com/apt/dF092",
       "watch_note": "신흥역 생활권·신축·숲조망 비교 후보",
       "min_floor": 4,
@@ -39790,20 +42250,20 @@
       ]
     },
     {
-      "id": "seongnam-forestia",
-      "region": "뉴성남 · 산성역",
-      "name": "산성역포레스티아",
       "aliases": [
         "산성역포레스티아",
         "산성역 포레스티아"
       ],
-      "lawd_cd": "41131",
-      "dong": "신흥동",
       "area": 84.99,
-      "area_tolerance": 0.2,
-      "area_min": 80,
       "area_max": 85,
+      "area_min": 80,
+      "area_tolerance": 0.2,
+      "dong": "신흥동",
+      "id": "seongnam-forestia",
+      "lawd_cd": "41131",
       "match_mode": "exact",
+      "name": "산성역포레스티아",
+      "region": "뉴성남 · 산성역",
       "source_url": "https://hogangnono.com/apt/cudcd",
       "watch_note": "산성역 역세권·대단지·구성남 상급지 비교",
       "min_floor": 4,
@@ -40389,49 +42849,386 @@
       ]
     },
     {
-      "id": "seongnam-xi-prugio",
-      "region": "뉴성남 · 산성역",
-      "name": "산성역자이푸르지오",
       "aliases": [
-        "산성역자이푸르지오",
-        "산성역 자이푸르지오"
+        "산성역자이푸르지오1단지"
       ],
-      "lawd_cd": "41131",
-      "dong": "신흥동",
       "area": 84.98,
-      "area_tolerance": 0.2,
-      "area_min": 80,
       "area_max": 85,
+      "area_min": 80,
+      "area_tolerance": 0.2,
+      "dong": "신흥동",
+      "id": "seongnam-xi-prugio",
+      "lawd_cd": "41131",
       "match_mode": "exact",
+      "name": "산성역자이푸르지오1단지",
+      "region": "뉴성남 · 산성역",
       "source_url": "https://hogangnono.com/apt/dEKc0",
       "watch_note": "산성역 생활권·대형 브랜드 신축 비교",
       "min_floor": 4,
-      "count": 0,
-      "history_count": 0,
-      "representative_manwon": null,
-      "latest": null,
-      "monthly_prices": [],
-      "transactions": [],
-      "gap_manwon": null,
+      "count": 6,
+      "history_count": 31,
+      "representative_manwon": 138500,
+      "latest": {
+        "apt": "산성역자이푸르지오1단지",
+        "price_manwon": 147000,
+        "area": 84.98,
+        "date": "2026-08-18",
+        "floor": 10,
+        "direct": false,
+        "cancelled": false
+      },
+      "monthly_prices": [
+        {
+          "month": "2025-03",
+          "price_manwon": 115000,
+          "count": 1
+        },
+        {
+          "month": "2025-04",
+          "price_manwon": 115000,
+          "count": 1
+        },
+        {
+          "month": "2025-06",
+          "price_manwon": 115000,
+          "count": 4
+        },
+        {
+          "month": "2025-08",
+          "price_manwon": 111000,
+          "count": 3
+        },
+        {
+          "month": "2025-09",
+          "price_manwon": 117000,
+          "count": 3
+        },
+        {
+          "month": "2025-10",
+          "price_manwon": 120500,
+          "count": 2
+        },
+        {
+          "month": "2025-11",
+          "price_manwon": 124500,
+          "count": 1
+        },
+        {
+          "month": "2025-12",
+          "price_manwon": 128000,
+          "count": 3
+        },
+        {
+          "month": "2026-01",
+          "price_manwon": 132000,
+          "count": 4
+        },
+        {
+          "month": "2026-02",
+          "price_manwon": 144000,
+          "count": 1
+        },
+        {
+          "month": "2026-03",
+          "price_manwon": 110000,
+          "count": 1
+        },
+        {
+          "month": "2026-04",
+          "price_manwon": 138000,
+          "count": 1
+        },
+        {
+          "month": "2026-05",
+          "price_manwon": 134250,
+          "count": 2
+        },
+        {
+          "month": "2026-06",
+          "price_manwon": 142000,
+          "count": 2
+        },
+        {
+          "month": "2026-08",
+          "price_manwon": 147000,
+          "count": 1
+        }
+      ],
+      "transactions": [
+        {
+          "apt": "산성역자이푸르지오1단지",
+          "price_manwon": 147000,
+          "area": 84.98,
+          "date": "2026-08-18",
+          "floor": 10,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "산성역자이푸르지오1단지",
+          "price_manwon": 139000,
+          "area": 84.98,
+          "date": "2026-06-20",
+          "floor": 8,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "산성역자이푸르지오1단지",
+          "price_manwon": 145000,
+          "area": 84.98,
+          "date": "2026-06-09",
+          "floor": 23,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "산성역자이푸르지오1단지",
+          "price_manwon": 135000,
+          "area": 84.98,
+          "date": "2026-05-29",
+          "floor": 17,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "산성역자이푸르지오1단지",
+          "price_manwon": 133500,
+          "area": 84.98,
+          "date": "2026-05-04",
+          "floor": 26,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "산성역자이푸르지오1단지",
+          "price_manwon": 138000,
+          "area": 84.98,
+          "date": "2026-04-29",
+          "floor": 28,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "산성역자이푸르지오1단지",
+          "price_manwon": 110000,
+          "area": 84.98,
+          "date": "2026-03-28",
+          "floor": 10,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "산성역자이푸르지오1단지",
+          "price_manwon": 144000,
+          "area": 84.98,
+          "date": "2026-02-12",
+          "floor": 22,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "산성역자이푸르지오1단지",
+          "price_manwon": 135000,
+          "area": 84.98,
+          "date": "2026-01-22",
+          "floor": 19,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "산성역자이푸르지오1단지",
+          "price_manwon": 130000,
+          "area": 84.98,
+          "date": "2026-01-06",
+          "floor": 12,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "산성역자이푸르지오1단지",
+          "price_manwon": 129000,
+          "area": 84.98,
+          "date": "2026-01-03",
+          "floor": 23,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "산성역자이푸르지오1단지",
+          "price_manwon": 134000,
+          "area": 84.98,
+          "date": "2026-01-02",
+          "floor": 7,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "산성역자이푸르지오1단지",
+          "price_manwon": 129500,
+          "area": 84.98,
+          "date": "2025-12-16",
+          "floor": 20,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "산성역자이푸르지오1단지",
+          "price_manwon": 113000,
+          "area": 84.98,
+          "date": "2025-12-08",
+          "floor": 4,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "산성역자이푸르지오1단지",
+          "price_manwon": 128000,
+          "area": 84.98,
+          "date": "2025-12-05",
+          "floor": 24,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "산성역자이푸르지오1단지",
+          "price_manwon": 124500,
+          "area": 84.98,
+          "date": "2025-11-22",
+          "floor": 14,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "산성역자이푸르지오1단지",
+          "price_manwon": 115000,
+          "area": 84.98,
+          "date": "2025-10-17",
+          "floor": 2,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "산성역자이푸르지오1단지",
+          "price_manwon": 121000,
+          "area": 84.98,
+          "date": "2025-10-14",
+          "floor": 24,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "산성역자이푸르지오1단지",
+          "price_manwon": 120000,
+          "area": 84.98,
+          "date": "2025-10-12",
+          "floor": 13,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "산성역자이푸르지오1단지",
+          "price_manwon": 119000,
+          "area": 84.98,
+          "date": "2025-09-27",
+          "floor": 13,
+          "direct": false,
+          "cancelled": false
+        }
+      ],
+      "gap_manwon": 68000,
       "asking_manwon": null,
-      "monthly_gaps": []
+      "monthly_gaps": [
+        {
+          "month": "2025-03",
+          "gap_manwon": 51500,
+          "target_price_manwon": 115000,
+          "home_price_manwon": 63500
+        },
+        {
+          "month": "2025-04",
+          "gap_manwon": 49000,
+          "target_price_manwon": 115000,
+          "home_price_manwon": 66000
+        },
+        {
+          "month": "2025-06",
+          "gap_manwon": 50000,
+          "target_price_manwon": 115000,
+          "home_price_manwon": 65000
+        },
+        {
+          "month": "2025-09",
+          "gap_manwon": 52500,
+          "target_price_manwon": 117000,
+          "home_price_manwon": 64500
+        },
+        {
+          "month": "2025-11",
+          "gap_manwon": 58650,
+          "target_price_manwon": 124500,
+          "home_price_manwon": 65850
+        },
+        {
+          "month": "2025-12",
+          "gap_manwon": 64300,
+          "target_price_manwon": 128000,
+          "home_price_manwon": 63700
+        },
+        {
+          "month": "2026-01",
+          "gap_manwon": 66000,
+          "target_price_manwon": 132000,
+          "home_price_manwon": 66000
+        },
+        {
+          "month": "2026-02",
+          "gap_manwon": 78000,
+          "target_price_manwon": 144000,
+          "home_price_manwon": 66000
+        },
+        {
+          "month": "2026-03",
+          "gap_manwon": 39500,
+          "target_price_manwon": 110000,
+          "home_price_manwon": 70500
+        },
+        {
+          "month": "2026-04",
+          "gap_manwon": 73000,
+          "target_price_manwon": 138000,
+          "home_price_manwon": 65000
+        },
+        {
+          "month": "2026-05",
+          "gap_manwon": 63750,
+          "target_price_manwon": 134250,
+          "home_price_manwon": 70500
+        },
+        {
+          "month": "2026-08",
+          "gap_manwon": 59000,
+          "target_price_manwon": 147000,
+          "home_price_manwon": 88000
+        }
+      ]
     },
     {
-      "id": "seongnam-geumbit1",
-      "region": "뉴성남 · 단대오거리",
-      "name": "e편한세상금빛그랑메종1단지",
       "aliases": [
         "e편한세상금빛그랑메종1단지",
         "이편한세상금빛그랑메종1단지",
         "e편한세상 금빛그랑메종 1단지"
       ],
-      "lawd_cd": "41133",
-      "dong": "금광동",
       "area": 84.98,
-      "area_tolerance": 0.5,
-      "area_min": 80,
       "area_max": 85,
+      "area_min": 80,
+      "area_tolerance": 0.5,
+      "dong": "금광동",
+      "id": "seongnam-geumbit1",
+      "lawd_cd": "41133",
       "match_mode": "exact",
+      "name": "e편한세상금빛그랑메종1단지",
+      "region": "뉴성남 · 단대오거리",
       "source_url": "https://hogangnono.com/apt/dt22b",
       "watch_note": "단대오거리역 생활권·초대형 신축·가격 접근성 비교",
       "min_floor": 4,
@@ -40767,6 +43564,2643 @@
           "gap_manwon": 62000,
           "target_price_manwon": 128000,
           "home_price_manwon": 66000
+        }
+      ]
+    },
+    {
+      "id": "gc-summit",
+      "name": "과천푸르지오써밋",
+      "region": "과천",
+      "lawd_cd": "41290",
+      "dong": "중앙동",
+      "aliases": [
+        "과천푸르지오써밋"
+      ],
+      "watch_note": "과천역·중심 생활권 비교 후보",
+      "source_url": "https://jy6807.kmswb.kr/",
+      "area": 84.9,
+      "area_min": 80,
+      "area_max": 85,
+      "match_mode": "exact",
+      "recommended": true,
+      "recommendation_group": "확대 추천",
+      "area_tolerance": 1.2,
+      "min_floor": 4,
+      "count": 9,
+      "history_count": 75,
+      "representative_manwon": 266000,
+      "latest": {
+        "apt": "과천푸르지오써밋",
+        "price_manwon": 273000,
+        "area": 84.9836,
+        "date": "2026-08-29",
+        "floor": 10,
+        "direct": false,
+        "cancelled": false
+      },
+      "monthly_prices": [
+        {
+          "month": "2022-06",
+          "price_manwon": 210000,
+          "count": 1
+        },
+        {
+          "month": "2022-12",
+          "price_manwon": 165000,
+          "count": 1
+        },
+        {
+          "month": "2023-04",
+          "price_manwon": 169000,
+          "count": 1
+        },
+        {
+          "month": "2023-05",
+          "price_manwon": 185000,
+          "count": 3
+        },
+        {
+          "month": "2023-06",
+          "price_manwon": 188000,
+          "count": 1
+        },
+        {
+          "month": "2023-07",
+          "price_manwon": 186000,
+          "count": 2
+        },
+        {
+          "month": "2023-08",
+          "price_manwon": 197000,
+          "count": 2
+        },
+        {
+          "month": "2023-09",
+          "price_manwon": 205000,
+          "count": 3
+        },
+        {
+          "month": "2024-02",
+          "price_manwon": 202300,
+          "count": 1
+        },
+        {
+          "month": "2024-04",
+          "price_manwon": 198500,
+          "count": 3
+        },
+        {
+          "month": "2024-05",
+          "price_manwon": 205000,
+          "count": 3
+        },
+        {
+          "month": "2024-06",
+          "price_manwon": 208000,
+          "count": 7
+        },
+        {
+          "month": "2024-07",
+          "price_manwon": 216500,
+          "count": 2
+        },
+        {
+          "month": "2024-08",
+          "price_manwon": 221000,
+          "count": 3
+        },
+        {
+          "month": "2024-10",
+          "price_manwon": 220500,
+          "count": 2
+        },
+        {
+          "month": "2025-02",
+          "price_manwon": 236500,
+          "count": 2
+        },
+        {
+          "month": "2025-03",
+          "price_manwon": 239000,
+          "count": 7
+        },
+        {
+          "month": "2025-04",
+          "price_manwon": 245000,
+          "count": 1
+        },
+        {
+          "month": "2025-05",
+          "price_manwon": 246000,
+          "count": 6
+        },
+        {
+          "month": "2025-06",
+          "price_manwon": 248000,
+          "count": 3
+        },
+        {
+          "month": "2025-08",
+          "price_manwon": 270000,
+          "count": 1
+        },
+        {
+          "month": "2025-10",
+          "price_manwon": 279750,
+          "count": 2
+        },
+        {
+          "month": "2026-03",
+          "price_manwon": 268000,
+          "count": 1
+        },
+        {
+          "month": "2026-04",
+          "price_manwon": 265000,
+          "count": 3
+        },
+        {
+          "month": "2026-05",
+          "price_manwon": 257000,
+          "count": 1
+        },
+        {
+          "month": "2026-06",
+          "price_manwon": 268500,
+          "count": 2
+        },
+        {
+          "month": "2026-08",
+          "price_manwon": 272500,
+          "count": 2
+        }
+      ],
+      "transactions": [
+        {
+          "apt": "과천푸르지오써밋",
+          "price_manwon": 273000,
+          "area": 84.9836,
+          "date": "2026-08-29",
+          "floor": 10,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "과천푸르지오써밋",
+          "price_manwon": 272000,
+          "area": 84.9854,
+          "date": "2026-08-08",
+          "floor": 11,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "과천푸르지오써밋",
+          "price_manwon": 259000,
+          "area": 84.9364,
+          "date": "2026-06-16",
+          "floor": 5,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "과천푸르지오써밋",
+          "price_manwon": 278000,
+          "area": 84.9499,
+          "date": "2026-06-16",
+          "floor": 24,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "과천푸르지오써밋",
+          "price_manwon": 270000,
+          "area": 84.9998,
+          "date": "2026-06-11",
+          "floor": 3,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "과천푸르지오써밋",
+          "price_manwon": 257000,
+          "area": 84.9998,
+          "date": "2026-05-08",
+          "floor": 25,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "과천푸르지오써밋",
+          "price_manwon": 242000,
+          "area": 84.9364,
+          "date": "2026-04-23",
+          "floor": 9,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "과천푸르지오써밋",
+          "price_manwon": 267000,
+          "area": 84.9998,
+          "date": "2026-04-01",
+          "floor": 12,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "과천푸르지오써밋",
+          "price_manwon": 265000,
+          "area": 84.9499,
+          "date": "2026-04-01",
+          "floor": 19,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "과천푸르지오써밋",
+          "price_manwon": 268000,
+          "area": 84.9836,
+          "date": "2026-03-11",
+          "floor": 17,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "과천푸르지오써밋",
+          "price_manwon": 279500,
+          "area": 84.9998,
+          "date": "2025-10-09",
+          "floor": 10,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "과천푸르지오써밋",
+          "price_manwon": 280000,
+          "area": 84.9499,
+          "date": "2025-10-04",
+          "floor": 23,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "과천푸르지오써밋",
+          "price_manwon": 246000,
+          "area": 84.9836,
+          "date": "2025-09-24",
+          "floor": 1,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "과천푸르지오써밋",
+          "price_manwon": 270000,
+          "area": 84.9364,
+          "date": "2025-08-26",
+          "floor": 13,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "과천푸르지오써밋",
+          "price_manwon": 234500,
+          "area": 84.9364,
+          "date": "2025-08-26",
+          "floor": 2,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "과천푸르지오써밋",
+          "price_manwon": 260000,
+          "area": 84.9836,
+          "date": "2025-06-14",
+          "floor": 13,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "과천푸르지오써밋",
+          "price_manwon": 248000,
+          "area": 84.9364,
+          "date": "2025-06-07",
+          "floor": 5,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "과천푸르지오써밋",
+          "price_manwon": 250000,
+          "area": 84.9364,
+          "date": "2025-06-06",
+          "floor": 3,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "과천푸르지오써밋",
+          "price_manwon": 245000,
+          "area": 84.9836,
+          "date": "2025-06-03",
+          "floor": 12,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "과천푸르지오써밋",
+          "price_manwon": 253000,
+          "area": 84.9998,
+          "date": "2025-05-26",
+          "floor": 16,
+          "direct": false,
+          "cancelled": false
+        }
+      ],
+      "gap_manwon": 195500,
+      "asking_manwon": null,
+      "monthly_gaps": [
+        {
+          "month": "2022-06",
+          "gap_manwon": 146000,
+          "target_price_manwon": 210000,
+          "home_price_manwon": 64000
+        },
+        {
+          "month": "2022-12",
+          "gap_manwon": 117000,
+          "target_price_manwon": 165000,
+          "home_price_manwon": 48000
+        },
+        {
+          "month": "2023-07",
+          "gap_manwon": 129250,
+          "target_price_manwon": 186000,
+          "home_price_manwon": 56750
+        },
+        {
+          "month": "2023-08",
+          "gap_manwon": 138500,
+          "target_price_manwon": 197000,
+          "home_price_manwon": 58500
+        },
+        {
+          "month": "2024-04",
+          "gap_manwon": 139000,
+          "target_price_manwon": 198500,
+          "home_price_manwon": 59500
+        },
+        {
+          "month": "2024-05",
+          "gap_manwon": 147250,
+          "target_price_manwon": 205000,
+          "home_price_manwon": 57750
+        },
+        {
+          "month": "2024-06",
+          "gap_manwon": 149000,
+          "target_price_manwon": 208000,
+          "home_price_manwon": 59000
+        },
+        {
+          "month": "2024-07",
+          "gap_manwon": 155300,
+          "target_price_manwon": 216500,
+          "home_price_manwon": 61200
+        },
+        {
+          "month": "2024-08",
+          "gap_manwon": 156000,
+          "target_price_manwon": 221000,
+          "home_price_manwon": 65000
+        },
+        {
+          "month": "2024-10",
+          "gap_manwon": 160000,
+          "target_price_manwon": 220500,
+          "home_price_manwon": 60500
+        },
+        {
+          "month": "2025-02",
+          "gap_manwon": 174500,
+          "target_price_manwon": 236500,
+          "home_price_manwon": 62000
+        },
+        {
+          "month": "2025-03",
+          "gap_manwon": 175500,
+          "target_price_manwon": 239000,
+          "home_price_manwon": 63500
+        },
+        {
+          "month": "2025-04",
+          "gap_manwon": 179000,
+          "target_price_manwon": 245000,
+          "home_price_manwon": 66000
+        },
+        {
+          "month": "2025-05",
+          "gap_manwon": 186300,
+          "target_price_manwon": 246000,
+          "home_price_manwon": 59700
+        },
+        {
+          "month": "2025-06",
+          "gap_manwon": 183000,
+          "target_price_manwon": 248000,
+          "home_price_manwon": 65000
+        },
+        {
+          "month": "2026-03",
+          "gap_manwon": 197500,
+          "target_price_manwon": 268000,
+          "home_price_manwon": 70500
+        },
+        {
+          "month": "2026-04",
+          "gap_manwon": 200000,
+          "target_price_manwon": 265000,
+          "home_price_manwon": 65000
+        },
+        {
+          "month": "2026-05",
+          "gap_manwon": 186500,
+          "target_price_manwon": 257000,
+          "home_price_manwon": 70500
+        },
+        {
+          "month": "2026-08",
+          "gap_manwon": 184500,
+          "target_price_manwon": 272500,
+          "home_price_manwon": 88000
+        }
+      ]
+    },
+    {
+      "id": "gc-xi",
+      "name": "과천자이",
+      "region": "과천",
+      "lawd_cd": "41290",
+      "dong": "별양동",
+      "aliases": [
+        "과천자이"
+      ],
+      "watch_note": "과천 신축 상급지 비교 후보",
+      "source_url": "https://www.aptrank.com/apt_detail.php?aptnameuid=50248",
+      "area": 84.9,
+      "area_min": 80,
+      "area_max": 85,
+      "match_mode": "exact",
+      "recommended": true,
+      "recommendation_group": "확대 추천",
+      "area_tolerance": 1.2,
+      "min_floor": 4,
+      "count": 9,
+      "history_count": 79,
+      "representative_manwon": 244000,
+      "latest": {
+        "apt": "과천자이",
+        "price_manwon": 255000,
+        "area": 84.93,
+        "date": "2026-08-08",
+        "floor": 32,
+        "direct": false,
+        "cancelled": false
+      },
+      "monthly_prices": [
+        {
+          "month": "2022-07",
+          "price_manwon": 205000,
+          "count": 1
+        },
+        {
+          "month": "2022-12",
+          "price_manwon": 159500,
+          "count": 1
+        },
+        {
+          "month": "2023-01",
+          "price_manwon": 159500,
+          "count": 2
+        },
+        {
+          "month": "2023-03",
+          "price_manwon": 178000,
+          "count": 3
+        },
+        {
+          "month": "2023-04",
+          "price_manwon": 179500,
+          "count": 2
+        },
+        {
+          "month": "2023-05",
+          "price_manwon": 182000,
+          "count": 1
+        },
+        {
+          "month": "2023-06",
+          "price_manwon": 186000,
+          "count": 3
+        },
+        {
+          "month": "2023-07",
+          "price_manwon": 170750,
+          "count": 2
+        },
+        {
+          "month": "2024-01",
+          "price_manwon": 177000,
+          "count": 1
+        },
+        {
+          "month": "2024-02",
+          "price_manwon": 176500,
+          "count": 2
+        },
+        {
+          "month": "2024-03",
+          "price_manwon": 186750,
+          "count": 2
+        },
+        {
+          "month": "2024-04",
+          "price_manwon": 197000,
+          "count": 1
+        },
+        {
+          "month": "2024-06",
+          "price_manwon": 194000,
+          "count": 1
+        },
+        {
+          "month": "2024-07",
+          "price_manwon": 202500,
+          "count": 4
+        },
+        {
+          "month": "2024-08",
+          "price_manwon": 205000,
+          "count": 3
+        },
+        {
+          "month": "2024-09",
+          "price_manwon": 205000,
+          "count": 3
+        },
+        {
+          "month": "2024-10",
+          "price_manwon": 210000,
+          "count": 3
+        },
+        {
+          "month": "2024-11",
+          "price_manwon": 199000,
+          "count": 2
+        },
+        {
+          "month": "2025-01",
+          "price_manwon": 207000,
+          "count": 3
+        },
+        {
+          "month": "2025-02",
+          "price_manwon": 211000,
+          "count": 4
+        },
+        {
+          "month": "2025-03",
+          "price_manwon": 230500,
+          "count": 2
+        },
+        {
+          "month": "2025-05",
+          "price_manwon": 235750,
+          "count": 2
+        },
+        {
+          "month": "2025-06",
+          "price_manwon": 235000,
+          "count": 1
+        },
+        {
+          "month": "2025-07",
+          "price_manwon": 238000,
+          "count": 1
+        },
+        {
+          "month": "2025-09",
+          "price_manwon": 245000,
+          "count": 5
+        },
+        {
+          "month": "2025-10",
+          "price_manwon": 248000,
+          "count": 5
+        },
+        {
+          "month": "2025-11",
+          "price_manwon": 258000,
+          "count": 1
+        },
+        {
+          "month": "2025-12",
+          "price_manwon": 259850,
+          "count": 1
+        },
+        {
+          "month": "2026-03",
+          "price_manwon": 240000,
+          "count": 1
+        },
+        {
+          "month": "2026-04",
+          "price_manwon": 243250,
+          "count": 4
+        },
+        {
+          "month": "2026-05",
+          "price_manwon": 244500,
+          "count": 2
+        },
+        {
+          "month": "2026-08",
+          "price_manwon": 255000,
+          "count": 1
+        }
+      ],
+      "transactions": [
+        {
+          "apt": "과천자이",
+          "price_manwon": 255000,
+          "area": 84.93,
+          "date": "2026-08-08",
+          "floor": 32,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "과천자이",
+          "price_manwon": 229500,
+          "area": 84.93,
+          "date": "2026-07-06",
+          "floor": 1,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "과천자이",
+          "price_manwon": 239000,
+          "area": 84.96,
+          "date": "2026-05-25",
+          "floor": 28,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "과천자이",
+          "price_manwon": 250000,
+          "area": 84.93,
+          "date": "2026-05-09",
+          "floor": 21,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "과천자이",
+          "price_manwon": 234000,
+          "area": 84.93,
+          "date": "2026-05-02",
+          "floor": 2,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "과천자이",
+          "price_manwon": 242500,
+          "area": 84.96,
+          "date": "2026-04-18",
+          "floor": 28,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "과천자이",
+          "price_manwon": 239500,
+          "area": 84.93,
+          "date": "2026-04-11",
+          "floor": 11,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "과천자이",
+          "price_manwon": 244000,
+          "area": 84.93,
+          "date": "2026-04-10",
+          "floor": 32,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "과천자이",
+          "price_manwon": 244000,
+          "area": 84.93,
+          "date": "2026-04-09",
+          "floor": 7,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "과천자이",
+          "price_manwon": 240000,
+          "area": 84.93,
+          "date": "2026-03-26",
+          "floor": 8,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "과천자이",
+          "price_manwon": 259850,
+          "area": 84.93,
+          "date": "2025-12-14",
+          "floor": 19,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "과천자이",
+          "price_manwon": 258000,
+          "area": 84.93,
+          "date": "2025-11-18",
+          "floor": 9,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "과천자이",
+          "price_manwon": 258000,
+          "area": 84.93,
+          "date": "2025-10-18",
+          "floor": 28,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "과천자이",
+          "price_manwon": 220000,
+          "area": 84.93,
+          "date": "2025-10-18",
+          "floor": 26,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "과천자이",
+          "price_manwon": 248000,
+          "area": 84.93,
+          "date": "2025-10-17",
+          "floor": 14,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "과천자이",
+          "price_manwon": 252000,
+          "area": 84.98,
+          "date": "2025-10-13",
+          "floor": 6,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "과천자이",
+          "price_manwon": 246000,
+          "area": 84.93,
+          "date": "2025-10-12",
+          "floor": 6,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "과천자이",
+          "price_manwon": 245000,
+          "area": 84.93,
+          "date": "2025-09-28",
+          "floor": 14,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "과천자이",
+          "price_manwon": 250000,
+          "area": 84.93,
+          "date": "2025-09-27",
+          "floor": 22,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "과천자이",
+          "price_manwon": 246000,
+          "area": 84.93,
+          "date": "2025-09-27",
+          "floor": 10,
+          "direct": false,
+          "cancelled": false
+        }
+      ],
+      "gap_manwon": 173500,
+      "asking_manwon": null,
+      "monthly_gaps": [
+        {
+          "month": "2022-12",
+          "gap_manwon": 111500,
+          "target_price_manwon": 159500,
+          "home_price_manwon": 48000
+        },
+        {
+          "month": "2023-07",
+          "gap_manwon": 114000,
+          "target_price_manwon": 170750,
+          "home_price_manwon": 56750
+        },
+        {
+          "month": "2024-04",
+          "gap_manwon": 137500,
+          "target_price_manwon": 197000,
+          "home_price_manwon": 59500
+        },
+        {
+          "month": "2024-06",
+          "gap_manwon": 135000,
+          "target_price_manwon": 194000,
+          "home_price_manwon": 59000
+        },
+        {
+          "month": "2024-07",
+          "gap_manwon": 141300,
+          "target_price_manwon": 202500,
+          "home_price_manwon": 61200
+        },
+        {
+          "month": "2024-08",
+          "gap_manwon": 140000,
+          "target_price_manwon": 205000,
+          "home_price_manwon": 65000
+        },
+        {
+          "month": "2024-10",
+          "gap_manwon": 149500,
+          "target_price_manwon": 210000,
+          "home_price_manwon": 60500
+        },
+        {
+          "month": "2025-01",
+          "gap_manwon": 146700,
+          "target_price_manwon": 207000,
+          "home_price_manwon": 60300
+        },
+        {
+          "month": "2025-02",
+          "gap_manwon": 149000,
+          "target_price_manwon": 211000,
+          "home_price_manwon": 62000
+        },
+        {
+          "month": "2025-03",
+          "gap_manwon": 167000,
+          "target_price_manwon": 230500,
+          "home_price_manwon": 63500
+        },
+        {
+          "month": "2025-05",
+          "gap_manwon": 176050,
+          "target_price_manwon": 235750,
+          "home_price_manwon": 59700
+        },
+        {
+          "month": "2025-06",
+          "gap_manwon": 170000,
+          "target_price_manwon": 235000,
+          "home_price_manwon": 65000
+        },
+        {
+          "month": "2025-09",
+          "gap_manwon": 180500,
+          "target_price_manwon": 245000,
+          "home_price_manwon": 64500
+        },
+        {
+          "month": "2025-11",
+          "gap_manwon": 192150,
+          "target_price_manwon": 258000,
+          "home_price_manwon": 65850
+        },
+        {
+          "month": "2025-12",
+          "gap_manwon": 196150,
+          "target_price_manwon": 259850,
+          "home_price_manwon": 63700
+        },
+        {
+          "month": "2026-03",
+          "gap_manwon": 169500,
+          "target_price_manwon": 240000,
+          "home_price_manwon": 70500
+        },
+        {
+          "month": "2026-04",
+          "gap_manwon": 178250,
+          "target_price_manwon": 243250,
+          "home_price_manwon": 65000
+        },
+        {
+          "month": "2026-05",
+          "gap_manwon": 174000,
+          "target_price_manwon": 244500,
+          "home_price_manwon": 70500
+        },
+        {
+          "month": "2026-08",
+          "gap_manwon": 167000,
+          "target_price_manwon": 255000,
+          "home_price_manwon": 88000
+        }
+      ]
+    },
+    {
+      "id": "pangyo-baek2",
+      "name": "백현마을2단지",
+      "region": "동판교",
+      "lawd_cd": "41135",
+      "dong": "백현동",
+      "aliases": [
+        "백현마을2단지"
+      ],
+      "watch_note": "동판교 핵심 생활권·상급지 가격 비교",
+      "source_url": "https://aptgin.com/",
+      "area": 84.9,
+      "area_min": 80,
+      "area_max": 85,
+      "match_mode": "exact",
+      "recommended": true,
+      "recommendation_group": "확대 추천",
+      "area_tolerance": 1.2,
+      "min_floor": 4,
+      "count": 5,
+      "history_count": 52,
+      "representative_manwon": 244500,
+      "latest": {
+        "apt": "백현마을2단지",
+        "price_manwon": 280000,
+        "area": 84.5,
+        "date": "2026-07-17",
+        "floor": 3,
+        "direct": false,
+        "cancelled": false
+      },
+      "monthly_prices": [
+        {
+          "month": "2021-11",
+          "price_manwon": 205000,
+          "count": 1
+        },
+        {
+          "month": "2023-05",
+          "price_manwon": 178500,
+          "count": 3
+        },
+        {
+          "month": "2023-07",
+          "price_manwon": 187500,
+          "count": 1
+        },
+        {
+          "month": "2023-08",
+          "price_manwon": 180000,
+          "count": 1
+        },
+        {
+          "month": "2024-01",
+          "price_manwon": 179500,
+          "count": 1
+        },
+        {
+          "month": "2024-05",
+          "price_manwon": 180000,
+          "count": 1
+        },
+        {
+          "month": "2024-06",
+          "price_manwon": 175000,
+          "count": 2
+        },
+        {
+          "month": "2024-07",
+          "price_manwon": 186500,
+          "count": 3
+        },
+        {
+          "month": "2024-10",
+          "price_manwon": 194500,
+          "count": 2
+        },
+        {
+          "month": "2024-11",
+          "price_manwon": 186500,
+          "count": 3
+        },
+        {
+          "month": "2025-01",
+          "price_manwon": 193250,
+          "count": 2
+        },
+        {
+          "month": "2025-02",
+          "price_manwon": 196000,
+          "count": 1
+        },
+        {
+          "month": "2025-03",
+          "price_manwon": 195000,
+          "count": 5
+        },
+        {
+          "month": "2025-05",
+          "price_manwon": 210000,
+          "count": 8
+        },
+        {
+          "month": "2025-06",
+          "price_manwon": 215000,
+          "count": 4
+        },
+        {
+          "month": "2025-07",
+          "price_manwon": 225000,
+          "count": 1
+        },
+        {
+          "month": "2026-04",
+          "price_manwon": 245000,
+          "count": 1
+        },
+        {
+          "month": "2026-05",
+          "price_manwon": 244000,
+          "count": 3
+        }
+      ],
+      "transactions": [
+        {
+          "apt": "백현마을2단지",
+          "price_manwon": 280000,
+          "area": 84.5,
+          "date": "2026-07-17",
+          "floor": 3,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "백현마을2단지",
+          "price_manwon": 233000,
+          "area": 84.5,
+          "date": "2026-05-08",
+          "floor": 4,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "백현마을2단지",
+          "price_manwon": 244000,
+          "area": 84.82,
+          "date": "2026-05-08",
+          "floor": 4,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "백현마을2단지",
+          "price_manwon": 256000,
+          "area": 84.5,
+          "date": "2026-05-06",
+          "floor": 9,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "백현마을2단지",
+          "price_manwon": 245000,
+          "area": 84.82,
+          "date": "2026-04-04",
+          "floor": 11,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "백현마을2단지",
+          "price_manwon": 225000,
+          "area": 84.82,
+          "date": "2025-07-09",
+          "floor": 7,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "백현마을2단지",
+          "price_manwon": 215000,
+          "area": 84.5,
+          "date": "2025-06-18",
+          "floor": 15,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "백현마을2단지",
+          "price_manwon": 210000,
+          "area": 84.82,
+          "date": "2025-06-14",
+          "floor": 3,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "백현마을2단지",
+          "price_manwon": 215000,
+          "area": 84.82,
+          "date": "2025-06-12",
+          "floor": 7,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "백현마을2단지",
+          "price_manwon": 215000,
+          "area": 84.5,
+          "date": "2025-06-05",
+          "floor": 11,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "백현마을2단지",
+          "price_manwon": 195000,
+          "area": 84.82,
+          "date": "2025-06-04",
+          "floor": 2,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "백현마을2단지",
+          "price_manwon": 198000,
+          "area": 84.5,
+          "date": "2025-06-03",
+          "floor": 1,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "백현마을2단지",
+          "price_manwon": 198000,
+          "area": 84.5,
+          "date": "2025-06-03",
+          "floor": 1,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "백현마을2단지",
+          "price_manwon": 190000,
+          "area": 84.67,
+          "date": "2025-06-03",
+          "floor": 2,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "백현마을2단지",
+          "price_manwon": 210000,
+          "area": 84.5,
+          "date": "2025-06-02",
+          "floor": 7,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "백현마을2단지",
+          "price_manwon": 210000,
+          "area": 84.5,
+          "date": "2025-05-28",
+          "floor": 7,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "백현마을2단지",
+          "price_manwon": 204000,
+          "area": 84.82,
+          "date": "2025-05-24",
+          "floor": 8,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "백현마을2단지",
+          "price_manwon": 219500,
+          "area": 84.5,
+          "date": "2025-05-19",
+          "floor": 15,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "백현마을2단지",
+          "price_manwon": 210000,
+          "area": 84.5,
+          "date": "2025-05-17",
+          "floor": 9,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "백현마을2단지",
+          "price_manwon": 206000,
+          "area": 84.5,
+          "date": "2025-05-16",
+          "floor": 8,
+          "direct": false,
+          "cancelled": false
+        }
+      ],
+      "gap_manwon": 174000,
+      "asking_manwon": null,
+      "monthly_gaps": [
+        {
+          "month": "2023-07",
+          "gap_manwon": 130750,
+          "target_price_manwon": 187500,
+          "home_price_manwon": 56750
+        },
+        {
+          "month": "2023-08",
+          "gap_manwon": 121500,
+          "target_price_manwon": 180000,
+          "home_price_manwon": 58500
+        },
+        {
+          "month": "2024-05",
+          "gap_manwon": 122250,
+          "target_price_manwon": 180000,
+          "home_price_manwon": 57750
+        },
+        {
+          "month": "2024-06",
+          "gap_manwon": 116000,
+          "target_price_manwon": 175000,
+          "home_price_manwon": 59000
+        },
+        {
+          "month": "2024-07",
+          "gap_manwon": 125300,
+          "target_price_manwon": 186500,
+          "home_price_manwon": 61200
+        },
+        {
+          "month": "2024-10",
+          "gap_manwon": 134000,
+          "target_price_manwon": 194500,
+          "home_price_manwon": 60500
+        },
+        {
+          "month": "2025-01",
+          "gap_manwon": 132950,
+          "target_price_manwon": 193250,
+          "home_price_manwon": 60300
+        },
+        {
+          "month": "2025-02",
+          "gap_manwon": 134000,
+          "target_price_manwon": 196000,
+          "home_price_manwon": 62000
+        },
+        {
+          "month": "2025-03",
+          "gap_manwon": 131500,
+          "target_price_manwon": 195000,
+          "home_price_manwon": 63500
+        },
+        {
+          "month": "2025-05",
+          "gap_manwon": 150300,
+          "target_price_manwon": 210000,
+          "home_price_manwon": 59700
+        },
+        {
+          "month": "2025-06",
+          "gap_manwon": 150000,
+          "target_price_manwon": 215000,
+          "home_price_manwon": 65000
+        },
+        {
+          "month": "2026-04",
+          "gap_manwon": 180000,
+          "target_price_manwon": 245000,
+          "home_price_manwon": 65000
+        },
+        {
+          "month": "2026-05",
+          "gap_manwon": 173500,
+          "target_price_manwon": 244000,
+          "home_price_manwon": 70500
+        }
+      ]
+    },
+    {
+      "id": "pangyo-bot8",
+      "name": "봇들마을8단지",
+      "region": "동판교",
+      "lawd_cd": "41135",
+      "dong": "삼평동",
+      "aliases": [
+        "봇들마을8단지",
+        "봇들마을8단지(주공)"
+      ],
+      "watch_note": "동판교 대표 84㎡ 비교 후보",
+      "source_url": "https://kbland.kr/se/c/22045",
+      "area": 84.9,
+      "area_min": 80,
+      "area_max": 85,
+      "match_mode": "exact",
+      "recommended": true,
+      "recommendation_group": "확대 추천",
+      "area_tolerance": 1.2,
+      "min_floor": 4,
+      "count": 0,
+      "history_count": 27,
+      "representative_manwon": null,
+      "latest": {
+        "apt": "봇들마을8단지(주공)",
+        "price_manwon": 260000,
+        "area": 84.92,
+        "date": "2025-10-10",
+        "floor": 7,
+        "direct": false,
+        "cancelled": false
+      },
+      "monthly_prices": [
+        {
+          "month": "2022-10",
+          "price_manwon": 150000,
+          "count": 1
+        },
+        {
+          "month": "2023-01",
+          "price_manwon": 158500,
+          "count": 2
+        },
+        {
+          "month": "2023-02",
+          "price_manwon": 172900,
+          "count": 2
+        },
+        {
+          "month": "2023-05",
+          "price_manwon": 190000,
+          "count": 1
+        },
+        {
+          "month": "2024-01",
+          "price_manwon": 190000,
+          "count": 1
+        },
+        {
+          "month": "2024-06",
+          "price_manwon": 196000,
+          "count": 2
+        },
+        {
+          "month": "2024-07",
+          "price_manwon": 198000,
+          "count": 3
+        },
+        {
+          "month": "2024-08",
+          "price_manwon": 214750,
+          "count": 2
+        },
+        {
+          "month": "2024-11",
+          "price_manwon": 206000,
+          "count": 1
+        },
+        {
+          "month": "2025-03",
+          "price_manwon": 230000,
+          "count": 1
+        },
+        {
+          "month": "2025-04",
+          "price_manwon": 217000,
+          "count": 1
+        },
+        {
+          "month": "2025-05",
+          "price_manwon": 230000,
+          "count": 1
+        },
+        {
+          "month": "2025-06",
+          "price_manwon": 229000,
+          "count": 3
+        },
+        {
+          "month": "2025-09",
+          "price_manwon": 257000,
+          "count": 1
+        },
+        {
+          "month": "2025-10",
+          "price_manwon": 260000,
+          "count": 1
+        }
+      ],
+      "transactions": [
+        {
+          "apt": "봇들마을8단지(주공)",
+          "price_manwon": 260000,
+          "area": 84.92,
+          "date": "2025-10-10",
+          "floor": 7,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "봇들마을8단지(주공)",
+          "price_manwon": 257000,
+          "area": 84.82,
+          "date": "2025-09-12",
+          "floor": 5,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "봇들마을8단지(주공)",
+          "price_manwon": 262000,
+          "area": 84.92,
+          "date": "2025-06-26",
+          "floor": 14,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "봇들마을8단지(주공)",
+          "price_manwon": 228000,
+          "area": 84.61,
+          "date": "2025-06-03",
+          "floor": 8,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "봇들마을8단지(주공)",
+          "price_manwon": 229000,
+          "area": 84.5,
+          "date": "2025-06-01",
+          "floor": 4,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "봇들마을8단지(주공)",
+          "price_manwon": 230000,
+          "area": 84.92,
+          "date": "2025-05-24",
+          "floor": 15,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "봇들마을8단지(주공)",
+          "price_manwon": 217000,
+          "area": 84.82,
+          "date": "2025-04-27",
+          "floor": 10,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "봇들마을8단지(주공)",
+          "price_manwon": 230000,
+          "area": 84.5,
+          "date": "2025-03-21",
+          "floor": 12,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "봇들마을8단지(주공)",
+          "price_manwon": 208500,
+          "area": 84.92,
+          "date": "2025-02-26",
+          "floor": 3,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "봇들마을8단지(주공)",
+          "price_manwon": 221300,
+          "area": 84.61,
+          "date": "2024-11-16",
+          "floor": 3,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "봇들마을8단지(주공)",
+          "price_manwon": 206000,
+          "area": 84.92,
+          "date": "2024-11-08",
+          "floor": 11,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "봇들마을8단지(주공)",
+          "price_manwon": 201500,
+          "area": 84.5,
+          "date": "2024-09-24",
+          "floor": 1,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "봇들마을8단지(주공)",
+          "price_manwon": 220000,
+          "area": 84.5,
+          "date": "2024-08-24",
+          "floor": 7,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "봇들마을8단지(주공)",
+          "price_manwon": 209500,
+          "area": 84.82,
+          "date": "2024-08-06",
+          "floor": 12,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "봇들마을8단지(주공)",
+          "price_manwon": 213000,
+          "area": 84.5,
+          "date": "2024-07-26",
+          "floor": 8,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "봇들마을8단지(주공)",
+          "price_manwon": 188000,
+          "area": 84.92,
+          "date": "2024-07-25",
+          "floor": 3,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "봇들마을8단지(주공)",
+          "price_manwon": 194000,
+          "area": 84.5,
+          "date": "2024-07-13",
+          "floor": 5,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "봇들마을8단지(주공)",
+          "price_manwon": 198000,
+          "area": 84.5,
+          "date": "2024-07-10",
+          "floor": 11,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "봇들마을8단지(주공)",
+          "price_manwon": 197000,
+          "area": 84.5,
+          "date": "2024-06-29",
+          "floor": 4,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "봇들마을8단지(주공)",
+          "price_manwon": 195000,
+          "area": 84.61,
+          "date": "2024-06-23",
+          "floor": 18,
+          "direct": false,
+          "cancelled": false
+        }
+      ],
+      "gap_manwon": null,
+      "asking_manwon": null,
+      "monthly_gaps": [
+        {
+          "month": "2023-02",
+          "gap_manwon": 120900,
+          "target_price_manwon": 172900,
+          "home_price_manwon": 52000
+        },
+        {
+          "month": "2024-06",
+          "gap_manwon": 137000,
+          "target_price_manwon": 196000,
+          "home_price_manwon": 59000
+        },
+        {
+          "month": "2024-07",
+          "gap_manwon": 136800,
+          "target_price_manwon": 198000,
+          "home_price_manwon": 61200
+        },
+        {
+          "month": "2024-08",
+          "gap_manwon": 149750,
+          "target_price_manwon": 214750,
+          "home_price_manwon": 65000
+        },
+        {
+          "month": "2025-03",
+          "gap_manwon": 166500,
+          "target_price_manwon": 230000,
+          "home_price_manwon": 63500
+        },
+        {
+          "month": "2025-04",
+          "gap_manwon": 151000,
+          "target_price_manwon": 217000,
+          "home_price_manwon": 66000
+        },
+        {
+          "month": "2025-05",
+          "gap_manwon": 170300,
+          "target_price_manwon": 230000,
+          "home_price_manwon": 59700
+        },
+        {
+          "month": "2025-06",
+          "gap_manwon": 164000,
+          "target_price_manwon": 229000,
+          "home_price_manwon": 65000
+        },
+        {
+          "month": "2025-09",
+          "gap_manwon": 192500,
+          "target_price_manwon": 257000,
+          "home_price_manwon": 64500
+        }
+      ]
+    },
+    {
+      "id": "pc-raemian-prugio",
+      "name": "평촌래미안푸르지오",
+      "region": "평촌",
+      "lawd_cd": "41173",
+      "dong": "비산동",
+      "aliases": [
+        "평촌래미안푸르지오"
+      ],
+      "watch_note": "안양 신축 대단지·평촌 학원가 접근 비교",
+      "source_url": "https://k3883001.kmswb.kr/",
+      "area": 84.9,
+      "area_min": 80,
+      "area_max": 85,
+      "match_mode": "exact",
+      "recommended": true,
+      "recommendation_group": "확대 추천",
+      "area_tolerance": 1.2,
+      "min_floor": 4,
+      "count": 14,
+      "history_count": 67,
+      "representative_manwon": 132250,
+      "latest": {
+        "apt": "평촌래미안푸르지오",
+        "price_manwon": 142000,
+        "area": 84.93,
+        "date": "2026-08-12",
+        "floor": 16,
+        "direct": false,
+        "cancelled": false
+      },
+      "monthly_prices": [
+        {
+          "month": "2022-10",
+          "price_manwon": 102000,
+          "count": 1
+        },
+        {
+          "month": "2023-08",
+          "price_manwon": 118000,
+          "count": 1
+        },
+        {
+          "month": "2023-11",
+          "price_manwon": 105000,
+          "count": 1
+        },
+        {
+          "month": "2024-02",
+          "price_manwon": 107500,
+          "count": 2
+        },
+        {
+          "month": "2024-04",
+          "price_manwon": 113500,
+          "count": 4
+        },
+        {
+          "month": "2024-05",
+          "price_manwon": 109750,
+          "count": 2
+        },
+        {
+          "month": "2024-06",
+          "price_manwon": 109000,
+          "count": 2
+        },
+        {
+          "month": "2024-07",
+          "price_manwon": 114500,
+          "count": 3
+        },
+        {
+          "month": "2024-08",
+          "price_manwon": 124000,
+          "count": 1
+        },
+        {
+          "month": "2024-10",
+          "price_manwon": 114000,
+          "count": 1
+        },
+        {
+          "month": "2024-11",
+          "price_manwon": 110000,
+          "count": 3
+        },
+        {
+          "month": "2024-12",
+          "price_manwon": 103000,
+          "count": 1
+        },
+        {
+          "month": "2025-02",
+          "price_manwon": 113000,
+          "count": 1
+        },
+        {
+          "month": "2025-03",
+          "price_manwon": 114500,
+          "count": 1
+        },
+        {
+          "month": "2025-04",
+          "price_manwon": 113000,
+          "count": 1
+        },
+        {
+          "month": "2025-05",
+          "price_manwon": 117500,
+          "count": 1
+        },
+        {
+          "month": "2025-06",
+          "price_manwon": 113000,
+          "count": 5
+        },
+        {
+          "month": "2025-07",
+          "price_manwon": 114000,
+          "count": 2
+        },
+        {
+          "month": "2025-08",
+          "price_manwon": 114500,
+          "count": 1
+        },
+        {
+          "month": "2025-09",
+          "price_manwon": 115000,
+          "count": 2
+        },
+        {
+          "month": "2025-10",
+          "price_manwon": 118250,
+          "count": 2
+        },
+        {
+          "month": "2025-11",
+          "price_manwon": 116500,
+          "count": 1
+        },
+        {
+          "month": "2025-12",
+          "price_manwon": 120000,
+          "count": 3
+        },
+        {
+          "month": "2026-01",
+          "price_manwon": 125000,
+          "count": 1
+        },
+        {
+          "month": "2026-02",
+          "price_manwon": 122700,
+          "count": 3
+        },
+        {
+          "month": "2026-03",
+          "price_manwon": 124500,
+          "count": 2
+        },
+        {
+          "month": "2026-04",
+          "price_manwon": 127000,
+          "count": 4
+        },
+        {
+          "month": "2026-05",
+          "price_manwon": 119450,
+          "count": 2
+        },
+        {
+          "month": "2026-06",
+          "price_manwon": 134500,
+          "count": 1
+        },
+        {
+          "month": "2026-07",
+          "price_manwon": 143500,
+          "count": 4
+        },
+        {
+          "month": "2026-08",
+          "price_manwon": 142000,
+          "count": 1
+        }
+      ],
+      "transactions": [
+        {
+          "apt": "평촌래미안푸르지오",
+          "price_manwon": 142000,
+          "area": 84.93,
+          "date": "2026-08-12",
+          "floor": 16,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "평촌래미안푸르지오",
+          "price_manwon": 143000,
+          "area": 84.95,
+          "date": "2026-07-31",
+          "floor": 7,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "평촌래미안푸르지오",
+          "price_manwon": 144000,
+          "area": 84.94,
+          "date": "2026-07-28",
+          "floor": 27,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "평촌래미안푸르지오",
+          "price_manwon": 145000,
+          "area": 84.93,
+          "date": "2026-07-26",
+          "floor": 17,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "평촌래미안푸르지오",
+          "price_manwon": 138000,
+          "area": 84.95,
+          "date": "2026-07-14",
+          "floor": 7,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "평촌래미안푸르지오",
+          "price_manwon": 134500,
+          "area": 84.95,
+          "date": "2026-06-04",
+          "floor": 12,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "평촌래미안푸르지오",
+          "price_manwon": 119900,
+          "area": 84.95,
+          "date": "2026-05-05",
+          "floor": 16,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "평촌래미안푸르지오",
+          "price_manwon": 119000,
+          "area": 84.93,
+          "date": "2026-05-04",
+          "floor": 34,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "평촌래미안푸르지오",
+          "price_manwon": 127500,
+          "area": 84.93,
+          "date": "2026-04-30",
+          "floor": 6,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "평촌래미안푸르지오",
+          "price_manwon": 119000,
+          "area": 84.93,
+          "date": "2026-04-23",
+          "floor": 2,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "평촌래미안푸르지오",
+          "price_manwon": 130000,
+          "area": 84.95,
+          "date": "2026-04-18",
+          "floor": 29,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "평촌래미안푸르지오",
+          "price_manwon": 126500,
+          "area": 84.93,
+          "date": "2026-04-17",
+          "floor": 14,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "평촌래미안푸르지오",
+          "price_manwon": 126000,
+          "area": 84.93,
+          "date": "2026-04-11",
+          "floor": 10,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "평촌래미안푸르지오",
+          "price_manwon": 115000,
+          "area": 84.95,
+          "date": "2026-04-07",
+          "floor": 17,
+          "direct": true,
+          "cancelled": false
+        },
+        {
+          "apt": "평촌래미안푸르지오",
+          "price_manwon": 125000,
+          "area": 84.95,
+          "date": "2026-03-13",
+          "floor": 11,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "평촌래미안푸르지오",
+          "price_manwon": 124000,
+          "area": 84.95,
+          "date": "2026-03-02",
+          "floor": 6,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "평촌래미안푸르지오",
+          "price_manwon": 130000,
+          "area": 84.95,
+          "date": "2026-02-26",
+          "floor": 23,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "평촌래미안푸르지오",
+          "price_manwon": 122700,
+          "area": 84.93,
+          "date": "2026-02-11",
+          "floor": 37,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "평촌래미안푸르지오",
+          "price_manwon": 122000,
+          "area": 84.95,
+          "date": "2026-02-11",
+          "floor": 14,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "평촌래미안푸르지오",
+          "price_manwon": 125000,
+          "area": 84.93,
+          "date": "2026-01-24",
+          "floor": 19,
+          "direct": false,
+          "cancelled": false
+        }
+      ],
+      "gap_manwon": 61750,
+      "asking_manwon": null,
+      "monthly_gaps": [
+        {
+          "month": "2023-08",
+          "gap_manwon": 59500,
+          "target_price_manwon": 118000,
+          "home_price_manwon": 58500
+        },
+        {
+          "month": "2024-04",
+          "gap_manwon": 54000,
+          "target_price_manwon": 113500,
+          "home_price_manwon": 59500
+        },
+        {
+          "month": "2024-05",
+          "gap_manwon": 52000,
+          "target_price_manwon": 109750,
+          "home_price_manwon": 57750
+        },
+        {
+          "month": "2024-06",
+          "gap_manwon": 50000,
+          "target_price_manwon": 109000,
+          "home_price_manwon": 59000
+        },
+        {
+          "month": "2024-07",
+          "gap_manwon": 53300,
+          "target_price_manwon": 114500,
+          "home_price_manwon": 61200
+        },
+        {
+          "month": "2024-08",
+          "gap_manwon": 59000,
+          "target_price_manwon": 124000,
+          "home_price_manwon": 65000
+        },
+        {
+          "month": "2024-10",
+          "gap_manwon": 53500,
+          "target_price_manwon": 114000,
+          "home_price_manwon": 60500
+        },
+        {
+          "month": "2025-02",
+          "gap_manwon": 51000,
+          "target_price_manwon": 113000,
+          "home_price_manwon": 62000
+        },
+        {
+          "month": "2025-03",
+          "gap_manwon": 51000,
+          "target_price_manwon": 114500,
+          "home_price_manwon": 63500
+        },
+        {
+          "month": "2025-04",
+          "gap_manwon": 47000,
+          "target_price_manwon": 113000,
+          "home_price_manwon": 66000
+        },
+        {
+          "month": "2025-05",
+          "gap_manwon": 57800,
+          "target_price_manwon": 117500,
+          "home_price_manwon": 59700
+        },
+        {
+          "month": "2025-06",
+          "gap_manwon": 48000,
+          "target_price_manwon": 113000,
+          "home_price_manwon": 65000
+        },
+        {
+          "month": "2025-09",
+          "gap_manwon": 50500,
+          "target_price_manwon": 115000,
+          "home_price_manwon": 64500
+        },
+        {
+          "month": "2025-11",
+          "gap_manwon": 50650,
+          "target_price_manwon": 116500,
+          "home_price_manwon": 65850
+        },
+        {
+          "month": "2025-12",
+          "gap_manwon": 56300,
+          "target_price_manwon": 120000,
+          "home_price_manwon": 63700
+        },
+        {
+          "month": "2026-01",
+          "gap_manwon": 59000,
+          "target_price_manwon": 125000,
+          "home_price_manwon": 66000
+        },
+        {
+          "month": "2026-02",
+          "gap_manwon": 56700,
+          "target_price_manwon": 122700,
+          "home_price_manwon": 66000
+        },
+        {
+          "month": "2026-03",
+          "gap_manwon": 54000,
+          "target_price_manwon": 124500,
+          "home_price_manwon": 70500
+        },
+        {
+          "month": "2026-04",
+          "gap_manwon": 62000,
+          "target_price_manwon": 127000,
+          "home_price_manwon": 65000
+        },
+        {
+          "month": "2026-05",
+          "gap_manwon": 48950,
+          "target_price_manwon": 119450,
+          "home_price_manwon": 70500
+        },
+        {
+          "month": "2026-08",
+          "gap_manwon": 54000,
+          "target_price_manwon": 142000,
+          "home_price_manwon": 88000
+        }
+      ]
+    },
+    {
+      "id": "dt-lotte-castle",
+      "name": "동탄역롯데캐슬",
+      "region": "동탄2",
+      "lawd_cd": "41597",
+      "dong": "여울동",
+      "aliases": [
+        "동탄역롯데캐슬"
+      ],
+      "watch_note": "동탄역 핵심 입지·지역 대표 가격 비교",
+      "source_url": "https://www.realhouse.co.kr/",
+      "area": 84.9,
+      "area_min": 80,
+      "area_max": 85,
+      "match_mode": "exact",
+      "recommended": true,
+      "recommendation_group": "확대 추천",
+      "dong_aliases": [
+        "오산동",
+        "여울동"
+      ],
+      "area_tolerance": 1.2,
+      "min_floor": 4,
+      "count": 9,
+      "history_count": 65,
+      "representative_manwon": 196000,
+      "latest": {
+        "apt": "동탄역롯데캐슬",
+        "price_manwon": 222500,
+        "area": 84.7002,
+        "date": "2026-06-04",
+        "floor": 33,
+        "direct": false,
+        "cancelled": false
+      },
+      "monthly_prices": [
+        {
+          "month": "2023-06",
+          "price_manwon": 150000,
+          "count": 1
+        },
+        {
+          "month": "2023-07",
+          "price_manwon": 146500,
+          "count": 5
+        },
+        {
+          "month": "2023-08",
+          "price_manwon": 159000,
+          "count": 2
+        },
+        {
+          "month": "2023-10",
+          "price_manwon": 160000,
+          "count": 3
+        },
+        {
+          "month": "2024-08",
+          "price_manwon": 156250,
+          "count": 4
+        },
+        {
+          "month": "2024-09",
+          "price_manwon": 155000,
+          "count": 1
+        },
+        {
+          "month": "2025-01",
+          "price_manwon": 152750,
+          "count": 2
+        },
+        {
+          "month": "2025-03",
+          "price_manwon": 150500,
+          "count": 1
+        },
+        {
+          "month": "2025-04",
+          "price_manwon": 156200,
+          "count": 2
+        },
+        {
+          "month": "2025-05",
+          "price_manwon": 157000,
+          "count": 3
+        },
+        {
+          "month": "2025-06",
+          "price_manwon": 158250,
+          "count": 2
+        },
+        {
+          "month": "2025-07",
+          "price_manwon": 162500,
+          "count": 1
+        },
+        {
+          "month": "2025-08",
+          "price_manwon": 160000,
+          "count": 1
+        },
+        {
+          "month": "2025-09",
+          "price_manwon": 162000,
+          "count": 7
+        },
+        {
+          "month": "2025-10",
+          "price_manwon": 167750,
+          "count": 2
+        },
+        {
+          "month": "2025-11",
+          "price_manwon": 166500,
+          "count": 4
+        },
+        {
+          "month": "2025-12",
+          "price_manwon": 178000,
+          "count": 3
+        },
+        {
+          "month": "2026-01",
+          "price_manwon": 160000,
+          "count": 1
+        },
+        {
+          "month": "2026-02",
+          "price_manwon": 189000,
+          "count": 2
+        },
+        {
+          "month": "2026-03",
+          "price_manwon": 179000,
+          "count": 1
+        },
+        {
+          "month": "2026-04",
+          "price_manwon": 186750,
+          "count": 4
+        },
+        {
+          "month": "2026-05",
+          "price_manwon": 200000,
+          "count": 3
+        },
+        {
+          "month": "2026-06",
+          "price_manwon": 222500,
+          "count": 1
+        }
+      ],
+      "transactions": [
+        {
+          "apt": "동탄역롯데캐슬",
+          "price_manwon": 222500,
+          "area": 84.7002,
+          "date": "2026-06-04",
+          "floor": 33,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역롯데캐슬",
+          "price_manwon": 200000,
+          "area": 84.8222,
+          "date": "2026-05-28",
+          "floor": 18,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역롯데캐슬",
+          "price_manwon": 205000,
+          "area": 84.8222,
+          "date": "2026-05-27",
+          "floor": 28,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역롯데캐슬",
+          "price_manwon": 198000,
+          "area": 84.7002,
+          "date": "2026-05-16",
+          "floor": 31,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역롯데캐슬",
+          "price_manwon": 189500,
+          "area": 84.7002,
+          "date": "2026-04-24",
+          "floor": 4,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역롯데캐슬",
+          "price_manwon": 183000,
+          "area": 84.8222,
+          "date": "2026-04-22",
+          "floor": 6,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역롯데캐슬",
+          "price_manwon": 182000,
+          "area": 84.7002,
+          "date": "2026-04-20",
+          "floor": 2,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역롯데캐슬",
+          "price_manwon": 194000,
+          "area": 84.7002,
+          "date": "2026-04-10",
+          "floor": 23,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역롯데캐슬",
+          "price_manwon": 184000,
+          "area": 84.8222,
+          "date": "2026-04-01",
+          "floor": 14,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역롯데캐슬",
+          "price_manwon": 179000,
+          "area": 84.8222,
+          "date": "2026-03-17",
+          "floor": 27,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역롯데캐슬",
+          "price_manwon": 190000,
+          "area": 84.8222,
+          "date": "2026-02-20",
+          "floor": 37,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역롯데캐슬",
+          "price_manwon": 188000,
+          "area": 84.7002,
+          "date": "2026-02-10",
+          "floor": 38,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역롯데캐슬",
+          "price_manwon": 160000,
+          "area": 84.8222,
+          "date": "2026-01-29",
+          "floor": 32,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역롯데캐슬",
+          "price_manwon": 179500,
+          "area": 84.8222,
+          "date": "2025-12-20",
+          "floor": 20,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역롯데캐슬",
+          "price_manwon": 178000,
+          "area": 84.8222,
+          "date": "2025-12-18",
+          "floor": 39,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역롯데캐슬",
+          "price_manwon": 177000,
+          "area": 84.8222,
+          "date": "2025-12-17",
+          "floor": 32,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역롯데캐슬",
+          "price_manwon": 167000,
+          "area": 84.7002,
+          "date": "2025-11-29",
+          "floor": 6,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역롯데캐슬",
+          "price_manwon": 175000,
+          "area": 84.7002,
+          "date": "2025-11-22",
+          "floor": 44,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역롯데캐슬",
+          "price_manwon": 163000,
+          "area": 84.8222,
+          "date": "2025-11-11",
+          "floor": 8,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역롯데캐슬",
+          "price_manwon": 166000,
+          "area": 84.8222,
+          "date": "2025-11-03",
+          "floor": 32,
+          "direct": false,
+          "cancelled": false
+        }
+      ],
+      "gap_manwon": 125500,
+      "asking_manwon": null,
+      "monthly_gaps": [
+        {
+          "month": "2023-07",
+          "gap_manwon": 89750,
+          "target_price_manwon": 146500,
+          "home_price_manwon": 56750
+        },
+        {
+          "month": "2023-08",
+          "gap_manwon": 100500,
+          "target_price_manwon": 159000,
+          "home_price_manwon": 58500
+        },
+        {
+          "month": "2024-08",
+          "gap_manwon": 91250,
+          "target_price_manwon": 156250,
+          "home_price_manwon": 65000
+        },
+        {
+          "month": "2025-01",
+          "gap_manwon": 92450,
+          "target_price_manwon": 152750,
+          "home_price_manwon": 60300
+        },
+        {
+          "month": "2025-03",
+          "gap_manwon": 87000,
+          "target_price_manwon": 150500,
+          "home_price_manwon": 63500
+        },
+        {
+          "month": "2025-04",
+          "gap_manwon": 90200,
+          "target_price_manwon": 156200,
+          "home_price_manwon": 66000
+        },
+        {
+          "month": "2025-05",
+          "gap_manwon": 97300,
+          "target_price_manwon": 157000,
+          "home_price_manwon": 59700
+        },
+        {
+          "month": "2025-06",
+          "gap_manwon": 93250,
+          "target_price_manwon": 158250,
+          "home_price_manwon": 65000
+        },
+        {
+          "month": "2025-09",
+          "gap_manwon": 97500,
+          "target_price_manwon": 162000,
+          "home_price_manwon": 64500
+        },
+        {
+          "month": "2025-11",
+          "gap_manwon": 100650,
+          "target_price_manwon": 166500,
+          "home_price_manwon": 65850
+        },
+        {
+          "month": "2025-12",
+          "gap_manwon": 114300,
+          "target_price_manwon": 178000,
+          "home_price_manwon": 63700
+        },
+        {
+          "month": "2026-01",
+          "gap_manwon": 94000,
+          "target_price_manwon": 160000,
+          "home_price_manwon": 66000
+        },
+        {
+          "month": "2026-02",
+          "gap_manwon": 123000,
+          "target_price_manwon": 189000,
+          "home_price_manwon": 66000
+        },
+        {
+          "month": "2026-03",
+          "gap_manwon": 108500,
+          "target_price_manwon": 179000,
+          "home_price_manwon": 70500
+        },
+        {
+          "month": "2026-04",
+          "gap_manwon": 121750,
+          "target_price_manwon": 186750,
+          "home_price_manwon": 65000
+        },
+        {
+          "month": "2026-05",
+          "gap_manwon": 129500,
+          "target_price_manwon": 200000,
+          "home_price_manwon": 70500
         }
       ]
     }
