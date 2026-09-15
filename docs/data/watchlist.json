@@ -1,6 +1,6 @@
 {
-  "reference_id": "home",
-  "updated_at": "2026-09-14",
+  "api_version": "RTMSDataSvcAptTrade",
+  "area_tolerance": 1.2,
   "complexes": [
     {
       "aliases": [
@@ -106,16 +106,16 @@
     {
       "aliases": [
         "성복역현대홈타운",
-        "현대"
+        "서원마을현대홈타운"
       ],
       "area": 84.85,
+      "area_tolerance": 0.05,
+      "dong": "상현동",
       "id": "seongbok-hyundai",
       "lawd_cd": "41465",
       "match_mode": "exact",
       "name": "성복역 현대홈타운",
-      "region": "수지",
-      "dong": "상현동",
-      "area_tolerance": 0.05
+      "region": "수지"
     },
     {
       "aliases": [
@@ -123,12 +123,12 @@
         "상록마을(우성)"
       ],
       "area": 84.9,
+      "dong": "정자동",
       "id": "bundang-sangrok",
       "lawd_cd": "41135",
+      "match_mode": "exact",
       "name": "정자 상록마을 우성",
       "region": "분당",
-      "dong": "정자동",
-      "match_mode": "exact",
       "watch_note": "분당 생활권 상위 비교·개별 단지로 분리"
     },
     {
@@ -136,12 +136,12 @@
         "양지마을(금호1)"
       ],
       "area": 84.9,
+      "dong": "수내동",
       "id": "bundang-yangji",
       "lawd_cd": "41135",
+      "match_mode": "exact",
       "name": "수내 양지마을 금호1단지",
       "region": "분당",
-      "dong": "수내동",
-      "match_mode": "exact",
       "watch_note": "분당 생활권 상위 비교·개별 단지로 분리"
     },
     {
@@ -149,12 +149,12 @@
         "이매촌(삼성)"
       ],
       "area": 84.9,
+      "dong": "이매동",
       "id": "imae-beautiful",
       "lawd_cd": "41135",
+      "match_mode": "exact",
       "name": "이매촌 삼성",
       "region": "분당",
-      "dong": "이매동",
-      "match_mode": "exact",
       "watch_note": "분당 생활권 상위 비교·개별 단지로 분리"
     },
     {
@@ -182,14 +182,17 @@
     },
     {
       "aliases": [
+        "동탄역시범호반써밋",
         "시범호반베르디움",
         "동탄2시범호반베르디움"
       ],
       "area": 84.9,
       "id": "dongtan2-geo",
       "lawd_cd": "41597",
-      "name": "동탄2 시범호반베르디움",
-      "region": "동탄2"
+      "name": "동탄역 시범호반써밋",
+      "region": "동탄2",
+      "dong": "청계동",
+      "match_mode": "exact"
     },
     {
       "aliases": [
@@ -719,23 +722,6 @@
     },
     {
       "aliases": [
-        "센트럴하이츠",
-        "망포역센트럴하이츠"
-      ],
-      "area": 84.9,
-      "area_max": 85,
-      "area_min": 80,
-      "dong": "망포동",
-      "id": "mp-heights",
-      "lawd_cd": "41117",
-      "match_mode": "exact",
-      "name": "망포역 센트럴하이츠",
-      "region": "영통·망포",
-      "source_url": "https://hogangnono.com/apt/5a43c/0/0/review?aptHash=5a43c",
-      "watch_note": "망포역 생활권 가격차 대안"
-    },
-    {
-      "aliases": [
         "동수원자이1차"
       ],
       "area": 84.9,
@@ -958,7 +944,7 @@
       "area": 84.9,
       "area_max": 85,
       "area_min": 80,
-      "dong": "중동",
+      "dong": "동백동",
       "id": "db-lotte",
       "lawd_cd": "41463",
       "match_mode": "exact",
@@ -1137,14 +1123,18 @@
       "area": 84.9,
       "area_max": 85,
       "area_min": 80,
-      "dong": "오산동",
+      "dong": "여울동",
       "id": "dt-dongwon3",
       "lawd_cd": "41597",
       "match_mode": "exact",
       "name": "동탄역 동원로얄듀크비스타3차",
       "region": "동탄2",
       "source_url": "https://youandicandoit.tistory.com/1110",
-      "watch_note": "동탄역권 준신축 비교"
+      "watch_note": "동탄역권 준신축 비교",
+      "dong_aliases": [
+        "오산동",
+        "여울동"
+      ]
     },
     {
       "aliases": [
@@ -1153,14 +1143,18 @@
       "area": 84.9,
       "area_max": 85,
       "area_min": 80,
-      "dong": "오산동",
+      "dong": "여울동",
       "id": "dt-lin",
       "lawd_cd": "41597",
       "match_mode": "exact",
       "name": "동탄역 린스트라우스",
       "region": "동탄2",
       "source_url": "https://youandicandoit.tistory.com/2172",
-      "watch_note": "동탄역권·호수권 린스트라우스와 구분"
+      "watch_note": "동탄역권·호수권 린스트라우스와 구분",
+      "dong_aliases": [
+        "오산동",
+        "여울동"
+      ]
     },
     {
       "aliases": [
@@ -1179,195 +1173,329 @@
       "watch_note": "상현역 생활권 대안"
     },
     {
-      "id": "bd-sangrok-imkwang",
-      "region": "분당",
-      "name": "정자 상록마을 임광",
       "aliases": [
         "상록마을(임광)"
       ],
-      "dong": "정자동",
-      "lawd_cd": "41135",
       "area": 84.9,
-      "area_min": 80,
       "area_max": 85,
+      "area_min": 80,
+      "dong": "정자동",
+      "id": "bd-sangrok-imkwang",
+      "lawd_cd": "41135",
       "match_mode": "exact",
-      "watch_note": "분당 생활권 상위 비교·단지별 거래 분리",
-      "source_url": "https://github.com/best546/apt-gap-monitor/blob/main/docs/data/latest.json"
+      "name": "정자 상록마을 임광",
+      "region": "분당",
+      "source_url": "https://github.com/best546/apt-gap-monitor/blob/main/docs/data/latest.json",
+      "watch_note": "분당 생활권 상위 비교·단지별 거래 분리"
     },
     {
-      "id": "bd-yangji-cheonggu",
-      "region": "분당",
-      "name": "수내 양지마을 청구2단지",
       "aliases": [
         "양지마을(2단지)(청구)"
       ],
-      "dong": "수내동",
-      "lawd_cd": "41135",
       "area": 84.9,
-      "area_min": 80,
       "area_max": 85,
+      "area_min": 80,
+      "dong": "수내동",
+      "id": "bd-yangji-cheonggu",
+      "lawd_cd": "41135",
       "match_mode": "exact",
-      "watch_note": "분당 생활권 상위 비교·단지별 거래 분리",
-      "source_url": "https://github.com/best546/apt-gap-monitor/blob/main/docs/data/latest.json"
+      "name": "수내 양지마을 청구2단지",
+      "region": "분당",
+      "source_url": "https://github.com/best546/apt-gap-monitor/blob/main/docs/data/latest.json",
+      "watch_note": "분당 생활권 상위 비교·단지별 거래 분리"
     },
     {
-      "id": "bd-yangji-hanyang",
-      "region": "분당",
-      "name": "수내 양지마을 한양5단지",
       "aliases": [
         "양지마을(5단지)(한양515-529)"
       ],
-      "dong": "수내동",
-      "lawd_cd": "41135",
       "area": 84.9,
-      "area_min": 80,
       "area_max": 85,
+      "area_min": 80,
+      "dong": "수내동",
+      "id": "bd-yangji-hanyang",
+      "lawd_cd": "41135",
       "match_mode": "exact",
-      "watch_note": "분당 생활권 상위 비교·단지별 거래 분리",
-      "source_url": "https://github.com/best546/apt-gap-monitor/blob/main/docs/data/latest.json"
+      "name": "수내 양지마을 한양5단지",
+      "region": "분당",
+      "source_url": "https://github.com/best546/apt-gap-monitor/blob/main/docs/data/latest.json",
+      "watch_note": "분당 생활권 상위 비교·단지별 거래 분리"
     },
     {
-      "id": "bd-imae-hanshin",
-      "region": "분당",
-      "name": "이매촌 한신",
       "aliases": [
         "이매촌(한신)"
       ],
-      "dong": "이매동",
-      "lawd_cd": "41135",
       "area": 84.9,
-      "area_min": 80,
       "area_max": 85,
+      "area_min": 80,
+      "dong": "이매동",
+      "id": "bd-imae-hanshin",
+      "lawd_cd": "41135",
       "match_mode": "exact",
-      "watch_note": "분당 생활권 상위 비교·단지별 거래 분리",
-      "source_url": "https://github.com/best546/apt-gap-monitor/blob/main/docs/data/latest.json"
+      "name": "이매촌 한신",
+      "region": "분당",
+      "source_url": "https://github.com/best546/apt-gap-monitor/blob/main/docs/data/latest.json",
+      "watch_note": "분당 생활권 상위 비교·단지별 거래 분리"
     },
     {
-      "id": "bd-imae-cheonggu",
-      "region": "분당",
-      "name": "이매촌 청구",
       "aliases": [
         "이매촌(청구)"
       ],
-      "dong": "이매동",
-      "lawd_cd": "41135",
       "area": 84.9,
-      "area_min": 80,
       "area_max": 85,
+      "area_min": 80,
+      "dong": "이매동",
+      "id": "bd-imae-cheonggu",
+      "lawd_cd": "41135",
       "match_mode": "exact",
-      "watch_note": "분당 생활권 상위 비교·단지별 거래 분리",
-      "source_url": "https://github.com/best546/apt-gap-monitor/blob/main/docs/data/latest.json"
+      "name": "이매촌 청구",
+      "region": "분당",
+      "source_url": "https://github.com/best546/apt-gap-monitor/blob/main/docs/data/latest.json",
+      "watch_note": "분당 생활권 상위 비교·단지별 거래 분리"
     },
     {
-      "id": "bd-imae-jinheung",
-      "region": "분당",
-      "name": "이매촌 진흥",
       "aliases": [
         "이매촌(진흥)"
       ],
-      "dong": "이매동",
-      "lawd_cd": "41135",
       "area": 84.9,
-      "area_min": 80,
       "area_max": 85,
+      "area_min": 80,
+      "dong": "이매동",
+      "id": "bd-imae-jinheung",
+      "lawd_cd": "41135",
       "match_mode": "exact",
-      "watch_note": "분당 생활권 상위 비교·단지별 거래 분리",
-      "source_url": "https://github.com/best546/apt-gap-monitor/blob/main/docs/data/latest.json"
+      "name": "이매촌 진흥",
+      "region": "분당",
+      "source_url": "https://github.com/best546/apt-gap-monitor/blob/main/docs/data/latest.json",
+      "watch_note": "분당 생활권 상위 비교·단지별 거래 분리"
     },
     {
-      "id": "seongnam-haneul1",
-      "region": "뉴성남 · 신흥역",
-      "name": "신흥역하늘채랜더스원1단지",
       "aliases": [
         "신흥역하늘채랜더스원1단지",
         "신흥역 하늘채 랜더스원 1단지"
       ],
-      "lawd_cd": "41133",
-      "dong": "중앙동",
       "area": 84.99,
-      "area_tolerance": 0.15,
-      "area_min": 80,
       "area_max": 85,
+      "area_min": 80,
+      "area_tolerance": 0.15,
+      "dong": "중앙동",
+      "id": "seongnam-haneul1",
+      "lawd_cd": "41133",
       "match_mode": "exact",
+      "name": "신흥역하늘채랜더스원1단지",
+      "region": "뉴성남 · 신흥역",
       "source_url": "https://hogangnono.com/apt/dF092",
       "watch_note": "신흥역 초역세권·초품아·대단지 신축 핵심 후보"
     },
     {
-      "id": "seongnam-haneul3",
-      "region": "뉴성남 · 신흥역",
-      "name": "신흥역하늘채랜더스원3단지",
       "aliases": [
         "신흥역하늘채랜더스원3단지",
         "신흥역 하늘채 랜더스원 3단지"
       ],
-      "lawd_cd": "41133",
-      "dong": "중앙동",
       "area": 84.99,
-      "area_tolerance": 0.15,
-      "area_min": 80,
       "area_max": 85,
+      "area_min": 80,
+      "area_tolerance": 0.15,
+      "dong": "중앙동",
+      "id": "seongnam-haneul3",
+      "lawd_cd": "41133",
       "match_mode": "exact",
+      "name": "신흥역하늘채랜더스원3단지",
+      "region": "뉴성남 · 신흥역",
       "source_url": "https://hogangnono.com/apt/dF092",
       "watch_note": "신흥역 생활권·신축·숲조망 비교 후보"
     },
     {
-      "id": "seongnam-forestia",
-      "region": "뉴성남 · 산성역",
-      "name": "산성역포레스티아",
       "aliases": [
         "산성역포레스티아",
         "산성역 포레스티아"
       ],
-      "lawd_cd": "41131",
-      "dong": "신흥동",
       "area": 84.99,
-      "area_tolerance": 0.2,
-      "area_min": 80,
       "area_max": 85,
+      "area_min": 80,
+      "area_tolerance": 0.2,
+      "dong": "신흥동",
+      "id": "seongnam-forestia",
+      "lawd_cd": "41131",
       "match_mode": "exact",
+      "name": "산성역포레스티아",
+      "region": "뉴성남 · 산성역",
       "source_url": "https://hogangnono.com/apt/cudcd",
       "watch_note": "산성역 역세권·대단지·구성남 상급지 비교"
     },
     {
-      "id": "seongnam-xi-prugio",
-      "region": "뉴성남 · 산성역",
-      "name": "산성역자이푸르지오",
       "aliases": [
-        "산성역자이푸르지오",
-        "산성역 자이푸르지오"
+        "산성역자이푸르지오1단지"
       ],
-      "lawd_cd": "41131",
-      "dong": "신흥동",
       "area": 84.98,
-      "area_tolerance": 0.2,
-      "area_min": 80,
       "area_max": 85,
+      "area_min": 80,
+      "area_tolerance": 0.2,
+      "dong": "신흥동",
+      "id": "seongnam-xi-prugio",
+      "lawd_cd": "41131",
       "match_mode": "exact",
+      "name": "산성역자이푸르지오1단지",
+      "region": "뉴성남 · 산성역",
       "source_url": "https://hogangnono.com/apt/dEKc0",
       "watch_note": "산성역 생활권·대형 브랜드 신축 비교"
     },
     {
-      "id": "seongnam-geumbit1",
-      "region": "뉴성남 · 단대오거리",
-      "name": "e편한세상금빛그랑메종1단지",
       "aliases": [
         "e편한세상금빛그랑메종1단지",
         "이편한세상금빛그랑메종1단지",
         "e편한세상 금빛그랑메종 1단지"
       ],
-      "lawd_cd": "41133",
-      "dong": "금광동",
       "area": 84.98,
+      "area_max": 85,
+      "area_min": 80,
       "area_tolerance": 0.5,
+      "dong": "금광동",
+      "id": "seongnam-geumbit1",
+      "lawd_cd": "41133",
+      "match_mode": "exact",
+      "name": "e편한세상금빛그랑메종1단지",
+      "region": "뉴성남 · 단대오거리",
+      "source_url": "https://hogangnono.com/apt/dt22b",
+      "watch_note": "단대오거리역 생활권·초대형 신축·가격 접근성 비교"
+    },
+    {
+      "id": "gc-summit",
+      "name": "과천푸르지오써밋",
+      "region": "과천",
+      "lawd_cd": "41290",
+      "dong": "중앙동",
+      "aliases": [
+        "과천푸르지오써밋"
+      ],
+      "watch_note": "과천역·중심 생활권 비교 후보",
+      "source_url": "https://jy6807.kmswb.kr/",
+      "area": 84.9,
       "area_min": 80,
       "area_max": 85,
       "match_mode": "exact",
-      "source_url": "https://hogangnono.com/apt/dt22b",
-      "watch_note": "단대오거리역 생활권·초대형 신축·가격 접근성 비교"
+      "recommended": true,
+      "recommendation_group": "확대 추천"
+    },
+    {
+      "id": "gc-xi",
+      "name": "과천자이",
+      "region": "과천",
+      "lawd_cd": "41290",
+      "dong": "별양동",
+      "aliases": [
+        "과천자이"
+      ],
+      "watch_note": "과천 신축 상급지 비교 후보",
+      "source_url": "https://www.aptrank.com/apt_detail.php?aptnameuid=50248",
+      "area": 84.9,
+      "area_min": 80,
+      "area_max": 85,
+      "match_mode": "exact",
+      "recommended": true,
+      "recommendation_group": "확대 추천"
+    },
+    {
+      "id": "pangyo-baek2",
+      "name": "백현마을2단지",
+      "region": "동판교",
+      "lawd_cd": "41135",
+      "dong": "백현동",
+      "aliases": [
+        "백현마을2단지"
+      ],
+      "watch_note": "동판교 핵심 생활권·상급지 가격 비교",
+      "source_url": "https://aptgin.com/",
+      "area": 84.9,
+      "area_min": 80,
+      "area_max": 85,
+      "match_mode": "exact",
+      "recommended": true,
+      "recommendation_group": "확대 추천"
+    },
+    {
+      "id": "pangyo-bot8",
+      "name": "봇들마을8단지",
+      "region": "동판교",
+      "lawd_cd": "41135",
+      "dong": "삼평동",
+      "aliases": [
+        "봇들마을8단지",
+        "봇들마을8단지(주공)"
+      ],
+      "watch_note": "동판교 대표 84㎡ 비교 후보",
+      "source_url": "https://kbland.kr/se/c/22045",
+      "area": 84.9,
+      "area_min": 80,
+      "area_max": 85,
+      "match_mode": "exact",
+      "recommended": true,
+      "recommendation_group": "확대 추천"
+    },
+    {
+      "id": "pc-raemian-prugio",
+      "name": "평촌래미안푸르지오",
+      "region": "평촌",
+      "lawd_cd": "41173",
+      "dong": "비산동",
+      "aliases": [
+        "평촌래미안푸르지오"
+      ],
+      "watch_note": "안양 신축 대단지·평촌 학원가 접근 비교",
+      "source_url": "https://k3883001.kmswb.kr/",
+      "area": 84.9,
+      "area_min": 80,
+      "area_max": 85,
+      "match_mode": "exact",
+      "recommended": true,
+      "recommendation_group": "확대 추천"
+    },
+    {
+      "id": "dt-lotte-castle",
+      "name": "동탄역롯데캐슬",
+      "region": "동탄2",
+      "lawd_cd": "41597",
+      "dong": "여울동",
+      "aliases": [
+        "동탄역롯데캐슬"
+      ],
+      "watch_note": "동탄역 핵심 입지·지역 대표 가격 비교",
+      "source_url": "https://www.realhouse.co.kr/",
+      "area": 84.9,
+      "area_min": 80,
+      "area_max": 85,
+      "match_mode": "exact",
+      "recommended": true,
+      "recommendation_group": "확대 추천",
+      "dong_aliases": [
+        "오산동",
+        "여울동"
+      ]
     }
   ],
-  "area_tolerance": 1.2,
+  "history_months": 60,
   "min_floor": 4,
   "months": 6,
-  "history_months": 60
+  "reference_id": "home",
+  "updated_at": "2026-09-14",
+  "watchlist_updated_at": "2026-09-14",
+  "excluded_complexes": [
+    {
+      "aliases": [
+        "센트럴하이츠",
+        "망포역센트럴하이츠"
+      ],
+      "area": 84.9,
+      "area_max": 85,
+      "area_min": 80,
+      "dong": "망포동",
+      "id": "mp-heights",
+      "lawd_cd": "41117",
+      "match_mode": "exact",
+      "name": "망포역 센트럴하이츠",
+      "region": "영통·망포",
+      "source_url": "https://m.richgo.ai/realty/danji/a6aDVjH",
+      "watch_note": "망포역 생활권 가격차 대안",
+      "exclusion_reason": "확인된 면적 구성은 59㎡ 및 100㎡ 이상으로 전용 80~85㎡ 대상에서 제외"
+    }
+  ]
 }

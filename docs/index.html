@@ -48,7 +48,7 @@ let data,period=60,visibleItems=[],returnId=null,recoveryNotice='',recommendedOn
 const $=id=>document.getElementById(id);
 // Explicit comparison heuristic, not a location or investment-return rating.
 const strategicProfiles={
-  '과천':{invest:49,school:29,commute:10},'분당':{invest:47,school:30,commute:10},
+  '동판교':{invest:48,school:28,commute:9},'과천':{invest:49,school:29,commute:10},'분당':{invest:47,school:30,commute:10},
   '광교':{invest:46,school:27,commute:15},'서판교':{invest:48,school:27,commute:9},
   '평촌':{invest:44,school:29,commute:9},'수지':{invest:42,school:27,commute:12},
   '죽전':{invest:39,school:25,commute:13},'죽전·보정':{invest:40,school:25,commute:12},
@@ -124,10 +124,11 @@ async function init(){
     data=backup;
     recoveryNotice=' · 최신 업로드의 면적·수집 조건이 맞지 않아 마지막 정상 자료를 표시 중입니다. 수집기 업데이트가 필요합니다.';
   }
+  watchlist.complexes.filter(x=>x.recommended).forEach(x=>initialRecommendations.add(x.id));
   const old=new Map(data.items.map(x=>[x.id,x]));
   data.items=watchlist.complexes.map(c=>{
     const x=old.get(c.id);
-    const changed=x&&(JSON.stringify(x.aliases)!==JSON.stringify(c.aliases)||x.area!==c.area||x.dong!==c.dong||x.match_mode!==c.match_mode||x.lawd_cd!==c.lawd_cd
+    const changed=x&&(JSON.stringify(x.aliases)!==JSON.stringify(c.aliases)||x.area!==c.area||x.dong!==c.dong||JSON.stringify(x.dong_aliases)!==JSON.stringify(c.dong_aliases)||x.match_mode!==c.match_mode||x.lawd_cd!==c.lawd_cd
       ||x.area_tolerance!==(c.area_tolerance??watchlist.area_tolerance)||x.min_floor!==(c.min_floor??watchlist.min_floor??4));
     return x&&!changed?{...x,...c}:{...c,count:0,representative_manwon:null,gap_manwon:null,latest:null,monthly_gaps:[],pending:true};
   });
@@ -151,7 +152,7 @@ function render(){
     return value(a)-value(b)||a.name.localeCompare(b.name,'ko');
   });
   $('resultCount').textContent=visibleItems.length+'개 표시 / 전체 '+data.items.filter(x=>x.id!==data.reference_id).length+'개';
-  rows.innerHTML=visibleItems.map(x=>{const score=scoreItem(x);return `<button type="button" class="candidate" data-id="${esc(x.id)}" aria-pressed="${x.id===chartComplex.value}" aria-controls="chartPanel"><div class="candidate-top"><b>${esc(x.name)}${initialRecommendations.has(x.id)?' <span class="initial-star" title="초기 추천 단지">★</span>':''}</b><span class="score-badge" title="자산증식 50 · 학군 30 · 출퇴근 20">${score.total+'점'}</span></div><div class="muted">${esc(x.region)} · 전용 ${esc(x.area)}㎡</div><div class="candidate-bottom"><span>대표가 <strong>${won(x.representative_manwon)}</strong></span><span>가격차 <strong>${won(x.gap_manwon)}</strong></span></div><div class="candidate-note">${esc(x.watch_note||'')}${x.pending?' · 새 수집 대기':''}</div></button>`}).join('')||'<div class="empty-list">조건에 맞는 후보가 없습니다.<p class="muted">검색어나 필터를 바꾸거나 초기화해 주세요.</p></div>';
+  rows.innerHTML=visibleItems.map(x=>{const score=scoreItem(x);return `<button type="button" class="candidate" data-id="${esc(x.id)}" aria-pressed="${x.id===chartComplex.value}" aria-controls="chartPanel"><div class="candidate-top"><b>${esc(x.name)}${initialRecommendations.has(x.id)?' <span class="initial-star" title="추천 단지">★</span>':''}</b><span class="score-badge" title="자산증식 50 · 학군 30 · 출퇴근 20">${score.total+'점'}</span></div><div class="muted">${esc(x.region)} · 전용 ${esc(x.area)}㎡</div><div class="candidate-bottom"><span>대표가 <strong>${won(x.representative_manwon)}</strong></span><span>가격차 <strong>${won(x.gap_manwon)}</strong></span></div><div class="candidate-note">${esc(x.watch_note||'')}${x.pending?' · 새 수집 대기':''}</div></button>`}).join('')||'<div class="empty-list">조건에 맞는 후보가 없습니다.<p class="muted">검색어나 필터를 바꾸거나 초기화해 주세요.</p></div>';
   rows.querySelectorAll('[data-id]').forEach(b=>b.onclick=e=>{const showScore=!!e.target.closest('.score-badge');selectCandidate(b.dataset.id,true);if(showScore)$('scoreDetail').querySelector('details').open=true});
   updateNavigation();
 }

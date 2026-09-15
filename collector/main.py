@@ -92,7 +92,8 @@ def summarize(c, rows, tol, default_min_floor=4, representative_months=6):
         except (ValueError, TypeError): continue
         apt_name = norm(tx["apt"])
         name_ok = bool(apt_name) and (apt_name in aliases if c.get("match_mode") == "exact" else any(a in apt_name or apt_name in a for a in aliases if a))
-        dong_ok = not c.get("dong") or norm(pick(row, "umdNm", "법정동")) == norm(c["dong"])
+        allowed_dongs = c.get("dong_aliases", []) + ([c["dong"]] if c.get("dong") else [])
+        dong_ok = not allowed_dongs or norm(pick(row, "umdNm", "법정동")) in {norm(d) for d in allowed_dongs}
         area_ok = c.get("area_min", 0) <= tx["area"] <= c.get("area_max", 85) and abs(tx["area"] - c["area"]) <= area_tolerance
         if name_ok and dong_ok and area_ok and not tx["cancelled"]:
             matches.append(tx)

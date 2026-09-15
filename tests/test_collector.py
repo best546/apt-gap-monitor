@@ -37,5 +37,25 @@ class CollectorTest(unittest.TestCase):
         item = summarize({"id":"x","region":"테스트","name":"테스트아파트","aliases":[],"lawd_cd":"00000","area":80.3931,"area_tolerance":0.1}, rows, 1.2)
         self.assertEqual(item["count"], 0)
 
-if __name__ == "__main__": unittest.main()
+class ConfigMatchingTest(unittest.TestCase):
+    def test_verified_aliases_and_dong_rename(self):
+        import json
+        from pathlib import Path
+        cfg = json.loads(Path('config/complexes.json').read_text())
+        by_id = {c['id']: c for c in cfg['complexes']}
+        row = parse_items(XML)[0]
+        for cid, name, dong in [
+            ('seongbok-hyundai', '서원마을현대홈타운', '상현동'),
+            ('dongtan2-geo', '동탄역시범호반써밋', '청계동'),
+            ('db-lotte', '호수마을상록롯데캐슬', '동백동'),
+            ('dt-lin', '동탄역린스트라우스', '여울동'),
+            ('dt-lin', '동탄역린스트라우스', '오산동'),
+            ('seongnam-xi-prugio', '산성역자이푸르지오1단지', '신흥동'),
+        ]:
+            with self.subTest(cid=cid, dong=dong):
+                self.assertEqual(summarize(by_id[cid], [dict(row, aptNm=name, umdNm=dong, excluUseAr='84.85')], 1.2)['history_count'], 1)
+        self.assertEqual(summarize(by_id['seongnam-xi-prugio'], [dict(row, aptNm='산성역자이푸르지오3단지', umdNm='신흥동')], 1.2)['history_count'], 0)
+        self.assertEqual(summarize(by_id['dt-lin'], [dict(row, aptNm='동탄역린스트라우스', umdNm='청계동')], 1.2)['history_count'], 0)
+        self.assertNotIn('mp-heights', by_id)
 
+if __name__ == "__main__": unittest.main()
