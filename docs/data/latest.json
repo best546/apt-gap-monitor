@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T22:18:06+00:00",
+  "generated_at": "2026-09-17T22:18:08+00:00",
   "months": 6,
   "history_months": 60,
   "reference_id": "home",
@@ -2842,7 +2842,7 @@
       "area_tolerance": 1.2,
       "min_floor": 4,
       "count": 24,
-      "history_count": 332,
+      "history_count": 331,
       "representative_manwon": 163900,
       "latest": {
         "apt": "e편한세상수지",
@@ -2976,8 +2976,8 @@
         },
         {
           "month": "2023-12",
-          "price_manwon": 109000,
-          "count": 3
+          "price_manwon": 106000,
+          "count": 2
         },
         {
           "month": "2024-01",
@@ -25752,15 +25752,15 @@
       "watch_note": "기흥역 생활권 대단지 비교",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 64,
-      "history_count": 410,
+      "count": 65,
+      "history_count": 411,
       "representative_manwon": 96500,
       "latest": {
         "apt": "기흥역센트럴푸르지오",
-        "price_manwon": 109500,
+        "price_manwon": 110000,
         "area": 84.755,
-        "date": "2026-08-31",
-        "floor": 15,
+        "date": "2026-09-16",
+        "floor": 28,
         "direct": false,
         "cancelled": false
       },
@@ -26049,9 +26049,23 @@
           "month": "2026-08",
           "price_manwon": 103250,
           "count": 4
+        },
+        {
+          "month": "2026-09",
+          "price_manwon": 110000,
+          "count": 1
         }
       ],
       "transactions": [
+        {
+          "apt": "기흥역센트럴푸르지오",
+          "price_manwon": 110000,
+          "area": 84.755,
+          "date": "2026-09-16",
+          "floor": 28,
+          "direct": false,
+          "cancelled": false
+        },
         {
           "apt": "기흥역센트럴푸르지오",
           "price_manwon": 109500,
@@ -26220,15 +26234,6 @@
           "area": 84.9079,
           "date": "2026-06-19",
           "floor": 23,
-          "direct": false,
-          "cancelled": false
-        },
-        {
-          "apt": "기흥역센트럴푸르지오",
-          "price_manwon": 98000,
-          "area": 84.9079,
-          "date": "2026-06-17",
-          "floor": 43,
           "direct": false,
           "cancelled": false
         }
@@ -33281,9 +33286,9 @@
       "watch_note": "내손 생활권·1단지 개별 수집",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 25,
-      "history_count": 115,
-      "representative_manwon": 118250,
+      "count": 24,
+      "history_count": 114,
+      "representative_manwon": 118000,
       "latest": {
         "apt": "인덕원 센트럴 자이 1단지",
         "price_manwon": 134500,
@@ -33486,8 +33491,8 @@
         },
         {
           "month": "2026-08",
-          "price_manwon": 129750,
-          "count": 4
+          "price_manwon": 125000,
+          "count": 3
         }
       ],
       "transactions": [
@@ -33506,15 +33511,6 @@
           "area": 84.909,
           "date": "2026-08-17",
           "floor": 1,
-          "direct": false,
-          "cancelled": false
-        },
-        {
-          "apt": "인덕원 센트럴 자이 1단지",
-          "price_manwon": 135000,
-          "area": 84.982,
-          "date": "2026-08-15",
-          "floor": 8,
           "direct": false,
           "cancelled": false
         },
@@ -33670,9 +33666,18 @@
           "floor": 8,
           "direct": false,
           "cancelled": false
+        },
+        {
+          "apt": "인덕원 센트럴 자이 1단지",
+          "price_manwon": 120000,
+          "area": 84.982,
+          "date": "2026-04-25",
+          "floor": 23,
+          "direct": false,
+          "cancelled": false
         }
       ],
-      "gap_manwon": 47750,
+      "gap_manwon": 47500,
       "asking_manwon": null,
       "monthly_gaps": [
         {
@@ -33803,8 +33808,8 @@
         },
         {
           "month": "2026-08",
-          "gap_manwon": 41750,
-          "target_price_manwon": 129750,
+          "gap_manwon": 37000,
+          "target_price_manwon": 125000,
           "home_price_manwon": 88000
         }
       ]
@@ -43275,15 +43280,15 @@
       "source_url": "https://hogangnono.com/apt/dt22b",
       "watch_note": "단대오거리역 생활권·초대형 신축·가격 접근성 비교",
       "min_floor": 4,
-      "count": 2,
-      "history_count": 29,
-      "representative_manwon": 140000,
+      "count": 3,
+      "history_count": 30,
+      "representative_manwon": 140500,
       "latest": {
         "apt": "e편한세상금빛그랑메종1단지",
-        "price_manwon": 141000,
-        "area": 84.56,
-        "date": "2026-07-11",
-        "floor": 10,
+        "price_manwon": 140500,
+        "area": 84.98,
+        "date": "2026-09-01",
+        "floor": 13,
         "direct": false,
         "cancelled": false
       },
@@ -43367,9 +43372,23 @@
           "month": "2026-07",
           "price_manwon": 141000,
           "count": 1
+        },
+        {
+          "month": "2026-09",
+          "price_manwon": 140500,
+          "count": 1
         }
       ],
       "transactions": [
+        {
+          "apt": "e편한세상금빛그랑메종1단지",
+          "price_manwon": 140500,
+          "area": 84.98,
+          "date": "2026-09-01",
+          "floor": 13,
+          "direct": false,
+          "cancelled": false
+        },
         {
           "apt": "e편한세상금빛그랑메종1단지",
           "price_manwon": 141000,
@@ -43540,18 +43559,9 @@
           "floor": 14,
           "direct": false,
           "cancelled": false
-        },
-        {
-          "apt": "e편한세상금빛그랑메종1단지",
-          "price_manwon": 106000,
-          "area": 84.98,
-          "date": "2025-06-12",
-          "floor": 10,
-          "direct": false,
-          "cancelled": false
         }
       ],
-      "gap_manwon": 69500,
+      "gap_manwon": 70000,
       "asking_manwon": null,
       "monthly_gaps": [
         {
