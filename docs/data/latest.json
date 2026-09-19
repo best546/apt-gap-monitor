@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T22:18:08+00:00",
+  "generated_at": "2026-09-19T22:18:07+00:00",
   "months": 6,
   "history_months": 60,
   "reference_id": "home",
@@ -18136,14 +18136,14 @@
       "watch_note": "상현역 생활권 상위 비교",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 15,
-      "history_count": 115,
+      "count": 16,
+      "history_count": 116,
       "representative_manwon": 159500,
       "latest": {
         "apt": "광교자이더클래스",
-        "price_manwon": 160000,
+        "price_manwon": 158000,
         "area": 84.938,
-        "date": "2026-08-14",
+        "date": "2026-09-04",
         "floor": 2,
         "direct": false,
         "cancelled": false
@@ -18348,6 +18348,15 @@
       "transactions": [
         {
           "apt": "광교자이더클래스",
+          "price_manwon": 158000,
+          "area": 84.938,
+          "date": "2026-09-04",
+          "floor": 2,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "광교자이더클래스",
           "price_manwon": 160000,
           "area": 84.938,
           "date": "2026-08-14",
@@ -18514,15 +18523,6 @@
           "area": 84.938,
           "date": "2026-01-24",
           "floor": 5,
-          "direct": false,
-          "cancelled": false
-        },
-        {
-          "apt": "광교자이더클래스",
-          "price_manwon": 147000,
-          "area": 84.938,
-          "date": "2026-01-22",
-          "floor": 14,
           "direct": false,
           "cancelled": false
         }
