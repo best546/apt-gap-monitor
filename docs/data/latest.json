@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T22:18:05+00:00",
+  "generated_at": "2026-09-21T22:18:05+00:00",
   "months": 6,
   "history_months": 60,
   "reference_id": "home",
@@ -21789,15 +21789,15 @@
       "watch_note": "망포 생활권 상위 비교",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 31,
-      "history_count": 256,
+      "count": 32,
+      "history_count": 257,
       "representative_manwon": 129000,
       "latest": {
         "apt": "힐스테이트영통",
-        "price_manwon": 152500,
-        "area": 84.8897,
-        "date": "2026-09-04",
-        "floor": 23,
+        "price_manwon": 154000,
+        "area": 84.5303,
+        "date": "2026-09-14",
+        "floor": 22,
         "direct": false,
         "cancelled": false
       },
@@ -22069,11 +22069,20 @@
         },
         {
           "month": "2026-09",
-          "price_manwon": 152500,
-          "count": 1
+          "price_manwon": 153250,
+          "count": 2
         }
       ],
       "transactions": [
+        {
+          "apt": "힐스테이트영통",
+          "price_manwon": 154000,
+          "area": 84.5303,
+          "date": "2026-09-14",
+          "floor": 22,
+          "direct": false,
+          "cancelled": false
+        },
         {
           "apt": "힐스테이트영통",
           "price_manwon": 152500,
@@ -22242,15 +22251,6 @@
           "area": 84.5303,
           "date": "2026-05-11",
           "floor": 5,
-          "direct": false,
-          "cancelled": false
-        },
-        {
-          "apt": "힐스테이트영통",
-          "price_manwon": 130000,
-          "area": 84.5303,
-          "date": "2026-05-08",
-          "floor": 7,
           "direct": false,
           "cancelled": false
         }
@@ -28983,8 +28983,8 @@
       "watch_note": "죽전 대단지·학교와 역 동선 비교",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 48,
-      "history_count": 399,
+      "count": 49,
+      "history_count": 400,
       "representative_manwon": 83500,
       "latest": {
         "apt": "새터마을죽전힐스테이트",
@@ -29289,6 +29289,15 @@
         },
         {
           "apt": "새터마을죽전힐스테이트",
+          "price_manwon": 84000,
+          "area": 84.9959,
+          "date": "2026-09-07",
+          "floor": 2,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "새터마을죽전힐스테이트",
           "price_manwon": 89500,
           "area": 84.9959,
           "date": "2026-09-02",
@@ -29446,15 +29455,6 @@
           "area": 84.9959,
           "date": "2026-06-11",
           "floor": 11,
-          "direct": false,
-          "cancelled": false
-        },
-        {
-          "apt": "새터마을죽전힐스테이트",
-          "price_manwon": 84500,
-          "area": 84.9959,
-          "date": "2026-06-10",
-          "floor": 17,
           "direct": false,
           "cancelled": false
         }
@@ -31161,15 +31161,15 @@
       "watch_note": "동백 생활권·가격차 축소 대안",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 13,
-      "history_count": 88,
+      "count": 14,
+      "history_count": 89,
       "representative_manwon": 49700,
       "latest": {
         "apt": "호수마을자연앤데시앙",
-        "price_manwon": 53200,
+        "price_manwon": 50800,
         "area": 84.9791,
-        "date": "2026-08-29",
-        "floor": 15,
+        "date": "2026-09-19",
+        "floor": 1,
         "direct": false,
         "cancelled": false
       },
@@ -31353,6 +31353,15 @@
       "transactions": [
         {
           "apt": "호수마을자연앤데시앙",
+          "price_manwon": 50800,
+          "area": 84.9791,
+          "date": "2026-09-19",
+          "floor": 1,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "호수마을자연앤데시앙",
           "price_manwon": 53200,
           "area": 84.9791,
           "date": "2026-08-29",
@@ -31519,15 +31528,6 @@
           "area": 84.976,
           "date": "2025-12-20",
           "floor": 6,
-          "direct": false,
-          "cancelled": false
-        },
-        {
-          "apt": "호수마을자연앤데시앙",
-          "price_manwon": 46000,
-          "area": 84.976,
-          "date": "2025-12-19",
-          "floor": 22,
           "direct": false,
           "cancelled": false
         }
@@ -32109,15 +32109,15 @@
       "watch_note": "동백 생활권·가격차 축소 대안",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 13,
-      "history_count": 91,
+      "count": 14,
+      "history_count": 92,
       "representative_manwon": 59500,
       "latest": {
         "apt": "호수마을상록롯데캐슬",
-        "price_manwon": 59000,
+        "price_manwon": 63000,
         "area": 84.899,
-        "date": "2026-08-20",
-        "floor": 17,
+        "date": "2026-09-19",
+        "floor": 11,
         "direct": false,
         "cancelled": false
       },
@@ -32326,9 +32326,23 @@
           "month": "2026-08",
           "price_manwon": 59000,
           "count": 1
+        },
+        {
+          "month": "2026-09",
+          "price_manwon": 63000,
+          "count": 1
         }
       ],
       "transactions": [
+        {
+          "apt": "호수마을상록롯데캐슬",
+          "price_manwon": 63000,
+          "area": 84.899,
+          "date": "2026-09-19",
+          "floor": 11,
+          "direct": false,
+          "cancelled": false
+        },
         {
           "apt": "호수마을상록롯데캐슬",
           "price_manwon": 59000,
@@ -32497,15 +32511,6 @@
           "area": 84.899,
           "date": "2025-12-17",
           "floor": 22,
-          "direct": false,
-          "cancelled": false
-        },
-        {
-          "apt": "호수마을상록롯데캐슬",
-          "price_manwon": 61000,
-          "area": 84.899,
-          "date": "2025-12-08",
-          "floor": 21,
           "direct": false,
           "cancelled": false
         }
@@ -36572,15 +36577,15 @@
       "watch_note": "호수권 생활환경·가격차 대안",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 17,
-      "history_count": 79,
-      "representative_manwon": 76000,
+      "count": 18,
+      "history_count": 80,
+      "representative_manwon": 76400,
       "latest": {
         "apt": "동탄호수자이파밀리에",
-        "price_manwon": 92400,
-        "area": 84.76,
-        "date": "2026-08-28",
-        "floor": 7,
+        "price_manwon": 93000,
+        "area": 84.98,
+        "date": "2026-09-19",
+        "floor": 15,
         "direct": false,
         "cancelled": false
       },
@@ -36739,9 +36744,23 @@
           "month": "2026-08",
           "price_manwon": 92400,
           "count": 1
+        },
+        {
+          "month": "2026-09",
+          "price_manwon": 93000,
+          "count": 1
         }
       ],
       "transactions": [
+        {
+          "apt": "동탄호수자이파밀리에",
+          "price_manwon": 93000,
+          "area": 84.98,
+          "date": "2026-09-19",
+          "floor": 15,
+          "direct": false,
+          "cancelled": false
+        },
         {
           "apt": "동탄호수자이파밀리에",
           "price_manwon": 92400,
@@ -36912,18 +36931,9 @@
           "floor": 19,
           "direct": false,
           "cancelled": false
-        },
-        {
-          "apt": "동탄호수자이파밀리에",
-          "price_manwon": 72900,
-          "area": 84.76,
-          "date": "2026-02-27",
-          "floor": 14,
-          "direct": false,
-          "cancelled": false
         }
       ],
-      "gap_manwon": 5500,
+      "gap_manwon": 5900,
       "asking_manwon": null,
       "monthly_gaps": [
         {
@@ -45370,15 +45380,15 @@
       "recommendation_group": "확대 추천",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 14,
-      "history_count": 67,
-      "representative_manwon": 132250,
+      "count": 15,
+      "history_count": 68,
+      "representative_manwon": 134500,
       "latest": {
         "apt": "평촌래미안푸르지오",
-        "price_manwon": 142000,
+        "price_manwon": 141000,
         "area": 84.93,
-        "date": "2026-08-12",
-        "floor": 16,
+        "date": "2026-08-27",
+        "floor": 11,
         "direct": false,
         "cancelled": false
       },
@@ -45535,11 +45545,20 @@
         },
         {
           "month": "2026-08",
-          "price_manwon": 142000,
-          "count": 1
+          "price_manwon": 141500,
+          "count": 2
         }
       ],
       "transactions": [
+        {
+          "apt": "평촌래미안푸르지오",
+          "price_manwon": 141000,
+          "area": 84.93,
+          "date": "2026-08-27",
+          "floor": 11,
+          "direct": false,
+          "cancelled": false
+        },
         {
           "apt": "평촌래미안푸르지오",
           "price_manwon": 142000,
@@ -45710,18 +45729,9 @@
           "floor": 14,
           "direct": false,
           "cancelled": false
-        },
-        {
-          "apt": "평촌래미안푸르지오",
-          "price_manwon": 125000,
-          "area": 84.93,
-          "date": "2026-01-24",
-          "floor": 19,
-          "direct": false,
-          "cancelled": false
         }
       ],
-      "gap_manwon": 61750,
+      "gap_manwon": 64000,
       "asking_manwon": null,
       "monthly_gaps": [
         {
@@ -45846,8 +45856,8 @@
         },
         {
           "month": "2026-08",
-          "gap_manwon": 54000,
-          "target_price_manwon": 142000,
+          "gap_manwon": 53500,
+          "target_price_manwon": 141500,
           "home_price_manwon": 88000
         }
       ]
