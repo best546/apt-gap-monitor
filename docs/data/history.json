@@ -5785,5 +5785,382 @@
         "gap": 125500
       }
     }
+  },
+  {
+    "generated_at": "2026-09-25T22:18:01+00:00",
+    "values": {
+      "home": {
+        "price": 70500,
+        "gap": 0
+      },
+      "pangyo5": {
+        "price": 189500,
+        "gap": 119000
+      },
+      "pangyo3": {
+        "price": 177000,
+        "gap": 106500
+      },
+      "pangyo9": {
+        "price": 181750,
+        "gap": 111250
+      },
+      "gwanggyo-central": {
+        "price": 165250,
+        "gap": 94750
+      },
+      "gwanggyo-nature": {
+        "price": 188000,
+        "gap": 117500
+      },
+      "sujie편한": {
+        "price": 163900,
+        "gap": 93400
+      },
+      "seongbok-lotte": {
+        "price": 169500,
+        "gap": 99000
+      },
+      "jinsan5": {
+        "price": 128250,
+        "gap": 57750
+      },
+      "seongbok-hyundai": {
+        "price": 104750,
+        "gap": 34250
+      },
+      "bundang-sangrok": {
+        "price": 238000,
+        "gap": 167500
+      },
+      "bundang-yangji": {
+        "price": 229000,
+        "gap": 158500
+      },
+      "imae-beautiful": {
+        "price": 184900,
+        "gap": 114400
+      },
+      "gwacheon-raemian": {
+        "price": 208000,
+        "gap": 137500
+      },
+      "dongtan2-ban-do": {
+        "price": 135000,
+        "gap": 64500
+      },
+      "dongtan2-geo": {
+        "price": 118600,
+        "gap": 48100
+      },
+      "dt1-ssangyong": {
+        "price": 80900,
+        "gap": 10400
+      },
+      "dt1-world": {
+        "price": 93500,
+        "gap": 23000
+      },
+      "dt2-shinan1": {
+        "price": 77500,
+        "gap": 7000
+      },
+      "dt2-shinan2": {
+        "price": 95500,
+        "gap": 25000
+      },
+      "dt2-central-prugio": {
+        "price": 107000,
+        "gap": 36500
+      },
+      "dt2-yemiji": {
+        "price": 117000,
+        "gap": 46500
+      },
+      "dt2-bando1": {
+        "price": 115000,
+        "gap": 44500
+      },
+      "dt2-woomam": {
+        "price": 159800,
+        "gap": 89300
+      },
+      "dt2-thesharp": {
+        "price": 159500,
+        "gap": 89000
+      },
+      "dt2-hanwha": {
+        "price": 155250,
+        "gap": 84750
+      },
+      "dt2-thesharp2": {
+        "price": 86850,
+        "gap": 16350
+      },
+      "suji-jinsan-prugio": {
+        "price": 115000,
+        "gap": 44500
+      },
+      "suji-kumho": {
+        "price": 105000,
+        "gap": 34500
+      },
+      "suji-prime": {
+        "price": null,
+        "gap": null
+      },
+      "suji-eastpark": {
+        "price": 129500,
+        "gap": 59000
+      },
+      "suji-dongcheon-xi": {
+        "price": 114500,
+        "gap": 44000
+      },
+      "suji-eastfore": {
+        "price": 120500,
+        "gap": 50000
+      },
+      "suji-forest": {
+        "price": 92000,
+        "gap": 21500
+      },
+      "suji-mountain-xi": {
+        "price": 83000,
+        "gap": 12500
+      },
+      "suji-mountain-hill": {
+        "price": 93500,
+        "gap": 23000
+      },
+      "gg-class": {
+        "price": 159500,
+        "gap": 89000
+      },
+      "gg-hoban": {
+        "price": 98000,
+        "gap": 27500
+      },
+      "gg-lake-hanyang": {
+        "price": 94250,
+        "gap": 23750
+      },
+      "gg-jungheung": {
+        "price": 175500,
+        "gap": 105000
+      },
+      "pangyo-sanun13": {
+        "price": 167250,
+        "gap": 96750
+      },
+      "bundang-samsung-hanshin": {
+        "price": 223000,
+        "gap": 152500
+      },
+      "bundang-woosung": {
+        "price": 199000,
+        "gap": 128500
+      },
+      "mp-hill": {
+        "price": 129000,
+        "gap": 58500
+      },
+      "mp-castle1": {
+        "price": 119750,
+        "gap": 49250
+      },
+      "mp-castle2": {
+        "price": 106000,
+        "gap": 35500
+      },
+      "mp-lotte1": {
+        "price": 94000,
+        "gap": 23500
+      },
+      "mp-lotte2": {
+        "price": 84500,
+        "gap": 14000
+      },
+      "mp-sk": {
+        "price": 100000,
+        "gap": 29500
+      },
+      "mp-dsxi": {
+        "price": 62500,
+        "gap": -8000
+      },
+      "gh-central": {
+        "price": 96500,
+        "gap": 26000
+      },
+      "gh-sharp": {
+        "price": 102000,
+        "gap": 31500
+      },
+      "gh-hill": {
+        "price": 115000,
+        "gap": 44500
+      },
+      "gs-raemian": {
+        "price": 125000,
+        "gap": 54500
+      },
+      "gs-lg": {
+        "price": 110000,
+        "gap": 39500
+      },
+      "gs-rose": {
+        "price": 83400,
+        "gap": 12900
+      },
+      "juk-hill": {
+        "price": 83500,
+        "gap": 13000
+      },
+      "juk-ipark": {
+        "price": 110500,
+        "gap": 40000
+      },
+      "juk-dongwon": {
+        "price": 121000,
+        "gap": 50500
+      },
+      "juk-sol": {
+        "price": 92000,
+        "gap": 21500
+      },
+      "db-desian": {
+        "price": 49700,
+        "gap": -20800
+      },
+      "db-seohae": {
+        "price": 53400,
+        "gap": -17100
+      },
+      "db-lotte": {
+        "price": 59500,
+        "gap": -11000
+      },
+      "uw-elcentro": {
+        "price": 151000,
+        "gap": 80500
+      },
+      "uw-xi1": {
+        "price": 118250,
+        "gap": 47750
+      },
+      "uw-baegun": {
+        "price": 82700,
+        "gap": 12200
+      },
+      "uw-ever": {
+        "price": 105000,
+        "gap": 34500
+      },
+      "pc-central": {
+        "price": 146000,
+        "gap": 75500
+      },
+      "pc-ipark": {
+        "price": 131250,
+        "gap": 60750
+      },
+      "pc-gwiin": {
+        "price": 142750,
+        "gap": 72250
+      },
+      "dt-lakefam": {
+        "price": 76400,
+        "gap": 5900
+      },
+      "dt-lakepalace": {
+        "price": 103000,
+        "gap": 32500
+      },
+      "dt-centralxi": {
+        "price": 117000,
+        "gap": 46500
+      },
+      "dt-dongwon3": {
+        "price": 112500,
+        "gap": 42000
+      },
+      "dt-lin": {
+        "price": 138000,
+        "gap": 67500
+      },
+      "gg-kyungnam": {
+        "price": 149500,
+        "gap": 79000
+      },
+      "bd-sangrok-imkwang": {
+        "price": 188000,
+        "gap": 117500
+      },
+      "bd-yangji-cheonggu": {
+        "price": 222000,
+        "gap": 151500
+      },
+      "bd-yangji-hanyang": {
+        "price": 223000,
+        "gap": 152500
+      },
+      "bd-imae-hanshin": {
+        "price": 195700,
+        "gap": 125200
+      },
+      "bd-imae-cheonggu": {
+        "price": 221000,
+        "gap": 150500
+      },
+      "bd-imae-jinheung": {
+        "price": 191250,
+        "gap": 120750
+      },
+      "seongnam-haneul1": {
+        "price": 146000,
+        "gap": 75500
+      },
+      "seongnam-haneul3": {
+        "price": null,
+        "gap": null
+      },
+      "seongnam-forestia": {
+        "price": 155000,
+        "gap": 84500
+      },
+      "seongnam-xi-prugio": {
+        "price": 138500,
+        "gap": 68000
+      },
+      "seongnam-geumbit1": {
+        "price": 140500,
+        "gap": 70000
+      },
+      "gc-summit": {
+        "price": 267000,
+        "gap": 196500
+      },
+      "gc-xi": {
+        "price": 244000,
+        "gap": 173500
+      },
+      "pangyo-baek2": {
+        "price": 244500,
+        "gap": 174000
+      },
+      "pangyo-bot8": {
+        "price": null,
+        "gap": null
+      },
+      "pc-raemian-prugio": {
+        "price": 134500,
+        "gap": 64000
+      },
+      "dt-lotte-castle": {
+        "price": 196000,
+        "gap": 125500
+      }
+    }
   }
 ]
