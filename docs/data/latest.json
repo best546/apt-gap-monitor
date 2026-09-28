@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T22:18:02+00:00",
+  "generated_at": "2026-09-28T22:18:04+00:00",
   "months": 6,
   "history_months": 60,
   "reference_id": "home",
@@ -1140,15 +1140,15 @@
       "region": "서판교",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 8,
-      "history_count": 104,
-      "representative_manwon": 181750,
+      "count": 9,
+      "history_count": 105,
+      "representative_manwon": 184500,
       "latest": {
         "apt": "판교원마을9단지(한림풀에버)",
-        "price_manwon": 184500,
-        "area": 84.9958,
-        "date": "2026-08-20",
-        "floor": 15,
+        "price_manwon": 190000,
+        "area": 84.9562,
+        "date": "2026-09-23",
+        "floor": 7,
         "direct": false,
         "cancelled": false
       },
@@ -1317,9 +1317,23 @@
           "month": "2026-08",
           "price_manwon": 184500,
           "count": 1
+        },
+        {
+          "month": "2026-09",
+          "price_manwon": 190000,
+          "count": 1
         }
       ],
       "transactions": [
+        {
+          "apt": "판교원마을9단지(한림풀에버)",
+          "price_manwon": 190000,
+          "area": 84.9562,
+          "date": "2026-09-23",
+          "floor": 7,
+          "direct": false,
+          "cancelled": false
+        },
         {
           "apt": "판교원마을9단지(한림풀에버)",
           "price_manwon": 184500,
@@ -1490,18 +1504,9 @@
           "floor": 3,
           "direct": false,
           "cancelled": false
-        },
-        {
-          "apt": "판교원마을9단지(한림풀에버)",
-          "price_manwon": 160000,
-          "area": 84.9907,
-          "date": "2025-09-22",
-          "floor": 15,
-          "direct": false,
-          "cancelled": false
         }
       ],
-      "gap_manwon": 111250,
+      "gap_manwon": 114000,
       "asking_manwon": null,
       "monthly_gaps": [
         {
@@ -6574,16 +6579,16 @@
       "region": "과천",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 18,
-      "history_count": 303,
+      "count": 19,
+      "history_count": 304,
       "representative_manwon": 208000,
       "latest": {
         "apt": "래미안슈르",
-        "price_manwon": 186500,
-        "area": 84.961,
-        "date": "2026-09-03",
-        "floor": 1,
-        "direct": false,
+        "price_manwon": 172000,
+        "area": 84.946,
+        "date": "2026-09-09",
+        "floor": 11,
+        "direct": true,
         "cancelled": false
       },
       "monthly_prices": [
@@ -6846,6 +6851,15 @@
       "transactions": [
         {
           "apt": "래미안슈르",
+          "price_manwon": 172000,
+          "area": 84.946,
+          "date": "2026-09-09",
+          "floor": 11,
+          "direct": true,
+          "cancelled": false
+        },
+        {
+          "apt": "래미안슈르",
           "price_manwon": 186500,
           "area": 84.961,
           "date": "2026-09-03",
@@ -7012,15 +7026,6 @@
           "area": 84.946,
           "date": "2025-10-18",
           "floor": 19,
-          "direct": false,
-          "cancelled": false
-        },
-        {
-          "apt": "래미안슈르",
-          "price_manwon": 230000,
-          "area": 84.946,
-          "date": "2025-10-16",
-          "floor": 9,
           "direct": false,
           "cancelled": false
         }
@@ -23686,15 +23691,15 @@
       "watch_note": "망포 신축 대안",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 20,
-      "history_count": 71,
-      "representative_manwon": 94000,
+      "count": 21,
+      "history_count": 72,
+      "representative_manwon": 94500,
       "latest": {
         "apt": "영통롯데캐슬엘클래스1단지",
-        "price_manwon": 98000,
-        "area": 84.9882,
-        "date": "2026-09-02",
-        "floor": 7,
+        "price_manwon": 105000,
+        "area": 84.9836,
+        "date": "2026-09-22",
+        "floor": 4,
         "direct": false,
         "cancelled": false
       },
@@ -23831,11 +23836,20 @@
         },
         {
           "month": "2026-09",
-          "price_manwon": 98000,
-          "count": 1
+          "price_manwon": 101500,
+          "count": 2
         }
       ],
       "transactions": [
+        {
+          "apt": "영통롯데캐슬엘클래스1단지",
+          "price_manwon": 105000,
+          "area": 84.9836,
+          "date": "2026-09-22",
+          "floor": 4,
+          "direct": false,
+          "cancelled": false
+        },
         {
           "apt": "영통롯데캐슬엘클래스1단지",
           "price_manwon": 98000,
@@ -24006,18 +24020,9 @@
           "floor": 5,
           "direct": false,
           "cancelled": false
-        },
-        {
-          "apt": "영통롯데캐슬엘클래스1단지",
-          "price_manwon": 90000,
-          "area": 84.9835,
-          "date": "2026-04-04",
-          "floor": 12,
-          "direct": false,
-          "cancelled": false
         }
       ],
-      "gap_manwon": 23500,
+      "gap_manwon": 24000,
       "asking_manwon": null,
       "monthly_gaps": [
         {
@@ -33904,15 +33909,15 @@
       "watch_note": "백운호수 생활권·차량 출퇴근 확인",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 27,
-      "history_count": 125,
+      "count": 28,
+      "history_count": 126,
       "representative_manwon": 82700,
       "latest": {
         "apt": "의왕백운 해링턴 플레이스 1단지",
-        "price_manwon": 86000,
+        "price_manwon": 83500,
         "area": 84.9404,
-        "date": "2026-09-19",
-        "floor": 8,
+        "date": "2026-09-22",
+        "floor": 1,
         "direct": false,
         "cancelled": false
       },
@@ -34116,6 +34121,15 @@
       "transactions": [
         {
           "apt": "의왕백운 해링턴 플레이스 1단지",
+          "price_manwon": 83500,
+          "area": 84.9404,
+          "date": "2026-09-22",
+          "floor": 1,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "의왕백운 해링턴 플레이스 1단지",
           "price_manwon": 86000,
           "area": 84.9404,
           "date": "2026-09-19",
@@ -34282,15 +34296,6 @@
           "area": 84.9404,
           "date": "2026-05-23",
           "floor": 8,
-          "direct": false,
-          "cancelled": false
-        },
-        {
-          "apt": "의왕백운 해링턴 플레이스 1단지",
-          "price_manwon": 61200,
-          "area": 84.9404,
-          "date": "2026-05-20",
-          "floor": 6,
           "direct": false,
           "cancelled": false
         }
@@ -41028,15 +41033,15 @@
       "watch_note": "분당 생활권 상위 비교·단지별 거래 분리",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 3,
-      "history_count": 34,
-      "representative_manwon": 221000,
+      "count": 4,
+      "history_count": 35,
+      "representative_manwon": 219500,
       "latest": {
         "apt": "이매촌(청구)",
-        "price_manwon": 221000,
+        "price_manwon": 218000,
         "area": 84.99,
-        "date": "2026-07-14",
-        "floor": 14,
+        "date": "2026-09-01",
+        "floor": 8,
         "direct": false,
         "cancelled": false
       },
@@ -41130,9 +41135,23 @@
           "month": "2026-07",
           "price_manwon": 221000,
           "count": 1
+        },
+        {
+          "month": "2026-09",
+          "price_manwon": 218000,
+          "count": 1
         }
       ],
       "transactions": [
+        {
+          "apt": "이매촌(청구)",
+          "price_manwon": 218000,
+          "area": 84.99,
+          "date": "2026-09-01",
+          "floor": 8,
+          "direct": false,
+          "cancelled": false
+        },
         {
           "apt": "이매촌(청구)",
           "price_manwon": 221000,
@@ -41303,18 +41322,9 @@
           "floor": 10,
           "direct": false,
           "cancelled": false
-        },
-        {
-          "apt": "이매촌(청구)",
-          "price_manwon": 151060,
-          "area": 84.99,
-          "date": "2024-07-23",
-          "floor": 14,
-          "direct": false,
-          "cancelled": false
         }
       ],
-      "gap_manwon": 150500,
+      "gap_manwon": 149000,
       "asking_manwon": null,
       "monthly_gaps": [
         {
