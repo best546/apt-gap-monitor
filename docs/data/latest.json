@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T22:18:01+00:00",
+  "generated_at": "2026-10-02T22:18:03+00:00",
   "months": 6,
   "history_months": 60,
   "reference_id": "home",
@@ -8982,15 +8982,15 @@
       "watch_note": "동탄1 중심 생활권 비교",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 12,
-      "history_count": 116,
-      "representative_manwon": 94750,
+      "count": 13,
+      "history_count": 117,
+      "representative_manwon": 95000,
       "latest": {
         "apt": "동탄시범다은마을 월드메르디앙 반도유보라",
-        "price_manwon": 107500,
-        "area": 84.68,
-        "date": "2026-08-29",
-        "floor": 23,
+        "price_manwon": 115000,
+        "area": 84.65,
+        "date": "2026-09-21",
+        "floor": 20,
         "direct": false,
         "cancelled": false
       },
@@ -9174,9 +9174,23 @@
           "month": "2026-08",
           "price_manwon": 107500,
           "count": 1
+        },
+        {
+          "month": "2026-09",
+          "price_manwon": 115000,
+          "count": 1
         }
       ],
       "transactions": [
+        {
+          "apt": "동탄시범다은마을 월드메르디앙 반도유보라",
+          "price_manwon": 115000,
+          "area": 84.65,
+          "date": "2026-09-21",
+          "floor": 20,
+          "direct": false,
+          "cancelled": false
+        },
         {
           "apt": "동탄시범다은마을 월드메르디앙 반도유보라",
           "price_manwon": 107500,
@@ -9347,18 +9361,9 @@
           "floor": 24,
           "direct": false,
           "cancelled": false
-        },
-        {
-          "apt": "동탄시범다은마을 월드메르디앙 반도유보라",
-          "price_manwon": 92500,
-          "area": 84.68,
-          "date": "2026-04-04",
-          "floor": 4,
-          "direct": false,
-          "cancelled": false
         }
       ],
-      "gap_manwon": 23000,
+      "gap_manwon": 23250,
       "asking_manwon": null,
       "monthly_gaps": [
         {
@@ -25029,16 +25034,16 @@
       "watch_note": "망포 생활권 구축 대안",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 17,
-      "history_count": 240,
+      "count": 18,
+      "history_count": 241,
       "representative_manwon": 64125,
       "latest": {
         "apt": "동수원자이1차",
-        "price_manwon": 65000,
+        "price_manwon": 50000,
         "area": 84.9688,
-        "date": "2026-09-10",
-        "floor": 5,
-        "direct": false,
+        "date": "2026-10-01",
+        "floor": 15,
+        "direct": true,
         "cancelled": false
       },
       "monthly_prices": [
@@ -25306,6 +25311,15 @@
       "transactions": [
         {
           "apt": "동수원자이1차",
+          "price_manwon": 50000,
+          "area": 84.9688,
+          "date": "2026-10-01",
+          "floor": 15,
+          "direct": true,
+          "cancelled": false
+        },
+        {
+          "apt": "동수원자이1차",
           "price_manwon": 65000,
           "area": 84.9688,
           "date": "2026-09-10",
@@ -25472,15 +25486,6 @@
           "area": 84.9688,
           "date": "2026-04-28",
           "floor": 5,
-          "direct": false,
-          "cancelled": false
-        },
-        {
-          "apt": "동수원자이1차",
-          "price_manwon": 60000,
-          "area": 84.9688,
-          "date": "2026-04-27",
-          "floor": 8,
           "direct": false,
           "cancelled": false
         }
@@ -36449,15 +36454,15 @@
       "watch_note": "호수권 생활환경·가격차 대안",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 15,
-      "history_count": 80,
-      "representative_manwon": 79700,
+      "count": 16,
+      "history_count": 81,
+      "representative_manwon": 79850,
       "latest": {
         "apt": "동탄호수자이파밀리에",
-        "price_manwon": 93000,
-        "area": 84.98,
-        "date": "2026-09-19",
-        "floor": 15,
+        "price_manwon": 94500,
+        "area": 84.76,
+        "date": "2026-09-23",
+        "floor": 14,
         "direct": false,
         "cancelled": false
       },
@@ -36619,11 +36624,20 @@
         },
         {
           "month": "2026-09",
-          "price_manwon": 93000,
-          "count": 1
+          "price_manwon": 93750,
+          "count": 2
         }
       ],
       "transactions": [
+        {
+          "apt": "동탄호수자이파밀리에",
+          "price_manwon": 94500,
+          "area": 84.76,
+          "date": "2026-09-23",
+          "floor": 14,
+          "direct": false,
+          "cancelled": false
+        },
         {
           "apt": "동탄호수자이파밀리에",
           "price_manwon": 93000,
@@ -36794,18 +36808,9 @@
           "floor": 12,
           "direct": false,
           "cancelled": false
-        },
-        {
-          "apt": "동탄호수자이파밀리에",
-          "price_manwon": 73000,
-          "area": 84.76,
-          "date": "2026-03-13",
-          "floor": 19,
-          "direct": false,
-          "cancelled": false
         }
       ],
-      "gap_manwon": 7950,
+      "gap_manwon": 8100,
       "asking_manwon": null,
       "monthly_gaps": [
         {
@@ -44504,15 +44509,15 @@
       "recommendation_group": "확대 추천",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 4,
-      "history_count": 52,
-      "representative_manwon": 244000,
+      "count": 5,
+      "history_count": 53,
+      "representative_manwon": 250000,
       "latest": {
         "apt": "백현마을2단지",
-        "price_manwon": 280000,
+        "price_manwon": 275000,
         "area": 84.5,
-        "date": "2026-07-17",
-        "floor": 3,
+        "date": "2026-09-12",
+        "floor": 18,
         "direct": false,
         "cancelled": false
       },
@@ -44606,9 +44611,23 @@
           "month": "2026-05",
           "price_manwon": 244000,
           "count": 3
+        },
+        {
+          "month": "2026-09",
+          "price_manwon": 275000,
+          "count": 1
         }
       ],
       "transactions": [
+        {
+          "apt": "백현마을2단지",
+          "price_manwon": 275000,
+          "area": 84.5,
+          "date": "2026-09-12",
+          "floor": 18,
+          "direct": false,
+          "cancelled": false
+        },
         {
           "apt": "백현마을2단지",
           "price_manwon": 280000,
@@ -44779,18 +44798,9 @@
           "floor": 9,
           "direct": false,
           "cancelled": false
-        },
-        {
-          "apt": "백현마을2단지",
-          "price_manwon": 206000,
-          "area": 84.5,
-          "date": "2025-05-16",
-          "floor": 8,
-          "direct": false,
-          "cancelled": false
         }
       ],
-      "gap_manwon": 172250,
+      "gap_manwon": 178250,
       "asking_manwon": null,
       "monthly_gaps": [
         {
