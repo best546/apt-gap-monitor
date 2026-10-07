@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T22:18:02+00:00",
+  "generated_at": "2026-10-07T22:18:00+00:00",
   "months": 6,
   "history_months": 60,
   "reference_id": "home",
@@ -4770,15 +4770,15 @@
       "name": "성복역 현대홈타운",
       "region": "수지",
       "min_floor": 4,
-      "count": 18,
-      "history_count": 126,
+      "count": 19,
+      "history_count": 127,
       "representative_manwon": 104750,
       "latest": {
         "apt": "서원마을현대홈타운",
-        "price_manwon": 108000,
+        "price_manwon": 105000,
         "area": 84.8518,
-        "date": "2026-09-11",
-        "floor": 5,
+        "date": "2026-10-03",
+        "floor": 1,
         "direct": false,
         "cancelled": false
       },
@@ -4982,6 +4982,15 @@
       "transactions": [
         {
           "apt": "서원마을현대홈타운",
+          "price_manwon": 105000,
+          "area": 84.8518,
+          "date": "2026-10-03",
+          "floor": 1,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "서원마을현대홈타운",
           "price_manwon": 108000,
           "area": 84.8518,
           "date": "2026-09-11",
@@ -5148,15 +5157,6 @@
           "area": 84.8518,
           "date": "2026-04-17",
           "floor": 7,
-          "direct": false,
-          "cancelled": false
-        },
-        {
-          "apt": "서원마을현대홈타운",
-          "price_manwon": 101000,
-          "area": 84.8518,
-          "date": "2026-04-10",
-          "floor": 5,
           "direct": false,
           "cancelled": false
         }
@@ -26921,15 +26921,15 @@
       "watch_note": "기흥역권 상위 비교",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 17,
-      "history_count": 173,
-      "representative_manwon": 115000,
+      "count": 18,
+      "history_count": 174,
+      "representative_manwon": 115450,
       "latest": {
         "apt": "힐스테이트기흥",
         "price_manwon": 124500,
-        "area": 84.9545,
-        "date": "2026-09-06",
-        "floor": 46,
+        "area": 84.5327,
+        "date": "2026-10-04",
+        "floor": 42,
         "direct": false,
         "cancelled": false
       },
@@ -27178,9 +27178,23 @@
           "month": "2026-09",
           "price_manwon": 124500,
           "count": 1
+        },
+        {
+          "month": "2026-10",
+          "price_manwon": 124500,
+          "count": 1
         }
       ],
       "transactions": [
+        {
+          "apt": "힐스테이트기흥",
+          "price_manwon": 124500,
+          "area": 84.5327,
+          "date": "2026-10-04",
+          "floor": 42,
+          "direct": false,
+          "cancelled": false
+        },
         {
           "apt": "힐스테이트기흥",
           "price_manwon": 124500,
@@ -27351,18 +27365,9 @@
           "floor": 23,
           "direct": false,
           "cancelled": false
-        },
-        {
-          "apt": "힐스테이트기흥",
-          "price_manwon": 112000,
-          "area": 84.5111,
-          "date": "2026-03-26",
-          "floor": 36,
-          "direct": false,
-          "cancelled": false
         }
       ],
-      "gap_manwon": 43250,
+      "gap_manwon": 43700,
       "asking_manwon": null,
       "monthly_gaps": [
         {
