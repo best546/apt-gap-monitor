@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T22:17:59+00:00",
+  "generated_at": "2026-10-14T22:17:57+00:00",
   "months": 6,
   "history_months": 60,
   "reference_id": "home",
@@ -2181,15 +2181,15 @@
       "region": "광교",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 26,
-      "history_count": 367,
-      "representative_manwon": 193000,
+      "count": 27,
+      "history_count": 368,
+      "representative_manwon": 193250,
       "latest": {
         "apt": "자연앤힐스테이트",
-        "price_manwon": 212500,
-        "area": 84.5,
-        "date": "2026-10-09",
-        "floor": 14,
+        "price_manwon": 204000,
+        "area": 84.46,
+        "date": "2026-10-14",
+        "floor": 18,
         "direct": false,
         "cancelled": false
       },
@@ -2481,11 +2481,20 @@
         },
         {
           "month": "2026-10",
-          "price_manwon": 212500,
-          "count": 1
+          "price_manwon": 208250,
+          "count": 2
         }
       ],
       "transactions": [
+        {
+          "apt": "자연앤힐스테이트",
+          "price_manwon": 204000,
+          "area": 84.46,
+          "date": "2026-10-14",
+          "floor": 18,
+          "direct": false,
+          "cancelled": false
+        },
         {
           "apt": "자연앤힐스테이트",
           "price_manwon": 212500,
@@ -2656,18 +2665,9 @@
           "floor": 35,
           "direct": false,
           "cancelled": false
-        },
-        {
-          "apt": "자연앤힐스테이트",
-          "price_manwon": 181500,
-          "area": 84.39,
-          "date": "2026-05-30",
-          "floor": 16,
-          "direct": false,
-          "cancelled": false
         }
       ],
-      "gap_manwon": 121250,
+      "gap_manwon": 121500,
       "asking_manwon": null,
       "monthly_gaps": [
         {
@@ -4174,15 +4174,15 @@
       "region": "수지",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 11,
-      "history_count": 191,
-      "representative_manwon": 128500,
+      "count": 12,
+      "history_count": 192,
+      "representative_manwon": 128750,
       "latest": {
         "apt": "진산마을삼성5차",
-        "price_manwon": 143000,
-        "area": 84.2102,
-        "date": "2026-08-13",
-        "floor": 15,
+        "price_manwon": 149800,
+        "area": 83.8821,
+        "date": "2026-10-09",
+        "floor": 6,
         "direct": false,
         "cancelled": false
       },
@@ -4416,9 +4416,23 @@
           "month": "2026-08",
           "price_manwon": 143000,
           "count": 1
+        },
+        {
+          "month": "2026-10",
+          "price_manwon": 149800,
+          "count": 1
         }
       ],
       "transactions": [
+        {
+          "apt": "진산마을삼성5차",
+          "price_manwon": 149800,
+          "area": 83.8821,
+          "date": "2026-10-09",
+          "floor": 6,
+          "direct": false,
+          "cancelled": false
+        },
         {
           "apt": "진산마을삼성5차",
           "price_manwon": 143000,
@@ -4589,18 +4603,9 @@
           "floor": 7,
           "direct": false,
           "cancelled": false
-        },
-        {
-          "apt": "진산마을삼성5차",
-          "price_manwon": 123000,
-          "area": 84.2102,
-          "date": "2026-02-13",
-          "floor": 4,
-          "direct": false,
-          "cancelled": false
         }
       ],
-      "gap_manwon": 56750,
+      "gap_manwon": 57000,
       "asking_manwon": null,
       "monthly_gaps": [
         {
@@ -18103,9 +18108,9 @@
       "watch_note": "상현역 생활권 상위 비교",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 16,
-      "history_count": 118,
-      "representative_manwon": 159500,
+      "count": 17,
+      "history_count": 119,
+      "representative_manwon": 159750,
       "latest": {
         "apt": "광교자이더클래스",
         "price_manwon": 160000,
@@ -18310,6 +18315,11 @@
           "month": "2026-08",
           "price_manwon": 166250,
           "count": 2
+        },
+        {
+          "month": "2026-09",
+          "price_manwon": 160000,
+          "count": 1
         }
       ],
       "transactions": [
@@ -18328,6 +18338,15 @@
           "area": 84.938,
           "date": "2026-09-29",
           "floor": 3,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "광교자이더클래스",
+          "price_manwon": 160000,
+          "area": 84.938,
+          "date": "2026-09-16",
+          "floor": 7,
           "direct": false,
           "cancelled": false
         },
@@ -18483,18 +18502,9 @@
           "floor": 9,
           "direct": false,
           "cancelled": false
-        },
-        {
-          "apt": "광교자이더클래스",
-          "price_manwon": 152000,
-          "area": 84.988,
-          "date": "2026-01-29",
-          "floor": 24,
-          "direct": false,
-          "cancelled": false
         }
       ],
-      "gap_manwon": 87750,
+      "gap_manwon": 88000,
       "asking_manwon": null,
       "monthly_gaps": [
         {
@@ -19647,9 +19657,9 @@
       "watch_note": "광교 호수권 상위 비교",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 18,
-      "history_count": 233,
-      "representative_manwon": 183000,
+      "count": 20,
+      "history_count": 235,
+      "representative_manwon": 184000,
       "latest": {
         "apt": "광교중흥에스클래스",
         "price_manwon": 175000,
@@ -19902,8 +19912,8 @@
         },
         {
           "month": "2026-09",
-          "price_manwon": 199000,
-          "count": 1
+          "price_manwon": 202000,
+          "count": 3
         },
         {
           "month": "2026-10",
@@ -19927,6 +19937,24 @@
           "area": 84.9388,
           "date": "2026-10-02",
           "floor": 37,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "광교중흥에스클래스",
+          "price_manwon": 205000,
+          "area": 84.9388,
+          "date": "2026-09-23",
+          "floor": 13,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "광교중흥에스클래스",
+          "price_manwon": 202000,
+          "area": 84.9723,
+          "date": "2026-09-22",
+          "floor": 9,
           "direct": false,
           "cancelled": false
         },
@@ -20073,27 +20101,9 @@
           "floor": 36,
           "direct": false,
           "cancelled": false
-        },
-        {
-          "apt": "광교중흥에스클래스",
-          "price_manwon": 175000,
-          "area": 84.9388,
-          "date": "2026-04-30",
-          "floor": 14,
-          "direct": false,
-          "cancelled": false
-        },
-        {
-          "apt": "광교중흥에스클래스",
-          "price_manwon": 175000,
-          "area": 84.9723,
-          "date": "2026-04-29",
-          "floor": 28,
-          "direct": false,
-          "cancelled": false
         }
       ],
-      "gap_manwon": 111250,
+      "gap_manwon": 112250,
       "asking_manwon": null,
       "monthly_gaps": [
         {
