@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T22:18:03+00:00",
+  "generated_at": "2026-10-16T22:18:02+00:00",
   "months": 6,
   "history_months": 60,
   "reference_id": "home",
@@ -16306,15 +16306,15 @@
       "watch_note": "동천동 준신축 비교",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 10,
-      "history_count": 102,
+      "count": 11,
+      "history_count": 103,
       "representative_manwon": 122500,
       "latest": {
         "apt": "더샵동천이스트포레",
-        "price_manwon": 135000,
+        "price_manwon": 145000,
         "area": 84.9571,
-        "date": "2026-10-01",
-        "floor": 4,
+        "date": "2026-10-09",
+        "floor": 16,
         "direct": false,
         "cancelled": false
       },
@@ -16521,11 +16521,20 @@
         },
         {
           "month": "2026-10",
-          "price_manwon": 135000,
-          "count": 1
+          "price_manwon": 140000,
+          "count": 2
         }
       ],
       "transactions": [
+        {
+          "apt": "더샵동천이스트포레",
+          "price_manwon": 145000,
+          "area": 84.9571,
+          "date": "2026-10-09",
+          "floor": 16,
+          "direct": false,
+          "cancelled": false
+        },
         {
           "apt": "더샵동천이스트포레",
           "price_manwon": 135000,
@@ -16694,15 +16703,6 @@
           "area": 84.9893,
           "date": "2026-01-09",
           "floor": 11,
-          "direct": false,
-          "cancelled": false
-        },
-        {
-          "apt": "더샵동천이스트포레",
-          "price_manwon": 108000,
-          "area": 84.9571,
-          "date": "2025-12-26",
-          "floor": 8,
           "direct": false,
           "cancelled": false
         }
@@ -25734,15 +25734,15 @@
       "watch_note": "기흥역 생활권 대단지 비교",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 49,
-      "history_count": 405,
-      "representative_manwon": 97750,
+      "count": 50,
+      "history_count": 406,
+      "representative_manwon": 98000,
       "latest": {
         "apt": "기흥역센트럴푸르지오",
-        "price_manwon": 110000,
-        "area": 84.755,
-        "date": "2026-09-16",
-        "floor": 28,
+        "price_manwon": 107500,
+        "area": 84.7384,
+        "date": "2026-10-14",
+        "floor": 42,
         "direct": false,
         "cancelled": false
       },
@@ -26031,9 +26031,23 @@
           "month": "2026-09",
           "price_manwon": 107500,
           "count": 2
+        },
+        {
+          "month": "2026-10",
+          "price_manwon": 107500,
+          "count": 1
         }
       ],
       "transactions": [
+        {
+          "apt": "기흥역센트럴푸르지오",
+          "price_manwon": 107500,
+          "area": 84.7384,
+          "date": "2026-10-14",
+          "floor": 42,
+          "direct": false,
+          "cancelled": false
+        },
         {
           "apt": "기흥역센트럴푸르지오",
           "price_manwon": 110000,
@@ -26204,18 +26218,9 @@
           "floor": 17,
           "direct": false,
           "cancelled": false
-        },
-        {
-          "apt": "기흥역센트럴푸르지오",
-          "price_manwon": 97000,
-          "area": 84.9079,
-          "date": "2026-06-19",
-          "floor": 19,
-          "direct": false,
-          "cancelled": false
         }
       ],
-      "gap_manwon": 26000,
+      "gap_manwon": 26250,
       "asking_manwon": null,
       "monthly_gaps": [
         {
@@ -35942,15 +35947,15 @@
       "watch_note": "전용80.37㎡·평촌 학군 생활권 비교",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 14,
-      "history_count": 172,
+      "count": 15,
+      "history_count": 173,
       "representative_manwon": 146500,
       "latest": {
         "apt": "귀인마을현대홈타운",
-        "price_manwon": 154500,
+        "price_manwon": 155500,
         "area": 80.374,
-        "date": "2026-08-27",
-        "floor": 14,
+        "date": "2026-10-09",
+        "floor": 4,
         "direct": false,
         "cancelled": false
       },
@@ -36179,9 +36184,23 @@
           "month": "2026-08",
           "price_manwon": 150750,
           "count": 4
+        },
+        {
+          "month": "2026-10",
+          "price_manwon": 155500,
+          "count": 1
         }
       ],
       "transactions": [
+        {
+          "apt": "귀인마을현대홈타운",
+          "price_manwon": 155500,
+          "area": 80.374,
+          "date": "2026-10-09",
+          "floor": 4,
+          "direct": false,
+          "cancelled": false
+        },
         {
           "apt": "귀인마을현대홈타운",
           "price_manwon": 154500,
@@ -36350,15 +36369,6 @@
           "area": 80.374,
           "date": "2026-03-07",
           "floor": 20,
-          "direct": false,
-          "cancelled": false
-        },
-        {
-          "apt": "귀인마을현대홈타운",
-          "price_manwon": 137500,
-          "area": 80.374,
-          "date": "2026-02-14",
-          "floor": 13,
           "direct": false,
           "cancelled": false
         }
