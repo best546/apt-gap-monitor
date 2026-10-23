@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T22:18:01+00:00",
+  "generated_at": "2026-10-23T22:18:04+00:00",
   "months": 6,
   "history_months": 60,
   "reference_id": "home",
@@ -3508,15 +3508,15 @@
       "region": "수지",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 35,
-      "history_count": 470,
-      "representative_manwon": 174000,
+      "count": 36,
+      "history_count": 471,
+      "representative_manwon": 174250,
       "latest": {
         "apt": "성복역롯데캐슬골드타운",
-        "price_manwon": 185000,
+        "price_manwon": 181000,
         "area": 84.9126,
-        "date": "2026-10-15",
-        "floor": 15,
+        "date": "2026-10-16",
+        "floor": 6,
         "direct": false,
         "cancelled": false
       },
@@ -3808,11 +3808,20 @@
         },
         {
           "month": "2026-10",
-          "price_manwon": 185000,
-          "count": 3
+          "price_manwon": 183500,
+          "count": 4
         }
       ],
       "transactions": [
+        {
+          "apt": "성복역롯데캐슬골드타운",
+          "price_manwon": 181000,
+          "area": 84.9126,
+          "date": "2026-10-16",
+          "floor": 6,
+          "direct": false,
+          "cancelled": false
+        },
         {
           "apt": "성복역롯데캐슬골드타운",
           "price_manwon": 185000,
@@ -3983,18 +3992,9 @@
           "floor": 19,
           "direct": false,
           "cancelled": false
-        },
-        {
-          "apt": "성복역롯데캐슬골드타운",
-          "price_manwon": 169000,
-          "area": 84.9126,
-          "date": "2026-06-23",
-          "floor": 14,
-          "direct": false,
-          "cancelled": false
         }
       ],
-      "gap_manwon": 102250,
+      "gap_manwon": 102500,
       "asking_manwon": null,
       "monthly_gaps": [
         {
@@ -15778,15 +15778,15 @@
       "watch_note": "동천동 대단지·역까지 거리 확인",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 18,
-      "history_count": 145,
+      "count": 19,
+      "history_count": 146,
       "representative_manwon": 118000,
       "latest": {
         "apt": "동천자이",
-        "price_manwon": 125000,
-        "area": 84.7646,
-        "date": "2026-10-15",
-        "floor": 10,
+        "price_manwon": 129000,
+        "area": 84.949,
+        "date": "2026-10-23",
+        "floor": 6,
         "direct": false,
         "cancelled": false
       },
@@ -15999,10 +15999,19 @@
         {
           "month": "2026-10",
           "price_manwon": 125000,
-          "count": 2
+          "count": 3
         }
       ],
       "transactions": [
+        {
+          "apt": "동천자이",
+          "price_manwon": 129000,
+          "area": 84.949,
+          "date": "2026-10-23",
+          "floor": 6,
+          "direct": false,
+          "cancelled": false
+        },
         {
           "apt": "동천자이",
           "price_manwon": 125000,
@@ -16171,15 +16180,6 @@
           "area": 84.9575,
           "date": "2026-04-26",
           "floor": 32,
-          "direct": false,
-          "cancelled": false
-        },
-        {
-          "apt": "동천자이",
-          "price_manwon": 76000,
-          "area": 84.9554,
-          "date": "2026-04-22",
-          "floor": 7,
           "direct": false,
           "cancelled": false
         }
@@ -28995,8 +28995,8 @@
       "watch_note": "죽전 대단지·학교와 역 동선 비교",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 37,
-      "history_count": 396,
+      "count": 38,
+      "history_count": 397,
       "representative_manwon": 84750,
       "latest": {
         "apt": "새터마을죽전힐스테이트",
@@ -29301,6 +29301,15 @@
         },
         {
           "apt": "새터마을죽전힐스테이트",
+          "price_manwon": 88500,
+          "area": 84.9959,
+          "date": "2026-10-19",
+          "floor": 1,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "새터마을죽전힐스테이트",
           "price_manwon": 92500,
           "area": 84.9959,
           "date": "2026-10-17",
@@ -29458,15 +29467,6 @@
           "area": 84.9959,
           "date": "2026-06-27",
           "floor": 13,
-          "direct": false,
-          "cancelled": false
-        },
-        {
-          "apt": "새터마을죽전힐스테이트",
-          "price_manwon": 80000,
-          "area": 84.9959,
-          "date": "2026-06-24",
-          "floor": 4,
           "direct": false,
           "cancelled": false
         }
@@ -32693,15 +32693,15 @@
       "watch_note": "인덕원권 상위 비교·화성 출퇴근 확인",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 15,
-      "history_count": 286,
+      "count": 16,
+      "history_count": 287,
       "representative_manwon": 156000,
       "latest": {
         "apt": "인덕원푸르지오엘센트로",
-        "price_manwon": 161000,
+        "price_manwon": 164500,
         "area": 84.9858,
-        "date": "2026-08-20",
-        "floor": 30,
+        "date": "2026-10-22",
+        "floor": 32,
         "direct": false,
         "cancelled": false
       },
@@ -32950,9 +32950,23 @@
           "month": "2026-08",
           "price_manwon": 161000,
           "count": 1
+        },
+        {
+          "month": "2026-10",
+          "price_manwon": 164500,
+          "count": 1
         }
       ],
       "transactions": [
+        {
+          "apt": "인덕원푸르지오엘센트로",
+          "price_manwon": 164500,
+          "area": 84.9858,
+          "date": "2026-10-22",
+          "floor": 32,
+          "direct": false,
+          "cancelled": false
+        },
         {
           "apt": "인덕원푸르지오엘센트로",
           "price_manwon": 161000,
@@ -33121,15 +33135,6 @@
           "area": 84.9891,
           "date": "2026-04-28",
           "floor": 22,
-          "direct": false,
-          "cancelled": false
-        },
-        {
-          "apt": "인덕원푸르지오엘센트로",
-          "price_manwon": 142000,
-          "area": 84.9858,
-          "date": "2026-04-25",
-          "floor": 8,
           "direct": false,
           "cancelled": false
         }
@@ -37091,9 +37096,9 @@
       "watch_note": "호수권 가격차 대안",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 13,
-      "history_count": 82,
-      "representative_manwon": 104050,
+      "count": 14,
+      "history_count": 83,
+      "representative_manwon": 104100,
       "latest": {
         "apt": "동탄 더 레이크 팰리스",
         "price_manwon": 132000,
@@ -37275,6 +37280,11 @@
           "count": 4
         },
         {
+          "month": "2026-09",
+          "price_manwon": 139000,
+          "count": 1
+        },
+        {
           "month": "2026-10",
           "price_manwon": 132000,
           "count": 1
@@ -37287,6 +37297,15 @@
           "area": 84.52,
           "date": "2026-10-09",
           "floor": 27,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄 더 레이크 팰리스",
+          "price_manwon": 139000,
+          "area": 84.5442,
+          "date": "2026-09-25",
+          "floor": 8,
           "direct": false,
           "cancelled": false
         },
@@ -37451,18 +37470,9 @@
           "floor": 24,
           "direct": false,
           "cancelled": false
-        },
-        {
-          "apt": "동탄 더 레이크 팰리스",
-          "price_manwon": 110000,
-          "area": 84.52,
-          "date": "2026-02-20",
-          "floor": 15,
-          "direct": false,
-          "cancelled": false
         }
       ],
-      "gap_manwon": 32300,
+      "gap_manwon": 32350,
       "asking_manwon": null,
       "monthly_gaps": [
         {
