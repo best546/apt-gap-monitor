@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T22:18:05+00:00",
+  "generated_at": "2026-10-26T22:18:06+00:00",
   "months": 6,
   "history_months": 60,
   "reference_id": "home",
@@ -25134,16 +25134,16 @@
       "watch_note": "망포 생활권 구축 대안",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 18,
-      "history_count": 241,
-      "representative_manwon": 64125,
+      "count": 19,
+      "history_count": 242,
+      "representative_manwon": 64250,
       "latest": {
         "apt": "동수원자이1차",
-        "price_manwon": 50000,
+        "price_manwon": 68000,
         "area": 84.9688,
-        "date": "2026-10-01",
-        "floor": 15,
-        "direct": true,
+        "date": "2026-10-12",
+        "floor": 6,
+        "direct": false,
         "cancelled": false
       },
       "monthly_prices": [
@@ -25406,9 +25406,23 @@
           "month": "2026-09",
           "price_manwon": 65000,
           "count": 1
+        },
+        {
+          "month": "2026-10",
+          "price_manwon": 68000,
+          "count": 1
         }
       ],
       "transactions": [
+        {
+          "apt": "동수원자이1차",
+          "price_manwon": 68000,
+          "area": 84.9688,
+          "date": "2026-10-12",
+          "floor": 6,
+          "direct": false,
+          "cancelled": false
+        },
         {
           "apt": "동수원자이1차",
           "price_manwon": 50000,
@@ -25579,18 +25593,9 @@
           "floor": 4,
           "direct": false,
           "cancelled": false
-        },
-        {
-          "apt": "동수원자이1차",
-          "price_manwon": 61500,
-          "area": 84.9688,
-          "date": "2026-04-28",
-          "floor": 5,
-          "direct": false,
-          "cancelled": false
         }
       ],
-      "gap_manwon": -7625,
+      "gap_manwon": -7500,
       "asking_manwon": null,
       "monthly_gaps": [
         {
@@ -25774,15 +25779,15 @@
       "watch_note": "기흥역 생활권 대단지 비교",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 51,
-      "history_count": 407,
+      "count": 52,
+      "history_count": 408,
       "representative_manwon": 98000,
       "latest": {
         "apt": "기흥역센트럴푸르지오",
-        "price_manwon": 107500,
+        "price_manwon": 104500,
         "area": 84.7384,
-        "date": "2026-10-14",
-        "floor": 42,
+        "date": "2026-10-26",
+        "floor": 10,
         "direct": false,
         "cancelled": false
       },
@@ -26074,11 +26079,20 @@
         },
         {
           "month": "2026-10",
-          "price_manwon": 107500,
-          "count": 1
+          "price_manwon": 106000,
+          "count": 2
         }
       ],
       "transactions": [
+        {
+          "apt": "기흥역센트럴푸르지오",
+          "price_manwon": 104500,
+          "area": 84.7384,
+          "date": "2026-10-26",
+          "floor": 10,
+          "direct": false,
+          "cancelled": false
+        },
         {
           "apt": "기흥역센트럴푸르지오",
           "price_manwon": 107500,
@@ -26247,15 +26261,6 @@
           "area": 84.775,
           "date": "2026-06-23",
           "floor": 7,
-          "direct": false,
-          "cancelled": false
-        },
-        {
-          "apt": "기흥역센트럴푸르지오",
-          "price_manwon": 96000,
-          "area": 84.7384,
-          "date": "2026-06-22",
-          "floor": 33,
           "direct": false,
           "cancelled": false
         }
@@ -27651,15 +27656,15 @@
       "watch_note": "구성역 접근·구축 수리비 비교",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 6,
-      "history_count": 51,
-      "representative_manwon": 125000,
+      "count": 8,
+      "history_count": 53,
+      "representative_manwon": 128000,
       "latest": {
         "apt": "삼거마을삼성래미안1",
-        "price_manwon": 128000,
+        "price_manwon": 140000,
         "area": 84.99,
-        "date": "2026-09-10",
-        "floor": 10,
+        "date": "2026-10-19",
+        "floor": 13,
         "direct": false,
         "cancelled": false
       },
@@ -27763,9 +27768,32 @@
           "month": "2026-09",
           "price_manwon": 128000,
           "count": 1
+        },
+        {
+          "month": "2026-10",
+          "price_manwon": 138000,
+          "count": 2
         }
       ],
       "transactions": [
+        {
+          "apt": "삼거마을삼성래미안1",
+          "price_manwon": 140000,
+          "area": 84.99,
+          "date": "2026-10-19",
+          "floor": 13,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "삼거마을삼성래미안1",
+          "price_manwon": 136000,
+          "area": 84.99,
+          "date": "2026-10-16",
+          "floor": 18,
+          "direct": false,
+          "cancelled": false
+        },
         {
           "apt": "삼거마을삼성래미안1",
           "price_manwon": 128000,
@@ -27927,27 +27955,9 @@
           "floor": 5,
           "direct": false,
           "cancelled": false
-        },
-        {
-          "apt": "삼거마을삼성래미안1",
-          "price_manwon": 99000,
-          "area": 84.99,
-          "date": "2025-10-27",
-          "floor": 5,
-          "direct": false,
-          "cancelled": false
-        },
-        {
-          "apt": "삼거마을삼성래미안1",
-          "price_manwon": 102000,
-          "area": 84.99,
-          "date": "2025-10-24",
-          "floor": 11,
-          "direct": false,
-          "cancelled": false
         }
       ],
-      "gap_manwon": 53250,
+      "gap_manwon": 56250,
       "asking_manwon": null,
       "monthly_gaps": [
         {
@@ -32693,15 +32703,15 @@
       "watch_note": "인덕원권 상위 비교·화성 출퇴근 확인",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 16,
-      "history_count": 287,
-      "representative_manwon": 156000,
+      "count": 17,
+      "history_count": 288,
+      "representative_manwon": 156500,
       "latest": {
         "apt": "인덕원푸르지오엘센트로",
-        "price_manwon": 164500,
+        "price_manwon": 166000,
         "area": 84.9858,
-        "date": "2026-10-22",
-        "floor": 32,
+        "date": "2026-10-24",
+        "floor": 7,
         "direct": false,
         "cancelled": false
       },
@@ -32953,11 +32963,20 @@
         },
         {
           "month": "2026-10",
-          "price_manwon": 164500,
-          "count": 1
+          "price_manwon": 165250,
+          "count": 2
         }
       ],
       "transactions": [
+        {
+          "apt": "인덕원푸르지오엘센트로",
+          "price_manwon": 166000,
+          "area": 84.9858,
+          "date": "2026-10-24",
+          "floor": 7,
+          "direct": false,
+          "cancelled": false
+        },
         {
           "apt": "인덕원푸르지오엘센트로",
           "price_manwon": 164500,
@@ -33128,18 +33147,9 @@
           "floor": 24,
           "direct": false,
           "cancelled": false
-        },
-        {
-          "apt": "인덕원푸르지오엘센트로",
-          "price_manwon": 153000,
-          "area": 84.9891,
-          "date": "2026-04-28",
-          "floor": 22,
-          "direct": false,
-          "cancelled": false
         }
       ],
-      "gap_manwon": 84250,
+      "gap_manwon": 84750,
       "asking_manwon": null,
       "monthly_gaps": [
         {
