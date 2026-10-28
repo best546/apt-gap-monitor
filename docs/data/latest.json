@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T22:18:03+00:00",
+  "generated_at": "2026-10-28T22:18:03+00:00",
   "months": 6,
   "history_months": 60,
   "reference_id": "home",
@@ -2181,15 +2181,15 @@
       "region": "광교",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 27,
-      "history_count": 368,
-      "representative_manwon": 193250,
+      "count": 28,
+      "history_count": 369,
+      "representative_manwon": 193500,
       "latest": {
         "apt": "자연앤힐스테이트",
-        "price_manwon": 204000,
-        "area": 84.46,
-        "date": "2026-10-14",
-        "floor": 18,
+        "price_manwon": 212000,
+        "area": 84.5,
+        "date": "2026-10-25",
+        "floor": 24,
         "direct": false,
         "cancelled": false
       },
@@ -2481,11 +2481,20 @@
         },
         {
           "month": "2026-10",
-          "price_manwon": 208250,
-          "count": 2
+          "price_manwon": 212000,
+          "count": 3
         }
       ],
       "transactions": [
+        {
+          "apt": "자연앤힐스테이트",
+          "price_manwon": 212000,
+          "area": 84.5,
+          "date": "2026-10-25",
+          "floor": 24,
+          "direct": false,
+          "cancelled": false
+        },
         {
           "apt": "자연앤힐스테이트",
           "price_manwon": 204000,
@@ -2656,18 +2665,9 @@
           "floor": 20,
           "direct": false,
           "cancelled": false
-        },
-        {
-          "apt": "자연앤힐스테이트",
-          "price_manwon": 193000,
-          "area": 84.74,
-          "date": "2026-06-05",
-          "floor": 35,
-          "direct": false,
-          "cancelled": false
         }
       ],
-      "gap_manwon": 121500,
+      "gap_manwon": 121750,
       "asking_manwon": null,
       "monthly_gaps": [
         {
@@ -7810,15 +7810,15 @@
       "match_mode": "exact",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 21,
-      "history_count": 254,
-      "representative_manwon": 122250,
+      "count": 23,
+      "history_count": 256,
+      "representative_manwon": 124250,
       "latest": {
         "apt": "동탄역시범호반써밋",
-        "price_manwon": 145000,
+        "price_manwon": 147000,
         "area": 84.9698,
-        "date": "2026-10-02",
-        "floor": 23,
+        "date": "2026-10-26",
+        "floor": 10,
         "direct": false,
         "cancelled": false
       },
@@ -8065,11 +8065,29 @@
         },
         {
           "month": "2026-10",
-          "price_manwon": 145000,
-          "count": 1
+          "price_manwon": 147000,
+          "count": 3
         }
       ],
       "transactions": [
+        {
+          "apt": "동탄역시범호반써밋",
+          "price_manwon": 147000,
+          "area": 84.9698,
+          "date": "2026-10-26",
+          "floor": 10,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역시범호반써밋",
+          "price_manwon": 147000,
+          "area": 84.9537,
+          "date": "2026-10-24",
+          "floor": 15,
+          "direct": false,
+          "cancelled": false
+        },
         {
           "apt": "동탄역시범호반써밋",
           "price_manwon": 145000,
@@ -8231,27 +8249,9 @@
           "floor": 7,
           "direct": false,
           "cancelled": false
-        },
-        {
-          "apt": "동탄역시범호반써밋",
-          "price_manwon": 118200,
-          "area": 84.9537,
-          "date": "2026-05-07",
-          "floor": 8,
-          "direct": false,
-          "cancelled": false
-        },
-        {
-          "apt": "동탄역시범호반써밋",
-          "price_manwon": 119000,
-          "area": 84.9537,
-          "date": "2026-05-02",
-          "floor": 9,
-          "direct": false,
-          "cancelled": false
         }
       ],
-      "gap_manwon": 50500,
+      "gap_manwon": 52500,
       "asking_manwon": null,
       "monthly_gaps": [
         {
@@ -23661,14 +23661,14 @@
       "watch_note": "망포 신축 대안",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 15,
-      "history_count": 72,
-      "representative_manwon": 96500,
+      "count": 16,
+      "history_count": 73,
+      "representative_manwon": 95750,
       "latest": {
         "apt": "영통롯데캐슬엘클래스1단지",
-        "price_manwon": 105000,
+        "price_manwon": 85000,
         "area": 84.9836,
-        "date": "2026-09-22",
+        "date": "2026-10-26",
         "floor": 4,
         "direct": false,
         "cancelled": false
@@ -23808,9 +23808,23 @@
           "month": "2026-09",
           "price_manwon": 101500,
           "count": 2
+        },
+        {
+          "month": "2026-10",
+          "price_manwon": 85000,
+          "count": 1
         }
       ],
       "transactions": [
+        {
+          "apt": "영통롯데캐슬엘클래스1단지",
+          "price_manwon": 85000,
+          "area": 84.9836,
+          "date": "2026-10-26",
+          "floor": 4,
+          "direct": false,
+          "cancelled": false
+        },
         {
           "apt": "영통롯데캐슬엘클래스1단지",
           "price_manwon": 105000,
@@ -23981,18 +23995,9 @@
           "floor": 6,
           "direct": false,
           "cancelled": false
-        },
-        {
-          "apt": "영통롯데캐슬엘클래스1단지",
-          "price_manwon": 85700,
-          "area": 84.9835,
-          "date": "2026-04-06",
-          "floor": 5,
-          "direct": false,
-          "cancelled": false
         }
       ],
-      "gap_manwon": 24750,
+      "gap_manwon": 24000,
       "asking_manwon": null,
       "monthly_gaps": [
         {
@@ -34920,15 +34925,15 @@
       "watch_note": "평촌 생활권 상위 비교·화성 출퇴근 확인",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 19,
-      "history_count": 165,
+      "count": 20,
+      "history_count": 166,
       "representative_manwon": 146500,
       "latest": {
         "apt": "평촌더샵센트럴시티",
-        "price_manwon": 149000,
-        "area": 84.9897,
-        "date": "2026-10-11",
-        "floor": 4,
+        "price_manwon": 158000,
+        "area": 84.9887,
+        "date": "2026-10-16",
+        "floor": 18,
         "direct": false,
         "cancelled": false
       },
@@ -35140,11 +35145,20 @@
         },
         {
           "month": "2026-10",
-          "price_manwon": 149000,
-          "count": 1
+          "price_manwon": 153500,
+          "count": 2
         }
       ],
       "transactions": [
+        {
+          "apt": "평촌더샵센트럴시티",
+          "price_manwon": 158000,
+          "area": 84.9887,
+          "date": "2026-10-16",
+          "floor": 18,
+          "direct": false,
+          "cancelled": false
+        },
         {
           "apt": "평촌더샵센트럴시티",
           "price_manwon": 149000,
@@ -35313,15 +35327,6 @@
           "area": 84.985,
           "date": "2026-05-01",
           "floor": 8,
-          "direct": false,
-          "cancelled": false
-        },
-        {
-          "apt": "평촌더샵센트럴시티",
-          "price_manwon": 146000,
-          "area": 84.9887,
-          "date": "2026-04-18",
-          "floor": 18,
           "direct": false,
           "cancelled": false
         }
