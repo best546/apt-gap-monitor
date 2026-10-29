@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T22:18:03+00:00",
+  "generated_at": "2026-10-29T22:18:01+00:00",
   "months": 6,
   "history_months": 60,
   "reference_id": "home",
@@ -2852,9 +2852,9 @@
       "region": "수지",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 23,
-      "history_count": 329,
-      "representative_manwon": 164500,
+      "count": 24,
+      "history_count": 330,
+      "representative_manwon": 165000,
       "latest": {
         "apt": "e편한세상수지",
         "price_manwon": 162000,
@@ -3139,6 +3139,11 @@
           "month": "2026-08",
           "price_manwon": 168000,
           "count": 3
+        },
+        {
+          "month": "2026-10",
+          "price_manwon": 172000,
+          "count": 1
         }
       ],
       "transactions": [
@@ -3148,6 +3153,15 @@
           "area": 84.929,
           "date": "2026-10-08",
           "floor": 2,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "e편한세상수지",
+          "price_manwon": 172000,
+          "area": 84.921,
+          "date": "2026-10-02",
+          "floor": 25,
           "direct": false,
           "cancelled": false
         },
@@ -3312,18 +3326,9 @@
           "floor": 13,
           "direct": false,
           "cancelled": false
-        },
-        {
-          "apt": "e편한세상수지",
-          "price_manwon": 159800,
-          "area": 84.964,
-          "date": "2026-05-23",
-          "floor": 24,
-          "direct": false,
-          "cancelled": false
         }
       ],
-      "gap_manwon": 92750,
+      "gap_manwon": 93250,
       "asking_manwon": null,
       "monthly_gaps": [
         {
@@ -3508,15 +3513,15 @@
       "region": "수지",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 36,
-      "history_count": 471,
-      "representative_manwon": 174250,
+      "count": 37,
+      "history_count": 472,
+      "representative_manwon": 174500,
       "latest": {
         "apt": "성복역롯데캐슬골드타운",
-        "price_manwon": 181000,
+        "price_manwon": 199000,
         "area": 84.9126,
-        "date": "2026-10-16",
-        "floor": 6,
+        "date": "2026-10-26",
+        "floor": 29,
         "direct": false,
         "cancelled": false
       },
@@ -3808,11 +3813,20 @@
         },
         {
           "month": "2026-10",
-          "price_manwon": 183500,
-          "count": 4
+          "price_manwon": 185000,
+          "count": 5
         }
       ],
       "transactions": [
+        {
+          "apt": "성복역롯데캐슬골드타운",
+          "price_manwon": 199000,
+          "area": 84.9126,
+          "date": "2026-10-26",
+          "floor": 29,
+          "direct": false,
+          "cancelled": false
+        },
         {
           "apt": "성복역롯데캐슬골드타운",
           "price_manwon": 181000,
@@ -3983,18 +3997,9 @@
           "floor": 13,
           "direct": false,
           "cancelled": false
-        },
-        {
-          "apt": "성복역롯데캐슬골드타운",
-          "price_manwon": 170000,
-          "area": 84.9126,
-          "date": "2026-06-26",
-          "floor": 19,
-          "direct": false,
-          "cancelled": false
         }
       ],
-      "gap_manwon": 102500,
+      "gap_manwon": 102750,
       "asking_manwon": null,
       "monthly_gaps": [
         {
@@ -9017,15 +9022,15 @@
       "watch_note": "동탄1 중심 생활권 비교",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 13,
-      "history_count": 117,
+      "count": 14,
+      "history_count": 118,
       "representative_manwon": 95000,
       "latest": {
         "apt": "동탄시범다은마을 월드메르디앙 반도유보라",
-        "price_manwon": 115000,
+        "price_manwon": 116000,
         "area": 84.65,
-        "date": "2026-09-21",
-        "floor": 20,
+        "date": "2026-10-27",
+        "floor": 21,
         "direct": false,
         "cancelled": false
       },
@@ -9214,9 +9219,23 @@
           "month": "2026-09",
           "price_manwon": 115000,
           "count": 1
+        },
+        {
+          "month": "2026-10",
+          "price_manwon": 116000,
+          "count": 1
         }
       ],
       "transactions": [
+        {
+          "apt": "동탄시범다은마을 월드메르디앙 반도유보라",
+          "price_manwon": 116000,
+          "area": 84.65,
+          "date": "2026-10-27",
+          "floor": 21,
+          "direct": false,
+          "cancelled": false
+        },
         {
           "apt": "동탄시범다은마을 월드메르디앙 반도유보라",
           "price_manwon": 115000,
@@ -9385,15 +9404,6 @@
           "area": 84.68,
           "date": "2026-04-09",
           "floor": 3,
-          "direct": false,
-          "cancelled": false
-        },
-        {
-          "apt": "동탄시범다은마을 월드메르디앙 반도유보라",
-          "price_manwon": 85000,
-          "area": 84.68,
-          "date": "2026-04-08",
-          "floor": 24,
           "direct": false,
           "cancelled": false
         }
@@ -23097,15 +23107,15 @@
       "watch_note": "1단지와 가격차·통학동선 비교",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 14,
-      "history_count": 127,
+      "count": 15,
+      "history_count": 128,
       "representative_manwon": 108000,
       "latest": {
         "apt": "영통아이파크캐슬2단지",
-        "price_manwon": 120000,
+        "price_manwon": 119700,
         "area": 84.69,
-        "date": "2026-09-03",
-        "floor": 11,
+        "date": "2026-10-28",
+        "floor": 2,
         "direct": false,
         "cancelled": false
       },
@@ -23334,6 +23344,15 @@
       "transactions": [
         {
           "apt": "영통아이파크캐슬2단지",
+          "price_manwon": 119700,
+          "area": 84.69,
+          "date": "2026-10-28",
+          "floor": 2,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "영통아이파크캐슬2단지",
           "price_manwon": 120000,
           "area": 84.69,
           "date": "2026-09-03",
@@ -23500,15 +23519,6 @@
           "area": 84.69,
           "date": "2026-02-10",
           "floor": 21,
-          "direct": false,
-          "cancelled": false
-        },
-        {
-          "apt": "영통아이파크캐슬2단지",
-          "price_manwon": 100000,
-          "area": 84.69,
-          "date": "2026-02-09",
-          "floor": 18,
           "direct": false,
           "cancelled": false
         }
@@ -26459,15 +26469,15 @@
       "watch_note": "기흥역 생활권 준신축 비교",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 22,
-      "history_count": 174,
+      "count": 23,
+      "history_count": 175,
       "representative_manwon": 103000,
       "latest": {
         "apt": "기흥역더샵",
-        "price_manwon": 106000,
+        "price_manwon": 110500,
         "area": 84.9685,
-        "date": "2026-07-04",
-        "floor": 34,
+        "date": "2026-10-28",
+        "floor": 17,
         "direct": false,
         "cancelled": false
       },
@@ -26691,9 +26701,23 @@
           "month": "2026-07",
           "price_manwon": 108000,
           "count": 3
+        },
+        {
+          "month": "2026-10",
+          "price_manwon": 110500,
+          "count": 1
         }
       ],
       "transactions": [
+        {
+          "apt": "기흥역더샵",
+          "price_manwon": 110500,
+          "area": 84.9685,
+          "date": "2026-10-28",
+          "floor": 17,
+          "direct": false,
+          "cancelled": false
+        },
         {
           "apt": "기흥역더샵",
           "price_manwon": 106000,
@@ -26862,15 +26886,6 @@
           "area": 84.981,
           "date": "2026-05-16",
           "floor": 26,
-          "direct": false,
-          "cancelled": false
-        },
-        {
-          "apt": "기흥역더샵",
-          "price_manwon": 102000,
-          "area": 84.981,
-          "date": "2026-05-13",
-          "floor": 35,
           "direct": false,
           "cancelled": false
         }
@@ -29015,15 +29030,15 @@
       "watch_note": "죽전 대단지·학교와 역 동선 비교",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 38,
-      "history_count": 397,
-      "representative_manwon": 84750,
+      "count": 39,
+      "history_count": 398,
+      "representative_manwon": 85000,
       "latest": {
         "apt": "새터마을죽전힐스테이트",
-        "price_manwon": 89300,
+        "price_manwon": 92500,
         "area": 84.9959,
-        "date": "2026-10-20",
-        "floor": 6,
+        "date": "2026-10-21",
+        "floor": 14,
         "direct": false,
         "cancelled": false
       },
@@ -29305,11 +29320,20 @@
         },
         {
           "month": "2026-10",
-          "price_manwon": 90900,
-          "count": 2
+          "price_manwon": 92500,
+          "count": 3
         }
       ],
       "transactions": [
+        {
+          "apt": "새터마을죽전힐스테이트",
+          "price_manwon": 92500,
+          "area": 84.9959,
+          "date": "2026-10-21",
+          "floor": 14,
+          "direct": false,
+          "cancelled": false
+        },
         {
           "apt": "새터마을죽전힐스테이트",
           "price_manwon": 89300,
@@ -29480,18 +29504,9 @@
           "floor": 1,
           "direct": false,
           "cancelled": false
-        },
-        {
-          "apt": "새터마을죽전힐스테이트",
-          "price_manwon": 84000,
-          "area": 84.9959,
-          "date": "2026-06-27",
-          "floor": 13,
-          "direct": false,
-          "cancelled": false
         }
       ],
-      "gap_manwon": 13000,
+      "gap_manwon": 13250,
       "asking_manwon": null,
       "monthly_gaps": [
         {
@@ -44219,15 +44234,15 @@
       "recommendation_group": "확대 추천",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 6,
-      "history_count": 80,
-      "representative_manwon": 252500,
+      "count": 7,
+      "history_count": 81,
+      "representative_manwon": 255000,
       "latest": {
         "apt": "과천자이",
-        "price_manwon": 259000,
+        "price_manwon": 255000,
         "area": 84.93,
-        "date": "2026-08-29",
-        "floor": 28,
+        "date": "2026-10-17",
+        "floor": 25,
         "direct": false,
         "cancelled": false
       },
@@ -44391,9 +44406,23 @@
           "month": "2026-08",
           "price_manwon": 257000,
           "count": 2
+        },
+        {
+          "month": "2026-10",
+          "price_manwon": 255000,
+          "count": 1
         }
       ],
       "transactions": [
+        {
+          "apt": "과천자이",
+          "price_manwon": 255000,
+          "area": 84.93,
+          "date": "2026-10-17",
+          "floor": 25,
+          "direct": false,
+          "cancelled": false
+        },
         {
           "apt": "과천자이",
           "price_manwon": 259000,
@@ -44564,18 +44593,9 @@
           "floor": 14,
           "direct": false,
           "cancelled": false
-        },
-        {
-          "apt": "과천자이",
-          "price_manwon": 250000,
-          "area": 84.93,
-          "date": "2025-09-27",
-          "floor": 22,
-          "direct": false,
-          "cancelled": false
         }
       ],
-      "gap_manwon": 180750,
+      "gap_manwon": 183250,
       "asking_manwon": null,
       "monthly_gaps": [
         {
