@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T22:18:01+00:00",
+  "generated_at": "2026-10-30T22:18:02+00:00",
   "months": 6,
   "history_months": 60,
   "reference_id": "home",
@@ -760,15 +760,15 @@
       "region": "서판교",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 2,
-      "history_count": 32,
-      "representative_manwon": 176500,
+      "count": 3,
+      "history_count": 33,
+      "representative_manwon": 177000,
       "latest": {
         "apt": "판교원마을3단지(푸르지오)",
-        "price_manwon": 176000,
-        "area": 84.51,
-        "date": "2026-07-11",
-        "floor": 30,
+        "price_manwon": 180500,
+        "area": 84.71,
+        "date": "2026-07-25",
+        "floor": 23,
         "direct": false,
         "cancelled": false
       },
@@ -860,11 +860,20 @@
         },
         {
           "month": "2026-07",
-          "price_manwon": 176000,
-          "count": 1
+          "price_manwon": 178250,
+          "count": 2
         }
       ],
       "transactions": [
+        {
+          "apt": "판교원마을3단지(푸르지오)",
+          "price_manwon": 180500,
+          "area": 84.71,
+          "date": "2026-07-25",
+          "floor": 23,
+          "direct": false,
+          "cancelled": false
+        },
         {
           "apt": "판교원마을3단지(푸르지오)",
           "price_manwon": 176000,
@@ -1035,18 +1044,9 @@
           "floor": 11,
           "direct": false,
           "cancelled": false
-        },
-        {
-          "apt": "판교원마을3단지(푸르지오)",
-          "price_manwon": 147000,
-          "area": 84.71,
-          "date": "2024-07-15",
-          "floor": 9,
-          "direct": false,
-          "cancelled": false
         }
       ],
-      "gap_manwon": 104750,
+      "gap_manwon": 105250,
       "asking_manwon": null,
       "monthly_gaps": [
         {
@@ -11396,15 +11396,15 @@
       "watch_note": "카림 인근·4.0과 개별 비교",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 20,
-      "history_count": 154,
-      "representative_manwon": 120500,
+      "count": 21,
+      "history_count": 155,
+      "representative_manwon": 121000,
       "latest": {
         "apt": "동탄역시범반도유보라아이비파크1.0",
-        "price_manwon": 132000,
+        "price_manwon": 146000,
         "area": 84.9885,
-        "date": "2026-07-31",
-        "floor": 24,
+        "date": "2026-10-27",
+        "floor": 16,
         "direct": false,
         "cancelled": false
       },
@@ -11648,9 +11648,23 @@
           "month": "2026-07",
           "price_manwon": 132000,
           "count": 1
+        },
+        {
+          "month": "2026-10",
+          "price_manwon": 146000,
+          "count": 1
         }
       ],
       "transactions": [
+        {
+          "apt": "동탄역시범반도유보라아이비파크1.0",
+          "price_manwon": 146000,
+          "area": 84.9885,
+          "date": "2026-10-27",
+          "floor": 16,
+          "direct": false,
+          "cancelled": false
+        },
         {
           "apt": "동탄역시범반도유보라아이비파크1.0",
           "price_manwon": 132000,
@@ -11821,18 +11835,9 @@
           "floor": 12,
           "direct": false,
           "cancelled": false
-        },
-        {
-          "apt": "동탄역시범반도유보라아이비파크1.0",
-          "price_manwon": 111000,
-          "area": 84.9885,
-          "date": "2026-05-02",
-          "floor": 11,
-          "direct": false,
-          "cancelled": false
         }
       ],
-      "gap_manwon": 48750,
+      "gap_manwon": 49250,
       "asking_manwon": null,
       "monthly_gaps": [
         {
@@ -19157,15 +19162,15 @@
       "watch_note": "호수공원 생활권 대안",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 11,
-      "history_count": 90,
-      "representative_manwon": 94250,
+      "count": 12,
+      "history_count": 91,
+      "representative_manwon": 95000,
       "latest": {
         "apt": "광교LAKEPARK한양수자인",
-        "price_manwon": 88500,
-        "area": 84.8201,
-        "date": "2026-10-07",
-        "floor": 5,
+        "price_manwon": 109000,
+        "area": 84.7654,
+        "date": "2026-10-25",
+        "floor": 6,
         "direct": false,
         "cancelled": false
       },
@@ -19367,11 +19372,20 @@
         },
         {
           "month": "2026-10",
-          "price_manwon": 96500,
-          "count": 2
+          "price_manwon": 104500,
+          "count": 3
         }
       ],
       "transactions": [
+        {
+          "apt": "광교LAKEPARK한양수자인",
+          "price_manwon": 109000,
+          "area": 84.7654,
+          "date": "2026-10-25",
+          "floor": 6,
+          "direct": false,
+          "cancelled": false
+        },
         {
           "apt": "광교LAKEPARK한양수자인",
           "price_manwon": 88500,
@@ -19542,18 +19556,9 @@
           "floor": 24,
           "direct": false,
           "cancelled": false
-        },
-        {
-          "apt": "광교LAKEPARK한양수자인",
-          "price_manwon": 84000,
-          "area": 84.8201,
-          "date": "2025-12-26",
-          "floor": 3,
-          "direct": false,
-          "cancelled": false
         }
       ],
-      "gap_manwon": 22500,
+      "gap_manwon": 23250,
       "asking_manwon": null,
       "monthly_gaps": [
         {
@@ -19707,9 +19712,9 @@
       "watch_note": "광교 호수권 상위 비교",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 22,
-      "history_count": 237,
-      "representative_manwon": 186000,
+      "count": 23,
+      "history_count": 238,
+      "representative_manwon": 185000,
       "latest": {
         "apt": "광교중흥에스클래스",
         "price_manwon": 193000,
@@ -19967,8 +19972,8 @@
         },
         {
           "month": "2026-10",
-          "price_manwon": 196000,
-          "count": 3
+          "price_manwon": 194500,
+          "count": 4
         }
       ],
       "transactions": [
@@ -19978,6 +19983,15 @@
           "area": 84.9388,
           "date": "2026-10-23",
           "floor": 35,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "광교중흥에스클래스",
+          "price_manwon": 183000,
+          "area": 84.9007,
+          "date": "2026-10-17",
+          "floor": 5,
           "direct": false,
           "cancelled": false
         },
@@ -20142,18 +20156,9 @@
           "floor": 41,
           "direct": false,
           "cancelled": false
-        },
-        {
-          "apt": "광교중흥에스클래스",
-          "price_manwon": 170000,
-          "area": 84.9723,
-          "date": "2026-05-06",
-          "floor": 9,
-          "direct": false,
-          "cancelled": false
         }
       ],
-      "gap_manwon": 114250,
+      "gap_manwon": 113250,
       "asking_manwon": null,
       "monthly_gaps": [
         {
@@ -25799,8 +25804,8 @@
       "watch_note": "기흥역 생활권 대단지 비교",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 52,
-      "history_count": 408,
+      "count": 53,
+      "history_count": 409,
       "representative_manwon": 98000,
       "latest": {
         "apt": "기흥역센트럴푸르지오",
@@ -26099,8 +26104,8 @@
         },
         {
           "month": "2026-10",
-          "price_manwon": 106000,
-          "count": 2
+          "price_manwon": 105700,
+          "count": 3
         }
       ],
       "transactions": [
@@ -26110,6 +26115,15 @@
           "area": 84.7384,
           "date": "2026-10-26",
           "floor": 10,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "기흥역센트럴푸르지오",
+          "price_manwon": 105700,
+          "area": 84.7384,
+          "date": "2026-10-19",
+          "floor": 26,
           "direct": false,
           "cancelled": false
         },
@@ -26272,15 +26286,6 @@
           "area": 84.7384,
           "date": "2026-06-23",
           "floor": 22,
-          "direct": false,
-          "cancelled": false
-        },
-        {
-          "apt": "기흥역센트럴푸르지오",
-          "price_manwon": 97000,
-          "area": 84.775,
-          "date": "2026-06-23",
-          "floor": 7,
           "direct": false,
           "cancelled": false
         }
@@ -29030,15 +29035,15 @@
       "watch_note": "죽전 대단지·학교와 역 동선 비교",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 39,
-      "history_count": 398,
+      "count": 40,
+      "history_count": 399,
       "representative_manwon": 85000,
       "latest": {
         "apt": "새터마을죽전힐스테이트",
         "price_manwon": 92500,
         "area": 84.9959,
-        "date": "2026-10-21",
-        "floor": 14,
+        "date": "2026-10-27",
+        "floor": 7,
         "direct": false,
         "cancelled": false
       },
@@ -29321,10 +29326,19 @@
         {
           "month": "2026-10",
           "price_manwon": 92500,
-          "count": 3
+          "count": 4
         }
       ],
       "transactions": [
+        {
+          "apt": "새터마을죽전힐스테이트",
+          "price_manwon": 92500,
+          "area": 84.9959,
+          "date": "2026-10-27",
+          "floor": 7,
+          "direct": false,
+          "cancelled": false
+        },
         {
           "apt": "새터마을죽전힐스테이트",
           "price_manwon": 92500,
@@ -29493,15 +29507,6 @@
           "area": 84.9959,
           "date": "2026-07-14",
           "floor": 16,
-          "direct": false,
-          "cancelled": false
-        },
-        {
-          "apt": "새터마을죽전힐스테이트",
-          "price_manwon": 81000,
-          "area": 84.9959,
-          "date": "2026-07-10",
-          "floor": 1,
           "direct": false,
           "cancelled": false
         }
