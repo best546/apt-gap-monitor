@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T22:17:58+00:00",
+  "generated_at": "2026-11-06T22:17:56+00:00",
   "months": 6,
   "history_months": 60,
   "reference_id": "home",
@@ -4179,9 +4179,9 @@
       "region": "수지",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 10,
-      "history_count": 193,
-      "representative_manwon": 136000,
+      "count": 11,
+      "history_count": 194,
+      "representative_manwon": 143000,
       "latest": {
         "apt": "진산마을삼성5차",
         "price_manwon": 147000,
@@ -4424,8 +4424,8 @@
         },
         {
           "month": "2026-10",
-          "price_manwon": 148400,
-          "count": 2
+          "price_manwon": 149800,
+          "count": 3
         }
       ],
       "transactions": [
@@ -4435,6 +4435,15 @@
           "area": 84.2102,
           "date": "2026-10-31",
           "floor": 5,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "진산마을삼성5차",
+          "price_manwon": 150500,
+          "area": 83.8821,
+          "date": "2026-10-22",
+          "floor": 7,
           "direct": false,
           "cancelled": false
         },
@@ -4599,18 +4608,9 @@
           "floor": 2,
           "direct": false,
           "cancelled": false
-        },
-        {
-          "apt": "진산마을삼성5차",
-          "price_manwon": 126500,
-          "area": 83.8821,
-          "date": "2026-02-28",
-          "floor": 6,
-          "direct": false,
-          "cancelled": false
         }
       ],
-      "gap_manwon": 48000,
+      "gap_manwon": 55000,
       "asking_manwon": null,
       "monthly_gaps": [
         {
@@ -4785,15 +4785,15 @@
       "name": "성복역 현대홈타운",
       "region": "수지",
       "min_floor": 4,
-      "count": 13,
-      "history_count": 128,
-      "representative_manwon": 105850,
+      "count": 14,
+      "history_count": 129,
+      "representative_manwon": 106700,
       "latest": {
         "apt": "서원마을현대홈타운",
-        "price_manwon": 116000,
+        "price_manwon": 116500,
         "area": 84.8518,
-        "date": "2026-10-30",
-        "floor": 10,
+        "date": "2026-11-05",
+        "floor": 20,
         "direct": false,
         "cancelled": false
       },
@@ -4997,9 +4997,23 @@
           "month": "2026-10",
           "price_manwon": 116000,
           "count": 1
+        },
+        {
+          "month": "2026-11",
+          "price_manwon": 116500,
+          "count": 1
         }
       ],
       "transactions": [
+        {
+          "apt": "서원마을현대홈타운",
+          "price_manwon": 116500,
+          "area": 84.8518,
+          "date": "2026-11-05",
+          "floor": 20,
+          "direct": false,
+          "cancelled": false
+        },
         {
           "apt": "서원마을현대홈타운",
           "price_manwon": 116000,
@@ -5170,18 +5184,9 @@
           "floor": 4,
           "direct": false,
           "cancelled": false
-        },
-        {
-          "apt": "서원마을현대홈타운",
-          "price_manwon": 96250,
-          "area": 84.8518,
-          "date": "2026-05-09",
-          "floor": 9,
-          "direct": false,
-          "cancelled": false
         }
       ],
-      "gap_manwon": 17850,
+      "gap_manwon": 18700,
       "asking_manwon": null,
       "monthly_gaps": [
         {
@@ -24080,15 +24085,15 @@
       "watch_note": "망포 신축 대안",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 12,
-      "history_count": 60,
-      "representative_manwon": 94000,
+      "count": 13,
+      "history_count": 61,
+      "representative_manwon": 97000,
       "latest": {
         "apt": "영통롯데캐슬엘클래스2단지",
-        "price_manwon": 100000,
-        "area": 84.9836,
-        "date": "2026-10-26",
-        "floor": 15,
+        "price_manwon": 112000,
+        "area": 84.9835,
+        "date": "2026-10-31",
+        "floor": 11,
         "direct": false,
         "cancelled": false
       },
@@ -24200,11 +24205,20 @@
         },
         {
           "month": "2026-10",
-          "price_manwon": 103000,
-          "count": 3
+          "price_manwon": 105000,
+          "count": 4
         }
       ],
       "transactions": [
+        {
+          "apt": "영통롯데캐슬엘클래스2단지",
+          "price_manwon": 112000,
+          "area": 84.9835,
+          "date": "2026-10-31",
+          "floor": 11,
+          "direct": false,
+          "cancelled": false
+        },
         {
           "apt": "영통롯데캐슬엘클래스2단지",
           "price_manwon": 100000,
@@ -24375,18 +24389,9 @@
           "floor": 3,
           "direct": false,
           "cancelled": false
-        },
-        {
-          "apt": "영통롯데캐슬엘클래스2단지",
-          "price_manwon": 85000,
-          "area": 84.9836,
-          "date": "2026-03-24",
-          "floor": 7,
-          "direct": false,
-          "cancelled": false
         }
       ],
-      "gap_manwon": 6000,
+      "gap_manwon": 9000,
       "asking_manwon": null,
       "monthly_gaps": [
         {
@@ -28965,8 +28970,8 @@
       "watch_note": "죽전 대단지·학교와 역 동선 비교",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 30,
-      "history_count": 398,
+      "count": 31,
+      "history_count": 399,
       "representative_manwon": 87500,
       "latest": {
         "apt": "새터마을죽전힐스테이트",
@@ -29251,7 +29256,7 @@
         {
           "month": "2026-10",
           "price_manwon": 92500,
-          "count": 4
+          "count": 5
         },
         {
           "month": "2026-11",
@@ -29311,6 +29316,15 @@
           "area": 84.9959,
           "date": "2026-10-19",
           "floor": 1,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "새터마을죽전힐스테이트",
+          "price_manwon": 90000,
+          "area": 84.9959,
+          "date": "2026-10-19",
+          "floor": 8,
           "direct": false,
           "cancelled": false
         },
@@ -29428,15 +29442,6 @@
           "area": 84.9959,
           "date": "2026-07-24",
           "floor": 17,
-          "direct": false,
-          "cancelled": false
-        },
-        {
-          "apt": "새터마을죽전힐스테이트",
-          "price_manwon": 78800,
-          "area": 84.9959,
-          "date": "2026-07-21",
-          "floor": 16,
           "direct": false,
           "cancelled": false
         }
@@ -32091,15 +32096,15 @@
       "watch_note": "동백 생활권·가격차 축소 대안",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 7,
-      "history_count": 92,
-      "representative_manwon": 60750,
+      "count": 8,
+      "history_count": 93,
+      "representative_manwon": 61000,
       "latest": {
         "apt": "호수마을상록롯데캐슬",
-        "price_manwon": 65000,
+        "price_manwon": 67500,
         "area": 84.899,
-        "date": "2026-11-02",
-        "floor": 10,
+        "date": "2026-11-05",
+        "floor": 24,
         "direct": false,
         "cancelled": false
       },
@@ -32311,11 +32316,20 @@
         },
         {
           "month": "2026-11",
-          "price_manwon": 65000,
-          "count": 1
+          "price_manwon": 66250,
+          "count": 2
         }
       ],
       "transactions": [
+        {
+          "apt": "호수마을상록롯데캐슬",
+          "price_manwon": 67500,
+          "area": 84.899,
+          "date": "2026-11-05",
+          "floor": 24,
+          "direct": false,
+          "cancelled": false
+        },
         {
           "apt": "호수마을상록롯데캐슬",
           "price_manwon": 65000,
@@ -32486,18 +32500,9 @@
           "floor": 13,
           "direct": false,
           "cancelled": false
-        },
-        {
-          "apt": "호수마을상록롯데캐슬",
-          "price_manwon": 57000,
-          "area": 84.899,
-          "date": "2025-12-26",
-          "floor": 23,
-          "direct": false,
-          "cancelled": false
         }
       ],
-      "gap_manwon": -27250,
+      "gap_manwon": -27000,
       "asking_manwon": null,
       "monthly_gaps": [
         {
