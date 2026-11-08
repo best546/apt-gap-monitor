@@ -1497,5 +1497,7 @@
       "watch_note": "망포역 생활권 가격차 대안",
       "exclusion_reason": "확인된 면적 구성은 59㎡ 및 100㎡ 이상으로 전용 80~85㎡ 대상에서 제외"
     }
-  ]
+  ],
+  "representative_min_count": 5,
+  "representative_max_months": 12
 }
