@@ -4,22 +4,33 @@ from unittest.mock import patch
 
 XML = '''<response><body><items><item><aptNm>테스트아파트</aptNm><dealAmount>100,000</dealAmount><excluUseAr>84.91</excluUseAr><dealYear>2026</dealYear><dealMonth>9</dealMonth><dealDay>1</dealDay><floor>10</floor><dealingGbn>중개거래</dealingGbn><cdealDay></cdealDay></item></items></body></response>'''
 
+MONTHS = ["202611", "202610", "202609", "202608", "202607", "202606", "202605", "202604", "202603", "202602", "202601", "202512"]
+
+def fake_month_keys(n):
+    return MONTHS[:n]
+
+
 class CollectorTest(unittest.TestCase):
-    def test_parse_and_summary(self):
+    @patch("collector.main.month_keys", side_effect=fake_month_keys)
+    def test_parse_and_summary(self, _):
         rows = parse_items(XML)
         item = summarize({"id":"x","region":"테스트","name":"테스트아파트","aliases":[],"lawd_cd":"00000","area":84.9}, rows, 1.2)
         self.assertEqual(item["representative_manwon"], 100000)
         self.assertEqual(item["count"], 1)
+        self.assertEqual(item["representative_count"], 1)
+        self.assertEqual(item["representative_months"], 12)
+        self.assertEqual(item["confidence"], "VERY_LOW")
 
-    def test_low_floors_are_excluded_from_representative_and_monthly(self):
+    @patch("collector.main.month_keys", side_effect=fake_month_keys)
+    def test_low_floors_are_excluded_from_representative_and_monthly(self, _):
         rows = parse_items(XML)
         low = dict(rows[0], dealAmount="50,000", floor="3", dealDay="2")
         item = summarize({"id":"x","region":"테스트","name":"테스트아파트","aliases":[],"lawd_cd":"00000","area":84.9}, rows + [low], 1.2, 4)
         self.assertEqual(item["representative_manwon"], 100000)
-        self.assertEqual(item["count"], 2)
+        self.assertEqual(item["count"], 1)
         self.assertEqual(item["monthly_prices"][0]["price_manwon"], 100000)
 
-    @patch("collector.main.month_keys", return_value=["202609", "202608", "202607", "202606", "202605", "202604"])
+    @patch("collector.main.month_keys", side_effect=fake_month_keys)
     def test_history_does_not_change_recent_representative(self, _):
         rows = parse_items(XML)
         old = dict(rows[0], dealAmount="10,000", dealYear="2022")
@@ -32,13 +43,32 @@ class CollectorTest(unittest.TestCase):
         self.assertIsNone(summarize(c, [old], 1.2)["representative_manwon"])
         self.assertIsNone(summarize(c, [dict(rows[0], floor="3")], 1.2)["representative_manwon"])
 
-    def test_complex_can_override_area_tolerance(self):
+    @patch("collector.main.month_keys", side_effect=fake_month_keys)
+    def test_adaptive_window_expands_until_five_valid_trades(self, _):
+        row = parse_items(XML)[0]
+        rows = [
+            dict(row, dealMonth="9", dealDay="1", dealAmount="100,000"),
+            dict(row, dealMonth="8", dealDay="1", dealAmount="102,000"),
+            dict(row, dealMonth="7", dealDay="1", dealAmount="104,000"),
+            dict(row, dealMonth="6", dealDay="1", dealAmount="106,000"),
+            dict(row, dealMonth="3", dealDay="1", dealAmount="108,000"),
+        ]
+        item = summarize({"id":"x", "name":"테스트아파트", "area":84.9}, rows, 1.2)
+        self.assertEqual(item["representative_months"], 9)
+        self.assertEqual(item["representative_count"], 5)
+        self.assertEqual(item["representative_manwon"], 104000)
+        self.assertEqual(item["confidence"], "MEDIUM")
+
+    @patch("collector.main.month_keys", side_effect=fake_month_keys)
+    def test_complex_can_override_area_tolerance(self, _):
         rows = parse_items(XML)
         item = summarize({"id":"x","region":"테스트","name":"테스트아파트","aliases":[],"lawd_cd":"00000","area":80.3931,"area_tolerance":0.1}, rows, 1.2)
         self.assertEqual(item["count"], 0)
 
+
 class ConfigMatchingTest(unittest.TestCase):
-    def test_verified_aliases_and_dong_rename(self):
+    @patch("collector.main.month_keys", side_effect=fake_month_keys)
+    def test_verified_aliases_and_dong_rename(self, _):
         import json
         from pathlib import Path
         cfg = json.loads(Path('config/complexes.json').read_text())
@@ -58,4 +88,6 @@ class ConfigMatchingTest(unittest.TestCase):
         self.assertEqual(summarize(by_id['dt-lin'], [dict(row, aptNm='동탄역린스트라우스', umdNm='청계동')], 1.2)['history_count'], 0)
         self.assertNotIn('mp-heights', by_id)
 
-if __name__ == "__main__": unittest.main()
+
+if __name__ == "__main__":
+    unittest.main()
