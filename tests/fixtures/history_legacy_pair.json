@@ -1,0 +1,17 @@
+{
+  "latest": {
+    "generated_at": "2026-11-08T00:00:00+00:00",
+    "reference_id": "home",
+    "items": [
+      {"id": "home", "area": 84, "representative_manwon": 99000, "gap_manwon": 0},
+      {"id": "target", "area": 84, "representative_manwon": 198000, "gap_manwon": 99000}
+    ]
+  },
+  "history": [{
+    "generated_at": "2026-11-08T00:00:00+00:00",
+    "values": {
+      "home": {"price": 99000, "gap": 0},
+      "target": {"price": 198000, "gap": 99000}
+    }
+  }]
+}

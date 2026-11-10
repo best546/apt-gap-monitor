@@ -1,0 +1,39 @@
+{
+  "latest": {
+    "generated_at": "2026-11-10T00:00:00+00:00",
+    "reference_id": "home",
+    "items": [
+      {
+        "id": "home", "area": 84,
+        "representative_manwon": 100000, "gap_manwon": 0,
+        "representative_count": 5, "representative_months": 6,
+        "confidence": "MEDIUM", "gap_confidence": "MEDIUM",
+        "price_change_reason": "INITIAL", "significant_gap_change": false
+      },
+      {
+        "id": "target", "area": 84,
+        "representative_manwon": 200000, "gap_manwon": 100000,
+        "representative_count": 5, "representative_months": 6,
+        "confidence": "MEDIUM", "gap_confidence": "MEDIUM",
+        "price_change_reason": "INITIAL", "significant_gap_change": false
+      }
+    ]
+  },
+  "history": [{
+    "generated_at": "2026-11-10T00:00:00+00:00",
+    "values": {
+      "home": {
+        "price": 100000, "gap": 0,
+        "representative_count": 5, "representative_months": 6,
+        "confidence": "MEDIUM", "gap_confidence": "MEDIUM",
+        "price_change_reason": "INITIAL", "significant_gap_change": false
+      },
+      "target": {
+        "price": 200000, "gap": 100000,
+        "representative_count": 5, "representative_months": 6,
+        "confidence": "MEDIUM", "gap_confidence": "MEDIUM",
+        "price_change_reason": "INITIAL", "significant_gap_change": false
+      }
+    }
+  }]
+}

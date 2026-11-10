@@ -11,6 +11,11 @@ import requests
 ROOT = Path(__file__).resolve().parents[1]
 FILES = ("docs/data/latest.json", "docs/data/history.json")
 HISTORY_LIMIT = 104
+# Added by adaptive pricing. Older latest/history files have only price and gap.
+HISTORY_METADATA_FIELDS = (
+    "representative_count", "representative_months", "confidence",
+    "gap_confidence", "price_change_reason", "significant_gap_change",
+)
 
 
 def timestamp(value: str) -> datetime:
@@ -28,8 +33,13 @@ def snapshot(latest: dict) -> dict:
         raise ValueError("latest must contain unique IDs and its reference_id")
     return {
         "generated_at": latest["generated_at"],
-        "values": {item["id"]: {"price": item["representative_manwon"], "gap": item["gap_manwon"]}
-                   for item in items},
+        "values": {
+            item["id"]: {
+                "price": item["representative_manwon"], "gap": item["gap_manwon"],
+                **{field: item[field] for field in HISTORY_METADATA_FIELDS if field in item},
+            }
+            for item in items
+        },
     }
 
 
@@ -44,7 +54,9 @@ def validate_history(history: list) -> None:
         if not isinstance(entry["values"], dict) or not entry["values"]:
             raise ValueError("history values must be a nonempty object")
         for value in entry["values"].values():
-            if set(value) != {"price", "gap"}:
+            # Preserve historical metadata, while requiring both core values.
+            # validate_pair still compares the complete final snapshot exactly.
+            if not isinstance(value, dict) or not {"price", "gap"} <= value.keys():
                 raise ValueError("history values must contain price and gap")
         previous = stamp
 
