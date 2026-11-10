@@ -22373,5 +22373,940 @@
         "gap": 134500
       }
     }
+  },
+  {
+    "generated_at": "2026-11-10T00:29:27+00:00",
+    "values": {
+      "home": {
+        "price": 70500,
+        "gap": 0,
+        "representative_count": 5,
+        "representative_months": 8,
+        "confidence": "MEDIUM",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "pangyo5": {
+        "price": 189500,
+        "gap": 119000,
+        "representative_count": 5,
+        "representative_months": 7,
+        "confidence": "MEDIUM",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "pangyo3": {
+        "price": 177000,
+        "gap": 106500,
+        "representative_count": 5,
+        "representative_months": 12,
+        "confidence": "MEDIUM",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "pangyo9": {
+        "price": 184250,
+        "gap": 113750,
+        "representative_count": 8,
+        "representative_months": 7,
+        "confidence": "MEDIUM",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "gwanggyo-central": {
+        "price": 168000,
+        "gap": 97500,
+        "representative_count": 10,
+        "representative_months": 6,
+        "confidence": "MEDIUM",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "gwanggyo-nature": {
+        "price": 205000,
+        "gap": 134500,
+        "representative_count": 24,
+        "representative_months": 6,
+        "confidence": "HIGH",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "sujie편한": {
+        "price": 167250,
+        "gap": 96750,
+        "representative_count": 20,
+        "representative_months": 6,
+        "confidence": "HIGH",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "seongbok-lotte": {
+        "price": 178000,
+        "gap": 107500,
+        "representative_count": 28,
+        "representative_months": 6,
+        "confidence": "HIGH",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "jinsan5": {
+        "price": 140750,
+        "gap": 70250,
+        "representative_count": 8,
+        "representative_months": 6,
+        "confidence": "HIGH",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "seongbok-hyundai": {
+        "price": 106850,
+        "gap": 36350,
+        "representative_count": 14,
+        "representative_months": 6,
+        "confidence": "HIGH",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "bundang-sangrok": {
+        "price": 233000,
+        "gap": 162500,
+        "representative_count": 5,
+        "representative_months": 10,
+        "confidence": "MEDIUM",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "bundang-yangji": {
+        "price": 230000,
+        "gap": 159500,
+        "representative_count": 5,
+        "representative_months": 7,
+        "confidence": "MEDIUM",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "imae-beautiful": {
+        "price": 176500,
+        "gap": 106000,
+        "representative_count": 4,
+        "representative_months": 12,
+        "confidence": "LOW",
+        "gap_confidence": "LOW",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "gwacheon-raemian": {
+        "price": 220000,
+        "gap": 149500,
+        "representative_count": 5,
+        "representative_months": 6,
+        "confidence": "MEDIUM",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "dongtan2-ban-do": {
+        "price": 148000,
+        "gap": 77500,
+        "representative_count": 13,
+        "representative_months": 6,
+        "confidence": "HIGH",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "dongtan2-geo": {
+        "price": 144000,
+        "gap": 73500,
+        "representative_count": 8,
+        "representative_months": 6,
+        "confidence": "HIGH",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "dt1-ssangyong": {
+        "price": 83000,
+        "gap": 12500,
+        "representative_count": 14,
+        "representative_months": 6,
+        "confidence": "HIGH",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "dt1-world": {
+        "price": 107500,
+        "gap": 37000,
+        "representative_count": 5,
+        "representative_months": 6,
+        "confidence": "MEDIUM",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "dt2-shinan1": {
+        "price": 88000,
+        "gap": 17500,
+        "representative_count": 9,
+        "representative_months": 6,
+        "confidence": "HIGH",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "dt2-shinan2": {
+        "price": 95500,
+        "gap": 25000,
+        "representative_count": 6,
+        "representative_months": 8,
+        "confidence": "MEDIUM",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "dt2-central-prugio": {
+        "price": 123500,
+        "gap": 53000,
+        "representative_count": 5,
+        "representative_months": 6,
+        "confidence": "MEDIUM",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "dt2-yemiji": {
+        "price": 117000,
+        "gap": 46500,
+        "representative_count": 9,
+        "representative_months": 8,
+        "confidence": "MEDIUM",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "dt2-bando1": {
+        "price": 135000,
+        "gap": 64500,
+        "representative_count": 9,
+        "representative_months": 6,
+        "confidence": "HIGH",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "dt2-woomam": {
+        "price": 173000,
+        "gap": 102500,
+        "representative_count": 5,
+        "representative_months": 6,
+        "confidence": "MEDIUM",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "dt2-thesharp": {
+        "price": 160000,
+        "gap": 89500,
+        "representative_count": 5,
+        "representative_months": 7,
+        "confidence": "MEDIUM",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "dt2-hanwha": {
+        "price": 158500,
+        "gap": 88000,
+        "representative_count": 9,
+        "representative_months": 7,
+        "confidence": "MEDIUM",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "dt2-thesharp2": {
+        "price": 96500,
+        "gap": 26000,
+        "representative_count": 6,
+        "representative_months": 6,
+        "confidence": "MEDIUM",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "suji-jinsan-prugio": {
+        "price": 118000,
+        "gap": 47500,
+        "representative_count": 5,
+        "representative_months": 6,
+        "confidence": "MEDIUM",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "suji-kumho": {
+        "price": 105750,
+        "gap": 35250,
+        "representative_count": 10,
+        "representative_months": 6,
+        "confidence": "HIGH",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "suji-prime": {
+        "price": null,
+        "gap": null,
+        "representative_count": 0,
+        "representative_months": 12,
+        "confidence": "NONE",
+        "gap_confidence": "NONE",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "suji-eastpark": {
+        "price": 131000,
+        "gap": 60500,
+        "representative_count": 6,
+        "representative_months": 6,
+        "confidence": "MEDIUM",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "suji-dongcheon-xi": {
+        "price": 119500,
+        "gap": 49000,
+        "representative_count": 13,
+        "representative_months": 6,
+        "confidence": "HIGH",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "suji-eastfore": {
+        "price": 127900,
+        "gap": 57400,
+        "representative_count": 8,
+        "representative_months": 6,
+        "confidence": "HIGH",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "suji-forest": {
+        "price": 95000,
+        "gap": 24500,
+        "representative_count": 5,
+        "representative_months": 7,
+        "confidence": "MEDIUM",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "suji-mountain-xi": {
+        "price": 83000,
+        "gap": 12500,
+        "representative_count": 5,
+        "representative_months": 8,
+        "confidence": "MEDIUM",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "suji-mountain-hill": {
+        "price": 94500,
+        "gap": 24000,
+        "representative_count": 5,
+        "representative_months": 6,
+        "confidence": "MEDIUM",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "gg-class": {
+        "price": 160000,
+        "gap": 89500,
+        "representative_count": 9,
+        "representative_months": 6,
+        "confidence": "HIGH",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "gg-hoban": {
+        "price": 102500,
+        "gap": 32000,
+        "representative_count": 8,
+        "representative_months": 6,
+        "confidence": "MEDIUM",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "gg-lake-hanyang": {
+        "price": 102500,
+        "gap": 32000,
+        "representative_count": 8,
+        "representative_months": 6,
+        "confidence": "HIGH",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "gg-jungheung": {
+        "price": 193000,
+        "gap": 122500,
+        "representative_count": 15,
+        "representative_months": 6,
+        "confidence": "HIGH",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "pangyo-sanun13": {
+        "price": 167250,
+        "gap": 96750,
+        "representative_count": 6,
+        "representative_months": 8,
+        "confidence": "MEDIUM",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "bundang-samsung-hanshin": {
+        "price": 231500,
+        "gap": 161000,
+        "representative_count": 14,
+        "representative_months": 6,
+        "confidence": "HIGH",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "bundang-woosung": {
+        "price": 199000,
+        "gap": 128500,
+        "representative_count": 6,
+        "representative_months": 7,
+        "confidence": "MEDIUM",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "mp-hill": {
+        "price": 138000,
+        "gap": 67500,
+        "representative_count": 23,
+        "representative_months": 6,
+        "confidence": "HIGH",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "mp-castle1": {
+        "price": 130000,
+        "gap": 59500,
+        "representative_count": 13,
+        "representative_months": 6,
+        "confidence": "HIGH",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "mp-castle2": {
+        "price": 117000,
+        "gap": 46500,
+        "representative_count": 7,
+        "representative_months": 6,
+        "confidence": "MEDIUM",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "mp-lotte1": {
+        "price": 97250,
+        "gap": 26750,
+        "representative_count": 12,
+        "representative_months": 6,
+        "confidence": "HIGH",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "mp-lotte2": {
+        "price": 97000,
+        "gap": 26500,
+        "representative_count": 10,
+        "representative_months": 6,
+        "confidence": "HIGH",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "mp-sk": {
+        "price": 104000,
+        "gap": 33500,
+        "representative_count": 11,
+        "representative_months": 6,
+        "confidence": "HIGH",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "mp-dsxi": {
+        "price": 65000,
+        "gap": -5500,
+        "representative_count": 17,
+        "representative_months": 6,
+        "confidence": "HIGH",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "gh-central": {
+        "price": 101500,
+        "gap": 31000,
+        "representative_count": 39,
+        "representative_months": 6,
+        "confidence": "HIGH",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "gh-sharp": {
+        "price": 105000,
+        "gap": 34500,
+        "representative_count": 18,
+        "representative_months": 6,
+        "confidence": "HIGH",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "gh-hill": {
+        "price": 121500,
+        "gap": 51000,
+        "representative_count": 12,
+        "representative_months": 6,
+        "confidence": "HIGH",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "gs-raemian": {
+        "price": 128450,
+        "gap": 57950,
+        "representative_count": 6,
+        "representative_months": 6,
+        "confidence": "MEDIUM",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "gs-lg": {
+        "price": 110000,
+        "gap": 39500,
+        "representative_count": 7,
+        "representative_months": 8,
+        "confidence": "MEDIUM",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "gs-rose": {
+        "price": 86000,
+        "gap": 15500,
+        "representative_count": 7,
+        "representative_months": 6,
+        "confidence": "MEDIUM",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "juk-hill": {
+        "price": 87500,
+        "gap": 17000,
+        "representative_count": 25,
+        "representative_months": 6,
+        "confidence": "HIGH",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "juk-ipark": {
+        "price": 115000,
+        "gap": 44500,
+        "representative_count": 18,
+        "representative_months": 6,
+        "confidence": "HIGH",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "juk-dongwon": {
+        "price": 127050,
+        "gap": 56550,
+        "representative_count": 6,
+        "representative_months": 6,
+        "confidence": "MEDIUM",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "juk-sol": {
+        "price": 92000,
+        "gap": 21500,
+        "representative_count": 5,
+        "representative_months": 11,
+        "confidence": "MEDIUM",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "db-desian": {
+        "price": 50450,
+        "gap": -20050,
+        "representative_count": 12,
+        "representative_months": 6,
+        "confidence": "HIGH",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "db-seohae": {
+        "price": 51300,
+        "gap": -19200,
+        "representative_count": 5,
+        "representative_months": 12,
+        "confidence": "MEDIUM",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "db-lotte": {
+        "price": 61000,
+        "gap": -9500,
+        "representative_count": 7,
+        "representative_months": 6,
+        "confidence": "MEDIUM",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "uw-elcentro": {
+        "price": 158500,
+        "gap": 88000,
+        "representative_count": 12,
+        "representative_months": 6,
+        "confidence": "HIGH",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "uw-xi1": {
+        "price": 121500,
+        "gap": 51000,
+        "representative_count": 10,
+        "representative_months": 6,
+        "confidence": "HIGH",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "uw-baegun": {
+        "price": 83800,
+        "gap": 13300,
+        "representative_count": 19,
+        "representative_months": 6,
+        "confidence": "HIGH",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "uw-ever": {
+        "price": 105000,
+        "gap": 34500,
+        "representative_count": 7,
+        "representative_months": 8,
+        "confidence": "MEDIUM",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "pc-central": {
+        "price": 149000,
+        "gap": 78500,
+        "representative_count": 17,
+        "representative_months": 6,
+        "confidence": "HIGH",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "pc-ipark": {
+        "price": 135000,
+        "gap": 64500,
+        "representative_count": 11,
+        "representative_months": 6,
+        "confidence": "HIGH",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "pc-gwiin": {
+        "price": 147000,
+        "gap": 76500,
+        "representative_count": 11,
+        "representative_months": 6,
+        "confidence": "HIGH",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "dt-lakefam": {
+        "price": 85750,
+        "gap": 15250,
+        "representative_count": 10,
+        "representative_months": 6,
+        "confidence": "MEDIUM",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "dt-lakepalace": {
+        "price": 125000,
+        "gap": 54500,
+        "representative_count": 6,
+        "representative_months": 6,
+        "confidence": "MEDIUM",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "dt-centralxi": {
+        "price": 140000,
+        "gap": 69500,
+        "representative_count": 5,
+        "representative_months": 6,
+        "confidence": "MEDIUM",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "dt-dongwon3": {
+        "price": 112500,
+        "gap": 42000,
+        "representative_count": 5,
+        "representative_months": 8,
+        "confidence": "MEDIUM",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "dt-lin": {
+        "price": 140000,
+        "gap": 69500,
+        "representative_count": 5,
+        "representative_months": 7,
+        "confidence": "MEDIUM",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "gg-kyungnam": {
+        "price": 155000,
+        "gap": 84500,
+        "representative_count": 7,
+        "representative_months": 6,
+        "confidence": "MEDIUM",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "bd-sangrok-imkwang": {
+        "price": 188000,
+        "gap": 117500,
+        "representative_count": 3,
+        "representative_months": 12,
+        "confidence": "LOW",
+        "gap_confidence": "LOW",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "bd-yangji-cheonggu": {
+        "price": 222000,
+        "gap": 151500,
+        "representative_count": 5,
+        "representative_months": 8,
+        "confidence": "MEDIUM",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "bd-yangji-hanyang": {
+        "price": 221000,
+        "gap": 150500,
+        "representative_count": 3,
+        "representative_months": 12,
+        "confidence": "LOW",
+        "gap_confidence": "LOW",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "bd-imae-hanshin": {
+        "price": 195700,
+        "gap": 125200,
+        "representative_count": 1,
+        "representative_months": 12,
+        "confidence": "VERY_LOW",
+        "gap_confidence": "VERY_LOW",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "bd-imae-cheonggu": {
+        "price": 210500,
+        "gap": 140000,
+        "representative_count": 4,
+        "representative_months": 12,
+        "confidence": "LOW",
+        "gap_confidence": "LOW",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "bd-imae-jinheung": {
+        "price": 192500,
+        "gap": 122000,
+        "representative_count": 5,
+        "representative_months": 10,
+        "confidence": "MEDIUM",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "seongnam-haneul1": {
+        "price": 147500,
+        "gap": 77000,
+        "representative_count": 7,
+        "representative_months": 6,
+        "confidence": "MEDIUM",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "seongnam-haneul3": {
+        "price": 150000,
+        "gap": 79500,
+        "representative_count": 2,
+        "representative_months": 12,
+        "confidence": "VERY_LOW",
+        "gap_confidence": "VERY_LOW",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "seongnam-forestia": {
+        "price": 160000,
+        "gap": 89500,
+        "representative_count": 8,
+        "representative_months": 6,
+        "confidence": "MEDIUM",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "seongnam-xi-prugio": {
+        "price": 139000,
+        "gap": 68500,
+        "representative_count": 5,
+        "representative_months": 7,
+        "confidence": "MEDIUM",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "seongnam-geumbit1": {
+        "price": 140500,
+        "gap": 70000,
+        "representative_count": 5,
+        "representative_months": 10,
+        "confidence": "MEDIUM",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "gc-summit": {
+        "price": 273000,
+        "gap": 202500,
+        "representative_count": 5,
+        "representative_months": 6,
+        "confidence": "MEDIUM",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "gc-xi": {
+        "price": 255000,
+        "gap": 184500,
+        "representative_count": 5,
+        "representative_months": 7,
+        "confidence": "MEDIUM",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "pangyo-baek2": {
+        "price": 245000,
+        "gap": 174500,
+        "representative_count": 5,
+        "representative_months": 8,
+        "confidence": "MEDIUM",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "pangyo-bot8": {
+        "price": null,
+        "gap": null,
+        "representative_count": 0,
+        "representative_months": 12,
+        "confidence": "NONE",
+        "gap_confidence": "NONE",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "pc-raemian-prugio": {
+        "price": 142000,
+        "gap": 71500,
+        "representative_count": 7,
+        "representative_months": 6,
+        "confidence": "MEDIUM",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      },
+      "dt-lotte-castle": {
+        "price": 196000,
+        "gap": 125500,
+        "representative_count": 8,
+        "representative_months": 8,
+        "confidence": "MEDIUM",
+        "gap_confidence": "MEDIUM",
+        "price_change_reason": "UNCHANGED",
+        "significant_gap_change": false
+      }
+    }
   }
 ]
