@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T22:17:57+00:00",
+  "generated_at": "2026-11-14T22:17:58+00:00",
   "months": 6,
   "history_months": 60,
   "reference_id": "home",
@@ -5402,8 +5402,8 @@
           "cancelled": false
         }
       ],
-      "price_change_reason": "WINDOW_SHIFT",
-      "representative_change_manwon": -150,
+      "price_change_reason": "UNCHANGED",
+      "representative_change_manwon": 0,
       "gap_manwon": 36350,
       "asking_manwon": null,
       "monthly_gaps": [
@@ -5540,7 +5540,7 @@
           "home_price_manwon": 88000
         }
       ],
-      "gap_change_manwon": -150,
+      "gap_change_manwon": 0,
       "gap_confidence": "MEDIUM",
       "significant_gap_change": false
     },
@@ -8592,8 +8592,8 @@
           "cancelled": false
         }
       ],
-      "price_change_reason": "NEW_TRANSACTION",
-      "representative_change_manwon": 1000,
+      "price_change_reason": "UNCHANGED",
+      "representative_change_manwon": 0,
       "gap_manwon": 74500,
       "asking_manwon": null,
       "monthly_gaps": [
@@ -8754,7 +8754,7 @@
           "home_price_manwon": 70500
         }
       ],
-      "gap_change_manwon": 1000,
+      "gap_change_manwon": 0,
       "gap_confidence": "MEDIUM",
       "significant_gap_change": false
     },
@@ -10297,8 +10297,8 @@
           "cancelled": false
         }
       ],
-      "price_change_reason": "NEW_TRANSACTION",
-      "representative_change_manwon": 500,
+      "price_change_reason": "UNCHANGED",
+      "representative_change_manwon": 0,
       "gap_manwon": 18000,
       "asking_manwon": null,
       "monthly_gaps": [
@@ -10423,7 +10423,7 @@
           "home_price_manwon": 88000
         }
       ],
-      "gap_change_manwon": 500,
+      "gap_change_manwon": 0,
       "gap_confidence": "MEDIUM",
       "significant_gap_change": false
     },
@@ -15599,8 +15599,8 @@
           "cancelled": false
         }
       ],
-      "price_change_reason": "WINDOW_SHIFT",
-      "representative_change_manwon": -750,
+      "price_change_reason": "UNCHANGED",
+      "representative_change_manwon": 0,
       "gap_manwon": 34500,
       "asking_manwon": null,
       "monthly_gaps": [
@@ -15743,7 +15743,7 @@
           "home_price_manwon": 88000
         }
       ],
-      "gap_change_manwon": -750,
+      "gap_change_manwon": 0,
       "gap_confidence": "MEDIUM",
       "significant_gap_change": false
     },
@@ -16245,8 +16245,8 @@
           "cancelled": false
         }
       ],
-      "price_change_reason": "NEW_TRANSACTION",
-      "representative_change_manwon": 500,
+      "price_change_reason": "UNCHANGED",
+      "representative_change_manwon": 0,
       "gap_manwon": 61000,
       "asking_manwon": null,
       "monthly_gaps": [
@@ -16401,7 +16401,7 @@
           "home_price_manwon": 88000
         }
       ],
-      "gap_change_manwon": 500,
+      "gap_change_manwon": 0,
       "gap_confidence": "MEDIUM",
       "significant_gap_change": false
     },
@@ -17961,8 +17961,8 @@
           "cancelled": false
         }
       ],
-      "price_change_reason": "NEW_TRANSACTION",
-      "representative_change_manwon": 2550,
+      "price_change_reason": "UNCHANGED",
+      "representative_change_manwon": 0,
       "gap_manwon": 27050,
       "asking_manwon": null,
       "monthly_gaps": [
@@ -18099,7 +18099,7 @@
           "home_price_manwon": 88000
         }
       ],
-      "gap_change_manwon": 2550,
+      "gap_change_manwon": 0,
       "gap_confidence": "MEDIUM",
       "significant_gap_change": false
     },
@@ -30659,8 +30659,8 @@
           "cancelled": false
         }
       ],
-      "price_change_reason": "NEW_TRANSACTION",
-      "representative_change_manwon": 650,
+      "price_change_reason": "UNCHANGED",
+      "representative_change_manwon": 0,
       "gap_manwon": 18300,
       "asking_manwon": null,
       "monthly_gaps": [
@@ -30827,7 +30827,7 @@
           "home_price_manwon": 88000
         }
       ],
-      "gap_change_manwon": 650,
+      "gap_change_manwon": 0,
       "gap_confidence": "MEDIUM",
       "significant_gap_change": false
     },
@@ -35633,8 +35633,8 @@
           "cancelled": false
         }
       ],
-      "price_change_reason": "NEW_TRANSACTION",
-      "representative_change_manwon": 450,
+      "price_change_reason": "UNCHANGED",
+      "representative_change_manwon": 0,
       "gap_manwon": 13750,
       "asking_manwon": null,
       "monthly_gaps": [
@@ -35759,7 +35759,7 @@
           "home_price_manwon": 88000
         }
       ],
-      "gap_change_manwon": 450,
+      "gap_change_manwon": 0,
       "gap_confidence": "MEDIUM",
       "significant_gap_change": false
     },
@@ -37286,8 +37286,8 @@
           "cancelled": false
         }
       ],
-      "price_change_reason": "NEW_TRANSACTION",
-      "representative_change_manwon": 400,
+      "price_change_reason": "UNCHANGED",
+      "representative_change_manwon": 0,
       "gap_manwon": 64900,
       "asking_manwon": null,
       "monthly_gaps": [
@@ -37424,7 +37424,7 @@
           "home_price_manwon": 88000
         }
       ],
-      "gap_change_manwon": 400,
+      "gap_change_manwon": 0,
       "gap_confidence": "MEDIUM",
       "significant_gap_change": false
     },
