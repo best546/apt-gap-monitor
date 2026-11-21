@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T22:17:55+00:00",
+  "generated_at": "2026-11-21T22:17:59+00:00",
   "months": 6,
   "history_months": 60,
   "reference_id": "home",
@@ -9809,8 +9809,8 @@
           "cancelled": false
         }
       ],
-      "price_change_reason": "NEW_TRANSACTION",
-      "representative_change_manwon": -3750,
+      "price_change_reason": "UNCHANGED",
+      "representative_change_manwon": 0,
       "gap_manwon": 40750,
       "asking_manwon": null,
       "monthly_gaps": [
@@ -9935,9 +9935,9 @@
           "home_price_manwon": 88000
         }
       ],
-      "gap_change_manwon": -3750,
+      "gap_change_manwon": 0,
       "gap_confidence": "MEDIUM",
-      "significant_gap_change": true
+      "significant_gap_change": false
     },
     {
       "aliases": [
@@ -14573,8 +14573,8 @@
           "cancelled": false
         }
       ],
-      "price_change_reason": "NEW_TRANSACTION",
-      "representative_change_manwon": 1500,
+      "price_change_reason": "UNCHANGED",
+      "representative_change_manwon": 0,
       "gap_manwon": 27500,
       "asking_manwon": null,
       "monthly_gaps": [
@@ -14711,7 +14711,7 @@
           "home_price_manwon": 88000
         }
       ],
-      "gap_change_manwon": 1500,
+      "gap_change_manwon": 0,
       "gap_confidence": "MEDIUM",
       "significant_gap_change": false
     },
@@ -31404,8 +31404,8 @@
           "cancelled": false
         }
       ],
-      "price_change_reason": "NEW_TRANSACTION",
-      "representative_change_manwon": -1250,
+      "price_change_reason": "UNCHANGED",
+      "representative_change_manwon": 0,
       "gap_manwon": 44500,
       "asking_manwon": null,
       "monthly_gaps": [
@@ -31566,7 +31566,7 @@
           "home_price_manwon": 88000
         }
       ],
-      "gap_change_manwon": -1250,
+      "gap_change_manwon": 0,
       "gap_confidence": "MEDIUM",
       "significant_gap_change": false
     },
@@ -35167,8 +35167,8 @@
           "cancelled": false
         }
       ],
-      "price_change_reason": "NEW_TRANSACTION",
-      "representative_change_manwon": 1000,
+      "price_change_reason": "UNCHANGED",
+      "representative_change_manwon": 0,
       "gap_manwon": 54500,
       "asking_manwon": null,
       "monthly_gaps": [
@@ -35305,7 +35305,7 @@
           "home_price_manwon": 88000
         }
       ],
-      "gap_change_manwon": 1000,
+      "gap_change_manwon": 0,
       "gap_confidence": "MEDIUM",
       "significant_gap_change": false
     },
