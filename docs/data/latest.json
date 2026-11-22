@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T22:17:59+00:00",
+  "generated_at": "2026-11-22T22:18:01+00:00",
   "months": 6,
   "history_months": 60,
   "reference_id": "home",
@@ -3674,13 +3674,13 @@
       "region": "수지",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 31,
-      "representative_count": 31,
+      "count": 32,
+      "representative_count": 32,
       "representative_months": 6,
       "representative_min_count": 5,
       "representative_max_months": 12,
       "confidence": "HIGH",
-      "representative_signature": "b133c255885814d6",
+      "representative_signature": "3790c855ccf64ce3",
       "representative_latest": {
         "apt": "성복역롯데캐슬골드타운",
         "price_manwon": 189000,
@@ -3690,8 +3690,8 @@
         "direct": false,
         "cancelled": false
       },
-      "history_count": 475,
-      "representative_manwon": 179800,
+      "history_count": 476,
+      "representative_manwon": 180150,
       "latest": {
         "apt": "성복역롯데캐슬골드타운",
         "price_manwon": 189000,
@@ -3994,8 +3994,8 @@
         },
         {
           "month": "2026-11",
-          "price_manwon": 189500,
-          "count": 2
+          "price_manwon": 189000,
+          "count": 3
         }
       ],
       "transactions": [
@@ -4014,6 +4014,15 @@
           "area": 84.9126,
           "date": "2026-11-13",
           "floor": 33,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "성복역롯데캐슬골드타운",
+          "price_manwon": 187000,
+          "area": 84.9126,
+          "date": "2026-11-07",
+          "floor": 34,
           "direct": false,
           "cancelled": false
         },
@@ -4169,20 +4178,11 @@
           "floor": 27,
           "direct": false,
           "cancelled": false
-        },
-        {
-          "apt": "성복역롯데캐슬골드타운",
-          "price_manwon": 180500,
-          "area": 84.9126,
-          "date": "2026-07-15",
-          "floor": 5,
-          "direct": false,
-          "cancelled": false
         }
       ],
-      "price_change_reason": "UNCHANGED",
-      "representative_change_manwon": 0,
-      "gap_manwon": 109300,
+      "price_change_reason": "NEW_TRANSACTION",
+      "representative_change_manwon": 350,
+      "gap_manwon": 109650,
       "asking_manwon": null,
       "monthly_gaps": [
         {
@@ -4354,7 +4354,7 @@
           "home_price_manwon": 88000
         }
       ],
-      "gap_change_manwon": 0,
+      "gap_change_manwon": 350,
       "gap_confidence": "MEDIUM",
       "significant_gap_change": false
     },
@@ -5017,14 +5017,14 @@
         "direct": false,
         "cancelled": false
       },
-      "history_count": 130,
+      "history_count": 131,
       "representative_manwon": 106850,
       "latest": {
         "apt": "서원마을현대홈타운",
-        "price_manwon": 109500,
+        "price_manwon": 107000,
         "area": 84.8518,
-        "date": "2026-11-07",
-        "floor": 13,
+        "date": "2026-11-10",
+        "floor": 2,
         "direct": false,
         "cancelled": false
       },
@@ -5238,6 +5238,15 @@
       "transactions": [
         {
           "apt": "서원마을현대홈타운",
+          "price_manwon": 107000,
+          "area": 84.8518,
+          "date": "2026-11-10",
+          "floor": 2,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "서원마을현대홈타운",
           "price_manwon": 109500,
           "area": 84.8518,
           "date": "2026-11-07",
@@ -5404,15 +5413,6 @@
           "area": 84.8518,
           "date": "2026-05-16",
           "floor": 7,
-          "direct": false,
-          "cancelled": false
-        },
-        {
-          "apt": "서원마을현대홈타운",
-          "price_manwon": 101000,
-          "area": 84.8518,
-          "date": "2026-05-13",
-          "floor": 5,
           "direct": false,
           "cancelled": false
         }
@@ -30253,13 +30253,13 @@
       "watch_note": "죽전 대단지·학교와 역 동선 비교",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 31,
-      "representative_count": 31,
+      "count": 32,
+      "representative_count": 32,
       "representative_months": 6,
       "representative_min_count": 5,
       "representative_max_months": 12,
       "confidence": "HIGH",
-      "representative_signature": "c3ee714b061aee74",
+      "representative_signature": "200e5ab84973a1e4",
       "representative_latest": {
         "apt": "새터마을죽전힐스테이트",
         "price_manwon": 94000,
@@ -30269,8 +30269,8 @@
         "direct": false,
         "cancelled": false
       },
-      "history_count": 406,
-      "representative_manwon": 89000,
+      "history_count": 407,
+      "representative_manwon": 89150,
       "latest": {
         "apt": "새터마을죽전힐스테이트",
         "price_manwon": 94000,
@@ -30558,8 +30558,8 @@
         },
         {
           "month": "2026-11",
-          "price_manwon": 92000,
-          "count": 5
+          "price_manwon": 93000,
+          "count": 6
         }
       ],
       "transactions": [
@@ -30596,6 +30596,15 @@
           "area": 84.9959,
           "date": "2026-11-05",
           "floor": 17,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "새터마을죽전힐스테이트",
+          "price_manwon": 94000,
+          "area": 84.9959,
+          "date": "2026-11-05",
+          "floor": 20,
           "direct": false,
           "cancelled": false
         },
@@ -30733,20 +30742,11 @@
           "floor": 1,
           "direct": false,
           "cancelled": false
-        },
-        {
-          "apt": "새터마을죽전힐스테이트",
-          "price_manwon": 80500,
-          "area": 84.9959,
-          "date": "2026-08-25",
-          "floor": 22,
-          "direct": false,
-          "cancelled": false
         }
       ],
-      "price_change_reason": "UNCHANGED",
-      "representative_change_manwon": 0,
-      "gap_manwon": 18500,
+      "price_change_reason": "NEW_TRANSACTION",
+      "representative_change_manwon": 150,
+      "gap_manwon": 18650,
       "asking_manwon": null,
       "monthly_gaps": [
         {
@@ -30912,7 +30912,7 @@
           "home_price_manwon": 88000
         }
       ],
-      "gap_change_manwon": 0,
+      "gap_change_manwon": 150,
       "gap_confidence": "MEDIUM",
       "significant_gap_change": false
     },
