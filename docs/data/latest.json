@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T22:18:01+00:00",
+  "generated_at": "2026-11-24T22:18:03+00:00",
   "months": 6,
   "history_months": 60,
   "reference_id": "home",
@@ -4370,13 +4370,13 @@
       "region": "수지",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 8,
-      "representative_count": 8,
+      "count": 9,
+      "representative_count": 9,
       "representative_months": 6,
       "representative_min_count": 5,
       "representative_max_months": 12,
       "confidence": "HIGH",
-      "representative_signature": "85d4788d88330328",
+      "representative_signature": "b92be2152fd8cb3a",
       "representative_latest": {
         "apt": "진산마을삼성5차",
         "price_manwon": 138500,
@@ -4386,8 +4386,8 @@
         "direct": false,
         "cancelled": false
       },
-      "history_count": 196,
-      "representative_manwon": 140750,
+      "history_count": 197,
+      "representative_manwon": 143000,
       "latest": {
         "apt": "진산마을삼성5차",
         "price_manwon": 138500,
@@ -4630,8 +4630,8 @@
         },
         {
           "month": "2026-10",
-          "price_manwon": 149800,
-          "count": 3
+          "price_manwon": 149650,
+          "count": 4
         },
         {
           "month": "2026-11",
@@ -4655,6 +4655,15 @@
           "area": 84.2102,
           "date": "2026-10-31",
           "floor": 5,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "진산마을삼성5차",
+          "price_manwon": 149500,
+          "area": 83.8821,
+          "date": "2026-10-30",
+          "floor": 16,
           "direct": false,
           "cancelled": false
         },
@@ -4810,20 +4819,11 @@
           "floor": 5,
           "direct": false,
           "cancelled": false
-        },
-        {
-          "apt": "진산마을삼성5차",
-          "price_manwon": 124500,
-          "area": 84.2102,
-          "date": "2026-03-20",
-          "floor": 4,
-          "direct": false,
-          "cancelled": false
         }
       ],
-      "price_change_reason": "UNCHANGED",
-      "representative_change_manwon": 0,
-      "gap_manwon": 70250,
+      "price_change_reason": "NEW_TRANSACTION",
+      "representative_change_manwon": 2250,
+      "gap_manwon": 72500,
       "asking_manwon": null,
       "monthly_gaps": [
         {
@@ -4983,7 +4983,7 @@
           "home_price_manwon": 88000
         }
       ],
-      "gap_change_manwon": 0,
+      "gap_change_manwon": 2250,
       "gap_confidence": "MEDIUM",
       "significant_gap_change": false
     },
@@ -8156,30 +8156,30 @@
       "match_mode": "exact",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 10,
-      "representative_count": 10,
+      "count": 11,
+      "representative_count": 11,
       "representative_months": 6,
       "representative_min_count": 5,
       "representative_max_months": 12,
       "confidence": "HIGH",
-      "representative_signature": "961c7b7c7371b869",
+      "representative_signature": "4fb09a66c724e88e",
       "representative_latest": {
         "apt": "동탄역시범호반써밋",
-        "price_manwon": 145000,
-        "area": 84.9698,
-        "date": "2026-11-17",
-        "floor": 24,
+        "price_manwon": 147500,
+        "area": 84.9537,
+        "date": "2026-11-21",
+        "floor": 12,
         "direct": false,
         "cancelled": false
       },
-      "history_count": 258,
+      "history_count": 259,
       "representative_manwon": 145000,
       "latest": {
         "apt": "동탄역시범호반써밋",
-        "price_manwon": 145000,
-        "area": 84.9698,
-        "date": "2026-11-17",
-        "floor": 24,
+        "price_manwon": 147500,
+        "area": 84.9537,
+        "date": "2026-11-21",
+        "floor": 12,
         "direct": false,
         "cancelled": false
       },
@@ -8431,11 +8431,20 @@
         },
         {
           "month": "2026-11",
-          "price_manwon": 145500,
-          "count": 2
+          "price_manwon": 146000,
+          "count": 3
         }
       ],
       "transactions": [
+        {
+          "apt": "동탄역시범호반써밋",
+          "price_manwon": 147500,
+          "area": 84.9537,
+          "date": "2026-11-21",
+          "floor": 12,
+          "direct": false,
+          "cancelled": false
+        },
         {
           "apt": "동탄역시범호반써밋",
           "price_manwon": 145000,
@@ -8604,15 +8613,6 @@
           "area": 84.9537,
           "date": "2026-05-21",
           "floor": 4,
-          "direct": false,
-          "cancelled": false
-        },
-        {
-          "apt": "동탄역시범호반써밋",
-          "price_manwon": 125000,
-          "area": 84.9537,
-          "date": "2026-05-18",
-          "floor": 17,
           "direct": false,
           "cancelled": false
         }
@@ -10494,14 +10494,14 @@
         "direct": false,
         "cancelled": false
       },
-      "history_count": 20,
+      "history_count": 19,
       "representative_manwon": 95500,
       "latest": {
         "apt": "동탄역신안인스빌리베라2차",
-        "price_manwon": 105000,
+        "price_manwon": 122000,
         "area": 84.9896,
-        "date": "2026-06-23",
-        "floor": 1,
+        "date": "2026-06-11",
+        "floor": 19,
         "direct": false,
         "cancelled": false
       },
@@ -10573,15 +10573,6 @@
         }
       ],
       "transactions": [
-        {
-          "apt": "동탄역신안인스빌리베라2차",
-          "price_manwon": 105000,
-          "area": 84.9896,
-          "date": "2026-06-23",
-          "floor": 1,
-          "direct": false,
-          "cancelled": false
-        },
         {
           "apt": "동탄역신안인스빌리베라2차",
           "price_manwon": 122000,
@@ -12536,14 +12527,14 @@
         "direct": false,
         "cancelled": false
       },
-      "history_count": 184,
+      "history_count": 185,
       "representative_manwon": 173000,
       "latest": {
         "apt": "동탄역 시범우남퍼스트빌아파트",
-        "price_manwon": 165000,
+        "price_manwon": 170000,
         "area": 84.94,
-        "date": "2026-08-25",
-        "floor": 2,
+        "date": "2026-11-14",
+        "floor": 3,
         "direct": false,
         "cancelled": false
       },
@@ -12782,6 +12773,15 @@
       "transactions": [
         {
           "apt": "동탄역 시범우남퍼스트빌아파트",
+          "price_manwon": 170000,
+          "area": 84.94,
+          "date": "2026-11-14",
+          "floor": 3,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역 시범우남퍼스트빌아파트",
           "price_manwon": 165000,
           "area": 84.94,
           "date": "2026-08-25",
@@ -12948,15 +12948,6 @@
           "area": 84.94,
           "date": "2026-03-21",
           "floor": 9,
-          "direct": false,
-          "cancelled": false
-        },
-        {
-          "apt": "동탄역 시범우남퍼스트빌아파트",
-          "price_manwon": 142800,
-          "area": 84.94,
-          "date": "2026-03-07",
-          "floor": 14,
           "direct": false,
           "cancelled": false
         }
@@ -13570,13 +13561,13 @@
       "watch_note": "동탄역 시범단지 상위 비교",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 5,
-      "representative_count": 5,
+      "count": 6,
+      "representative_count": 6,
       "representative_months": 6,
       "representative_min_count": 5,
       "representative_max_months": 12,
       "confidence": "MEDIUM",
-      "representative_signature": "1662d8b5faea2a1f",
+      "representative_signature": "5bc8400d7b012ef3",
       "representative_latest": {
         "apt": "동탄역 시범한화 꿈에그린 프레스티지",
         "price_manwon": 179500,
@@ -13586,8 +13577,8 @@
         "direct": false,
         "cancelled": false
       },
-      "history_count": 187,
-      "representative_manwon": 179500,
+      "history_count": 188,
+      "representative_manwon": 181750,
       "latest": {
         "apt": "동탄역 시범한화 꿈에그린 프레스티지",
         "price_manwon": 179500,
@@ -13815,8 +13806,8 @@
         },
         {
           "month": "2026-11",
-          "price_manwon": 181750,
-          "count": 2
+          "price_manwon": 184000,
+          "count": 3
         }
       ],
       "transactions": [
@@ -13826,6 +13817,15 @@
           "area": 84.89,
           "date": "2026-11-20",
           "floor": 19,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "동탄역 시범한화 꿈에그린 프레스티지",
+          "price_manwon": 184800,
+          "area": 84.51,
+          "date": "2026-11-14",
+          "floor": 21,
           "direct": false,
           "cancelled": false
         },
@@ -13990,20 +13990,11 @@
           "floor": 16,
           "direct": false,
           "cancelled": false
-        },
-        {
-          "apt": "동탄역 시범한화 꿈에그린 프레스티지",
-          "price_manwon": 144500,
-          "area": 84.89,
-          "date": "2026-03-27",
-          "floor": 24,
-          "direct": false,
-          "cancelled": false
         }
       ],
       "price_change_reason": "NEW_TRANSACTION",
-      "representative_change_manwon": 20250,
-      "gap_manwon": 109000,
+      "representative_change_manwon": 2250,
+      "gap_manwon": 111250,
       "asking_manwon": null,
       "monthly_gaps": [
         {
@@ -14157,9 +14148,9 @@
           "home_price_manwon": 70500
         }
       ],
-      "gap_change_manwon": 20250,
+      "gap_change_manwon": 2250,
       "gap_confidence": "MEDIUM",
-      "significant_gap_change": true
+      "significant_gap_change": false
     },
     {
       "aliases": [
@@ -14736,13 +14727,13 @@
       "watch_note": "진산마을 삼성5차와 비교",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 9,
-      "representative_count": 9,
+      "count": 10,
+      "representative_count": 10,
       "representative_months": 6,
       "representative_min_count": 5,
       "representative_max_months": 12,
       "confidence": "HIGH",
-      "representative_signature": "bf6b05959eb524c8",
+      "representative_signature": "ad9d5053f11b33f5",
       "representative_latest": {
         "apt": "수지진산마을푸르지오",
         "price_manwon": 126500,
@@ -14752,8 +14743,8 @@
         "direct": false,
         "cancelled": false
       },
-      "history_count": 76,
-      "representative_manwon": 123000,
+      "history_count": 77,
+      "representative_manwon": 121000,
       "latest": {
         "apt": "수지진산마을푸르지오",
         "price_manwon": 126500,
@@ -14925,6 +14916,11 @@
           "count": 1
         },
         {
+          "month": "2026-10",
+          "price_manwon": 119000,
+          "count": 1
+        },
+        {
           "month": "2026-11",
           "price_manwon": 129500,
           "count": 4
@@ -14964,6 +14960,15 @@
           "area": 84.957,
           "date": "2026-11-05",
           "floor": 5,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "수지진산마을푸르지오",
+          "price_manwon": 119000,
+          "area": 84.957,
+          "date": "2026-10-30",
+          "floor": 15,
           "direct": false,
           "cancelled": false
         },
@@ -15101,20 +15106,11 @@
           "floor": 19,
           "direct": false,
           "cancelled": false
-        },
-        {
-          "apt": "수지진산마을푸르지오",
-          "price_manwon": 95500,
-          "area": 84.961,
-          "date": "2025-10-03",
-          "floor": 8,
-          "direct": false,
-          "cancelled": false
         }
       ],
-      "price_change_reason": "UNCHANGED",
-      "representative_change_manwon": 0,
-      "gap_manwon": 52500,
+      "price_change_reason": "NEW_TRANSACTION",
+      "representative_change_manwon": -2000,
+      "gap_manwon": 50500,
       "asking_manwon": null,
       "monthly_gaps": [
         {
@@ -15232,7 +15228,7 @@
           "home_price_manwon": 88000
         }
       ],
-      "gap_change_manwon": 0,
+      "gap_change_manwon": -2000,
       "gap_confidence": "MEDIUM",
       "significant_gap_change": false
     },
@@ -15253,13 +15249,13 @@
       "watch_note": "성복역 현대홈타운과 비교",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 11,
-      "representative_count": 11,
+      "count": 12,
+      "representative_count": 12,
       "representative_months": 6,
       "representative_min_count": 5,
       "representative_max_months": 12,
       "confidence": "HIGH",
-      "representative_signature": "95f4c2f19d1a296f",
+      "representative_signature": "1e5337d75167dfeb",
       "representative_latest": {
         "apt": "성복역금호베스트빌",
         "price_manwon": 116500,
@@ -15269,8 +15265,8 @@
         "direct": false,
         "cancelled": false
       },
-      "history_count": 87,
-      "representative_manwon": 106500,
+      "history_count": 88,
+      "representative_manwon": 106700,
       "latest": {
         "apt": "성복역금호베스트빌",
         "price_manwon": 116500,
@@ -15468,8 +15464,8 @@
         },
         {
           "month": "2026-10",
-          "price_manwon": 113000,
-          "count": 1
+          "price_manwon": 118500,
+          "count": 2
         },
         {
           "month": "2026-11",
@@ -15493,6 +15489,15 @@
           "area": 84.789,
           "date": "2026-10-29",
           "floor": 6,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "성복역금호베스트빌",
+          "price_manwon": 124000,
+          "area": 84.789,
+          "date": "2026-10-28",
+          "floor": 14,
           "direct": false,
           "cancelled": false
         },
@@ -15648,20 +15653,11 @@
           "floor": 7,
           "direct": false,
           "cancelled": false
-        },
-        {
-          "apt": "성복역금호베스트빌",
-          "price_manwon": 90000,
-          "area": 84.789,
-          "date": "2025-10-18",
-          "floor": 8,
-          "direct": false,
-          "cancelled": false
         }
       ],
-      "price_change_reason": "UNCHANGED",
-      "representative_change_manwon": 0,
-      "gap_manwon": 36000,
+      "price_change_reason": "NEW_TRANSACTION",
+      "representative_change_manwon": 200,
+      "gap_manwon": 36200,
       "asking_manwon": null,
       "monthly_gaps": [
         {
@@ -15803,7 +15799,7 @@
           "home_price_manwon": 88000
         }
       ],
-      "gap_change_manwon": 0,
+      "gap_change_manwon": 200,
       "gap_confidence": "MEDIUM",
       "significant_gap_change": false
     },
@@ -20426,8 +20422,8 @@
           "cancelled": false
         }
       ],
-      "price_change_reason": "NEW_TRANSACTION",
-      "representative_change_manwon": 2000,
+      "price_change_reason": "UNCHANGED",
+      "representative_change_manwon": 0,
       "gap_manwon": 34000,
       "asking_manwon": null,
       "monthly_gaps": [
@@ -20564,7 +20560,7 @@
           "home_price_manwon": 88000
         }
       ],
-      "gap_change_manwon": 2000,
+      "gap_change_manwon": 0,
       "gap_confidence": "MEDIUM",
       "significant_gap_change": false
     },
@@ -21758,13 +21754,13 @@
       "watch_note": "서현 생활권 장기 상위 비교",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 18,
-      "representative_count": 18,
+      "count": 19,
+      "representative_count": 19,
       "representative_months": 6,
       "representative_min_count": 5,
       "representative_max_months": 12,
       "confidence": "HIGH",
-      "representative_signature": "618ac6c4b5e21300",
+      "representative_signature": "32eb94afd9fd6cbb",
       "representative_latest": {
         "apt": "시범삼성",
         "price_manwon": 253000,
@@ -21774,7 +21770,7 @@
         "direct": false,
         "cancelled": false
       },
-      "history_count": 155,
+      "history_count": 156,
       "representative_manwon": 233000,
       "latest": {
         "apt": "시범삼성",
@@ -21979,7 +21975,7 @@
         {
           "month": "2026-10",
           "price_manwon": 235000,
-          "count": 7
+          "count": 8
         },
         {
           "month": "2026-11",
@@ -22021,6 +22017,15 @@
           "area": 84.69,
           "date": "2026-10-30",
           "floor": 8,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "시범한신",
+          "price_manwon": 235000,
+          "area": 84.69,
+          "date": "2026-10-30",
+          "floor": 11,
           "direct": false,
           "cancelled": false
         },
@@ -22156,15 +22161,6 @@
           "area": 84.69,
           "date": "2026-06-09",
           "floor": 4,
-          "direct": false,
-          "cancelled": false
-        },
-        {
-          "apt": "시범삼성",
-          "price_manwon": 215000,
-          "area": 84.69,
-          "date": "2026-06-08",
-          "floor": 3,
           "direct": false,
           "cancelled": false
         }
@@ -26237,30 +26233,30 @@
       "watch_note": "망포 생활권 구축 대안",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 21,
-      "representative_count": 21,
+      "count": 22,
+      "representative_count": 22,
       "representative_months": 6,
       "representative_min_count": 5,
       "representative_max_months": 12,
       "confidence": "HIGH",
-      "representative_signature": "88ae1d0592987333",
+      "representative_signature": "702ff7e2c778dd21",
       "representative_latest": {
         "apt": "동수원자이1차",
-        "price_manwon": 76500,
+        "price_manwon": 82900,
         "area": 84.9688,
-        "date": "2026-11-21",
-        "floor": 6,
+        "date": "2026-11-23",
+        "floor": 23,
         "direct": false,
         "cancelled": false
       },
-      "history_count": 246,
-      "representative_manwon": 65700,
+      "history_count": 247,
+      "representative_manwon": 66350,
       "latest": {
         "apt": "동수원자이1차",
-        "price_manwon": 76500,
+        "price_manwon": 82900,
         "area": 84.9688,
-        "date": "2026-11-21",
-        "floor": 6,
+        "date": "2026-11-23",
+        "floor": 23,
         "direct": false,
         "cancelled": false
       },
@@ -26527,11 +26523,20 @@
         },
         {
           "month": "2026-11",
-          "price_manwon": 78500,
-          "count": 4
+          "price_manwon": 80500,
+          "count": 5
         }
       ],
       "transactions": [
+        {
+          "apt": "동수원자이1차",
+          "price_manwon": 82900,
+          "area": 84.9688,
+          "date": "2026-11-23",
+          "floor": 23,
+          "direct": false,
+          "cancelled": false
+        },
         {
           "apt": "동수원자이1차",
           "price_manwon": 76500,
@@ -26702,20 +26707,11 @@
           "floor": 12,
           "direct": false,
           "cancelled": false
-        },
-        {
-          "apt": "동수원자이1차",
-          "price_manwon": 60000,
-          "area": 84.9688,
-          "date": "2026-07-07",
-          "floor": 7,
-          "direct": false,
-          "cancelled": false
         }
       ],
       "price_change_reason": "NEW_TRANSACTION",
-      "representative_change_manwon": 350,
-      "gap_manwon": -4800,
+      "representative_change_manwon": 650,
+      "gap_manwon": -4150,
       "asking_manwon": null,
       "monthly_gaps": [
         {
@@ -26881,7 +26877,7 @@
           "home_price_manwon": 88000
         }
       ],
-      "gap_change_manwon": 350,
+      "gap_change_manwon": 650,
       "gap_confidence": "MEDIUM",
       "significant_gap_change": false
     },
@@ -27403,8 +27399,8 @@
           "cancelled": false
         }
       ],
-      "price_change_reason": "NEW_TRANSACTION",
-      "representative_change_manwon": 150,
+      "price_change_reason": "UNCHANGED",
+      "representative_change_manwon": 0,
       "gap_manwon": 31500,
       "asking_manwon": null,
       "monthly_gaps": [
@@ -27571,7 +27567,7 @@
           "home_price_manwon": 88000
         }
       ],
-      "gap_change_manwon": 150,
+      "gap_change_manwon": 0,
       "gap_confidence": "MEDIUM",
       "significant_gap_change": false
     },
@@ -28849,30 +28845,30 @@
       "watch_note": "구성역 접근·구축 수리비 비교",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 6,
-      "representative_count": 6,
+      "count": 7,
+      "representative_count": 7,
       "representative_months": 6,
       "representative_min_count": 5,
       "representative_max_months": 12,
       "confidence": "MEDIUM",
-      "representative_signature": "761c1bc0196b68aa",
+      "representative_signature": "b2c2ca030b7ec61b",
       "representative_latest": {
         "apt": "삼거마을삼성래미안1",
-        "price_manwon": 140000,
+        "price_manwon": 126500,
         "area": 84.99,
-        "date": "2026-10-19",
-        "floor": 13,
+        "date": "2026-11-23",
+        "floor": 19,
         "direct": false,
         "cancelled": false
       },
-      "history_count": 53,
-      "representative_manwon": 128450,
+      "history_count": 54,
+      "representative_manwon": 128000,
       "latest": {
         "apt": "삼거마을삼성래미안1",
-        "price_manwon": 140000,
+        "price_manwon": 126500,
         "area": 84.99,
-        "date": "2026-10-19",
-        "floor": 13,
+        "date": "2026-11-23",
+        "floor": 19,
         "direct": false,
         "cancelled": false
       },
@@ -28981,9 +28977,23 @@
           "month": "2026-10",
           "price_manwon": 138000,
           "count": 2
+        },
+        {
+          "month": "2026-11",
+          "price_manwon": 126500,
+          "count": 1
         }
       ],
       "transactions": [
+        {
+          "apt": "삼거마을삼성래미안1",
+          "price_manwon": 126500,
+          "area": 84.99,
+          "date": "2026-11-23",
+          "floor": 19,
+          "direct": false,
+          "cancelled": false
+        },
         {
           "apt": "삼거마을삼성래미안1",
           "price_manwon": 140000,
@@ -29154,20 +29164,11 @@
           "floor": 12,
           "direct": false,
           "cancelled": false
-        },
-        {
-          "apt": "삼거마을삼성래미안1",
-          "price_manwon": 104000,
-          "area": 84.99,
-          "date": "2025-10-30",
-          "floor": 5,
-          "direct": false,
-          "cancelled": false
         }
       ],
-      "price_change_reason": "UNCHANGED",
-      "representative_change_manwon": 0,
-      "gap_manwon": 57950,
+      "price_change_reason": "NEW_TRANSACTION",
+      "representative_change_manwon": -450,
+      "gap_manwon": 57500,
       "asking_manwon": null,
       "monthly_gaps": [
         {
@@ -29237,7 +29238,7 @@
           "home_price_manwon": 70500
         }
       ],
-      "gap_change_manwon": 0,
+      "gap_change_manwon": -450,
       "gap_confidence": "MEDIUM",
       "significant_gap_change": false
     },
@@ -29263,28 +29264,28 @@
       "min_floor": 4,
       "count": 5,
       "representative_count": 5,
-      "representative_months": 7,
+      "representative_months": 6,
       "representative_min_count": 5,
       "representative_max_months": 12,
       "confidence": "MEDIUM",
-      "representative_signature": "82d3d7255b7ae7d2",
+      "representative_signature": "6b9adbd86ff89890",
       "representative_latest": {
         "apt": "연원마을엘지",
-        "price_manwon": 125000,
+        "price_manwon": 135000,
         "area": 84.9184,
-        "date": "2026-10-26",
-        "floor": 14,
+        "date": "2026-10-28",
+        "floor": 7,
         "direct": false,
         "cancelled": false
       },
-      "history_count": 57,
-      "representative_manwon": 120000,
+      "history_count": 58,
+      "representative_manwon": 122000,
       "latest": {
         "apt": "연원마을엘지",
-        "price_manwon": 125000,
+        "price_manwon": 135000,
         "area": 84.9184,
-        "date": "2026-10-26",
-        "floor": 14,
+        "date": "2026-10-28",
+        "floor": 7,
         "direct": false,
         "cancelled": false
       },
@@ -29416,11 +29417,20 @@
         },
         {
           "month": "2026-10",
-          "price_manwon": 125000,
-          "count": 1
+          "price_manwon": 130000,
+          "count": 2
         }
       ],
       "transactions": [
+        {
+          "apt": "연원마을엘지",
+          "price_manwon": 135000,
+          "area": 84.9184,
+          "date": "2026-10-28",
+          "floor": 7,
+          "direct": false,
+          "cancelled": false
+        },
         {
           "apt": "연원마을엘지",
           "price_manwon": 125000,
@@ -29591,20 +29601,11 @@
           "floor": 6,
           "direct": false,
           "cancelled": false
-        },
-        {
-          "apt": "연원마을엘지",
-          "price_manwon": 100000,
-          "area": 84.9184,
-          "date": "2025-10-19",
-          "floor": 6,
-          "direct": false,
-          "cancelled": false
         }
       ],
-      "price_change_reason": "UNCHANGED",
-      "representative_change_manwon": 0,
-      "gap_manwon": 49500,
+      "price_change_reason": "NEW_TRANSACTION",
+      "representative_change_manwon": 2000,
+      "gap_manwon": 51500,
       "asking_manwon": null,
       "monthly_gaps": [
         {
@@ -29692,7 +29693,7 @@
           "home_price_manwon": 70500
         }
       ],
-      "gap_change_manwon": 0,
+      "gap_change_manwon": 2000,
       "gap_confidence": "MEDIUM",
       "significant_gap_change": false
     },
@@ -32460,8 +32461,8 @@
           "cancelled": false
         }
       ],
-      "price_change_reason": "NEW_TRANSACTION",
-      "representative_change_manwon": 200,
+      "price_change_reason": "UNCHANGED",
+      "representative_change_manwon": 0,
       "gap_manwon": 21700,
       "asking_manwon": null,
       "monthly_gaps": [
@@ -32514,7 +32515,7 @@
           "home_price_manwon": 65000
         }
       ],
-      "gap_change_manwon": 200,
+      "gap_change_manwon": 0,
       "gap_confidence": "MEDIUM",
       "significant_gap_change": false
     },
@@ -34582,8 +34583,8 @@
           "cancelled": false
         }
       ],
-      "price_change_reason": "NEW_TRANSACTION",
-      "representative_change_manwon": 250,
+      "price_change_reason": "UNCHANGED",
+      "representative_change_manwon": 0,
       "gap_manwon": 88750,
       "asking_manwon": null,
       "monthly_gaps": [
@@ -34744,7 +34745,7 @@
           "home_price_manwon": 88000
         }
       ],
-      "gap_change_manwon": 250,
+      "gap_change_manwon": 0,
       "gap_confidence": "MEDIUM",
       "significant_gap_change": false
     },
@@ -35342,29 +35343,29 @@
       "watch_note": "백운호수 생활권·차량 출퇴근 확인",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 20,
-      "representative_count": 20,
+      "count": 21,
+      "representative_count": 21,
       "representative_months": 6,
       "representative_min_count": 5,
       "representative_max_months": 12,
       "confidence": "HIGH",
-      "representative_signature": "a0ad75977564cb62",
+      "representative_signature": "9f83225c66eacc05",
       "representative_latest": {
         "apt": "의왕백운 해링턴 플레이스 1단지",
-        "price_manwon": 87500,
+        "price_manwon": 90000,
         "area": 84.9404,
-        "date": "2026-10-27",
+        "date": "2026-11-17",
         "floor": 4,
         "direct": false,
         "cancelled": false
       },
-      "history_count": 133,
-      "representative_manwon": 84250,
+      "history_count": 134,
+      "representative_manwon": 84700,
       "latest": {
         "apt": "의왕백운 해링턴 플레이스 1단지",
-        "price_manwon": 87500,
+        "price_manwon": 90000,
         "area": 84.9404,
-        "date": "2026-10-27",
+        "date": "2026-11-17",
         "floor": 4,
         "direct": false,
         "cancelled": false
@@ -35569,9 +35570,23 @@
           "month": "2026-10",
           "price_manwon": 85500,
           "count": 4
+        },
+        {
+          "month": "2026-11",
+          "price_manwon": 90000,
+          "count": 1
         }
       ],
       "transactions": [
+        {
+          "apt": "의왕백운 해링턴 플레이스 1단지",
+          "price_manwon": 90000,
+          "area": 84.9404,
+          "date": "2026-11-17",
+          "floor": 4,
+          "direct": false,
+          "cancelled": false
+        },
         {
           "apt": "의왕백운 해링턴 플레이스 1단지",
           "price_manwon": 87500,
@@ -35742,20 +35757,11 @@
           "floor": 3,
           "direct": false,
           "cancelled": false
-        },
-        {
-          "apt": "의왕백운 해링턴 플레이스 1단지",
-          "price_manwon": 82700,
-          "area": 84.9404,
-          "date": "2026-07-01",
-          "floor": 12,
-          "direct": false,
-          "cancelled": false
         }
       ],
-      "price_change_reason": "UNCHANGED",
-      "representative_change_manwon": 0,
-      "gap_manwon": 13750,
+      "price_change_reason": "NEW_TRANSACTION",
+      "representative_change_manwon": 450,
+      "gap_manwon": 14200,
       "asking_manwon": null,
       "monthly_gaps": [
         {
@@ -35879,7 +35885,7 @@
           "home_price_manwon": 88000
         }
       ],
-      "gap_change_manwon": 0,
+      "gap_change_manwon": 450,
       "gap_confidence": "MEDIUM",
       "significant_gap_change": false
     },
@@ -37000,30 +37006,30 @@
       "watch_note": "평촌 학원가 접근 비교·화성 출퇴근 확인",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 14,
-      "representative_count": 14,
+      "count": 13,
+      "representative_count": 13,
       "representative_months": 6,
       "representative_min_count": 5,
       "representative_max_months": 12,
       "confidence": "HIGH",
-      "representative_signature": "26fa71ccbc77401f",
+      "representative_signature": "4e88684d182ca766",
       "representative_latest": {
         "apt": "평촌더샵아이파크",
-        "price_manwon": 144000,
+        "price_manwon": 140000,
         "area": 84.98,
-        "date": "2026-11-07",
-        "floor": 9,
+        "date": "2026-11-02",
+        "floor": 11,
         "direct": false,
         "cancelled": false
       },
-      "history_count": 124,
-      "representative_manwon": 135900,
+      "history_count": 123,
+      "representative_manwon": 135800,
       "latest": {
         "apt": "평촌더샵아이파크",
-        "price_manwon": 144000,
+        "price_manwon": 134000,
         "area": 84.98,
         "date": "2026-11-07",
-        "floor": 9,
+        "floor": 2,
         "direct": false,
         "cancelled": false
       },
@@ -37220,20 +37226,11 @@
         },
         {
           "month": "2026-11",
-          "price_manwon": 142000,
-          "count": 2
+          "price_manwon": 140000,
+          "count": 1
         }
       ],
       "transactions": [
-        {
-          "apt": "평촌더샵아이파크",
-          "price_manwon": 144000,
-          "area": 84.98,
-          "date": "2026-11-07",
-          "floor": 9,
-          "direct": false,
-          "cancelled": false
-        },
         {
           "apt": "평촌더샵아이파크",
           "price_manwon": 134000,
@@ -37404,11 +37401,20 @@
           "floor": 7,
           "direct": false,
           "cancelled": false
+        },
+        {
+          "apt": "평촌더샵아이파크",
+          "price_manwon": 128000,
+          "area": 84.98,
+          "date": "2026-05-21",
+          "floor": 5,
+          "direct": false,
+          "cancelled": false
         }
       ],
-      "price_change_reason": "UNCHANGED",
-      "representative_change_manwon": 0,
-      "gap_manwon": 65400,
+      "price_change_reason": "WINDOW_SHIFT",
+      "representative_change_manwon": -100,
+      "gap_manwon": 65300,
       "asking_manwon": null,
       "monthly_gaps": [
         {
@@ -37544,7 +37550,7 @@
           "home_price_manwon": 88000
         }
       ],
-      "gap_change_manwon": 0,
+      "gap_change_manwon": -100,
       "gap_confidence": "MEDIUM",
       "significant_gap_change": false
     },
@@ -40674,14 +40680,14 @@
         "direct": false,
         "cancelled": false
       },
-      "history_count": 157,
+      "history_count": 158,
       "representative_manwon": 155000,
       "latest": {
         "apt": "광교경남아너스빌",
-        "price_manwon": 164000,
-        "area": 84.828,
-        "date": "2026-11-07",
-        "floor": 21,
+        "price_manwon": 145000,
+        "area": 84.982,
+        "date": "2026-11-21",
+        "floor": 3,
         "direct": false,
         "cancelled": false
       },
@@ -40920,6 +40926,15 @@
       "transactions": [
         {
           "apt": "광교경남아너스빌",
+          "price_manwon": 145000,
+          "area": 84.982,
+          "date": "2026-11-21",
+          "floor": 3,
+          "direct": false,
+          "cancelled": false
+        },
+        {
+          "apt": "광교경남아너스빌",
           "price_manwon": 164000,
           "area": 84.828,
           "date": "2026-11-07",
@@ -41086,15 +41101,6 @@
           "area": 84.828,
           "date": "2026-02-06",
           "floor": 18,
-          "direct": false,
-          "cancelled": false
-        },
-        {
-          "apt": "광교경남아너스빌",
-          "price_manwon": 135500,
-          "area": 84.828,
-          "date": "2026-01-27",
-          "floor": 24,
           "direct": false,
           "cancelled": false
         }
@@ -43188,28 +43194,28 @@
       "min_floor": 4,
       "count": 5,
       "representative_count": 5,
-      "representative_months": 10,
+      "representative_months": 8,
       "representative_min_count": 5,
       "representative_max_months": 12,
       "confidence": "MEDIUM",
-      "representative_signature": "7073a09fb77f97a4",
+      "representative_signature": "603297e8cc7fafbf",
       "representative_latest": {
         "apt": "이매촌(진흥)",
-        "price_manwon": 190000,
+        "price_manwon": 194000,
         "area": 84.63,
-        "date": "2026-06-19",
-        "floor": 17,
+        "date": "2026-11-06",
+        "floor": 11,
         "direct": false,
         "cancelled": false
       },
-      "history_count": 46,
+      "history_count": 47,
       "representative_manwon": 192500,
       "latest": {
         "apt": "이매촌(진흥)",
-        "price_manwon": 190000,
+        "price_manwon": 194000,
         "area": 84.63,
-        "date": "2026-06-19",
-        "floor": 17,
+        "date": "2026-11-06",
+        "floor": 11,
         "direct": false,
         "cancelled": false
       },
@@ -43313,9 +43319,23 @@
           "month": "2026-06",
           "price_manwon": 195750,
           "count": 2
+        },
+        {
+          "month": "2026-11",
+          "price_manwon": 194000,
+          "count": 1
         }
       ],
       "transactions": [
+        {
+          "apt": "이매촌(진흥)",
+          "price_manwon": 194000,
+          "area": 84.63,
+          "date": "2026-11-06",
+          "floor": 11,
+          "direct": false,
+          "cancelled": false
+        },
         {
           "apt": "이매촌(진흥)",
           "price_manwon": 190000,
@@ -43484,15 +43504,6 @@
           "area": 84.63,
           "date": "2025-05-06",
           "floor": 7,
-          "direct": false,
-          "cancelled": false
-        },
-        {
-          "apt": "이매촌(진흥)",
-          "price_manwon": 148000,
-          "area": 84.63,
-          "date": "2025-04-26",
-          "floor": 8,
           "direct": false,
           "cancelled": false
         }
