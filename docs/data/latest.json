@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T22:18:02+00:00",
+  "generated_at": "2026-11-26T22:18:02+00:00",
   "months": 6,
   "history_months": 60,
   "reference_id": "home",
@@ -4180,8 +4180,8 @@
           "cancelled": false
         }
       ],
-      "price_change_reason": "NEW_TRANSACTION",
-      "representative_change_manwon": 350,
+      "price_change_reason": "UNCHANGED",
+      "representative_change_manwon": 0,
       "gap_manwon": 110000,
       "asking_manwon": null,
       "monthly_gaps": [
@@ -4354,7 +4354,7 @@
           "home_price_manwon": 88000
         }
       ],
-      "gap_change_manwon": 350,
+      "gap_change_manwon": 0,
       "gap_confidence": "MEDIUM",
       "significant_gap_change": false
     },
@@ -33955,8 +33955,8 @@
           "cancelled": false
         }
       ],
-      "price_change_reason": "NEW_TRANSACTION",
-      "representative_change_manwon": 1000,
+      "price_change_reason": "UNCHANGED",
+      "representative_change_manwon": 0,
       "gap_manwon": -6500,
       "asking_manwon": null,
       "monthly_gaps": [
@@ -34105,7 +34105,7 @@
           "home_price_manwon": 88000
         }
       ],
-      "gap_change_manwon": 1000,
+      "gap_change_manwon": 0,
       "gap_confidence": "MEDIUM",
       "significant_gap_change": false
     },
@@ -37015,30 +37015,30 @@
       "watch_note": "평촌 학원가 접근 비교·화성 출퇴근 확인",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 14,
-      "representative_count": 14,
+      "count": 15,
+      "representative_count": 15,
       "representative_months": 6,
       "representative_min_count": 5,
       "representative_max_months": 12,
       "confidence": "HIGH",
-      "representative_signature": "f340a9fa0990b3b7",
+      "representative_signature": "26346687a31d7908",
       "representative_latest": {
         "apt": "평촌더샵아이파크",
-        "price_manwon": 142500,
+        "price_manwon": 145000,
         "area": 84.98,
-        "date": "2026-11-03",
-        "floor": 14,
+        "date": "2026-11-19",
+        "floor": 20,
         "direct": false,
         "cancelled": false
       },
-      "history_count": 124,
-      "representative_manwon": 135900,
+      "history_count": 125,
+      "representative_manwon": 136000,
       "latest": {
         "apt": "평촌더샵아이파크",
-        "price_manwon": 134000,
+        "price_manwon": 145000,
         "area": 84.98,
-        "date": "2026-11-07",
-        "floor": 2,
+        "date": "2026-11-19",
+        "floor": 20,
         "direct": false,
         "cancelled": false
       },
@@ -37235,11 +37235,20 @@
         },
         {
           "month": "2026-11",
-          "price_manwon": 141250,
-          "count": 2
+          "price_manwon": 142500,
+          "count": 3
         }
       ],
       "transactions": [
+        {
+          "apt": "평촌더샵아이파크",
+          "price_manwon": 145000,
+          "area": 84.98,
+          "date": "2026-11-19",
+          "floor": 20,
+          "direct": false,
+          "cancelled": false
+        },
         {
           "apt": "평촌더샵아이파크",
           "price_manwon": 134000,
@@ -37410,20 +37419,11 @@
           "floor": 15,
           "direct": false,
           "cancelled": false
-        },
-        {
-          "apt": "평촌더샵아이파크",
-          "price_manwon": 129000,
-          "area": 84.98,
-          "date": "2026-05-21",
-          "floor": 7,
-          "direct": false,
-          "cancelled": false
         }
       ],
       "price_change_reason": "NEW_TRANSACTION",
       "representative_change_manwon": 100,
-      "gap_manwon": 65400,
+      "gap_manwon": 65500,
       "asking_manwon": null,
       "monthly_gaps": [
         {
@@ -41273,30 +41273,30 @@
       "watch_note": "분당 생활권 상위 비교·단지별 거래 분리",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 3,
-      "representative_count": 3,
+      "count": 4,
+      "representative_count": 4,
       "representative_months": 12,
       "representative_min_count": 5,
       "representative_max_months": 12,
       "confidence": "LOW",
-      "representative_signature": "d9cd077a5eea41eb",
+      "representative_signature": "da99f91f7e7ba284",
       "representative_latest": {
         "apt": "상록마을(임광)",
-        "price_manwon": 192000,
+        "price_manwon": 196000,
         "area": 84.97,
-        "date": "2026-06-10",
-        "floor": 8,
+        "date": "2026-11-13",
+        "floor": 7,
         "direct": false,
         "cancelled": false
       },
-      "history_count": 23,
-      "representative_manwon": 188000,
+      "history_count": 24,
+      "representative_manwon": 190000,
       "latest": {
         "apt": "상록마을(임광)",
-        "price_manwon": 192000,
+        "price_manwon": 196000,
         "area": 84.97,
-        "date": "2026-06-10",
-        "floor": 8,
+        "date": "2026-11-13",
+        "floor": 7,
         "direct": false,
         "cancelled": false
       },
@@ -41360,9 +41360,23 @@
           "month": "2026-06",
           "price_manwon": 192000,
           "count": 1
+        },
+        {
+          "month": "2026-11",
+          "price_manwon": 196000,
+          "count": 1
         }
       ],
       "transactions": [
+        {
+          "apt": "상록마을(임광)",
+          "price_manwon": 196000,
+          "area": 84.97,
+          "date": "2026-11-13",
+          "floor": 7,
+          "direct": false,
+          "cancelled": false
+        },
         {
           "apt": "상록마을(임광)",
           "price_manwon": 192000,
@@ -41533,20 +41547,11 @@
           "floor": 2,
           "direct": false,
           "cancelled": false
-        },
-        {
-          "apt": "상록마을(임광)",
-          "price_manwon": 115000,
-          "area": 84.97,
-          "date": "2023-04-20",
-          "floor": 9,
-          "direct": false,
-          "cancelled": false
         }
       ],
-      "price_change_reason": "UNCHANGED",
-      "representative_change_manwon": 0,
-      "gap_manwon": 117500,
+      "price_change_reason": "NEW_TRANSACTION",
+      "representative_change_manwon": 2000,
+      "gap_manwon": 119500,
       "asking_manwon": null,
       "monthly_gaps": [
         {
@@ -41580,7 +41585,7 @@
           "home_price_manwon": 70500
         }
       ],
-      "gap_change_manwon": 0,
+      "gap_change_manwon": 2000,
       "gap_confidence": "LOW",
       "significant_gap_change": false
     },
@@ -47470,30 +47475,30 @@
       "recommendation_group": "확대 추천",
       "area_tolerance": 1.2,
       "min_floor": 4,
-      "count": 7,
-      "representative_count": 7,
+      "count": 8,
+      "representative_count": 8,
       "representative_months": 6,
       "representative_min_count": 5,
       "representative_max_months": 12,
-      "confidence": "MEDIUM",
-      "representative_signature": "21cae03cb5c78a20",
+      "confidence": "HIGH",
+      "representative_signature": "471479b1aeb1c2a9",
       "representative_latest": {
         "apt": "평촌래미안푸르지오",
-        "price_manwon": 141000,
+        "price_manwon": 140000,
         "area": 84.93,
-        "date": "2026-08-27",
-        "floor": 11,
+        "date": "2026-11-14",
+        "floor": 5,
         "direct": false,
         "cancelled": false
       },
-      "history_count": 68,
-      "representative_manwon": 142000,
+      "history_count": 69,
+      "representative_manwon": 141500,
       "latest": {
         "apt": "평촌래미안푸르지오",
-        "price_manwon": 141000,
+        "price_manwon": 140000,
         "area": 84.93,
-        "date": "2026-08-27",
-        "floor": 11,
+        "date": "2026-11-14",
+        "floor": 5,
         "direct": false,
         "cancelled": false
       },
@@ -47652,9 +47657,23 @@
           "month": "2026-08",
           "price_manwon": 141500,
           "count": 2
+        },
+        {
+          "month": "2026-11",
+          "price_manwon": 140000,
+          "count": 1
         }
       ],
       "transactions": [
+        {
+          "apt": "평촌래미안푸르지오",
+          "price_manwon": 140000,
+          "area": 84.93,
+          "date": "2026-11-14",
+          "floor": 5,
+          "direct": false,
+          "cancelled": false
+        },
         {
           "apt": "평촌래미안푸르지오",
           "price_manwon": 141000,
@@ -47825,20 +47844,11 @@
           "floor": 37,
           "direct": false,
           "cancelled": false
-        },
-        {
-          "apt": "평촌래미안푸르지오",
-          "price_manwon": 122000,
-          "area": 84.95,
-          "date": "2026-02-11",
-          "floor": 14,
-          "direct": false,
-          "cancelled": false
         }
       ],
-      "price_change_reason": "UNCHANGED",
-      "representative_change_manwon": 0,
-      "gap_manwon": 71500,
+      "price_change_reason": "NEW_TRANSACTION",
+      "representative_change_manwon": -500,
+      "gap_manwon": 71000,
       "asking_manwon": null,
       "monthly_gaps": [
         {
@@ -47968,7 +47978,7 @@
           "home_price_manwon": 88000
         }
       ],
-      "gap_change_manwon": 0,
+      "gap_change_manwon": -500,
       "gap_confidence": "MEDIUM",
       "significant_gap_change": false
     },
